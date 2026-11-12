@@ -3,7 +3,9 @@ tratado (P&B, contraste, vinheta, grão, zoom lento), com títulos de capítulo 
 Uso: python3 montar.py edl   (só a lista de planos)  |  python3 montar.py render"""
 import json, re, subprocess, sys, pathlib, itertools, concurrent.futures as cf
 P=pathlib.Path(__file__).resolve().parents[2]; RAW=pathlib.Path("/home/user/footage/raw"); CENAS=json.load(open("/home/user/footage/cenas.json"))
-OUT=P/"render"/"doc"; SEG=OUT/"segs"; SEG.mkdir(parents=True,exist_ok=True); TXT=OUT/"txt"; TXT.mkdir(exist_ok=True)
+import os
+COR=os.environ.get("COR")=="1"
+OUT=P/"render"/"doc"; SEG=OUT/("segs_cor" if COR else "segs"); SEG.mkdir(parents=True,exist_ok=True); TXT=OUT/"txt"; TXT.mkdir(exist_ok=True)
 FR=P/"render"/"frames"; ANTON=P/"motor"/"font1.ttf"; ELITE=P/"motor"/"font2.ttf"
 TEMPO=1.10; FPS=24
 T=json.load(open(P/"audio"/"timeline_completa.json")); F=T["frases"]
@@ -85,7 +87,7 @@ def build():
             last=cat; D=end-ini; k=max(1,round(D/4.7))
             for j in range(k):
                 a=ini+D*j/k; b=ini+D*(j+1)/k; film,t=next(cyc[cat]); u=used.get((film,t),0); used[(film,t)]=u+1
-                shots.append(dict(tipo="clip",film=film,t=t,a=a,b=b,i=i,cat=cat,flip=u%2==1,zin=len(shots)%2==0))
+                shots.append(dict(tipo="clip",film=film,t=t,a=a,b=b,i=i,cap=cap,cat=cat,flip=u%2==1,zin=len(shots)%2==0))
         if "titulo_ini" in f: shots.append(dict(tipo="ins",g="title",a=f["titulo_ini"],b=nxt,i=i))
     # duração em quadros exatos
     for s in shots: s["fa"]=round(s["a"]*FPS); s["fb"]=round(s["b"]*FPS)
@@ -111,6 +113,18 @@ def overlays(s,ov):
         else:
             fl.append(f"drawtext=fontfile={esc(ELITE)}:textfile={esc(tf)}:fontsize=30:fontcolor=0xD8D2C2:x=w-text_w-70:y=h-80:alpha='{al}':shadowcolor=black@0.9:shadowx=2:shadowy=2")
     return fl
+TOM={"ABERTURA":"colorbalance=rm=-0.038:bm=0.114:bs=0.095","A LÓGICA MILITAR":"colorbalance=rm=-0.057:bm=0.133:bs=0.114:bh=0.057",
+"A BACTÉRIA":"colorbalance=rm=0.095:gm=-0.038:bm=-0.076","OPERAÇÃO SEA-SPRAY":"colorbalance=rm=-0.057:bm=0.152:bs=0.133",
+"O HOSPITAL":"colorbalance=rm=0.114:gm=0.019:bm=-0.095:rs=0.057","A PEÇA QUE FALTA":"colorbalance=rm=0.095:bm=-0.095:rs=0.038",
+"A REVELAÇÃO":"colorbalance=rm=0.076:gm=0.019:bm=-0.076","O TRIBUNAL":"colorbalance=rm=0.095:gm=0.019:bm=-0.095:rs=0.057",
+"DUAS INVESTIGAÇÕES":"colorbalance=rm=-0.038:bm=0.095","1969":"colorbalance=rm=0.057:bm=-0.038","FECHO":"colorbalance=rm=-0.038:bm=0.114:bs=0.095"}
+def grade(s):
+    if not COR:
+        return ["hue=s=0","eq=contrast=1.22:brightness=-0.075:gamma=0.90","colorbalance=rs=-0.03:bs=0.05:rm=-0.015:bm=0.025"]
+    if s["film"]=="bacteria_friend_and_foe":   # cor original do filme, só mais escura e dessaturada
+        return ["eq=contrast=1.15:brightness=-0.09:gamma=0.92:saturation=0.78","colorbalance=rs=0.03:rm=0.02:bm=-0.03"]
+    # preto e branco com tom leve por capítulo e realce de vermelho nas sombras
+    return ["hue=s=0","eq=contrast=1.22:brightness=-0.075:gamma=0.90",TOM.get(s.get("cap"),"colorbalance=rm=0.02"),"colorbalance=rs=0.06:rh=0.03","eq=saturation=1.0"]
 def render_one(args):
     n,s,ov,last=args; out=SEG/f"s{n:04d}.mp4"; d=(s["fb"]-s["fa"])/FPS; nf=s["fb"]-s["fa"]
     if s["tipo"]=="ins":
@@ -125,7 +139,7 @@ def render_one(args):
         z=f"(1+0.055*t/{d:.3f})" if s["zin"] else f"(1.055-0.055*t/{d:.3f})"
         vf=[f"setpts=(PTS-STARTPTS)*{slow:.4f}",f"fps={FPS}","hqdn3d=3:3:6:6"]+(["hflip"] if s["flip"] else [])+[
             f"scale=w='2*trunc(960*{z})':h='2*trunc(720*{z})':eval=frame:flags=lanczos","crop=1920:1080:(iw-1920)/2:(ih-1080)*0.42",
-            "hue=s=0","eq=contrast=1.22:brightness=-0.075:gamma=0.90","colorbalance=rs=-0.03:bs=0.05:rm=-0.015:bm=0.025","unsharp=5:5:0.7",
+            *grade(s),"unsharp=5:5:0.7",
             "vignette=angle=PI/3.9","noise=alls=9:allf=t+u"]
     vf+=overlays(s,ov)
     if n==0: vf.append("fade=t=in:st=0:d=1.5")
