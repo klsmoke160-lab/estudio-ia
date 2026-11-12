@@ -5,10 +5,12 @@ import json, re, subprocess, sys, pathlib, itertools, concurrent.futures as cf
 P=pathlib.Path(__file__).resolve().parents[2]; RAW=pathlib.Path("/home/user/footage/raw"); CENAS=json.load(open("/home/user/footage/cenas.json"))
 import os
 COR=os.environ.get("COR")=="1"
-OUT=P/"render"/"doc"; SEG=OUT/("segs_cor" if COR else "segs"); SEG.mkdir(parents=True,exist_ok=True); TXT=OUT/"txt"; TXT.mkdir(exist_ok=True)
+OUT=P/"render"/"doc"; SEG=OUT/(("segs_cor" if COR else "segs")+("_novo" if os.environ.get("NOVO")=="1" else "")); SEG.mkdir(parents=True,exist_ok=True); TXT=OUT/"txt"; TXT.mkdir(exist_ok=True)
 FR=P/"render"/"frames"; ANTON=P/"motor"/"font1.ttf"; ELITE=P/"motor"/"font2.ttf"
-TEMPO=1.10; FPS=24
-T=json.load(open(P/"audio"/"timeline_completa.json")); F=T["frases"]
+FPS=24
+NOVO=os.environ.get("NOVO")=="1"
+TEMPO=1.0 if NOVO else 1.10
+T=json.load(open(P/"audio"/("timeline_novo.json" if NOVO else "timeline_completa.json"))); F=T["frases"]
 for f in F:
     for k in ("ini","fim","titulo_ini"):
         if k in f: f[k]=f[k]/TEMPO

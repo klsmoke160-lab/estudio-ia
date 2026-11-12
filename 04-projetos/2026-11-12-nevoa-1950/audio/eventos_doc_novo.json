@@ -1,0 +1,247 @@
+[
+ {
+  "t": 0.4,
+  "sfx": "riser/riser-1",
+  "db": -14
+ },
+ {
+  "t": 0.25,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 10.15,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 21.41,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 73.42,
+  "sfx": "whoosh-grande/whoosh-grande-1",
+  "db": -15
+ },
+ {
+  "t": 73.77,
+  "sfx": "impacto/impacto-2",
+  "db": -9
+ },
+ {
+  "t": 177.64,
+  "sfx": "whoosh-grande/whoosh-grande-1",
+  "db": -15
+ },
+ {
+  "t": 177.99,
+  "sfx": "impacto/impacto-2",
+  "db": -9
+ },
+ {
+  "t": 179.59,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 239.33,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 281.16,
+  "sfx": "whoosh-grande/whoosh-grande-1",
+  "db": -15
+ },
+ {
+  "t": 281.51,
+  "sfx": "impacto/impacto-2",
+  "db": -9
+ },
+ {
+  "t": 283.11,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 378.14,
+  "sfx": "whoosh-grande/whoosh-grande-1",
+  "db": -15
+ },
+ {
+  "t": 378.49,
+  "sfx": "impacto/impacto-2",
+  "db": -9
+ },
+ {
+  "t": 380.09,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 413.39,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 489.36,
+  "sfx": "whoosh-grande/whoosh-grande-1",
+  "db": -15
+ },
+ {
+  "t": 489.71,
+  "sfx": "impacto/impacto-2",
+  "db": -9
+ },
+ {
+  "t": 591.76,
+  "sfx": "whoosh-grande/whoosh-grande-1",
+  "db": -15
+ },
+ {
+  "t": 592.11,
+  "sfx": "impacto/impacto-2",
+  "db": -9
+ },
+ {
+  "t": 601.87,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 614.79,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 705.16,
+  "sfx": "whoosh-grande/whoosh-grande-1",
+  "db": -15
+ },
+ {
+  "t": 705.51,
+  "sfx": "impacto/impacto-2",
+  "db": -9
+ },
+ {
+  "t": 715.09,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 829.36,
+  "sfx": "whoosh-grande/whoosh-grande-1",
+  "db": -15
+ },
+ {
+  "t": 829.71,
+  "sfx": "impacto/impacto-2",
+  "db": -9
+ },
+ {
+  "t": 932.22,
+  "sfx": "whoosh-grande/whoosh-grande-1",
+  "db": -15
+ },
+ {
+  "t": 932.57,
+  "sfx": "impacto/impacto-2",
+  "db": -9
+ },
+ {
+  "t": 937.95,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 1033.8,
+  "sfx": "whoosh-grande/whoosh-grande-1",
+  "db": -15
+ },
+ {
+  "t": 1034.15,
+  "sfx": "impacto/impacto-2",
+  "db": -9
+ },
+ {
+  "t": 1045.25,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 1047.05,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 1078.07,
+  "sfx": "carimbo/carimbo-1",
+  "db": -12
+ },
+ {
+  "t": 5.42,
+  "sfx": "whoosh/whoosh-2",
+  "db": -16
+ },
+ {
+  "t": 16.56,
+  "sfx": "whoosh/whoosh-2",
+  "db": -16
+ },
+ {
+  "t": 35.72,
+  "sfx": "impacto/impacto-3",
+  "db": -12
+ },
+ {
+  "t": 54.56,
+  "sfx": "impacto/impacto-3",
+  "db": -12
+ },
+ {
+  "t": 57.64,
+  "sfx": "impacto/impacto-3",
+  "db": -12
+ },
+ {
+  "t": 68.6,
+  "sfx": "riser/riser-2",
+  "db": -10
+ },
+ {
+  "t": 70.5,
+  "sfx": "impacto/impacto-1",
+  "db": -4
+ },
+ {
+  "t": 183.62,
+  "sfx": "whoosh/whoosh-2",
+  "db": -16
+ },
+ {
+  "t": 318.44,
+  "sfx": "whoosh/whoosh-2",
+  "db": -16
+ },
+ {
+  "t": 530.94,
+  "sfx": "impacto/impacto-3",
+  "db": -12
+ },
+ {
+  "t": 593.34,
+  "sfx": "whoosh/whoosh-2",
+  "db": -16
+ },
+ {
+  "t": 922.34,
+  "sfx": "whoosh/whoosh-2",
+  "db": -16
+ },
+ {
+  "t": 1035.38,
+  "sfx": "impacto/impacto-3",
+  "db": -12
+ }
+]

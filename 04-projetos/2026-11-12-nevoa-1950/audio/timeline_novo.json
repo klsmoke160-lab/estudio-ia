@@ -1,0 +1,1574 @@
+{
+ "total": 1095.384,
+ "frases": [
+  {
+   "i": 1,
+   "texto": "Em setembro de 1950, os Estados Unidos fizeram uma pergunta sobre São Francisco:",
+   "cap": "ABERTURA",
+   "ini": 0.0,
+   "fim": 4.84
+  },
+  {
+   "i": 2,
+   "texto": "seria possível expor uma cidade a bactérias lançadas do mar?",
+   "cap": "ABERTURA",
+   "ini": 5.54,
+   "fim": 8.9
+  },
+  {
+   "i": 3,
+   "texto": "Para descobrir, realizaram o teste.",
+   "cap": "ABERTURA",
+   "ini": 9.9,
+   "fim": 11.82
+  },
+  {
+   "i": 4,
+   "texto": "Navios da Marinha liberaram microrganismos perto da costa.",
+   "cap": "ABERTURA",
+   "ini": 12.86,
+   "fim": 16.3
+  },
+  {
+   "i": 5,
+   "texto": "Em terra, equipamentos recolheram amostras para acompanhar a dispersão.",
+   "cap": "ABERTURA",
+   "ini": 16.68,
+   "fim": 20.68
+  },
+  {
+   "i": 6,
+   "texto": "Os moradores continuaram a vida sem saber que o ar da cidade fazia parte de um experimento militar.",
+   "cap": "ABERTURA",
+   "ini": 21.16,
+   "fim": 26.2
+  },
+  {
+   "i": 7,
+   "texto": "Naquele mesmo período, pacientes de um hospital de São Francisco desenvolveram infecções por uma das bactérias usadas no teste.",
+   "cap": "ABERTURA",
+   "ini": 26.2,
+   "fim": 33.38
+  },
+  {
+   "i": 8,
+   "texto": "Um deles morreu.",
+   "cap": "ABERTURA",
+   "ini": 33.98,
+   "fim": 34.8
+  },
+  {
+   "i": 9,
+   "texto": "O nome dele era Edward Nevin.",
+   "cap": "ABERTURA",
+   "ini": 35.84,
+   "fim": 37.7
+  },
+  {
+   "i": 10,
+   "texto": "A família só descobriria o experimento décadas depois.",
+   "cap": "ABERTURA",
+   "ini": 38.62,
+   "fim": 41.54
+  },
+  {
+   "i": 11,
+   "texto": "E, quando tentou levar o governo à Justiça, encontrou uma pergunta difícil de provar e uma barreira que não tinha nada a ver com microscópios.",
+   "cap": "ABERTURA",
+   "ini": 41.94,
+   "fim": 49.54
+  },
+  {
+   "i": 12,
+   "texto": "Essa história deixou documentos militares, um artigo médico e uma decisão de tribunal.",
+   "cap": "ABERTURA",
+   "ini": 49.94,
+   "fim": 54.68
+  },
+  {
+   "i": 13,
+   "texto": "Mas existe uma peça que não foi preservada.",
+   "cap": "ABERTURA",
+   "ini": 54.68,
+   "fim": 57.42
+  },
+  {
+   "i": 14,
+   "texto": "Uma peça que poderia ajudar a esclarecer a ligação entre o navio e o hospital.",
+   "cap": "ABERTURA",
+   "ini": 57.76,
+   "fim": 62.24
+  },
+  {
+   "i": 15,
+   "texto": "Para entender por que ela importa, precisamos voltar ao momento em que uma cidade passou a ser tratada como local de teste.",
+   "cap": "ABERTURA",
+   "ini": 62.74,
+   "fim": 68.6,
+   "titulo_ini": 69.6
+  },
+  {
+   "i": 16,
+   "texto": "O raciocínio militar começava com um cenário de guerra:",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 75.12,
+   "fim": 78.42
+  },
+  {
+   "i": 17,
+   "texto": "um adversário poderia se aproximar da costa, liberar um agente biológico e ir embora antes que a população percebesse alguma coisa.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 78.94,
+   "fim": 86.76
+  },
+  {
+   "i": 18,
+   "texto": "Um ataque desse tipo levantava questões que um mapa sozinho não respondia.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 86.76,
+   "fim": 90.86
+  },
+  {
+   "i": 19,
+   "texto": "Até onde o material chegaria?",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 91.28,
+   "fim": 92.82
+  },
+  {
+   "i": 20,
+   "texto": "O ambiente urbano alteraria sua dispersão?",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 93.72,
+   "fim": 96.24
+  },
+  {
+   "i": 21,
+   "texto": "As pessoas poderiam ser expostas sem perceber?",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 97.34,
+   "fim": 99.68
+  },
+  {
+   "i": 22,
+   "texto": "Estudar uma ameaça assim tinha uma justificativa de defesa.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 100.6,
+   "fim": 103.74
+  },
+  {
+   "i": 23,
+   "texto": "A questão era como fazer isso.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 104.16,
+   "fim": 105.72
+  },
+  {
+   "i": 24,
+   "texto": "Dentro de uma instalação controlada, você consegue limitar a circulação, saber quem está presente e interromper um teste.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 106.58,
+   "fim": 113.16
+  },
+  {
+   "i": 25,
+   "texto": "Uma cidade oferece condições muito mais próximas da vida real.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 113.16,
+   "fim": 116.68
+  },
+  {
+   "i": 26,
+   "texto": "Também reúne pessoas que você não conhece, com condições de saúde que você não controla.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 117.02,
+   "fim": 121.62
+  },
+  {
+   "i": 27,
+   "texto": "O que torna o teste interessante para quem pesquisa é justamente o que torna a decisão tão séria para quem está do lado de fora.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 122.0,
+   "fim": 129.02
+  },
+  {
+   "i": 28,
+   "texto": "Na versão apresentada pelos militares, havia uma maneira de lidar com o perigo:",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 129.6,
+   "fim": 133.86
+  },
+  {
+   "i": 29,
+   "texto": "usar simulantes.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 134.16,
+   "fim": 134.94
+  },
+  {
+   "i": 30,
+   "texto": "Microrganismos escolhidos para representar certos aspectos de um agente de guerra, mas considerados incapazes de causar doença nas condições esperadas.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 136.18,
+   "fim": 143.64
+  },
+  {
+   "i": 31,
+   "texto": "Assim, seria possível estudar a vulnerabilidade sem provocar o desastre que se queria compreender.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 144.06,
+   "fim": 149.6
+  },
+  {
+   "i": 32,
+   "texto": "Essa era a premissa.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 150.1,
+   "fim": 151.38
+  },
+  {
+   "i": 33,
+   "texto": "Só que uma avaliação feita para um experimento precisa continuar válida quando sai do papel.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 151.78,
+   "fim": 156.54
+  },
+  {
+   "i": 34,
+   "texto": "Uma população inclui crianças, idosos, pessoas saudáveis, pacientes em recuperação.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 157.0,
+   "fim": 162.76
+  },
+  {
+   "i": 35,
+   "texto": "A palavra segurança precisa dar conta de todos eles.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 163.24,
+   "fim": 166.16
+  },
+  {
+   "i": 36,
+   "texto": "E os moradores de São Francisco não participaram dessa avaliação.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 166.54,
+   "fim": 169.94
+  },
+  {
+   "i": 37,
+   "texto": "Não puderam perguntar, discordar ou decidir ficar longe.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 170.3,
+   "fim": 173.34
+  },
+  {
+   "i": 38,
+   "texto": "Quando o teste começou, essa decisão já tinha sido tomada por outras pessoas.",
+   "cap": "A LÓGICA MILITAR",
+   "ini": 173.82,
+   "fim": 177.3
+  },
+  {
+   "i": 39,
+   "texto": "Um dos microrganismos escolhidos foi a Serratia marcescens.",
+   "cap": "A BACTÉRIA",
+   "ini": 179.34,
+   "fim": 182.04
+  },
+  {
+   "i": 40,
+   "texto": "Certas cepas produzem um pigmento vermelho.",
+   "cap": "A BACTÉRIA",
+   "ini": 183.74,
+   "fim": 186.1
+  },
+  {
+   "i": 41,
+   "texto": "Essa característica ajudava a reconhecer a bactéria em culturas e contribuía para seu uso como marcador em pesquisas.",
+   "cap": "A BACTÉRIA",
+   "ini": 186.98,
+   "fim": 194.46
+  },
+  {
+   "i": 42,
+   "texto": "Ela tinha uma reputação de organismo pouco perigoso.",
+   "cap": "A BACTÉRIA",
+   "ini": 194.98,
+   "fim": 197.56
+  },
+  {
+   "i": 43,
+   "texto": "Essa reputação, porém, precisava ser confrontada com uma pergunta:",
+   "cap": "A BACTÉRIA",
+   "ini": 197.56,
+   "fim": 201.26
+  },
+  {
+   "i": 44,
+   "texto": "pouco perigoso para quem?",
+   "cap": "A BACTÉRIA",
+   "ini": 201.86,
+   "fim": 202.98
+  },
+  {
+   "i": 45,
+   "texto": "Um microrganismo pode não causar um problema evidente numa pessoa saudável e ainda encontrar oportunidade numa pessoa debilitada.",
+   "cap": "A BACTÉRIA",
+   "ini": 203.84,
+   "fim": 210.96
+  },
+  {
+   "i": 46,
+   "texto": "Também importa como ele entra no organismo e quais barreiras encontra pelo caminho.",
+   "cap": "A BACTÉRIA",
+   "ini": 211.34,
+   "fim": 215.46
+  },
+  {
+   "i": 47,
+   "texto": "É por isso que uma afirmação sobre segurança nunca deveria dispensar as condições em que ela foi obtida.",
+   "cap": "A BACTÉRIA",
+   "ini": 216.0,
+   "fim": 221.82
+  },
+  {
+   "i": 48,
+   "texto": "Imagine avaliar uma ponte olhando apenas para veículos leves.",
+   "cap": "A BACTÉRIA",
+   "ini": 222.92,
+   "fim": 225.78
+  },
+  {
+   "i": 49,
+   "texto": "A avaliação pode estar correta dentro daquele limite.",
+   "cap": "A BACTÉRIA",
+   "ini": 226.14,
+   "fim": 229.06
+  },
+  {
+   "i": 50,
+   "texto": "O erro começa quando o limite desaparece da conclusão.",
+   "cap": "A BACTÉRIA",
+   "ini": 229.6,
+   "fim": 232.58
+  },
+  {
+   "i": 51,
+   "texto": "No caso de São Francisco, a população inteira não podia ser reduzida a um único perfil de saúde.",
+   "cap": "A BACTÉRIA",
+   "ini": 232.94,
+   "fim": 238.58
+  },
+  {
+   "i": 52,
+   "texto": "Havia ainda outro simulante, conhecido nos registros como Bacillus globigii.",
+   "cap": "A BACTÉRIA",
+   "ini": 239.08,
+   "fim": 242.66
+  },
+  {
+   "i": 53,
+   "texto": "Os dois nomes aparecem na documentação do teste.",
+   "cap": "A BACTÉRIA",
+   "ini": 244.52,
+   "fim": 247.12
+  },
+  {
+   "i": 54,
+   "texto": "Nenhum deles significa que os militares estivessem pulverizando peste ou antraz sobre a cidade.",
+   "cap": "A BACTÉRIA",
+   "ini": 247.12,
+   "fim": 253.28
+  },
+  {
+   "i": 55,
+   "texto": "A proposta era usar substitutos considerados seguros.",
+   "cap": "A BACTÉRIA",
+   "ini": 253.68,
+   "fim": 256.54
+  },
+  {
+   "i": 56,
+   "texto": "Essa distinção ajuda a entender a decisão sem suavizar o que aconteceu.",
+   "cap": "A BACTÉRIA",
+   "ini": 257.02,
+   "fim": 260.88
+  },
+  {
+   "i": 57,
+   "texto": "Porque, mesmo que os responsáveis acreditassem na segurança do material, continuava existindo uma população sem informação e sem escolha.",
+   "cap": "A BACTÉRIA",
+   "ini": 261.3,
+   "fim": 268.72
+  },
+  {
+   "i": 58,
+   "texto": "Mais tarde, quando o caso chegou ao Senado, a discussão voltaria exatamente a esse ponto:",
+   "cap": "A BACTÉRIA",
+   "ini": 269.14,
+   "fim": 274.4
+  },
+  {
+   "i": 59,
+   "texto": "até onde era razoável confiar na palavra inofensivo?",
+   "cap": "A BACTÉRIA",
+   "ini": 274.4,
+   "fim": 277.62
+  },
+  {
+   "i": 60,
+   "texto": "Na costa, entretanto, o experimento já estava em andamento.",
+   "cap": "A BACTÉRIA",
+   "ini": 277.88,
+   "fim": 281.12
+  },
+  {
+   "i": 61,
+   "texto": "O episódio ficou conhecido como Operação Sea-Spray.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 282.86,
+   "fim": 285.6
+  },
+  {
+   "i": 62,
+   "texto": "Em setembro de 1950, bactérias foram liberadas no ar perto de São Francisco, numa operação que envolveu a Marinha e o programa de pesquisa biológica do Exército.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 286.8,
+   "fim": 296.38
+  },
+  {
+   "i": 63,
+   "texto": "O vento transportava o material.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 296.84,
+   "fim": 298.38
+  },
+  {
+   "i": 64,
+   "texto": "Em terra, amostradores mecânicos procuravam medir os organismos que alcançavam os pontos de coleta.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 299.46,
+   "fim": 305.04
+  },
+  {
+   "i": 65,
+   "texto": "Uma cidade aparecia de duas maneiras ao mesmo tempo.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 305.36,
+   "fim": 308.02
+  },
+  {
+   "i": 66,
+   "texto": "Para quem vivia ali, havia trajetos de trabalho, lojas, consultas, casas.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 308.36,
+   "fim": 313.8
+  },
+  {
+   "i": 67,
+   "texto": "Para o experimento, havia locais de amostragem e resultados para interpretar.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 314.22,
+   "fim": 318.06
+  },
+  {
+   "i": 68,
+   "texto": "Um ponto marcado no mapa podia representar uma informação útil sobre dispersão.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 318.56,
+   "fim": 322.9
+  },
+  {
+   "i": 69,
+   "texto": "Mas não dizia, sozinho, quem tinha passado por ali ou como aquela pessoa estava de saúde.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 323.28,
+   "fim": 328.2
+  },
+  {
+   "i": 70,
+   "texto": "Essa diferença é central para o que aconteceu depois.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 328.66,
+   "fim": 331.2
+  },
+  {
+   "i": 71,
+   "texto": "Medir microrganismos num equipamento não equivale a examinar cada morador.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 331.2,
+   "fim": 336.04
+  },
+  {
+   "i": 72,
+   "texto": "Um resultado ambiental pode mostrar que o material chegou a determinado lugar.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 336.3,
+   "fim": 340.46
+  },
+  {
+   "i": 73,
+   "texto": "Não revela automaticamente a dose recebida por cada indivíduo, nem o que aconteceu com cada um.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 340.92,
+   "fim": 346.1
+  },
+  {
+   "i": 74,
+   "texto": "Ao relatar o teste ao Senado, os militares explicaram que a amostragem buscava organismos no ambiente.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 346.5,
+   "fim": 352.28
+  },
+  {
+   "i": 75,
+   "texto": "Como os simulantes eram considerados não patogênicos, não esperavam efeitos na população.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 352.84,
+   "fim": 358.04
+  },
+  {
+   "i": 76,
+   "texto": "A expectativa de segurança ajudava a definir o que seria procurado.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 358.04,
+   "fim": 361.74
+  },
+  {
+   "i": 77,
+   "texto": "E aquilo que você não procura de forma organizada pode se tornar muito mais difícil de reconstruir depois.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 361.74,
+   "fim": 367.64
+  },
+  {
+   "i": 78,
+   "texto": "Nos documentos da operação, o problema era acompanhar a dispersão.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 368.12,
+   "fim": 371.58
+  },
+  {
+   "i": 79,
+   "texto": "Dentro de um hospital da cidade, surgia outro problema:",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 372.28,
+   "fim": 375.04
+  },
+  {
+   "i": 80,
+   "texto": "entender uma sequência de infecções incomuns.",
+   "cap": "OPERAÇÃO SEA-SPRAY",
+   "ini": 375.44,
+   "fim": 377.9
+  },
+  {
+   "i": 81,
+   "texto": "Em outubro de 1951, os médicos Richard Wheat, Anne Zuckerman e Lowell Rantz publicaram um artigo sobre onze casos de infecção observados em um hospital de São Francisco.",
+   "cap": "O HOSPITAL",
+   "ini": 379.84,
+   "fim": 392.84
+  },
+  {
+   "i": 82,
+   "texto": "Um dos casos havia terminado em morte por endocardite bacteriana, uma infecção que afeta estruturas internas do coração.",
+   "cap": "O HOSPITAL",
+   "ini": 393.14,
+   "fim": 399.84
+  },
+  {
+   "i": 83,
+   "texto": "O texto chamava atenção para a raridade daquele tipo de infecção.",
+   "cap": "O HOSPITAL",
+   "ini": 400.28,
+   "fim": 403.8
+  },
+  {
+   "i": 84,
+   "texto": "Há um detalhe que muda a maneira de contar essa história:",
+   "cap": "O HOSPITAL",
+   "ini": 404.22,
+   "fim": 407.02
+  },
+  {
+   "i": 85,
+   "texto": "os onze pacientes não apareceram juntos, num único dia, logo depois da pulverização.",
+   "cap": "O HOSPITAL",
+   "ini": 407.02,
+   "fim": 412.56
+  },
+  {
+   "i": 86,
+   "texto": "A sequência descrita se estendeu de setembro de 1950 a fevereiro de 1951.",
+   "cap": "O HOSPITAL",
+   "ini": 413.14,
+   "fim": 419.42
+  },
+  {
+   "i": 87,
+   "texto": "Todos tinham passado por instrumentação do trato urinário.",
+   "cap": "O HOSPITAL",
+   "ini": 420.26,
+   "fim": 423.36
+  },
+  {
+   "i": 88,
+   "texto": "Essa informação abria uma possibilidade de transmissão associada aos cuidados hospitalares.",
+   "cap": "O HOSPITAL",
+   "ini": 423.78,
+   "fim": 428.36
+  },
+  {
+   "i": 89,
+   "texto": "O grupo de pacientes precisava ser investigado por seus próprios detalhes.",
+   "cap": "O HOSPITAL",
+   "ini": 428.84,
+   "fim": 432.58
+  },
+  {
+   "i": 90,
+   "texto": "Quem adoeceu?",
+   "cap": "O HOSPITAL",
+   "ini": 433.14,
+   "fim": 433.36
+  },
+  {
+   "i": 91,
+   "texto": "Quando?",
+   "cap": "O HOSPITAL",
+   "ini": 434.88,
+   "fim": 435.22
+  },
+  {
+   "i": 92,
+   "texto": "Que procedimentos compartilhavam?",
+   "cap": "O HOSPITAL",
+   "ini": 435.22,
+   "fim": 437.68
+  },
+  {
+   "i": 93,
+   "texto": "Havia uma fonte comum?",
+   "cap": "O HOSPITAL",
+   "ini": 438.28,
+   "fim": 439.62
+  },
+  {
+   "i": 94,
+   "texto": "Uma sequência de casos pode parecer uma seta apontando para uma causa.",
+   "cap": "O HOSPITAL",
+   "ini": 440.58,
+   "fim": 444.18
+  },
+  {
+   "i": 95,
+   "texto": "Na prática, é necessário descobrir se os pacientes estão ligados por algo além da proximidade no calendário.",
+   "cap": "O HOSPITAL",
+   "ini": 444.62,
+   "fim": 450.56
+  },
+  {
+   "i": 96,
+   "texto": "Os médicos tinham diante deles um problema clínico real.",
+   "cap": "O HOSPITAL",
+   "ini": 450.96,
+   "fim": 453.78
+  },
+  {
+   "i": 97,
+   "texto": "A operação militar acrescentaria outra pergunta a essa história, mas só muito tempo depois.",
+   "cap": "O HOSPITAL",
+   "ini": 454.32,
+   "fim": 459.16
+  },
+  {
+   "i": 98,
+   "texto": "Entre aqueles pacientes estava Edward Nevin, que havia passado por uma cirurgia de próstata.",
+   "cap": "O HOSPITAL",
+   "ini": 459.62,
+   "fim": 465.1
+  },
+  {
+   "i": 99,
+   "texto": "Ele desenvolveu infecção urinária, a bactéria foi recuperada também em culturas do sangue e houve endocardite.",
+   "cap": "O HOSPITAL",
+   "ini": 465.6,
+   "fim": 472.16
+  },
+  {
+   "i": 100,
+   "texto": "Nevin morreu.",
+   "cap": "O HOSPITAL",
+   "ini": 472.68,
+   "fim": 473.38
+  },
+  {
+   "i": 101,
+   "texto": "Para a família, aquilo era a perda de uma pessoa.",
+   "cap": "O HOSPITAL",
+   "ini": 475.02,
+   "fim": 477.54
+  },
+  {
+   "i": 102,
+   "texto": "Para a publicação médica, era um caso numa série que precisava ser compreendida.",
+   "cap": "O HOSPITAL",
+   "ini": 477.96,
+   "fim": 482.2
+  },
+  {
+   "i": 103,
+   "texto": "Décadas depois, esses dois registros ganhariam um terceiro:",
+   "cap": "O HOSPITAL",
+   "ini": 482.7,
+   "fim": 486.18
+  },
+  {
+   "i": 104,
+   "texto": "o de uma exposição militar que a população desconhecia.",
+   "cap": "O HOSPITAL",
+   "ini": 486.48,
+   "fim": 489.08
+  },
+  {
+   "i": 105,
+   "texto": "Quando essa informação surgiu, a pergunta da família foi inevitável.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 491.06,
+   "fim": 494.86
+  },
+  {
+   "i": 106,
+   "texto": "A bactéria que chegou ao hospital tinha vindo daquele teste?",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 495.12,
+   "fim": 498.18
+  },
+  {
+   "i": 107,
+   "texto": "O fato de as bactérias terem o mesmo nome era uma pista importante.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 498.6,
+   "fim": 502.06
+  },
+  {
+   "i": 108,
+   "texto": "Mas não resolvia a origem da infecção.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 502.44,
+   "fim": 504.46
+  },
+  {
+   "i": 109,
+   "texto": "Dentro de uma mesma espécie existem cepas diferentes.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 504.92,
+   "fim": 507.76
+  },
+  {
+   "i": 110,
+   "texto": "Para sustentar a ligação, seria necessário comparar os organismos e reconstruir um caminho plausível entre a exposição e os pacientes.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 508.38,
+   "fim": 516.02
+  },
+  {
+   "i": 111,
+   "texto": "Saber que duas cartas foram escritas no mesmo idioma não revela se saíram da mesma pessoa.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 516.48,
+   "fim": 521.66
+  },
+  {
+   "i": 112,
+   "texto": "A comparação precisa chegar a detalhes que consigam distinguir uma origem de outra.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 522.1,
+   "fim": 526.78
+  },
+  {
+   "i": 113,
+   "texto": "E aqui aparece a peça ausente anunciada no começo:",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 527.28,
+   "fim": 530.06
+  },
+  {
+   "i": 114,
+   "texto": "as amostras bacterianas dos pacientes não foram preservadas para uma comparação posterior com a cepa militar.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 531.06,
+   "fim": 536.84
+  },
+  {
+   "i": 115,
+   "texto": "Quando o experimento se tornou público, essa oportunidade já tinha passado.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 537.3,
+   "fim": 540.88
+  },
+  {
+   "i": 116,
+   "texto": "Isso não transforma uma suspeita em prova.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 541.38,
+   "fim": 543.44
+  },
+  {
+   "i": 117,
+   "texto": "Também não transforma a dificuldade de provar em garantia de segurança.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 543.92,
+   "fim": 547.2
+  },
+  {
+   "i": 118,
+   "texto": "São conclusões diferentes, e o caso fica confuso quando elas se misturam.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 547.2,
+   "fim": 551.74
+  },
+  {
+   "i": 119,
+   "texto": "A família podia apontar uma coincidência perturbadora:",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 552.18,
+   "fim": 555.06
+  },
+  {
+   "i": 120,
+   "texto": "um teste com a bactéria e uma infecção pela mesma espécie, na mesma cidade e no mesmo período.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 555.54,
+   "fim": 560.78
+  },
+  {
+   "i": 121,
+   "texto": "A defesa podia apontar outra possibilidade:",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 561.32,
+   "fim": 563.7
+  },
+  {
+   "i": 122,
+   "texto": "pacientes submetidos a procedimentos médicos, num ambiente em que poderia ocorrer transmissão hospitalar.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 564.08,
+   "fim": 569.68
+  },
+  {
+   "i": 123,
+   "texto": "Para escolher entre essas explicações, seria preciso mais do que a força emocional de uma delas.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 570.08,
+   "fim": 575.18
+  },
+  {
+   "i": 124,
+   "texto": "O passado não entrega automaticamente todos os dados de que uma investigação futura vai precisar.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 575.18,
+   "fim": 580.7
+  },
+  {
+   "i": 125,
+   "texto": "Amostras se perdem, registros são incompletos, perguntas deixam de ser feitas.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 581.58,
+   "fim": 585.88
+  },
+  {
+   "i": 126,
+   "texto": "E cada ano que passa pode aumentar a distância entre uma suspeita razoável e uma resposta demonstrável.",
+   "cap": "A PEÇA QUE FALTA",
+   "ini": 586.28,
+   "fim": 591.64
+  },
+  {
+   "i": 127,
+   "texto": "Quando os moradores descobriram que tinham sido parte do teste, vinte e seis anos já separavam a operação da revelação pública.",
+   "cap": "A REVELAÇÃO",
+   "ini": 593.46,
+   "fim": 601.62
+  },
+  {
+   "i": 128,
+   "texto": "Em novembro de 1976, o jornal Newsday publicou uma reportagem sobre os testes.",
+   "cap": "A REVELAÇÃO",
+   "ini": 601.62,
+   "fim": 608.6
+  },
+  {
+   "i": 129,
+   "texto": "No mês seguinte, o Exército reconheceu publicamente o uso da Serratia em diferentes locais.",
+   "cap": "A REVELAÇÃO",
+   "ini": 609.02,
+   "fim": 614.16
+  },
+  {
+   "i": 130,
+   "texto": "Em 1977, o assunto chegou a audiências do Subcomitê de Saúde e Pesquisa Científica do Senado americano.",
+   "cap": "A REVELAÇÃO",
+   "ini": 614.54,
+   "fim": 621.26
+  },
+  {
+   "i": 131,
+   "texto": "Agora era possível colocar lado a lado informações que tinham circulado em contextos separados:",
+   "cap": "A REVELAÇÃO",
+   "ini": 621.5,
+   "fim": 626.62
+  },
+  {
+   "i": 132,
+   "texto": "a operação militar, o artigo médico e a situação das pessoas expostas sem saber.",
+   "cap": "A REVELAÇÃO",
+   "ini": 627.06,
+   "fim": 632.76
+  },
+  {
+   "i": 133,
+   "texto": "É uma mudança enorme para quem tenta entender o passado.",
+   "cap": "A REVELAÇÃO",
+   "ini": 633.38,
+   "fim": 636.28
+  },
+  {
+   "i": 134,
+   "texto": "Um documento que parecia tratar de uma pesquisa de dispersão passa a ser lido também como registro de uma decisão sobre a vida de outras pessoas.",
+   "cap": "A REVELAÇÃO",
+   "ini": 636.8,
+   "fim": 644.6
+  },
+  {
+   "i": 135,
+   "texto": "Um artigo sobre infecções passa a suscitar uma pergunta sobre exposição ambiental.",
+   "cap": "A REVELAÇÃO",
+   "ini": 645.16,
+   "fim": 649.56
+  },
+  {
+   "i": 136,
+   "texto": "Os fatos antigos continuam os mesmos.",
+   "cap": "A REVELAÇÃO",
+   "ini": 649.9,
+   "fim": 651.82
+  },
+  {
+   "i": 137,
+   "texto": "O que muda é a possibilidade de enxergar uma relação e perguntar se ela existe.",
+   "cap": "A REVELAÇÃO",
+   "ini": 651.82,
+   "fim": 657.18
+  },
+  {
+   "i": 138,
+   "texto": "As audiências mostram que o debate não se limitava a reconhecer a operação.",
+   "cap": "A REVELAÇÃO",
+   "ini": 657.64,
+   "fim": 661.7
+  },
+  {
+   "i": 139,
+   "texto": "Havia questionamentos sobre a segurança dos organismos, a escolha dos locais e o acompanhamento de possíveis efeitos.",
+   "cap": "A REVELAÇÃO",
+   "ini": 662.12,
+   "fim": 668.84
+  },
+  {
+   "i": 140,
+   "texto": "O que os responsáveis consideraram aceitável?",
+   "cap": "A REVELAÇÃO",
+   "ini": 669.26,
+   "fim": 671.7
+  },
+  {
+   "i": 141,
+   "texto": "Que tipo de risco foi levado em conta?",
+   "cap": "A REVELAÇÃO",
+   "ini": 672.68,
+   "fim": 674.42
+  },
+  {
+   "i": 142,
+   "texto": "Quem tinha condições de contestar?",
+   "cap": "A REVELAÇÃO",
+   "ini": 675.24,
+   "fim": 676.94
+  },
+  {
+   "i": 143,
+   "texto": "Essas perguntas não eram resolvidas apenas com a palavra defesa.",
+   "cap": "A REVELAÇÃO",
+   "ini": 677.8,
+   "fim": 681.12
+  },
+  {
+   "i": 144,
+   "texto": "Uma justificativa militar pode explicar por que alguém desejava realizar uma pesquisa.",
+   "cap": "A REVELAÇÃO",
+   "ini": 681.12,
+   "fim": 685.8
+  },
+  {
+   "i": 145,
+   "texto": "Ainda é necessário examinar como ela foi conduzida e quem suportou suas incertezas.",
+   "cap": "A REVELAÇÃO",
+   "ini": 686.1,
+   "fim": 690.8
+  },
+  {
+   "i": 146,
+   "texto": "Para a família Nevin, porém, o reconhecimento público tinha uma dimensão muito concreta.",
+   "cap": "A REVELAÇÃO",
+   "ini": 691.3,
+   "fim": 695.96
+  },
+  {
+   "i": 147,
+   "texto": "Surgia uma informação que não existia para eles quando Edward morreu.",
+   "cap": "A REVELAÇÃO",
+   "ini": 696.22,
+   "fim": 699.94
+  },
+  {
+   "i": 148,
+   "texto": "E a próxima tentativa de obter uma resposta seria feita diante de um juiz.",
+   "cap": "A REVELAÇÃO",
+   "ini": 700.3,
+   "fim": 704.74
+  },
+  {
+   "i": 149,
+   "texto": "A família levou o caso à Justiça federal.",
+   "cap": "O TRIBUNAL",
+   "ini": 706.86,
+   "fim": 709.46
+  },
+  {
+   "i": 150,
+   "texto": "Alegava que a negligência do governo no teste havia causado a morte de Edward Nevin.",
+   "cap": "O TRIBUNAL",
+   "ini": 709.46,
+   "fim": 714.28
+  },
+  {
+   "i": 151,
+   "texto": "Em janeiro de 1983, o tribunal de apelações examinou o recurso.",
+   "cap": "O TRIBUNAL",
+   "ini": 714.84,
+   "fim": 719.86
+  },
+  {
+   "i": 152,
+   "texto": "A decisão majoritária aplicou uma exceção da lei que permite certas ações contra o governo:",
+   "cap": "O TRIBUNAL",
+   "ini": 720.42,
+   "fim": 725.84
+  },
+  {
+   "i": 153,
+   "texto": "a proteção de funções discricionárias.",
+   "cap": "O TRIBUNAL",
+   "ini": 726.48,
+   "fim": 728.4
+  },
+  {
+   "i": 154,
+   "texto": "Naquele caso, a escolha da cepa foi tratada como parte de uma decisão de planejamento protegida por essa exceção.",
+   "cap": "O TRIBUNAL",
+   "ini": 729.34,
+   "fim": 735.86
+  },
+  {
+   "i": 155,
+   "texto": "O tribunal determinou o encerramento da ação por falta de competência para julgá-la.",
+   "cap": "O TRIBUNAL",
+   "ini": 735.86,
+   "fim": 740.36
+  },
+  {
+   "i": 156,
+   "texto": "Um juiz discordou dessa interpretação sobre a imunidade.",
+   "cap": "O TRIBUNAL",
+   "ini": 741.18,
+   "fim": 744.18
+  },
+  {
+   "i": 157,
+   "texto": "Mesmo assim, manteria o resultado favorável ao governo porque não considerava claramente equivocada a conclusão de que a bactéria do teste não causara a morte de Nevin.",
+   "cap": "O TRIBUNAL",
+   "ini": 744.54,
+   "fim": 753.68
+  },
+  {
+   "i": 158,
+   "texto": "Perceba as duas dificuldades enfrentadas pela família.",
+   "cap": "O TRIBUNAL",
+   "ini": 754.12,
+   "fim": 756.82
+  },
+  {
+   "i": 159,
+   "texto": "Uma dizia respeito ao que era possível demonstrar sobre a infecção.",
+   "cap": "O TRIBUNAL",
+   "ini": 757.26,
+   "fim": 760.86
+  },
+  {
+   "i": 160,
+   "texto": "A outra dizia respeito à possibilidade de o tribunal examinar a responsabilidade por aquela decisão.",
+   "cap": "O TRIBUNAL",
+   "ini": 760.86,
+   "fim": 766.78
+  },
+  {
+   "i": 161,
+   "texto": "Essas perguntas podem levar a resultados diferentes.",
+   "cap": "O TRIBUNAL",
+   "ini": 767.12,
+   "fim": 769.6
+  },
+  {
+   "i": 162,
+   "texto": "Uma ação pode esbarrar numa regra jurídica antes de produzir a resposta que o público espera sobre segurança, conduta ou dano.",
+   "cap": "O TRIBUNAL",
+   "ini": 770.32,
+   "fim": 778.22
+  },
+  {
+   "i": 163,
+   "texto": "Por isso, o resultado do processo não deve ser resumido como um certificado científico de que a operação foi inofensiva.",
+   "cap": "O TRIBUNAL",
+   "ini": 778.56,
+   "fim": 785.78
+  },
+  {
+   "i": 164,
+   "texto": "Também seria errado dizer que a Justiça comprovou uma morte provocada pelo teste.",
+   "cap": "O TRIBUNAL",
+   "ini": 786.06,
+   "fim": 790.1
+  },
+  {
+   "i": 165,
+   "texto": "A família não conseguiu a responsabilização que buscava.",
+   "cap": "O TRIBUNAL",
+   "ini": 790.1,
+   "fim": 793.5
+  },
+  {
+   "i": 166,
+   "texto": "O documento judicial registra os limites do caminho que tentou percorrer.",
+   "cap": "O TRIBUNAL",
+   "ini": 793.74,
+   "fim": 797.36
+  },
+  {
+   "i": 167,
+   "texto": "Imagine descobrir, tantos anos depois de uma perda, que existe uma informação capaz de mudar a forma como você entende o que aconteceu.",
+   "cap": "O TRIBUNAL",
+   "ini": 797.76,
+   "fim": 805.18
+  },
+  {
+   "i": 168,
+   "texto": "Você procura respostas e descobre que parte das provas já não está disponível.",
+   "cap": "O TRIBUNAL",
+   "ini": 805.72,
+   "fim": 810.04
+  },
+  {
+   "i": 169,
+   "texto": "Depois encontra uma discussão sobre quais decisões o tribunal pode revisar.",
+   "cap": "O TRIBUNAL",
+   "ini": 810.44,
+   "fim": 814.64
+  },
+  {
+   "i": 170,
+   "texto": "Essa é uma das razões pelas quais a história ultrapassa o destino de um processo.",
+   "cap": "O TRIBUNAL",
+   "ini": 815.08,
+   "fim": 819.34
+  },
+  {
+   "i": 171,
+   "texto": "O tempo do segredo e o tempo de buscar reparação não caminham juntos.",
+   "cap": "O TRIBUNAL",
+   "ini": 819.34,
+   "fim": 823.3
+  },
+  {
+   "i": 172,
+   "texto": "Quando a informação finalmente chega, a possibilidade de usá-la pode ter mudado para sempre.",
+   "cap": "O TRIBUNAL",
+   "ini": 823.84,
+   "fim": 829.1
+  },
+  {
+   "i": 173,
+   "texto": "Volte por um instante aos equipamentos que coletavam microrganismos na cidade.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 831.06,
+   "fim": 835.52
+  },
+  {
+   "i": 174,
+   "texto": "Eles foram instalados para responder a uma pergunta sobre dispersão.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 835.94,
+   "fim": 839.48
+  },
+  {
+   "i": 175,
+   "texto": "A controvérsia posterior precisava responder a perguntas sobre pessoas.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 839.92,
+   "fim": 843.68
+  },
+  {
+   "i": 176,
+   "texto": "Não são a mesma investigação.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 844.22,
+   "fim": 845.74
+  },
+  {
+   "i": 177,
+   "texto": "Para procurar efeitos sobre a saúde, seria necessário definir o que observar, durante quanto tempo, em quais grupos e em comparação com o quê.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 845.74,
+   "fim": 854.78
+  },
+  {
+   "i": 178,
+   "texto": "Sem isso, uma doença pode aparecer num prontuário sem que sua possível relação com uma exposição seja examinada.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 855.28,
+   "fim": 861.96
+  },
+  {
+   "i": 179,
+   "texto": "Por outro lado, simplesmente encontrar uma infecção depois de um teste também não estabelece que o teste a provocou.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 862.4,
+   "fim": 868.32
+  },
+  {
+   "i": 180,
+   "texto": "É essa dificuldade que impede uma conclusão fácil nos dois sentidos.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 868.86,
+   "fim": 872.68
+  },
+  {
+   "i": 181,
+   "texto": "O segredo agrava o problema porque distribui a informação de forma desigual.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 872.68,
+   "fim": 876.96
+  },
+  {
+   "i": 182,
+   "texto": "Quem conhece a operação pode interpretá-la como um teste seguro.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 877.48,
+   "fim": 880.74
+  },
+  {
+   "i": 183,
+   "texto": "Quem recebe um paciente não tem, necessariamente, aquele contexto à disposição.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 881.28,
+   "fim": 885.2
+  },
+  {
+   "i": 184,
+   "texto": "E quem foi exposto sequer sabe que existe uma pergunta a fazer.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 885.66,
+   "fim": 888.8
+  },
+  {
+   "i": 185,
+   "texto": "Numa história contada décadas depois, é tentador preencher esse vazio com certezas.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 889.32,
+   "fim": 894.04
+  },
+  {
+   "i": 186,
+   "texto": "Dizer que toda doença veio da operação.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 894.46,
+   "fim": 896.54
+  },
+  {
+   "i": 187,
+   "texto": "Ou dizer que, como não houve uma demonstração conclusiva, não aconteceu dano algum.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 896.94,
+   "fim": 901.5
+  },
+  {
+   "i": 188,
+   "texto": "As duas frases vão além do que a documentação permite.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 901.5,
+   "fim": 904.62
+  },
+  {
+   "i": 189,
+   "texto": "O que podemos avaliar, mesmo diante dessa incerteza, é a decisão de expor pessoas sem lhes dar conhecimento ou escolha.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 905.06,
+   "fim": 912.3
+  },
+  {
+   "i": 190,
+   "texto": "Essa avaliação não depende de inventar um número de vítimas.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 912.78,
+   "fim": 915.92
+  },
+  {
+   "i": 191,
+   "texto": "Depende de reconhecer que uma população não é apenas uma superfície onde um material pode ser encontrado.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 916.38,
+   "fim": 922.04
+  },
+  {
+   "i": 192,
+   "texto": "Cada ponto daquele mapa tinha vida fora do relatório.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 922.46,
+   "fim": 925.24
+  },
+  {
+   "i": 193,
+   "texto": "E essas vidas continuaram enquanto a informação sobre o experimento permanecia fora do alcance dos moradores.",
+   "cap": "DUAS INVESTIGAÇÕES",
+   "ini": 925.54,
+   "fim": 931.46
+  },
+  {
+   "i": 194,
+   "texto": "Existe mais uma data que precisa entrar nessa história:",
+   "cap": "1969",
+   "ini": 933.92,
+   "fim": 936.72
+  },
+  {
+   "i": 195,
+   "texto": "vinte e cinco de novembro de 1969.",
+   "cap": "1969",
+   "ini": 937.7,
+   "fim": 939.98
+  },
+  {
+   "i": 196,
+   "texto": "Richard Nixon anunciou que os Estados Unidos renunciariam ao uso de armas biológicas e restringiriam sua pesquisa biológica a medidas defensivas, como imunização e segurança.",
+   "cap": "1969",
+   "ini": 940.86,
+   "fim": 951.7
+  },
+  {
+   "i": 197,
+   "texto": "Na declaração, reconheceu que armas biológicas poderiam produzir consequências massivas, imprevisíveis e difíceis de controlar.",
+   "cap": "1969",
+   "ini": 952.24,
+   "fim": 959.78
+  },
+  {
+   "i": 198,
+   "texto": "Isso não significava o fim de toda pesquisa americana sobre agentes biológicos.",
+   "cap": "1969",
+   "ini": 960.22,
+   "fim": 964.5
+  },
+  {
+   "i": 199,
+   "texto": "A distinção era entre o programa ofensivo e o trabalho de defesa.",
+   "cap": "1969",
+   "ini": 964.96,
+   "fim": 968.66
+  },
+  {
+   "i": 200,
+   "texto": "Também não significava que São Francisco tivesse recebido, naquele momento, uma explicação pública completa sobre o que ocorrera em 1950.",
+   "cap": "1969",
+   "ini": 969.06,
+   "fim": 977.36
+  },
+  {
+   "i": 201,
+   "texto": "A revelação que examinamos veio depois.",
+   "cap": "1969",
+   "ini": 978.44,
+   "fim": 980.26
+  },
+  {
+   "i": 202,
+   "texto": "Essas datas mostram como decisões institucionais e conhecimento público podem seguir ritmos diferentes.",
+   "cap": "1969",
+   "ini": 981.08,
+   "fim": 986.78
+  },
+  {
+   "i": 203,
+   "texto": "Uma política muda.",
+   "cap": "1969",
+   "ini": 987.2,
+   "fim": 988.1
+  },
+  {
+   "i": 204,
+   "texto": "Anos mais tarde, pessoas descobrem o que foi feito antes dela.",
+   "cap": "1969",
+   "ini": 988.52,
+   "fim": 991.82
+  },
+  {
+   "i": 205,
+   "texto": "E continuam precisando lidar com perguntas antigas.",
+   "cap": "1969",
+   "ini": 991.82,
+   "fim": 994.66
+  },
+  {
+   "i": 206,
+   "texto": "Ao contar a Operação Sea-Spray, não precisamos acrescentar uma suposta epidemia secreta, uma relação com o MK-Ultra ou a certeza de outros crimes ainda escondidos.",
+   "cap": "1969",
+   "ini": 995.02,
+   "fim": 1005.2
+  },
+  {
+   "i": 207,
+   "texto": "O registro disponível já exige atenção suficiente:",
+   "cap": "1969",
+   "ini": 1005.64,
+   "fim": 1008.6
+  },
+  {
+   "i": 208,
+   "texto": "houve uma liberação de bactérias sobre uma área habitada, a população não participou da decisão e uma família tentou estabelecer uma ligação com a morte de um parente.",
+   "cap": "1969",
+   "ini": 1009.02,
+   "fim": 1018.2
+  },
+  {
+   "i": 209,
+   "texto": "É possível reconhecer a gravidade desses fatos sem fingir que todas as consequências foram demonstradas.",
+   "cap": "1969",
+   "ini": 1018.48,
+   "fim": 1024.56
+  },
+  {
+   "i": 210,
+   "texto": "A honestidade sobre o que falta saber faz parte da história.",
+   "cap": "1969",
+   "ini": 1025.2,
+   "fim": 1028.76
+  },
+  {
+   "i": 211,
+   "texto": "Principalmente quando o próprio segredo ajudou a tornar as respostas mais difíceis.",
+   "cap": "1969",
+   "ini": 1029.18,
+   "fim": 1033.72
+  },
+  {
+   "i": 212,
+   "texto": "No começo deste vídeo, havia uma pergunta sobre a possível ligação entre um navio e um hospital.",
+   "cap": "FECHO",
+   "ini": 1035.5,
+   "fim": 1041.3
+  },
+  {
+   "i": 213,
+   "texto": "A resposta exige preservar duas coisas ao mesmo tempo.",
+   "cap": "FECHO",
+   "ini": 1041.3,
+   "fim": 1044.68
+  },
+  {
+   "i": 214,
+   "texto": "O experimento aconteceu.",
+   "cap": "FECHO",
+   "ini": 1045.0,
+   "fim": 1046.14
+  },
+  {
+   "i": 215,
+   "texto": "Sua ligação com a morte de Edward Nevin não foi demonstrada.",
+   "cap": "FECHO",
+   "ini": 1046.8,
+   "fim": 1050.54
+  },
+  {
+   "i": 216,
+   "texto": "Entre esses dois fatos existe a história de pessoas que só receberam uma informação importante décadas depois de ela poder fazer diferença numa investigação.",
+   "cap": "FECHO",
+   "ini": 1050.92,
+   "fim": 1059.48
+  },
+  {
+   "i": 217,
+   "texto": "Hoje, a neblina de São Francisco continua sendo parte da paisagem.",
+   "cap": "FECHO",
+   "ini": 1060.04,
+   "fim": 1063.56
+  },
+  {
+   "i": 218,
+   "texto": "Ela não prova nada sobre aquele teste.",
+   "cap": "FECHO",
+   "ini": 1063.92,
+   "fim": 1066.04
+  },
+  {
+   "i": 219,
+   "texto": "Quem conta o que aconteceu são os documentos.",
+   "cap": "FECHO",
+   "ini": 1066.38,
+   "fim": 1068.64
+  },
+  {
+   "i": 220,
+   "texto": "E eles deixam uma pergunta que você não precisa de um laboratório para considerar:",
+   "cap": "FECHO",
+   "ini": 1068.64,
+   "fim": 1073.18
+  },
+  {
+   "i": 221,
+   "texto": "quem deveria poder aceitar um risco em nome de uma cidade inteira?",
+   "cap": "FECHO",
+   "ini": 1073.64,
+   "fim": 1076.84
+  },
+  {
+   "i": 222,
+   "texto": "Se a resposta depende das pessoas afetadas, o que acontece quando elas são as últimas a saber?",
+   "cap": "FECHO",
+   "ini": 1077.82,
+   "fim": 1083.1
+  },
+  {
+   "i": 223,
+   "texto": "Me conta nos comentários qual parte desse caso mais te marcou.",
+   "cap": "FECHO",
+   "ini": 1084.24,
+   "fim": 1087.44
+  },
+  {
+   "i": 224,
+   "texto": "E, para acompanhar outras histórias investigadas a partir de documentos, inscreva-se no canal.",
+   "cap": "FECHO",
+   "ini": 1087.44,
+   "fim": 1093.0
+  }
+ ]
+}
