@@ -53,3 +53,4 @@ node motor/render.mjs        # quadros em render/frames
 | v2 | `render/nevoa-1950-documentario-v2-cor.mp4` | 2026-11-12 | Mesma montagem da v1, com tom por capítulo e cor original nos planos de laboratório (`COR=1 python3 motor/doc/montar.py render`) |
 | v3 | `render/nevoa-1950-documentario-v3-voz-nova.mp4` | 2026-11-12 | Versão colorida com a narração nova da DarkPlanner (áudio B, pausas e limpeza de chiado), 18 min 15 s |
 | v4 | `render/nevoa-1950-documentario-v4.mp4` | 2026-11-12 | Corrige a v3: títulos-chave presos à palavra falada, títulos de capítulo só nas pausas e gráficos com duração limitada |
+| v5 | `render/nevoa-1950-documentario-v5-voz3.mp4` | 2026-11-12 | Voz nova (voz3) com pausas e limpeza de chiado, 16 min 4 s; capítulos em `capitulos-youtube-v5.txt` |
