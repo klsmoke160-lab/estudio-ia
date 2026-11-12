@@ -51,3 +51,4 @@ node motor/render.mjs        # quadros em render/frames
 | v1 | `render/nevoa-1950-abertura-v1.mp4` | 2026-11-12 | Abertura de 82 s, só gráficos, voz provisória |
 | v1 | `render/nevoa-1950-documentario-v1.mp4` | 2026-11-12 | Vídeo inteiro, 17 min 40 s, filmes de arquivo em domínio público (Prelinger), voz sintética `pt_BR-cadu` |
 | v2 | `render/nevoa-1950-documentario-v2-cor.mp4` | 2026-11-12 | Mesma montagem da v1, com tom por capítulo e cor original nos planos de laboratório (`COR=1 python3 motor/doc/montar.py render`) |
+| v3 | `render/nevoa-1950-documentario-v3-voz-nova.mp4` | 2026-11-12 | Versão colorida com a narração nova da DarkPlanner (áudio B, pausas e limpeza de chiado), 18 min 15 s |
