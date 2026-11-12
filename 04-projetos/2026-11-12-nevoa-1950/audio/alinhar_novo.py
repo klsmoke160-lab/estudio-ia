@@ -37,12 +37,25 @@ for k in range(len(F)):
 for k in range(1,len(F)):
     if ini[k]<fim[k-1]: ini[k]=fim[k-1]+0.02
     if fim[k]<=ini[k]: fim[k]=ini[k]+0.3
+# tempo de cada palavra do roteiro (interpola as que não casaram)
+pos={}
+for i,k in enumerate(own): pos.setdefault(k,[]).append(i)
+tw=[]
+for k in range(len(F)):
+    idx=pos.get(k,[]); a=[ta[i] for i in idx]
+    if not idx: tw.append([]); continue
+    for j in range(len(a)):
+        if a[j] is None:
+            l=next((a[x] for x in range(j-1,-1,-1) if a[x] is not None),ini[k]); r=next((a[x] for x in range(j+1,len(a)) if a[x] is not None),fim[k])
+            a[j]=(l+r)/2
+    tw.append(a)
 ult=next(k for k,f in enumerate(F) if "titulo_ini" in f)
 GAP=4.6; corte=(fim[ult]+ini[ult+1])/2
 out=[]
 for k,f in enumerate(F):
     d=GAP if k>ult else 0.0
     g=dict(i=f["i"],texto=f["texto"],cap=f["cap"],ini=round(ini[k]+d,3),fim=round(fim[k]+d,3))
+    g["t"]=[round(x+d,3) for x in tw[k]]
     if "titulo_ini" in f: g["titulo_ini"]=round(fim[k]+1.0,3)
     out.append(g)
 total=dur+GAP+2.0

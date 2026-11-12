@@ -66,6 +66,8 @@ def shot_src(film,t,need):
     if L>=need: s=min(max(t-need/2,a),b-need); return s,need,1.0
     if L>=need/1.7: return a,L,need/L           # câmera lenta leve
     return max(0,t-need/2),need,1.0             # plano curto demais: aceita o corte interno
+import unicodedata
+def _norm(x): return re.sub(r"[^a-z0-9 ]","",unicodedata.normalize("NFD",x.lower()).encode("ascii","ignore").decode())
 def build():
     cyc={k:itertools.cycle([(f,t) for f,ts in v.items() for t in ts]) for k,v in LIB.items()}
     # intercala filmes dentro de cada categoria para variar
@@ -78,12 +80,19 @@ def build():
         end=f.get("titulo_ini",nxt)
         if f["cap"]!=cap:
             cap=f["cap"]
-            if cap!="ABERTURA": ov.append(dict(tipo="cap",txt=cap,a=f["ini"]-1.45,b=f["ini"]+1.9))
+            if cap!="ABERTURA": ov.append(dict(tipo="cap",txt=cap,a=f["ini"]-1.75,b=f["ini"]+0.25))
         for k,word in KEY:
-            if k in txt: ov.append(dict(tipo="key",txt=word,a=f["ini"]+0.25,b=min(f["fim"]+0.5,f["ini"]+5.5)))
+            if k in txt:
+                ka=f["ini"]+0.25
+                if "t" in f and f["t"]:
+                    ix=len(_norm(txt.split(k)[0]).split()); ka=f["t"][min(ix,len(f["t"])-1)]-0.25
+                ov.append(dict(tipo="key",txt=word,a=max(0,ka),b=min(max(f["fim"]+0.5,ka+2.5),ka+4.5)))
         g=ins_for(i,txt)
-        if g: shots.append(dict(tipo="ins",g=g,a=ini,b=end,i=i))
-        else:
+        ini0=ini
+        if g:
+            cnt=INS[g][1]; lim=1e9 if g=="title" else 1.6*cnt/FPS; fim_ins=min(end,ini+lim)
+            shots.append(dict(tipo="ins",g=g,a=ini,b=fim_ins,i=i)); ini=fim_ins
+        if not g or end-ini>1.5:
             low=txt.lower(); cat=next((c for c,r in REG if re.search(r,low)),CAPDEF[cap])
             if cat==last and cat in("mil","docs") and re.search(REG[-1][1],low): cat="people"
             last=cat; D=end-ini; k=max(1,round(D/4.7))
@@ -94,6 +103,11 @@ def build():
     # duração em quadros exatos
     for s in shots: s["fa"]=round(s["a"]*FPS); s["fb"]=round(s["b"]*FPS)
     shots=[s for s in shots if s["fb"]>s["fa"]]
+    caps_=[o for o in ov if o["tipo"]=="cap"]
+    for o in ov:
+        if o["tipo"]=="key":
+            for c in caps_:
+                if o["a"]<c["b"] and o["b"]>c["a"]: o["a"]=c["b"]+0.05; o["b"]=max(o["b"],o["a"]+2.5)
     ov.append(dict(tipo="aviso",txt="IMAGENS DE ARQUIVO ILUSTRATIVAS",a=1.0,b=9.0))
     return shots,ov
 def esc(p): return str(p).replace(":","\\:")
