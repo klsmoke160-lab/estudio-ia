@@ -1,0 +1,112 @@
+{
+ "intro": 2.0,
+ "titulo_ini": 76.158,
+ "total": 82.158,
+ "frases": [
+  {
+   "i": 1,
+   "texto": "Em setembro de 1950, os Estados Unidos fizeram uma pergunta sobre São Francisco:",
+   "ini": 2.0,
+   "fim": 7.7,
+   "pausa": 0.35
+  },
+  {
+   "i": 2,
+   "texto": "seria possível expor uma cidade a bactérias lançadas do mar?",
+   "ini": 8.05,
+   "fim": 11.069,
+   "pausa": 0.9
+  },
+  {
+   "i": 3,
+   "texto": "Para descobrir, realizaram o teste.",
+   "ini": 11.969,
+   "fim": 14.152,
+   "pausa": 1.1
+  },
+  {
+   "i": 4,
+   "texto": "Navios da Marinha liberaram microrganismos perto da costa.",
+   "ini": 15.252,
+   "fim": 18.375,
+   "pausa": 0.5
+  },
+  {
+   "i": 5,
+   "texto": "Em terra, equipamentos recolheram amostras para acompanhar a dispersão.",
+   "ini": 18.875,
+   "fim": 22.439,
+   "pausa": 0.6
+  },
+  {
+   "i": 6,
+   "texto": "Os moradores continuaram a vida, sem saber que o ar da cidade fazia parte de um experimento militar.",
+   "ini": 23.039,
+   "fim": 28.461,
+   "pausa": 1.0
+  },
+  {
+   "i": 7,
+   "texto": "Naquele mesmo período, pacientes de um hospital de São Francisco desenvolveram infecções por uma das bactérias usadas no teste.",
+   "ini": 29.461,
+   "fim": 36.566,
+   "pausa": 0.8
+  },
+  {
+   "i": 8,
+   "texto": "Um deles morreu.",
+   "ini": 37.366,
+   "fim": 38.353,
+   "pausa": 1.2
+  },
+  {
+   "i": 9,
+   "texto": "O nome dele era Edward Nevin.",
+   "ini": 39.553,
+   "fim": 41.179,
+   "pausa": 1.4
+  },
+  {
+   "i": 10,
+   "texto": "A família só descobriria o experimento décadas depois.",
+   "ini": 42.579,
+   "fim": 45.678,
+   "pausa": 0.7
+  },
+  {
+   "i": 11,
+   "texto": "E, quando tentou levar o governo à Justiça, encontrou uma pergunta difícil de provar, e uma barreira que não tinha nada a ver com microscópios.",
+   "ini": 46.378,
+   "fim": 53.902,
+   "pausa": 0.9
+  },
+  {
+   "i": 12,
+   "texto": "Essa história deixou documentos militares, um artigo médico, e uma decisão de tribunal.",
+   "ini": 54.802,
+   "fim": 59.748,
+   "pausa": 0.7
+  },
+  {
+   "i": 13,
+   "texto": "Mas existe uma peça que não foi preservada.",
+   "ini": 60.448,
+   "fim": 62.723,
+   "pausa": 0.8
+  },
+  {
+   "i": 14,
+   "texto": "Uma peça que poderia ajudar a esclarecer a ligação entre o navio e o hospital.",
+   "ini": 63.523,
+   "fim": 67.946,
+   "pausa": 1.0
+  },
+  {
+   "i": 15,
+   "texto": "Para entender por que ela importa, precisamos voltar ao momento em que uma cidade passou a ser tratada como local de teste.",
+   "ini": 68.946,
+   "fim": 75.158,
+   "pausa": 1.0
+  }
+ ]
+}

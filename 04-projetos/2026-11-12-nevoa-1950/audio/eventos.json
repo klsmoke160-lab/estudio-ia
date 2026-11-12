@@ -1,0 +1,157 @@
+[
+ {
+  "t": 0.9,
+  "sfx": "riser/riser-1",
+  "db": -12
+ },
+ {
+  "t": 1.95,
+  "sfx": "impacto/impacto-2",
+  "db": -9
+ },
+ {
+  "t": 7.95,
+  "sfx": "whoosh/whoosh-1",
+  "db": -14
+ },
+ {
+  "t": 11.849,
+  "sfx": "glitch/glitch-1",
+  "db": -13
+ },
+ {
+  "t": 13.653,
+  "sfx": "impacto/impacto-1",
+  "db": -5
+ },
+ {
+  "t": 13.653,
+  "sfx": "carimbo/carimbo-1",
+  "db": -9
+ },
+ {
+  "t": 14.952,
+  "sfx": "whoosh-grande/whoosh-grande-1",
+  "db": -13
+ },
+ {
+  "t": 18.725,
+  "sfx": "whoosh/whoosh-2",
+  "db": -15
+ },
+ {
+  "t": 22.889,
+  "sfx": "glitch/glitch-2",
+  "db": -14
+ },
+ {
+  "t": 24.828,
+  "sfx": "carimbo/carimbo-2",
+  "db": -8
+ },
+ {
+  "t": 24.828,
+  "sfx": "impacto/impacto-3",
+  "db": -12
+ },
+ {
+  "t": 29.261,
+  "sfx": "glitch/glitch-3",
+  "db": -14
+ },
+ {
+  "t": 32.897,
+  "sfx": "whoosh/whoosh-3",
+  "db": -15
+ },
+ {
+  "t": 39.303,
+  "sfx": "impacto/impacto-3",
+  "db": -9
+ },
+ {
+  "t": 42.379,
+  "sfx": "relogio/relogio-1",
+  "db": -12
+ },
+ {
+  "t": 45.267,
+  "sfx": "carimbo/carimbo-1",
+  "db": -9
+ },
+ {
+  "t": 46.128,
+  "sfx": "whoosh-grande/whoosh-grande-2",
+  "db": -14
+ },
+ {
+  "t": 49.903,
+  "sfx": "carimbo/carimbo-2",
+  "db": -10
+ },
+ {
+  "t": 51.008,
+  "sfx": "impacto/impacto-2",
+  "db": -6
+ },
+ {
+  "t": 55.996,
+  "sfx": "papel/papel-1",
+  "db": -9
+ },
+ {
+  "t": 57.247,
+  "sfx": "papel/papel-2",
+  "db": -9
+ },
+ {
+  "t": 58.384,
+  "sfx": "papel/papel-3",
+  "db": -9
+ },
+ {
+  "t": 60.298,
+  "sfx": "whoosh/whoosh-4",
+  "db": -15
+ },
+ {
+  "t": 61.718,
+  "sfx": "carimbo/carimbo-1",
+  "db": -6
+ },
+ {
+  "t": 63.323,
+  "sfx": "whoosh/whoosh-1",
+  "db": -15
+ },
+ {
+  "t": 66.348,
+  "sfx": "impacto/impacto-3",
+  "db": -10
+ },
+ {
+  "t": 68.746,
+  "sfx": "whoosh-grande/whoosh-grande-3",
+  "db": -14
+ },
+ {
+  "t": 74.4,
+  "sfx": "digitacao/digitacao-1",
+  "db": -14
+ },
+ {
+  "t": 75.208,
+  "sfx": "riser/riser-2",
+  "db": -9
+ },
+ {
+  "t": 77.058,
+  "sfx": "impacto/impacto-1",
+  "db": -3
+ },
+ {
+  "t": 77.958,
+  "sfx": "digitacao/digitacao-2",
+  "db": -15
+ }
+]
