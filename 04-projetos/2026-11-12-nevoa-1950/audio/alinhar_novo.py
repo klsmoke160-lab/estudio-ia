@@ -1,10 +1,10 @@
 """Alinha o roteiro com a narração nova (áudio B): descobre quando cada frase começa e termina,
 abre um intervalo para o título depois da abertura e grava timeline_novo.json + narracao_video.wav."""
-import json, re, subprocess, pathlib, unicodedata, difflib
+import json, re, subprocess, pathlib, unicodedata, difflib, os
 from faster_whisper import WhisperModel
-p=pathlib.Path(__file__).parent; N=p.parent/"narracao"; SRC=N/"narracao_final_B.wav"
+p=pathlib.Path(__file__).parent; N=p.parent/"narracao"; AUD=os.environ.get("AUDIO","narracao_final_B"); SRC=N/f"{AUD}.wav"
 norm=lambda s:re.sub(r"[^a-z0-9 ]","",unicodedata.normalize("NFD",s.lower()).encode("ascii","ignore").decode())
-cache=p/"palavras_B.json"
+cache=p/f"palavras_{AUD}.json"
 if cache.exists(): aw=json.load(open(cache))
 else:
     m=WhisperModel("small",compute_type="int8")
