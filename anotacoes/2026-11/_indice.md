@@ -1,0 +1,1 @@
+- 12/11 — [Setup das ferramentas num contêiner Linux](2026-11-12-setup-ferramentas.md)
