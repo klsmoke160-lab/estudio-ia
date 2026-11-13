@@ -46,3 +46,4 @@ Estes pontos do roteiro vieram da memória da IA, sem documento conferido nesta 
 |---|---|---|---|
 | v1 | `render/perfeita-docilidade-v1.mp4` | 2026-11-13 | 14 min 2 s, 210 planos (70 de documento com marca-texto, 140 de filme de arquivo), voz provisória `pt_BR-cadu` |
 | v2 | `render/perfeita-docilidade-v2.mp4` | 2026-11-13 | Estilo da referência 04: cor saturada e duotone, vermelho monocromático, 258 planos (média 3,3 s), 14 frases entre aspas, legenda amarela; voz provisória |
+| v3 | `render/perfeita-docilidade-v3.mp4` | 2026-11-13 | Igual à v2, com datas e nomes em texto grande no alto, sem faixa (pedido do dono) |

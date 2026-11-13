@@ -234,9 +234,11 @@ def overlays(s,ov):
             if any(x["tipo"] in("cap","titulo","quote") and x["a"]<o["b"] and x["b"]>o["a"] for x in ov): continue
             fl.append(f"drawtext=fontfile={esc(SANS)}:textfile={tf(o['txt'])}:fontsize=40:fontcolor=0xF4E04D:x=(w-text_w)/2:y=h-150:borderw=3:bordercolor=black@0.85:{en}")
         elif o["tipo"]=="key":
-            fs=92 if len(o["txt"])<22 else (66 if len(o["txt"])<34 else 50)
-            fl+= [f"drawbox=x=0:y=ih-560:w=iw:h=200:color=black@0.55:t=fill:{en}",f"drawbox=x=120:y=ih-532:w=8:h=144:color=0xE2333B@0.95:t=fill:{en}",
-                  f"drawtext=fontfile={esc(ANTON)}:textfile={tf(o['txt'])}:fontsize={fs}:fontcolor=0xECE6D6:x=160:y=h-560+(200-text_h)/2:alpha='{al}':shadowcolor=black@0.8:shadowx=3:shadowy=4"]
+            fs=150 if len(o["txt"])<16 else (112 if len(o["txt"])<24 else (80 if len(o["txt"])<34 else 60))
+            # estilo da referência 04: texto grande e branco no alto, sem faixa, com sombra suave e traço vermelho que cresce
+            sl=f"if(lt(t\\,{a:.3f})\\,0\\,min(1\\,(t-{a:.3f})/0.35))"
+            fl+= [f"drawtext=fontfile={esc(ANTON)}:textfile={tf(o['txt'])}:fontsize={fs}:fontcolor=white:x=110-40*(1-{sl}):y=96:alpha='{al}':shadowcolor=black@0.75:shadowx=0:shadowy=6:borderw=2:bordercolor=black@0.35",
+                  f"drawbox=x=114:y=96+{fs}*1.36:w=150:h=7:color=0xE2333B@0.95:t=fill:enable='between(t,{a+0.15:.3f},{b-0.3:.3f})'"]
         else:
             fl.append(f"drawtext=fontfile={esc(ELITE)}:textfile={tf(o['txt'])}:fontsize=28:fontcolor=0xD8D2C2:x=w-text_w-70:y=70:alpha='{al}':shadowcolor=black@0.9:shadowx=2:shadowy=2")
     return fl
