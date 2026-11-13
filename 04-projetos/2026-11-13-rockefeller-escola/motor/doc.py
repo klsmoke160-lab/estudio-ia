@@ -19,7 +19,7 @@ def render_doc(page,out,dur,boxes=None,t_marca=None,foco=None,extra_vf=None,zoom
     elif foco: c1=(PAD+foco[0],PAD+foco[1]); w1=foco[2]
     else: c1=(PAD+pw/2,PAD+ph*0.36); w1=w0*(zoom_fim or 0.62)
     nf=round(dur*FPS); tm=t_marca if t_marca is not None else dur*0.38
-    vf=["eq=contrast=1.16:brightness=-0.09:saturation=0.82","colorbalance=rs=0.03:bs=-0.03:rm=0.02","vignette=angle=PI/3.6","noise=alls=8:allf=t+u"]+(extra_vf or [])+["format=yuv420p"]
+    vf=["eq=contrast=1.24:brightness=-0.08:saturation=1.35","colorbalance=rs=0.04:gs=0.03:bs=-0.10:rm=0.06:gm=0.04:bm=-0.12","vignette=angle=PI/3.2","noise=alls=9:allf=t+u"]+(extra_vf or [])+["format=yuv420p"]
     ff=subprocess.Popen(["ffmpeg","-loglevel","error","-y","-f","rawvideo","-pix_fmt","rgb24","-s",f"{W}x{H}","-r",str(FPS),"-i","-","-vf",",".join(vf),
         "-frames:v",str(nf),"-c:v","libx264","-preset","veryfast","-crf","22","-video_track_timescale","12288",out],stdin=subprocess.PIPE)
     for f in range(nf):
