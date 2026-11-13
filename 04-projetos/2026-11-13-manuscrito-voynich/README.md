@@ -1,6 +1,6 @@
 # O livro que ninguém consegue ler: o Manuscrito Voynich
 
-> Data: 2026-11-13 · Tipo: projeto · Status: em produção
+> Data: 2026-11-13 · Tipo: projeto · Status: pausado (o dono achou o tema genérico)
 
 **Resumo:** documentário de mistério de cerca de 15 minutos sobre o Manuscrito Voynich, para o canal do dono no YouTube. As imagens são as páginas reais do manuscrito (digitalização de Yale, Beinecke MS 408), com tratamento cinematográfico no estilo das referências do dono.
 

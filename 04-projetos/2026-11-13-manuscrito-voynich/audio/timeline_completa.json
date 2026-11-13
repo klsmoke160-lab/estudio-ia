@@ -1,0 +1,1543 @@
+{
+ "intro": 1.5,
+ "total": 920.348,
+ "frases": [
+  {
+   "texto": "Existe um livro que ninguém no mundo consegue ler.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 1,
+   "ini": 1.5,
+   "fim": 4.379
+  },
+  {
+   "texto": "Ele tem cerca de duzentas e quarenta páginas.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 2,
+   "ini": 5.129,
+   "fim": 8.334
+  },
+  {
+   "texto": "Mostra plantas que nenhum botânico reconhece.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 3,
+   "ini": 8.694,
+   "fim": 11.666
+  },
+  {
+   "texto": "Mostra mulheres nuas dentro de piscinas verdes, ligadas por tubos que parecem órgãos.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 4,
+   "ini": 12.026,
+   "fim": 17.703
+  },
+  {
+   "texto": "Mostra círculos de estrelas, signos do zodíaco e fileiras de potes de farmácia.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 5,
+   "ini": 18.063,
+   "fim": 23.276
+  },
+  {
+   "texto": "E, ao redor de tudo isso, há um texto.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 6,
+   "ini": 24.026,
+   "fim": 27.033
+  },
+  {
+   "texto": "Linhas e mais linhas, escritas com calma, da esquerda para a direita, num alfabeto que não aparece em nenhum outro documento conhecido.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 7,
+   "ini": 27.393,
+   "fim": 35.183
+  },
+  {
+   "texto": "Não é uma lenda.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 8,
+   "ini": 35.933,
+   "fim": 37.361
+  },
+  {
+   "texto": "O livro existe, pode ser tocado, e já passou por um laboratório.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 9,
+   "ini": 37.721,
+   "fim": 41.889
+  },
+  {
+   "texto": "O pergaminho tem cerca de seiscentos anos.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 10,
+   "ini": 42.249,
+   "fim": 45.442
+  },
+  {
+   "texto": "Criptógrafos que quebraram códigos de guerra tentaram decifrá-lo.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 11,
+   "ini": 46.192,
+   "fim": 50.07
+  },
+  {
+   "texto": "Linguistas tentaram.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 12,
+   "ini": 50.43,
+   "fim": 52.16
+  },
+  {
+   "texto": "Computadores tentaram.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 13,
+   "ini": 52.52,
+   "fim": 54.342
+  },
+  {
+   "texto": "Até hoje, ninguém demonstrou o significado de uma única palavra.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 14,
+   "ini": 55.092,
+   "fim": 59.237
+  },
+  {
+   "texto": "Para entender por que esse livro resiste há tanto tempo, precisamos começar pelo homem que lhe deu o nome.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 15,
+   "ini": 59.987,
+   "fim": 65.56
+  },
+  {
+   "texto": "E por uma compra feita em silêncio.",
+   "cap": "ABERTURA",
+   "pausa": 6.0,
+   "i": 16,
+   "ini": 65.92,
+   "fim": 68.439,
+   "titulo_ini": 69.439
+  },
+  {
+   "texto": "Em 1912, um comerciante de livros raros chamado Wilfrid Voynich viajou até os arredores de Roma.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.75,
+   "i": 17,
+   "ini": 74.439,
+   "fim": 81.37
+  },
+  {
+   "texto": "Ali ficava a Villa Mondragone, um antigo palácio usado pelos jesuítas.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.36,
+   "i": 18,
+   "ini": 82.12,
+   "fim": 86.753
+  },
+  {
+   "texto": "A ordem precisava de dinheiro e decidiu vender, discretamente, parte de uma coleção de manuscritos.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.75,
+   "i": 19,
+   "ini": 87.113,
+   "fim": 93.556
+  },
+  {
+   "texto": "Voynich examinou os baús.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.36,
+   "i": 20,
+   "ini": 94.306,
+   "fim": 96.338
+  },
+  {
+   "texto": "Entre volumes ricamente decorados, um deles destoava.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.36,
+   "i": 21,
+   "ini": 96.698,
+   "fim": 100.553
+  },
+  {
+   "texto": "Era pequeno, sem ouro, com a capa simples.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.36,
+   "i": 22,
+   "ini": 100.913,
+   "fim": 104.326
+  },
+  {
+   "texto": "Ele mesmo o descreveria depois como um patinho feio.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.75,
+   "i": 23,
+   "ini": 104.686,
+   "fim": 107.728
+  },
+  {
+   "texto": "Mas, ao abrir, percebeu que não conseguia ler nada.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.75,
+   "i": 24,
+   "ini": 108.478,
+   "fim": 112.158
+  },
+  {
+   "texto": "Não era latim, nem grego, nem hebraico, nem árabe.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.36,
+   "i": 25,
+   "ini": 112.908,
+   "fim": 116.844
+  },
+  {
+   "texto": "Não era nenhuma escrita que um livreiro experiente já tivesse visto.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.75,
+   "i": 26,
+   "ini": 117.204,
+   "fim": 121.024
+  },
+  {
+   "texto": "Voynich comprou o lote.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.36,
+   "i": 27,
+   "ini": 121.774,
+   "fim": 123.562
+  },
+  {
+   "texto": "E passou o resto da vida tentando descobrir o que tinha nas mãos.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.75,
+   "i": 28,
+   "ini": 123.922,
+   "fim": 127.962
+  },
+  {
+   "texto": "Ele nunca conseguiu.",
+   "cap": "O LIVREIRO",
+   "pausa": 0.36,
+   "i": 29,
+   "ini": 128.712,
+   "fim": 130.291
+  },
+  {
+   "texto": "Mas o nome dele ficou preso ao livro para sempre:",
+   "cap": "O LIVREIRO",
+   "pausa": 0.36,
+   "i": 30,
+   "ini": 130.651,
+   "fim": 133.518
+  },
+  {
+   "texto": "o Manuscrito Voynich.",
+   "cap": "O LIVREIRO",
+   "pausa": 1.9,
+   "i": 31,
+   "ini": 133.878,
+   "fim": 135.701
+  },
+  {
+   "texto": "Quem folheia o manuscrito percebe que ele parece organizado em partes.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.75,
+   "i": 32,
+   "ini": 137.601,
+   "fim": 141.839
+  },
+  {
+   "texto": "A primeira, e a maior, lembra um herbário.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.36,
+   "i": 33,
+   "ini": 142.589,
+   "fim": 145.886
+  },
+  {
+   "texto": "Cada página traz uma planta desenhada, com raízes, folhas e flores, cercada de texto.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.36,
+   "i": 34,
+   "ini": 146.246,
+   "fim": 152.736
+  },
+  {
+   "texto": "O problema é que quase nenhuma dessas plantas foi identificada com segurança.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.36,
+   "i": 35,
+   "ini": 153.096,
+   "fim": 157.612
+  },
+  {
+   "texto": "Algumas parecem montadas com pedaços de espécies diferentes.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.75,
+   "i": 36,
+   "ini": 157.972,
+   "fim": 162.059
+  },
+  {
+   "texto": "Depois vêm páginas com círculos, estrelas, sóis e luas.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.36,
+   "i": 37,
+   "ini": 162.809,
+   "fim": 167.569
+  },
+  {
+   "texto": "Em algumas, aparecem os signos do zodíaco, cercados por pequenas figuras femininas segurando estrelas.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.75,
+   "i": 38,
+   "ini": 167.929,
+   "fim": 174.605
+  },
+  {
+   "texto": "Em seguida, a parte mais estranha.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.36,
+   "i": 39,
+   "ini": 175.355,
+   "fim": 178.014
+  },
+  {
+   "texto": "Dezenas de mulheres nuas, em piscinas e banheiras de líquido verde, conectadas por canais e tubos.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.75,
+   "i": 40,
+   "ini": 178.374,
+   "fim": 184.689
+  },
+  {
+   "texto": "Há também grandes folhas dobradas, com diagramas em forma de roseta.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.36,
+   "i": 41,
+   "ini": 185.439,
+   "fim": 189.607
+  },
+  {
+   "texto": "E páginas com potes, raízes e folhas soltas, como um catálogo de farmácia.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.75,
+   "i": 42,
+   "ini": 189.967,
+   "fim": 195.122
+  },
+  {
+   "texto": "O livro termina com páginas só de texto, em parágrafos curtos, cada um marcado por uma pequena estrela na margem.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.75,
+   "i": 43,
+   "ini": 195.872,
+   "fim": 202.989
+  },
+  {
+   "texto": "São cerca de trinta e cinco mil palavras.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.36,
+   "i": 44,
+   "ini": 203.739,
+   "fim": 206.7
+  },
+  {
+   "texto": "E quase não há sinais de correção.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 0.36,
+   "i": 45,
+   "ini": 207.06,
+   "fim": 209.486
+  },
+  {
+   "texto": "Quem escreveu parecia saber exatamente o que estava fazendo.",
+   "cap": "O QUE HÁ DENTRO",
+   "pausa": 1.9,
+   "i": 46,
+   "ini": 209.846,
+   "fim": 213.422
+  },
+  {
+   "texto": "Dentro do manuscrito, Voynich encontrou uma pista.",
+   "cap": "A CARTA",
+   "pausa": 0.36,
+   "i": 47,
+   "ini": 215.322,
+   "fim": 218.724
+  },
+  {
+   "texto": "Uma carta.",
+   "cap": "A CARTA",
+   "pausa": 0.75,
+   "i": 48,
+   "ini": 219.084,
+   "fim": 220.314
+  },
+  {
+   "texto": "Ela foi escrita em Praga, na década de 1660, por um médico chamado Johannes Marcus Marci.",
+   "cap": "A CARTA",
+   "pausa": 0.36,
+   "i": 49,
+   "ini": 221.064,
+   "fim": 227.67
+  },
+  {
+   "texto": "O destinatário era Athanasius Kircher, um jesuíta de Roma famoso por afirmar que conseguia decifrar hieróglifos egípcios.",
+   "cap": "A CARTA",
+   "pausa": 0.75,
+   "i": 50,
+   "ini": 228.03,
+   "fim": 235.263
+  },
+  {
+   "texto": "Marci enviava o livro a Kircher como um desafio.",
+   "cap": "A CARTA",
+   "pausa": 0.36,
+   "i": 51,
+   "ini": 236.013,
+   "fim": 238.997
+  },
+  {
+   "texto": "E contava o que tinha ouvido sobre ele.",
+   "cap": "A CARTA",
+   "pausa": 0.75,
+   "i": 52,
+   "ini": 239.357,
+   "fim": 242.028
+  },
+  {
+   "texto": "Segundo a carta, o manuscrito teria pertencido ao imperador Rodolfo Segundo, que governou em Praga cercado de alquimistas, astrólogos e colecionadores de curiosidades.",
+   "cap": "A CARTA",
+   "pausa": 0.36,
+   "i": 53,
+   "ini": 242.778,
+   "fim": 252.843
+  },
+  {
+   "texto": "O imperador teria pago seiscentos ducados por ele.",
+   "cap": "A CARTA",
+   "pausa": 0.36,
+   "i": 54,
+   "ini": 253.203,
+   "fim": 256.71
+  },
+  {
+   "texto": "Uma fortuna.",
+   "cap": "A CARTA",
+   "pausa": 0.75,
+   "i": 55,
+   "ini": 257.07,
+   "fim": 258.347
+  },
+  {
+   "texto": "A carta dizia ainda que, na corte, acreditava-se que o autor era Roger Bacon, um frade inglês do século treze.",
+   "cap": "A CARTA",
+   "pausa": 0.75,
+   "i": 56,
+   "ini": 259.097,
+   "fim": 266.806
+  },
+  {
+   "texto": "Mas o próprio Marci foi cuidadoso.",
+   "cap": "A CARTA",
+   "pausa": 0.36,
+   "i": 57,
+   "ini": 267.556,
+   "fim": 270.063
+  },
+  {
+   "texto": "Ele escreveu que, sobre esse ponto, preferia suspender o julgamento.",
+   "cap": "A CARTA",
+   "pausa": 0.75,
+   "i": 58,
+   "ini": 270.423,
+   "fim": 274.708
+  },
+  {
+   "texto": "Era uma boa decisão.",
+   "cap": "A CARTA",
+   "pausa": 0.36,
+   "i": 59,
+   "ini": 275.458,
+   "fim": 277.164
+  },
+  {
+   "texto": "Porque a história do livro guardava outra marca, que ninguém via a olho nu.",
+   "cap": "A CARTA",
+   "pausa": 1.9,
+   "i": 60,
+   "ini": 277.524,
+   "fim": 281.959
+  },
+  {
+   "texto": "Na primeira página do manuscrito, existe uma área em que a tinta foi raspada.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.75,
+   "i": 61,
+   "ini": 283.859,
+   "fim": 288.492
+  },
+  {
+   "texto": "Sob luz ultravioleta, o que estava ali reaparece.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.36,
+   "i": 62,
+   "ini": 289.242,
+   "fim": 292.794
+  },
+  {
+   "texto": "É um nome:",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.36,
+   "i": 63,
+   "ini": 293.154,
+   "fim": 294.315
+  },
+  {
+   "texto": "Jacobus Horcicky de Tepenecz.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.75,
+   "i": 64,
+   "ini": 294.675,
+   "fim": 297.206
+  },
+  {
+   "texto": "Horcicky foi químico e médico na corte de Rodolfo Segundo.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.36,
+   "i": 65,
+   "ini": 297.956,
+   "fim": 301.718
+  },
+  {
+   "texto": "Ele só recebeu o título de Tepenecz em 1608, e morreu em 1622.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.36,
+   "i": 66,
+   "ini": 302.078,
+   "fim": 308.812
+  },
+  {
+   "texto": "Isso significa que, em algum momento entre essas datas, o livro esteve em Praga, nas mãos de um homem próximo do imperador.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.75,
+   "i": 67,
+   "ini": 309.172,
+   "fim": 316.323
+  },
+  {
+   "texto": "Depois dele, o manuscrito passou a um alquimista chamado Georg Baresch.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.36,
+   "i": 68,
+   "ini": 317.073,
+   "fim": 321.497
+  },
+  {
+   "texto": "Baresch ficou obcecado.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.36,
+   "i": 69,
+   "ini": 321.857,
+   "fim": 323.703
+  },
+  {
+   "texto": "Em 1639, escreveu a Kircher pedindo ajuda para entender aquele livro que, nas palavras dele, ocupava espaço inútil na sua biblioteca.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.75,
+   "i": 70,
+   "ini": 324.063,
+   "fim": 332.898
+  },
+  {
+   "texto": "Não há registro de que Kircher tenha conseguido.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.75,
+   "i": 71,
+   "ini": 333.648,
+   "fim": 336.527
+  },
+  {
+   "texto": "Quando Baresch morreu, o livro ficou com Marci.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.36,
+   "i": 72,
+   "ini": 337.277,
+   "fim": 340.412
+  },
+  {
+   "texto": "E Marci o enviou a Roma, com a carta.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.75,
+   "i": 73,
+   "ini": 340.772,
+   "fim": 343.384
+  },
+  {
+   "texto": "A partir daí, o rastro some por mais de duzentos anos.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 0.36,
+   "i": 74,
+   "ini": 344.134,
+   "fim": 348.082
+  },
+  {
+   "texto": "Até o baú na Villa Mondragone.",
+   "cap": "A ASSINATURA APAGADA",
+   "pausa": 1.9,
+   "i": 75,
+   "ini": 348.442,
+   "fim": 350.578
+  },
+  {
+   "texto": "Voynich apresentou o manuscrito ao público e desafiou os especialistas.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.75,
+   "i": 76,
+   "ini": 352.478,
+   "fim": 356.774
+  },
+  {
+   "texto": "O primeiro a anunciar uma solução foi William Newbold, professor da Universidade da Pensilvânia.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.36,
+   "i": 77,
+   "ini": 357.524,
+   "fim": 363.166
+  },
+  {
+   "texto": "Em 1921, ele afirmou que o texto escondia uma taquigrafia microscópica, e que provava que Roger Bacon tinha construído telescópios e microscópios séculos antes de todo mundo.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.75,
+   "i": 78,
+   "ini": 363.526,
+   "fim": 374.602
+  },
+  {
+   "texto": "Foi uma sensação.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.36,
+   "i": 79,
+   "ini": 375.352,
+   "fim": 376.942
+  },
+  {
+   "texto": "E durou dez anos.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.75,
+   "i": 80,
+   "ini": 377.302,
+   "fim": 379.102
+  },
+  {
+   "texto": "Em 1931, o pesquisador John Manly mostrou que os sinais microscópicos de Newbold eram apenas rachaduras da tinta envelhecida.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.36,
+   "i": 81,
+   "ini": 379.852,
+   "fim": 387.805
+  },
+  {
+   "texto": "O método permitia ler praticamente qualquer coisa.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.75,
+   "i": 82,
+   "ini": 388.165,
+   "fim": 391.276
+  },
+  {
+   "texto": "Depois veio William Friedman, um dos maiores criptógrafos do século vinte.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.36,
+   "i": 83,
+   "ini": 392.026,
+   "fim": 396.844
+  },
+  {
+   "texto": "A equipe dele quebrou a cifra diplomática japonesa conhecida como Púrpura, antes da Segunda Guerra.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.75,
+   "i": 84,
+   "ini": 397.204,
+   "fim": 402.905
+  },
+  {
+   "texto": "Friedman reuniu grupos de estudo e voltou ao manuscrito por décadas.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.36,
+   "i": 85,
+   "ini": 403.655,
+   "fim": 407.707
+  },
+  {
+   "texto": "Não conseguiu ler nada.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.75,
+   "i": 86,
+   "ini": 408.067,
+   "fim": 409.89
+  },
+  {
+   "texto": "No fim, deixou registrada uma suspeita:",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.36,
+   "i": 87,
+   "ini": 410.64,
+   "fim": 413.705
+  },
+  {
+   "texto": "a de que aquilo não era uma cifra comum, mas uma tentativa antiga de construir uma língua artificial.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.75,
+   "i": 88,
+   "ini": 414.065,
+   "fim": 419.928
+  },
+  {
+   "texto": "Ele nunca provou isso.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.36,
+   "i": 89,
+   "ini": 420.678,
+   "fim": 422.466
+  },
+  {
+   "texto": "E a pergunta seguinte passou a ser outra.",
+   "cap": "OS DECIFRADORES",
+   "pausa": 0.36,
+   "i": 90,
+   "ini": 422.826,
+   "fim": 425.333
+  },
+  {
+   "texto": "Quando, exatamente, esse livro foi feito?",
+   "cap": "OS DECIFRADORES",
+   "pausa": 1.9,
+   "i": 91,
+   "ini": 425.693,
+   "fim": 428.933
+  },
+  {
+   "texto": "Durante quase um século, a idade do manuscrito foi uma questão de opinião.",
+   "cap": "A DATA",
+   "pausa": 0.75,
+   "i": 92,
+   "ini": 430.833,
+   "fim": 435.662
+  },
+  {
+   "texto": "Uns apostavam no século treze, por causa de Bacon.",
+   "cap": "A DATA",
+   "pausa": 0.36,
+   "i": 93,
+   "ini": 436.412,
+   "fim": 440.29
+  },
+  {
+   "texto": "Outros, no século dezesseis.",
+   "cap": "A DATA",
+   "pausa": 0.36,
+   "i": 94,
+   "ini": 440.65,
+   "fim": 443.193
+  },
+  {
+   "texto": "E havia quem suspeitasse do próprio Voynich.",
+   "cap": "A DATA",
+   "pausa": 0.36,
+   "i": 95,
+   "ini": 443.553,
+   "fim": 446.432
+  },
+  {
+   "texto": "Um livreiro que encontra um tesouro indecifrável tem muito a ganhar com ele.",
+   "cap": "A DATA",
+   "pausa": 0.75,
+   "i": 96,
+   "ini": 446.792,
+   "fim": 450.844
+  },
+  {
+   "texto": "Em 2009, pequenas amostras do pergaminho foram levadas à Universidade do Arizona para datação por carbono catorze.",
+   "cap": "A DATA",
+   "pausa": 0.75,
+   "i": 97,
+   "ini": 451.594,
+   "fim": 458.827
+  },
+  {
+   "texto": "O resultado:",
+   "cap": "A DATA",
+   "pausa": 0.36,
+   "i": 98,
+   "ini": 459.577,
+   "fim": 460.889
+  },
+  {
+   "texto": "o pergaminho foi preparado entre 1404 e 1438.",
+   "cap": "A DATA",
+   "pausa": 0.75,
+   "i": 99,
+   "ini": 461.249,
+   "fim": 466.496
+  },
+  {
+   "texto": "Isso encerra algumas hipóteses.",
+   "cap": "A DATA",
+   "pausa": 0.36,
+   "i": 100,
+   "ini": 467.246,
+   "fim": 469.777
+  },
+  {
+   "texto": "Roger Bacon morreu mais de cem anos antes.",
+   "cap": "A DATA",
+   "pausa": 0.36,
+   "i": 101,
+   "ini": 470.137,
+   "fim": 473.144
+  },
+  {
+   "texto": "E um falsário do século vinte teria de encontrar centenas de folhas de pergaminho em branco do começo do século quinze, o que é muito improvável.",
+   "cap": "A DATA",
+   "pausa": 0.75,
+   "i": 102,
+   "ini": 473.504,
+   "fim": 481.318
+  },
+  {
+   "texto": "Mas é preciso cuidado com o que o teste mede.",
+   "cap": "A DATA",
+   "pausa": 0.36,
+   "i": 103,
+   "ini": 482.068,
+   "fim": 485.052
+  },
+  {
+   "texto": "Ele data a pele do animal.",
+   "cap": "A DATA",
+   "pausa": 0.36,
+   "i": 104,
+   "ini": 485.412,
+   "fim": 487.432
+  },
+  {
+   "texto": "Não data a tinta, nem o momento da escrita.",
+   "cap": "A DATA",
+   "pausa": 0.75,
+   "i": 105,
+   "ini": 487.792,
+   "fim": 490.799
+  },
+  {
+   "texto": "As análises da tinta e dos pigmentos, por sua vez, não encontraram nada incompatível com aquela época.",
+   "cap": "A DATA",
+   "pausa": 0.75,
+   "i": 106,
+   "ini": 491.549,
+   "fim": 497.714
+  },
+  {
+   "texto": "O mais provável, portanto, é que o livro seja um objeto genuíno do século quinze.",
+   "cap": "A DATA",
+   "pausa": 0.36,
+   "i": 107,
+   "ini": 498.464,
+   "fim": 504.013
+  },
+  {
+   "texto": "O que não diz nada sobre o que está escrito nele.",
+   "cap": "A DATA",
+   "pausa": 1.9,
+   "i": 108,
+   "ini": 504.373,
+   "fim": 507.578
+  },
+  {
+   "texto": "Se o texto não fala, os detalhes em volta dele dizem alguma coisa.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.75,
+   "i": 109,
+   "ini": 509.478,
+   "fim": 513.994
+  },
+  {
+   "texto": "A primeira pista está na caligrafia.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 110,
+   "ini": 514.744,
+   "fim": 517.345
+  },
+  {
+   "texto": "Nos anos setenta, o criptógrafo Prescott Currier percebeu que o livro parecia escrito em dois dialetos estatísticos diferentes, que ele chamou de língua A e língua B.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 111,
+   "ini": 517.705,
+   "fim": 526.865
+  },
+  {
+   "texto": "E que as mãos mudavam junto.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.75,
+   "i": 112,
+   "ini": 527.225,
+   "fim": 529.5
+  },
+  {
+   "texto": "Em 2020, a paleógrafa Lisa Fagin Davis examinou a forma das letras e concluiu que pelo menos cinco pessoas escreveram o manuscrito.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.75,
+   "i": 113,
+   "ini": 530.25,
+   "fim": 538.122
+  },
+  {
+   "texto": "Cinco escribas.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 114,
+   "ini": 538.872,
+   "fim": 540.521
+  },
+  {
+   "texto": "Isso torna menos provável a imagem de um louco solitário.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 115,
+   "ini": 540.881,
+   "fim": 544.259
+  },
+  {
+   "texto": "Um trabalho assim parece obra de um grupo, com um método combinado.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.75,
+   "i": 116,
+   "ini": 544.619,
+   "fim": 548.566
+  },
+  {
+   "texto": "A segunda pista está nas páginas do zodíaco.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 117,
+   "ini": 549.316,
+   "fim": 552.474
+  },
+  {
+   "texto": "Junto de cada signo, alguém anotou o nome de um mês, em letras comuns.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 118,
+   "ini": 552.834,
+   "fim": 557.641
+  },
+  {
+   "texto": "A grafia lembra dialetos do sul da França ou da Catalunha.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 119,
+   "ini": 558.001,
+   "fim": 561.797
+  },
+  {
+   "texto": "Mas essas anotações parecem ter sido feitas depois, por outra mão.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 120,
+   "ini": 562.157,
+   "fim": 566.894
+  },
+  {
+   "texto": "Talvez por um dos primeiros donos, tentando entender o que via.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.75,
+   "i": 121,
+   "ini": 567.254,
+   "fim": 570.818
+  },
+  {
+   "texto": "A terceira está na grande folha das rosetas.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 122,
+   "ini": 571.568,
+   "fim": 574.738
+  },
+  {
+   "texto": "Num dos círculos, há um castelo minúsculo, com ameias em forma de cauda de andorinha.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 123,
+   "ini": 575.098,
+   "fim": 580.531
+  },
+  {
+   "texto": "No século quinze, esse tipo de muralha era típico do norte da Itália e da região dos Alpes.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.75,
+   "i": 124,
+   "ini": 580.891,
+   "fim": 586.673
+  },
+  {
+   "texto": "E há a última página.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 125,
+   "ini": 587.423,
+   "fim": 589.176
+  },
+  {
+   "texto": "Nela, quatro linhas misturam palavras que parecem latim, palavras que parecem alemão e sinais do próprio alfabeto do livro.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 126,
+   "ini": 589.536,
+   "fim": 596.851
+  },
+  {
+   "texto": "Ninguém sabe se é uma chave, uma oração ou um teste de pena.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.75,
+   "i": 127,
+   "ini": 597.211,
+   "fim": 601.123
+  },
+  {
+   "texto": "Também faltam folhas.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 128,
+   "ini": 601.873,
+   "fim": 603.742
+  },
+  {
+   "texto": "A numeração antiga mostra que mais de uma dúzia delas desapareceu ao longo dos séculos.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.75,
+   "i": 129,
+   "ini": 604.102,
+   "fim": 609.385
+  },
+  {
+   "texto": "Nenhuma dessas pistas traduz o texto.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 130,
+   "ini": 610.135,
+   "fim": 612.875
+  },
+  {
+   "texto": "Mas, juntas, elas apontam para um lugar e um tempo:",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 0.36,
+   "i": 131,
+   "ini": 613.235,
+   "fim": 616.846
+  },
+  {
+   "texto": "a Europa central ou o norte da Itália, no começo do século quinze.",
+   "cap": "AS PISTAS NAS MARGENS",
+   "pausa": 1.9,
+   "i": 132,
+   "ini": 617.206,
+   "fim": 621.931
+  },
+  {
+   "texto": "As explicações se dividem em três famílias.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.75,
+   "i": 133,
+   "ini": 623.831,
+   "fim": 627.047
+  },
+  {
+   "texto": "A primeira diz que é uma cifra.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.36,
+   "i": 134,
+   "ini": 627.797,
+   "fim": 629.875
+  },
+  {
+   "texto": "Um texto comum, em latim ou em outra língua da época, escondido por um sistema de substituição.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.75,
+   "i": 135,
+   "ini": 630.235,
+   "fim": 636.47
+  },
+  {
+   "texto": "O problema é que as cifras do século quinze eram simples.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.36,
+   "i": 136,
+   "ini": 637.22,
+   "fim": 640.691
+  },
+  {
+   "texto": "E as técnicas modernas quebram esse tipo de sistema com facilidade.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.36,
+   "i": 137,
+   "ini": 641.051,
+   "fim": 645.196
+  },
+  {
+   "texto": "O Voynich não cedeu.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.75,
+   "i": 138,
+   "ini": 645.556,
+   "fim": 647.32
+  },
+  {
+   "texto": "A segunda diz que é uma língua de verdade, escrita num alfabeto inventado.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.36,
+   "i": 139,
+   "ini": 648.07,
+   "fim": 652.401
+  },
+  {
+   "texto": "Estudos estatísticos mostraram que a frequência das palavras segue padrões parecidos com os de idiomas reais.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.36,
+   "i": 140,
+   "ini": 652.761,
+   "fim": 659.007
+  },
+  {
+   "texto": "E que certas palavras se concentram em certas seções, como se o assunto mudasse junto com os desenhos.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.75,
+   "i": 141,
+   "ini": 659.367,
+   "fim": 665.706
+  },
+  {
+   "texto": "Mas o texto também tem comportamentos estranhos.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.36,
+   "i": 142,
+   "ini": 666.456,
+   "fim": 669.591
+  },
+  {
+   "texto": "Palavras quase iguais aparecem em sequência, duas, três vezes seguidas.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.36,
+   "i": 143,
+   "ini": 669.951,
+   "fim": 675.082
+  },
+  {
+   "texto": "E as palavras parecem montadas com peças que só ocupam posições fixas.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.75,
+   "i": 144,
+   "ini": 675.442,
+   "fim": 680.098
+  },
+  {
+   "texto": "A terceira família diz que não há mensagem nenhuma.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.36,
+   "i": 145,
+   "ini": 680.848,
+   "fim": 683.96
+  },
+  {
+   "texto": "Que alguém produziu um livro com aparência de segredo para vendê-lo caro.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.75,
+   "i": 146,
+   "ini": 684.32,
+   "fim": 688.406
+  },
+  {
+   "texto": "Em 2004, o pesquisador Gordon Rugg mostrou que, com uma tabela de sílabas e uma grade de papelão, uma técnica conhecida no século dezesseis, é possível gerar um texto com várias propriedades do Voynich.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.75,
+   "i": 147,
+   "ini": 689.156,
+   "fim": 701.161
+  },
+  {
+   "texto": "Isso prova que a fraude seria possível.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 0.36,
+   "i": 148,
+   "ini": 701.911,
+   "fim": 704.523
+  },
+  {
+   "texto": "Não prova que foi isso que aconteceu.",
+   "cap": "LÍNGUA, CIFRA OU FRAUDE",
+   "pausa": 1.9,
+   "i": 149,
+   "ini": 704.883,
+   "fim": 707.356
+  },
+  {
+   "texto": "A cada poucos anos, uma manchete anuncia que o mistério acabou.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.75,
+   "i": 150,
+   "ini": 709.256,
+   "fim": 713.494
+  },
+  {
+   "texto": "Em 2017, um artigo afirmou que o texto era um manual de saúde feminina, escrito em abreviações latinas.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.36,
+   "i": 151,
+   "ini": 714.244,
+   "fim": 721.245
+  },
+  {
+   "texto": "Em 2019, outro defendeu que se tratava de uma língua proto-românica desaparecida.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.75,
+   "i": 152,
+   "ini": 721.605,
+   "fim": 727.456
+  },
+  {
+   "texto": "Os dois casos seguiram o mesmo roteiro.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.36,
+   "i": 153,
+   "ini": 728.206,
+   "fim": 730.981
+  },
+  {
+   "texto": "A notícia correu o mundo em horas.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.36,
+   "i": 154,
+   "ini": 731.341,
+   "fim": 733.79
+  },
+  {
+   "texto": "E, em poucos dias, especialistas em manuscritos medievais e em linguística mostraram que os métodos não se sustentavam.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.75,
+   "i": 155,
+   "ini": 734.15,
+   "fim": 742.254
+  },
+  {
+   "texto": "O padrão se repete há cem anos.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.36,
+   "i": 156,
+   "ini": 743.004,
+   "fim": 745.535
+  },
+  {
+   "texto": "Alguém traduz um punhado de palavras isoladas, escolhendo o significado que convém a cada uma.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.36,
+   "i": 157,
+   "ini": 745.895,
+   "fim": 751.805
+  },
+  {
+   "texto": "Mas, quando o mesmo método é aplicado a uma página inteira, o resultado não forma frases.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.75,
+   "i": 158,
+   "ini": 752.165,
+   "fim": 757.529
+  },
+  {
+   "texto": "Uma decifração de verdade teria de funcionar no livro todo.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.36,
+   "i": 159,
+   "ini": 758.279,
+   "fim": 761.97
+  },
+  {
+   "texto": "E qualquer pessoa, seguindo as mesmas regras, deveria chegar ao mesmo texto.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.75,
+   "i": 160,
+   "ini": 762.33,
+   "fim": 767.334
+  },
+  {
+   "texto": "Até hoje, nenhuma proposta passou nesse teste.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.75,
+   "i": 161,
+   "ini": 768.084,
+   "fim": 771.416
+  },
+  {
+   "texto": "Isso não significa que seja impossível.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 0.36,
+   "i": 162,
+   "ini": 772.166,
+   "fim": 774.732
+  },
+  {
+   "texto": "Significa apenas que, por enquanto, quem diz ter lido o Voynich ainda não conseguiu demonstrar.",
+   "cap": "AS SOLUÇÕES",
+   "pausa": 1.9,
+   "i": 163,
+   "ini": 775.092,
+   "fim": 780.514
+  },
+  {
+   "texto": "Wilfrid Voynich morreu em 1930, sem resposta.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.75,
+   "i": 164,
+   "ini": 782.414,
+   "fim": 787.116
+  },
+  {
+   "texto": "O manuscrito ficou com a viúva, Ethel, e depois com a secretária do casal.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.36,
+   "i": 165,
+   "ini": 787.866,
+   "fim": 792.626
+  },
+  {
+   "texto": "Em 1961, foi vendido a um livreiro de Nova York, Hans Kraus, por vinte e quatro mil e quinhentos dólares.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.75,
+   "i": 166,
+   "ini": 792.986,
+   "fim": 800.324
+  },
+  {
+   "texto": "Kraus tentou revendê-lo por um valor muito maior.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.36,
+   "i": 167,
+   "ini": 801.074,
+   "fim": 804.104
+  },
+  {
+   "texto": "Não encontrou comprador.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.75,
+   "i": 168,
+   "ini": 804.464,
+   "fim": 806.194
+  },
+  {
+   "texto": "Em 1969, ele doou o livro à Universidade Yale.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.36,
+   "i": 169,
+   "ini": 806.944,
+   "fim": 811.321
+  },
+  {
+   "texto": "Desde então, o manuscrito está guardado na Biblioteca Beinecke, catalogado com um número seco:",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.36,
+   "i": 170,
+   "ini": 811.681,
+   "fim": 817.811
+  },
+  {
+   "texto": "manuscrito quatrocentos e oito.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.75,
+   "i": 171,
+   "ini": 818.171,
+   "fim": 820.551
+  },
+  {
+   "texto": "Yale fotografou todas as páginas em alta resolução e as colocou na internet.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.75,
+   "i": 172,
+   "ini": 821.301,
+   "fim": 826.166
+  },
+  {
+   "texto": "Hoje, qualquer pessoa pode abrir o livro na tela, ampliar cada letra e tentar a sorte.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.75,
+   "i": 173,
+   "ini": 826.916,
+   "fim": 832.523
+  },
+  {
+   "texto": "Milhares tentam.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.36,
+   "i": 174,
+   "ini": 833.273,
+   "fim": 834.887
+  },
+  {
+   "texto": "De criptógrafos profissionais a curiosos de madrugada.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.75,
+   "i": 175,
+   "ini": 835.247,
+   "fim": 838.73
+  },
+  {
+   "texto": "As imagens que você viu neste vídeo são essas.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 0.36,
+   "i": 176,
+   "ini": 839.48,
+   "fim": 842.777
+  },
+  {
+   "texto": "Páginas reais, do livro real.",
+   "cap": "ONDE ESTÁ HOJE",
+   "pausa": 1.9,
+   "i": 177,
+   "ini": 843.137,
+   "fim": 845.297
+  },
+  {
+   "texto": "No começo, havia uma pergunta simples.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 178,
+   "ini": 847.197,
+   "fim": 850.157
+  },
+  {
+   "texto": "Por que ninguém consegue ler esse livro?",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 179,
+   "ini": 850.517,
+   "fim": 852.828
+  },
+  {
+   "texto": "A resposta honesta é que ainda não sabemos nem que tipo de coisa ele é.",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 180,
+   "ini": 853.578,
+   "fim": 857.769
+  },
+  {
+   "texto": "Sabemos que o pergaminho é do século quinze.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 181,
+   "ini": 858.519,
+   "fim": 861.433
+  },
+  {
+   "texto": "Sabemos que alguém gastou meses, talvez anos, desenhando plantas, estrelas e mulheres, e escrevendo dezenas de milhares de palavras sem hesitar.",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 182,
+   "ini": 861.793,
+   "fim": 871.545
+  },
+  {
+   "texto": "Sabemos que o livro passou por um imperador, por alquimistas, por jesuítas e por um livreiro que morreu sem entendê-lo.",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 183,
+   "ini": 872.295,
+   "fim": 878.936
+  },
+  {
+   "texto": "O que não sabemos é se existe alguma coisa ali para ser lida.",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 184,
+   "ini": 879.686,
+   "fim": 883.32
+  },
+  {
+   "texto": "Se for uma língua, é uma língua que mais ninguém escreveu.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 185,
+   "ini": 884.07,
+   "fim": 887.646
+  },
+  {
+   "texto": "Se for uma cifra, é a mais resistente da história.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 186,
+   "ini": 888.006,
+   "fim": 891.233
+  },
+  {
+   "texto": "E, se for uma fraude, é uma fraude que engana especialistas há seiscentos anos.",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 187,
+   "ini": 891.593,
+   "fim": 896.83
+  },
+  {
+   "texto": "Qualquer uma das três respostas seria extraordinária.",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 188,
+   "ini": 897.58,
+   "fim": 900.888
+  },
+  {
+   "texto": "E você?",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 189,
+   "ini": 901.638,
+   "fim": 902.765
+  },
+  {
+   "texto": "Acha que o Voynich guarda uma mensagem, ou que o maior segredo dele é não ter segredo nenhum?",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 190,
+   "ini": 903.125,
+   "fim": 908.326
+  },
+  {
+   "texto": "Me conta nos comentários.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 191,
+   "ini": 909.076,
+   "fim": 911.05
+  },
+  {
+   "texto": "E, para acompanhar outras histórias investigadas a partir de documentos, inscreva-se no canal.",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 192,
+   "ini": 911.41,
+   "fim": 917.598
+  }
+ ]
+}
