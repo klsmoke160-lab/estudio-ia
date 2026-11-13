@@ -1,1495 +1,3742 @@
 {
  "intro": 1.5,
- "total": 842.519,
+ "total": 879.994,
+ "voz": "supertonic-3 M5",
  "frases": [
   {
    "texto": "Em 1913, um homem de confiança de John Rockefeller publicou um texto sobre educação.",
    "cap": "ABERTURA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 1,
    "ini": 1.5,
-   "fim": 7.549
+   "fim": 8.597,
+   "t": [
+    1.5,
+    1.75,
+    2.251,
+    2.502,
+    3.003,
+    3.253,
+    4.088,
+    4.339,
+    4.756,
+    5.758,
+    6.51,
+    6.76,
+    7.261,
+    7.762
+   ]
   },
   {
    "texto": "Em uma das páginas, ele escreveu o seguinte.",
    "cap": "ABERTURA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 2,
-   "ini": 8.299,
-   "fim": 11.445
+   "ini": 9.397,
+   "fim": 12.311,
+   "t": [
+    9.397,
+    9.591,
+    9.85,
+    10.109,
+    10.692,
+    10.951,
+    11.534,
+    11.663
+   ]
   },
   {
    "texto": "No nosso sonho, temos recursos ilimitados, e o povo se entrega, com perfeita docilidade, à nossa mão moldadora.",
    "cap": "ABERTURA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 3,
-   "ini": 12.195,
-   "fim": 19.73
+   "ini": 13.111,
+   "fim": 21.141,
+   "t": [
+    13.111,
+    13.326,
+    13.756,
+    14.258,
+    14.688,
+    15.333,
+    16.194,
+    16.337,
+    16.48,
+    16.839,
+    17.054,
+    17.699,
+    17.986,
+    18.631,
+    19.492,
+    19.635,
+    20.065,
+    20.352
+   ]
   },
   {
    "texto": "E continuou.",
    "cap": "ABERTURA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 4,
-   "ini": 20.48,
-   "fim": 21.78
+   "ini": 21.941,
+   "fim": 22.751,
+   "t": [
+    21.941,
+    22.065
+   ]
   },
   {
    "texto": "Não tentaremos fazer dessas pessoas, nem de nenhum de seus filhos, filósofos, homens de saber ou de ciência.",
    "cap": "ABERTURA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 5,
-   "ini": 22.14,
-   "fim": 28.584
+   "ini": 23.171,
+   "fim": 30.652,
+   "t": [
+    23.171,
+    23.445,
+    24.2,
+    24.612,
+    25.093,
+    25.71,
+    25.985,
+    26.191,
+    26.671,
+    26.877,
+    27.22,
+    27.77,
+    28.525,
+    29.005,
+    29.211,
+    29.623,
+    29.829,
+    30.035
+   ]
   },
   {
    "texto": "Essa página não é uma invenção da internet.",
    "cap": "ABERTURA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 6,
-   "ini": 29.334,
-   "fim": 32.236
+   "ini": 31.452,
+   "fim": 34.485,
+   "t": [
+    31.452,
+    31.797,
+    32.28,
+    32.555,
+    32.693,
+    32.969,
+    33.589,
+    33.796
+   ]
   },
   {
    "texto": "Ela foi impressa, está arquivada, e você está olhando para ela agora.",
    "cap": "ABERTURA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 7,
-   "ini": 32.596,
-   "fim": 36.938
+   "ini": 34.905,
+   "fim": 39.714,
+   "t": [
+    34.905,
+    35.18,
+    35.455,
+    36.142,
+    36.485,
+    37.241,
+    37.378,
+    37.722,
+    38.065,
+    38.615,
+    38.958,
+    39.233
+   ]
   },
   {
    "texto": "É a partir dela que nasce uma das teorias mais repetidas do nosso tempo.",
    "cap": "ABERTURA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 8,
-   "ini": 37.688,
-   "fim": 41.833
+   "ini": 40.514,
+   "fim": 45.375,
+   "t": [
+    40.514,
+    40.647,
+    40.78,
+    41.247,
+    41.58,
+    41.846,
+    42.245,
+    42.512,
+    42.778,
+    43.311,
+    43.644,
+    44.31,
+    44.51,
+    44.909
+   ]
   },
   {
    "texto": "A de que a escola obrigatória foi desenhada por milionários para fabricar trabalhadores obedientes.",
    "cap": "ABERTURA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 9,
-   "ini": 42.193,
-   "fim": 47.441
+   "ini": 45.795,
+   "fim": 52.574,
+   "t": [
+    45.795,
+    45.931,
+    46.134,
+    46.405,
+    46.541,
+    47.015,
+    47.829,
+    48.1,
+    48.778,
+    49.049,
+    49.862,
+    50.201,
+    50.811,
+    51.76
+   ]
   },
   {
    "texto": "A frase é real.",
    "cap": "ABERTURA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 10,
-   "ini": 48.191,
-   "fim": 49.654
+   "ini": 53.374,
+   "fim": 54.286,
+   "t": [
+    53.374,
+    53.488,
+    53.83,
+    53.944
+   ]
   },
   {
    "texto": "A pergunta é outra.",
    "cap": "ABERTURA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 11,
-   "ini": 50.014,
-   "fim": 51.674
+   "ini": 54.706,
+   "fim": 55.857,
+   "t": [
+    54.706,
+    54.821,
+    55.339,
+    55.454
+   ]
   },
   {
    "texto": "O que ela prova?",
    "cap": "ABERTURA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 12,
-   "ini": 52.034,
-   "fim": 53.439
+   "ini": 56.277,
+   "fim": 57.126,
+   "t": [
+    56.277,
+    56.376,
+    56.576,
+    56.776
+   ]
   },
   {
    "texto": "Para responder, precisamos abrir os documentos.",
    "cap": "ABERTURA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 13,
-   "ini": 54.189,
-   "fim": 57.312
+   "ini": 57.926,
+   "fim": 60.989,
+   "t": [
+    57.926,
+    58.245,
+    58.947,
+    59.649,
+    60.032,
+    60.223
+   ]
   },
   {
    "texto": "Os de Rockefeller, e os que vieram muito antes dele.",
    "cap": "ABERTURA",
    "pausa": 6.0,
    "i": 14,
-   "ini": 57.672,
-   "fim": 61.085,
-   "titulo_ini": 62.085
+   "ini": 61.409,
+   "fim": 64.597,
+   "t": [
+    61.409,
+    61.59,
+    61.77,
+    62.552,
+    62.672,
+    62.853,
+    63.093,
+    63.514,
+    63.875,
+    64.236
+   ],
+   "titulo_ini": 65.597
   },
   {
    "texto": "O autor do texto se chamava Frederick Gates.",
    "cap": "O HOMEM POR TRÁS DA FRASE",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 15,
-   "ini": 67.085,
-   "fim": 70.278
+   "ini": 70.597,
+   "fim": 73.477,
+   "t": [
+    70.597,
+    70.725,
+    71.109,
+    71.301,
+    71.685,
+    71.877,
+    72.389,
+    73.029
+   ]
   },
   {
    "texto": "Gates era um pastor batista que se tornou o principal conselheiro de Rockefeller para doações.",
    "cap": "O HOMEM POR TRÁS DA FRASE",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 16,
-   "ini": 71.028,
-   "fim": 76.264
+   "ini": 74.277,
+   "fim": 80.692,
+   "t": [
+    74.277,
+    74.682,
+    74.952,
+    75.154,
+    75.627,
+    76.167,
+    76.438,
+    76.64,
+    77.113,
+    77.248,
+    77.923,
+    78.734,
+    78.936,
+    79.747,
+    80.084
+   ]
   },
   {
    "texto": "Era ele quem decidia para onde ia boa parte da maior fortuna do planeta.",
    "cap": "O HOMEM POR TRÁS DA FRASE",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 17,
-   "ini": 76.624,
-   "fim": 80.862
+   "ini": 81.112,
+   "fim": 85.802,
+   "t": [
+    81.112,
+    81.369,
+    81.626,
+    81.947,
+    82.461,
+    82.783,
+    83.104,
+    83.297,
+    83.554,
+    83.939,
+    84.132,
+    84.517,
+    85.031,
+    85.224
+   ]
   },
   {
    "texto": "O texto se chama A Escola Rural do Amanhã.",
    "cap": "O HOMEM POR TRÁS DA FRASE",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 18,
-   "ini": 81.612,
-   "fim": 84.352
+   "ini": 86.602,
+   "fim": 89.575,
+   "t": [
+    86.602,
+    86.741,
+    87.156,
+    87.363,
+    87.778,
+    87.916,
+    88.4,
+    88.815,
+    89.022
+   ]
   },
   {
    "texto": "Foi o primeiro de uma série de publicações de uma organização criada com o dinheiro de Rockefeller:",
    "cap": "O HOMEM POR TRÁS DA FRASE",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 19,
-   "ini": 84.712,
-   "fim": 89.797
+   "ini": 89.995,
+   "fim": 97.483,
+   "t": [
+    89.995,
+    90.295,
+    90.445,
+    91.119,
+    91.343,
+    91.643,
+    92.092,
+    92.317,
+    93.215,
+    93.44,
+    93.739,
+    94.638,
+    95.162,
+    95.461,
+    95.611,
+    96.285,
+    96.51
+   ]
   },
   {
    "texto": "o Conselho Geral de Educação.",
    "cap": "O HOMEM POR TRÁS DA FRASE",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 20,
-   "ini": 90.157,
-   "fim": 92.281
+   "ini": 97.903,
+   "fim": 99.67,
+   "t": [
+    97.903,
+    98.021,
+    98.551,
+    98.904,
+    99.081
+   ]
   },
   {
    "texto": "Não era um memorando secreto.",
    "cap": "O HOMEM POR TRÁS DA FRASE",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 21,
-   "ini": 93.031,
-   "fim": 95.052
+   "ini": 100.47,
+   "fim": 102.218,
+   "t": [
+    100.47,
+    100.703,
+    100.936,
+    101.111,
+    101.694
+   ]
   },
   {
    "texto": "Era um folheto, distribuído ao público.",
    "cap": "O HOMEM POR TRÁS DA FRASE",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 22,
-   "ini": 95.412,
-   "fim": 97.896
+   "ini": 102.638,
+   "fim": 105.459,
+   "t": [
+    102.638,
+    102.92,
+    103.132,
+    103.767,
+    104.613,
+    104.825
+   ]
   },
   {
    "texto": "E isso já muda a forma de olhar para ele.",
    "cap": "O HOMEM POR TRÁS DA FRASE",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 23,
-   "ini": 98.646,
-   "fim": 101.305
+   "ini": 106.259,
+   "fim": 108.885,
+   "t": [
+    106.259,
+    106.384,
+    106.697,
+    106.885,
+    107.197,
+    107.322,
+    107.697,
+    107.885,
+    108.26,
+    108.572
+   ]
   },
   {
    "texto": "Quem planeja dominar um país em segredo raramente imprime o plano e manda pelo correio.",
    "cap": "O HOMEM POR TRÁS DA FRASE",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 24,
-   "ini": 101.665,
-   "fim": 106.866
+   "ini": 109.305,
+   "fim": 115.192,
+   "t": [
+    109.305,
+    109.639,
+    110.175,
+    110.71,
+    110.91,
+    111.245,
+    111.446,
+    111.981,
+    112.65,
+    113.185,
+    113.319,
+    113.721,
+    113.854,
+    114.256,
+    114.59
+   ]
   },
   {
    "texto": "Mas o que era esse conselho?",
    "cap": "O HOMEM POR TRÁS DA FRASE",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 25,
-   "ini": 107.616,
-   "fim": 109.636
+   "ini": 115.992,
+   "fim": 117.355,
+   "t": [
+    115.992,
+    116.18,
+    116.274,
+    116.462,
+    116.65,
+    116.885
+   ]
   },
   {
    "texto": "E quanto poder ele realmente tinha?",
    "cap": "O HOMEM POR TRÁS DA FRASE",
    "pausa": 1.9,
    "i": 26,
-   "ini": 109.996,
-   "fim": 112.341
+   "ini": 117.775,
+   "fim": 119.634,
+   "t": [
+    117.775,
+    117.878,
+    118.24,
+    118.55,
+    118.756,
+    119.273
+   ]
   },
   {
    "texto": "A resposta está no relatório que o próprio conselho publicou em 1915.",
    "cap": "O DINHEIRO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 27,
-   "ini": 114.241,
-   "fim": 119.199
+   "ini": 121.534,
+   "fim": 127.19,
+   "t": [
+    121.534,
+    121.696,
+    122.423,
+    122.827,
+    123.069,
+    123.877,
+    124.2,
+    124.362,
+    125.008,
+    125.735,
+    126.462,
+    126.705
+   ]
   },
   {
    "texto": "Em 1902, Rockefeller deu um milhão de dólares para começar.",
    "cap": "O DINHEIRO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 28,
-   "ini": 119.949,
-   "fim": 124.372
+   "ini": 127.99,
+   "fim": 133.269,
+   "t": [
+    127.99,
+    128.254,
+    128.781,
+    129.837,
+    130.189,
+    130.453,
+    131.069,
+    131.333,
+    132.037,
+    132.477
+   ]
   },
   {
    "texto": "O alvo declarado era a educação nos estados do Sul.",
    "cap": "O DINHEIRO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 29,
-   "ini": 124.732,
-   "fim": 128.157
+   "ini": 133.689,
+   "fim": 137.275,
+   "t": [
+    133.689,
+    133.827,
+    134.172,
+    134.862,
+    135.137,
+    135.275,
+    135.896,
+    136.172,
+    136.723,
+    136.93
+   ]
   },
   {
    "texto": "Em 1905, vieram mais dez milhões.",
    "cap": "O DINHEIRO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 30,
-   "ini": 128.907,
-   "fim": 132.657
+   "ini": 138.075,
+   "fim": 141.612,
+   "t": [
+    138.075,
+    138.387,
+    139.011,
+    139.74,
+    140.26,
+    140.676
+   ]
   },
   {
    "texto": "Dessa vez, para promover, nas palavras do documento, um sistema abrangente de ensino superior nos Estados Unidos.",
    "cap": "O DINHEIRO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 31,
-   "ini": 133.017,
-   "fim": 140.401
+   "ini": 142.032,
+   "fim": 150.311,
+   "t": [
+    142.032,
+    142.468,
+    142.831,
+    143.194,
+    143.92,
+    144.211,
+    144.864,
+    145.082,
+    145.881,
+    146.099,
+    146.68,
+    147.479,
+    147.697,
+    148.205,
+    148.859,
+    149.149,
+    149.73
+   ]
   },
   {
    "texto": "Em 1907, outros trinta e dois milhões.",
    "cap": "O DINHEIRO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 32,
-   "ini": 141.151,
-   "fim": 145.354
+   "ini": 151.111,
+   "fim": 154.868,
+   "t": [
+    151.111,
+    151.4,
+    151.978,
+    152.652,
+    153.326,
+    153.519,
+    154.001
+   ]
   },
   {
    "texto": "São valores que, na época, nenhum governo estadual conseguia igualar.",
    "cap": "O DINHEIRO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 33,
-   "ini": 146.104,
-   "fim": 150.644
+   "ini": 155.668,
+   "fim": 160.355,
+   "t": [
+    155.668,
+    155.935,
+    156.471,
+    156.806,
+    157.007,
+    157.475,
+    157.944,
+    158.48,
+    159.082,
+    159.752
+   ]
   },
   {
    "texto": "Com esse dinheiro, o conselho pagou a construção de escolas secundárias, financiou universidades, bancou professores e espalhou fazendas-modelo pelo interior.",
    "cap": "O DINHEIRO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 34,
-   "ini": 151.394,
-   "fim": 160.554
+   "ini": 161.155,
+   "fim": 172.453,
+   "t": [
+    161.155,
+    161.439,
+    161.794,
+    162.505,
+    162.647,
+    163.286,
+    163.713,
+    163.855,
+    164.637,
+    164.85,
+    165.418,
+    166.342,
+    167.053,
+    168.119,
+    168.616,
+    169.469,
+    169.611,
+    170.25,
+    171.387,
+    171.743
+   ]
   },
   {
    "texto": "Os mapas do relatório mostram a escala.",
    "cap": "O DINHEIRO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 35,
-   "ini": 161.304,
-   "fim": 164.09
+   "ini": 173.253,
+   "fim": 175.901,
+   "t": [
+    173.253,
+    173.452,
+    173.849,
+    174.048,
+    174.71,
+    175.239,
+    175.371
+   ]
   },
   {
    "texto": "Cada ponto é um lugar onde o dinheiro de Rockefeller chegou.",
    "cap": "O DINHEIRO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 36,
-   "ini": 164.45,
-   "fim": 167.608
+   "ini": 176.321,
+   "fim": 180.0,
+   "t": [
+    176.321,
+    176.622,
+    176.984,
+    177.105,
+    177.286,
+    177.648,
+    177.949,
+    178.07,
+    178.613,
+    178.794,
+    179.517
+   ]
   },
   {
    "texto": "Então a influência existiu, e foi enorme.",
    "cap": "O DINHEIRO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 37,
-   "ini": 168.358,
-   "fim": 171.388
+   "ini": 180.8,
+   "fim": 183.271,
+   "t": [
+    180.8,
+    181.153,
+    181.271,
+    181.918,
+    182.448,
+    182.565,
+    182.801
+   ]
   },
   {
    "texto": "Um grupo pequeno, que ninguém elegeu, ajudou a decidir o que seria uma boa escola para milhões de pessoas.",
    "cap": "O DINHEIRO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 38,
-   "ini": 171.748,
-   "fim": 177.994
+   "ini": 183.691,
+   "fim": 190.763,
+   "t": [
+    183.691,
+    183.89,
+    184.286,
+    184.881,
+    185.146,
+    185.674,
+    186.203,
+    186.666,
+    186.798,
+    187.327,
+    187.459,
+    187.723,
+    188.12,
+    188.384,
+    188.648,
+    189.111,
+    189.442,
+    189.97,
+    190.169
+   ]
   },
   {
    "texto": "Só que há um problema com a teoria.",
    "cap": "O DINHEIRO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 39,
-   "ini": 178.744,
-   "fim": 180.95
+   "ini": 191.563,
+   "fim": 193.536,
+   "t": [
+    191.563,
+    191.728,
+    191.947,
+    192.111,
+    192.276,
+    192.769,
+    192.988,
+    193.097
+   ]
   },
   {
    "texto": "Quando esse conselho nasceu, a escola obrigatória já existia.",
    "cap": "O DINHEIRO",
    "pausa": 1.9,
    "i": 40,
-   "ini": 181.31,
-   "fim": 185.095
+   "ini": 193.956,
+   "fim": 198.027,
+   "t": [
+    193.956,
+    194.415,
+    194.744,
+    195.335,
+    195.86,
+    195.991,
+    196.451,
+    197.239,
+    197.436
+   ]
   },
   {
    "texto": "Para encontrar a origem, é preciso recuar cento e quarenta anos, e atravessar o oceano.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 41,
-   "ini": 186.995,
-   "fim": 192.858
+   "ini": 199.927,
+   "fim": 205.746,
+   "t": [
+    199.927,
+    200.257,
+    200.919,
+    201.051,
+    201.58,
+    201.712,
+    202.241,
+    202.704,
+    203.101,
+    203.233,
+    203.828,
+    204.225,
+    204.357,
+    205.085,
+    205.217
+   ]
   },
   {
    "texto": "Em 1763, o rei Frederico da Prússia assinou um regulamento.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 42,
-   "ini": 193.608,
-   "fim": 198.902
+   "ini": 206.546,
+   "fim": 212.727,
+   "t": [
+    206.546,
+    206.855,
+    207.473,
+    207.679,
+    208.091,
+    209.122,
+    209.431,
+    210.255,
+    211.079,
+    211.388
+   ]
   },
   {
    "texto": "Toda criança do reino, mais ou menos dos cinco aos treze anos, deveria frequentar a escola.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 43,
-   "ini": 199.262,
-   "fim": 205.334
+   "ini": 213.147,
+   "fim": 219.048,
+   "t": [
+    213.147,
+    213.468,
+    213.981,
+    214.173,
+    214.622,
+    214.943,
+    215.135,
+    215.52,
+    215.777,
+    216.161,
+    216.418,
+    216.803,
+    217.188,
+    217.701,
+    218.406,
+    218.535
+   ]
   },
   {
    "texto": "O objetivo não era esconder nada.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 44,
-   "ini": 206.084,
-   "fim": 208.325
+   "ini": 219.848,
+   "fim": 221.963,
+   "t": [
+    219.848,
+    219.972,
+    220.532,
+    220.781,
+    221.03,
+    221.589
+   ]
   },
   {
    "texto": "A Prússia queria súditos que soubessem ler, contar, rezar e obedecer.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 45,
-   "ini": 208.685,
-   "fim": 213.341
+   "ini": 222.383,
+   "fim": 227.191,
+   "t": [
+    222.383,
+    222.52,
+    223.069,
+    223.55,
+    224.1,
+    224.375,
+    225.061,
+    225.405,
+    225.954,
+    226.366,
+    226.504
+   ]
   },
   {
    "texto": "Soldados melhores e contribuintes melhores.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 46,
-   "ini": 213.701,
-   "fim": 216.835
+   "ini": 227.611,
+   "fim": 230.185,
+   "t": [
+    227.611,
+    228.137,
+    228.664,
+    228.781,
+    229.6
+   ]
   },
   {
    "texto": "Com o tempo, o sistema ganhou tudo o que hoje parece natural.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 47,
-   "ini": 217.585,
-   "fim": 221.277
+   "ini": 230.985,
+   "fim": 234.54,
+   "t": [
+    230.985,
+    231.215,
+    231.329,
+    231.731,
+    231.845,
+    232.304,
+    232.705,
+    232.992,
+    233.107,
+    233.336,
+    233.623,
+    234.024
+   ]
   },
   {
    "texto": "Turmas separadas por idade.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 48,
-   "ini": 221.637,
-   "fim": 223.669
+   "ini": 234.96,
+   "fim": 236.606,
+   "t": [
+    234.96,
+    235.372,
+    235.959,
+    236.195
+   ]
   },
   {
    "texto": "Um currículo igual para todos.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 49,
-   "ini": 224.029,
-   "fim": 226.328
+   "ini": 237.026,
+   "fim": 238.912,
+   "t": [
+    237.026,
+    237.208,
+    237.817,
+    238.182,
+    238.486
+   ]
   },
   {
    "texto": "Professores formados pelo Estado.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 50,
-   "ini": 226.688,
-   "fim": 229.068
+   "ini": 239.332,
+   "fim": 241.202,
+   "t": [
+    239.332,
+    239.992,
+    240.487,
+    240.762
+   ]
   },
   {
    "texto": "E presença controlada.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 51,
-   "ini": 229.428,
-   "fim": 231.413
+   "ini": 241.622,
+   "fim": 242.977,
+   "t": [
+    241.622,
+    241.74,
+    242.27
+   ]
   },
   {
    "texto": "Um visitante americano descreveu como isso funcionava na prática.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 52,
-   "ini": 232.163,
-   "fim": 236.18
+   "ini": 243.777,
+   "fim": 248.344,
+   "t": [
+    243.777,
+    243.984,
+    244.676,
+    245.368,
+    246.06,
+    246.406,
+    246.752,
+    247.514,
+    247.721
+   ]
   },
   {
    "texto": "Se a criança faltava sem justificativa, o diretor avisava o inspetor.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 53,
-   "ini": 236.93,
-   "fim": 241.574
+   "ini": 249.144,
+   "fim": 253.983,
+   "t": [
+    249.144,
+    249.351,
+    249.49,
+    250.043,
+    250.596,
+    250.872,
+    251.909,
+    252.047,
+    252.6,
+    253.153,
+    253.292
+   ]
   },
   {
    "texto": "O inspetor convocava os pais diante de um magistrado.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 54,
-   "ini": 241.934,
-   "fim": 245.069
+   "ini": 254.403,
+   "fim": 258.225,
+   "t": [
+    254.403,
+    254.544,
+    255.181,
+    255.889,
+    256.101,
+    256.455,
+    256.951,
+    257.163,
+    257.375
+   ]
   },
   {
    "texto": "E a intimação era entregue em casa por um policial.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 55,
-   "ini": 245.429,
-   "fim": 248.622
+   "ini": 258.645,
+   "fim": 262.271,
+   "t": [
+    258.645,
+    258.784,
+    258.924,
+    259.621,
+    259.9,
+    260.528,
+    260.737,
+    261.085,
+    261.364,
+    261.574
+   ]
   },
   {
    "texto": "Esse visitante não escreveu aquilo como denúncia.",
    "cap": "ANTES DE ROCKEFELLER",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 56,
-   "ini": 249.372,
-   "fim": 252.646
+   "ini": 263.071,
+   "fim": 266.166,
+   "t": [
+    263.071,
+    263.38,
+    264.0,
+    264.247,
+    264.804,
+    265.238,
+    265.547
+   ]
   },
   {
    "texto": "Ele estava encantado.",
    "cap": "ANTES DE ROCKEFELLER",
    "pausa": 1.9,
    "i": 57,
-   "ini": 253.006,
-   "fim": 254.805
+   "ini": 266.586,
+   "fim": 267.933,
+   "t": [
+    266.586,
+    266.831,
+    267.26
+   ]
   },
   {
    "texto": "O nome dele era Horace Mann.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 58,
-   "ini": 256.705,
-   "fim": 258.609
+   "ini": 269.833,
+   "fim": 271.448,
+   "t": [
+    269.833,
+    269.944,
+    270.223,
+    270.501,
+    270.724,
+    271.114
+   ]
   },
   {
    "texto": "Mann era secretário de educação do estado de Massachusetts.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 59,
-   "ini": 259.359,
-   "fim": 262.947
+   "ini": 272.248,
+   "fim": 276.27,
+   "t": [
+    272.248,
+    272.583,
+    272.851,
+    273.589,
+    273.79,
+    274.393,
+    274.594,
+    275.063,
+    275.264
+   ]
   },
   {
    "texto": "Em 1843, viajou pela Europa visitando escolas.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 60,
-   "ini": 263.307,
-   "fim": 267.986
+   "ini": 276.69,
+   "fim": 281.629,
+   "t": [
+    276.69,
+    277.005,
+    277.636,
+    278.371,
+    278.897,
+    279.632,
+    280.683
+   ]
   },
   {
    "texto": "E voltou convencido de que a Prússia tinha o melhor sistema do mundo.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 61,
-   "ini": 268.346,
-   "fim": 272.154
+   "ini": 282.049,
+   "fim": 286.283,
+   "t": [
+    282.049,
+    282.17,
+    282.593,
+    283.258,
+    283.44,
+    283.682,
+    283.803,
+    284.287,
+    284.65,
+    284.77,
+    285.194,
+    285.678,
+    285.859
+   ]
   },
   {
    "texto": "Ele sabia das críticas.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 62,
-   "ini": 272.904,
-   "fim": 274.924
+   "ini": 287.083,
+   "fim": 288.528,
+   "t": [
+    287.083,
+    287.324,
+    287.685,
+    287.926
+   ]
   },
   {
    "texto": "No próprio relatório, reconheceu que acusavam aquele modelo de formar súditos dóceis para um rei.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 63,
-   "ini": 275.284,
-   "fim": 280.973
+   "ini": 288.948,
+   "fim": 295.849,
+   "t": [
+    288.948,
+    289.16,
+    289.723,
+    290.497,
+    291.272,
+    291.554,
+    292.187,
+    292.68,
+    293.173,
+    293.384,
+    293.877,
+    294.44,
+    294.933,
+    295.285,
+    295.497
+   ]
   },
   {
    "texto": "A resposta dele foi simples.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 64,
-   "ini": 281.723,
-   "fim": 284.033
+   "ini": 296.649,
+   "fim": 298.423,
+   "t": [
+    296.649,
+    296.771,
+    297.322,
+    297.628,
+    297.873
+   ]
   },
   {
    "texto": "Os defeitos, escreveu, podiam ser separados das qualidades.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 65,
-   "ini": 284.393,
-   "fim": 289.002
+   "ini": 298.843,
+   "fim": 302.811,
+   "t": [
+    298.843,
+    299.042,
+    299.703,
+    300.364,
+    300.827,
+    301.091,
+    301.753,
+    302.017
+   ]
   },
   {
    "texto": "Se o método prussiano ensinava melhor, uma república poderia usá-lo para formar cidadãos livres.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 66,
-   "ini": 289.362,
-   "fim": 295.179
+   "ini": 303.231,
+   "fim": 310.638,
+   "t": [
+    303.231,
+    303.46,
+    303.612,
+    304.147,
+    304.911,
+    305.598,
+    306.209,
+    306.514,
+    307.278,
+    307.889,
+    308.423,
+    308.805,
+    309.339,
+    310.027
+   ]
   },
   {
    "texto": "O relatório circulou pelo país inteiro.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 67,
-   "ini": 295.929,
-   "fim": 298.739
+   "ini": 311.438,
+   "fim": 314.121,
+   "t": [
+    311.438,
+    311.572,
+    312.243,
+    312.846,
+    313.182,
+    313.517
+   ]
   },
   {
    "texto": "Em 1852, Massachusetts aprovou a primeira lei de frequência obrigatória dos Estados Unidos.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 68,
-   "ini": 299.489,
-   "fim": 306.315
+   "ini": 314.921,
+   "fim": 323.274,
+   "t": [
+    314.921,
+    315.193,
+    315.738,
+    317.009,
+    317.736,
+    317.917,
+    318.734,
+    319.097,
+    319.37,
+    320.369,
+    321.458,
+    321.821,
+    322.548
+   ]
   },
   {
    "texto": "Os outros estados vieram depois, um a um.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 69,
-   "ini": 307.065,
-   "fim": 310.386
+   "ini": 324.074,
+   "fim": 326.879,
+   "t": [
+    324.074,
+    324.274,
+    324.742,
+    325.276,
+    325.743,
+    326.278,
+    326.478,
+    326.612
+   ]
   },
   {
    "texto": "O último foi o Mississippi, em 1918.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 70,
-   "ini": 310.746,
-   "fim": 314.623
+   "ini": 327.299,
+   "fim": 331.231,
+   "t": [
+    327.299,
+    327.511,
+    328.255,
+    328.68,
+    328.893,
+    330.274,
+    330.593
+   ]
   },
   {
    "texto": "Guarde a primeira data.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 71,
-   "ini": 315.373,
-   "fim": 317.057
+   "ini": 332.031,
+   "fim": 333.616,
+   "t": [
+    332.031,
+    332.493,
+    332.625,
+    333.22
+   ]
   },
   {
    "texto": "1852.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 72,
-   "ini": 317.417,
-   "fim": 319.936
+   "ini": 334.036,
+   "fim": 335.992,
+   "t": [
+    334.036
+   ]
   },
   {
    "texto": "Rockefeller tinha treze anos.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 73,
-   "ini": 320.296,
-   "fim": 322.641
+   "ini": 336.412,
+   "fim": 338.117,
+   "t": [
+    336.412,
+    337.094,
+    337.435,
+    337.776
+   ]
   },
   {
    "texto": "O conselho dele só seria criado meio século depois.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 74,
-   "ini": 323.001,
-   "fim": 326.473
+   "ini": 338.537,
+   "fim": 341.904,
+   "t": [
+    338.537,
+    338.667,
+    339.249,
+    339.573,
+    339.767,
+    340.156,
+    340.609,
+    340.933,
+    341.386
+   ]
   },
   {
    "texto": "Quem obrigou as crianças a ir para a escola não foi um milionário.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 75,
-   "ini": 327.223,
-   "fim": 330.903
+   "ini": 342.704,
+   "fim": 347.28,
+   "t": [
+    342.704,
+    343.045,
+    343.592,
+    343.797,
+    344.411,
+    344.548,
+    344.753,
+    345.095,
+    345.231,
+    345.709,
+    345.983,
+    346.256,
+    346.461
+   ]
   },
   {
    "texto": "Foram parlamentos estaduais, empurrados por reformadores, igrejas, sindicatos que queriam tirar crianças das fábricas, e políticos preocupados com a chegada de milhões de imigrantes.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 76,
-   "ini": 331.263,
-   "fim": 342.954
+   "ini": 347.7,
+   "fim": 360.699,
+   "t": [
+    347.7,
+    348.127,
+    348.979,
+    349.76,
+    350.542,
+    350.826,
+    351.82,
+    352.46,
+    353.241,
+    353.525,
+    354.093,
+    354.52,
+    355.159,
+    355.443,
+    356.153,
+    356.295,
+    357.006,
+    357.858,
+    358.142,
+    358.284,
+    358.852,
+    359.066,
+    359.634,
+    359.847
+   ]
   },
   {
    "texto": "Isso derruba a versão mais simples da teoria.",
    "cap": "O HOMEM QUE TROUXE A IDEIA",
    "pausa": 1.9,
    "i": 77,
-   "ini": 343.704,
-   "fim": 346.688
+   "ini": 361.499,
+   "fim": 364.497,
+   "t": [
+    361.499,
+    361.825,
+    362.346,
+    362.477,
+    362.933,
+    363.259,
+    363.78,
+    363.975
+   ]
   },
   {
    "texto": "Existe ainda um motivo que a teoria costuma deixar de fora.",
    "cap": "AS CRIANÇAS DAS FÁBRICAS",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 78,
-   "ini": 348.588,
-   "fim": 352.013
+   "ini": 366.397,
+   "fim": 370.329,
+   "t": [
+    366.397,
+    366.855,
+    367.249,
+    367.445,
+    367.904,
+    368.166,
+    368.297,
+    368.756,
+    369.28,
+    369.739,
+    369.935
+   ]
   },
   {
    "texto": "Em 1900, cerca de uma em cada seis crianças americanas entre dez e quinze anos trabalhava.",
    "cap": "AS CRIANÇAS DAS FÁBRICAS",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 79,
-   "ini": 352.763,
-   "fim": 359.613
+   "ini": 371.129,
+   "fim": 378.079,
+   "t": [
+    371.129,
+    371.358,
+    371.816,
+    372.274,
+    372.503,
+    372.809,
+    373.038,
+    373.42,
+    373.802,
+    374.489,
+    375.329,
+    375.788,
+    376.093,
+    376.246,
+    376.781,
+    377.162
+   ]
   },
   {
    "texto": "Em minas de carvão, em fábricas de tecido, em plantações.",
    "cap": "AS CRIANÇAS DAS FÁBRICAS",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 80,
-   "ini": 359.973,
-   "fim": 364.338
+   "ini": 378.499,
+   "fim": 382.698,
+   "t": [
+    378.499,
+    378.716,
+    379.151,
+    379.368,
+    379.947,
+    380.164,
+    380.816,
+    381.033,
+    381.612,
+    381.83
+   ]
   },
   {
    "texto": "Para os reformadores da época, a escola obrigatória era, antes de tudo, uma forma de tirar essas crianças dali.",
    "cap": "AS CRIANÇAS DAS FÁBRICAS",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 81,
-   "ini": 365.088,
-   "fim": 372.252
+   "ini": 383.498,
+   "fim": 391.587,
+   "t": [
+    383.498,
+    383.859,
+    384.076,
+    385.015,
+    385.232,
+    385.737,
+    385.882,
+    386.387,
+    387.254,
+    387.615,
+    388.048,
+    388.265,
+    388.698,
+    388.987,
+    389.42,
+    389.637,
+    390.07,
+    390.504,
+    391.154
+   ]
   },
   {
    "texto": "E quem mais resistia à lei não eram as famílias com medo de doutrinação.",
    "cap": "AS CRIANÇAS DAS FÁBRICAS",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 82,
-   "ini": 373.002,
-   "fim": 377.239
+   "ini": 392.387,
+   "fim": 397.209,
+   "t": [
+    392.387,
+    392.519,
+    392.849,
+    393.179,
+    393.774,
+    393.906,
+    394.17,
+    394.434,
+    394.765,
+    394.963,
+    395.557,
+    395.821,
+    396.152,
+    396.35
+   ]
   },
   {
    "texto": "Eram donos de fábricas, que perdiam mão de obra barata, e pais muito pobres, que perdiam um salário.",
    "cap": "AS CRIANÇAS DAS FÁBRICAS",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 83,
-   "ini": 377.599,
-   "fim": 384.147
+   "ini": 397.629,
+   "fim": 404.478,
+   "t": [
+    397.629,
+    397.968,
+    398.374,
+    398.578,
+    399.256,
+    399.527,
+    400.07,
+    400.341,
+    400.545,
+    400.884,
+    401.426,
+    401.562,
+    401.901,
+    402.308,
+    402.85,
+    403.122,
+    403.664,
+    403.867
+   ]
   },
   {
    "texto": "Isso complica a história.",
    "cap": "AS CRIANÇAS DAS FÁBRICAS",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 84,
-   "ini": 384.897,
-   "fim": 386.697
+   "ini": 405.278,
+   "fim": 406.676,
+   "t": [
+    405.278,
+    405.547,
+    406.031,
+    406.139
+   ]
   },
   {
    "texto": "A mesma lei que hoje alguns descrevem como prisão foi, para muita gente, a única saída de um turno de doze horas.",
    "cap": "AS CRIANÇAS DAS FÁBRICAS",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 85,
-   "ini": 387.057,
-   "fim": 394.267
+   "ini": 407.096,
+   "fim": 414.929,
+   "t": [
+    407.096,
+    407.234,
+    407.646,
+    407.921,
+    408.196,
+    408.539,
+    409.02,
+    409.707,
+    410.051,
+    410.532,
+    410.876,
+    411.219,
+    411.631,
+    412.112,
+    412.25,
+    412.662,
+    413.074,
+    413.28,
+    413.487,
+    413.899,
+    414.105,
+    414.448
+   ]
   },
   {
    "texto": "Nenhuma das duas imagens está errada.",
    "cap": "AS CRIANÇAS DAS FÁBRICAS",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 86,
-   "ini": 395.017,
-   "fim": 397.687
+   "ini": 415.729,
+   "fim": 418.049,
+   "t": [
+    415.729,
+    416.218,
+    416.462,
+    416.767,
+    417.255,
+    417.561
+   ]
   },
   {
    "texto": "A escola protegeu crianças.",
    "cap": "AS CRIANÇAS DAS FÁBRICAS",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 87,
-   "ini": 398.047,
-   "fim": 400.253
+   "ini": 418.469,
+   "fim": 420.079,
+   "t": [
+    418.469,
+    418.584,
+    418.986,
+    419.504
+   ]
   },
   {
    "texto": "E a escola também as treinou para o relógio, a fila e o chefe.",
    "cap": "AS CRIANÇAS DAS FÁBRICAS",
    "pausa": 1.9,
    "i": 88,
-   "ini": 400.613,
-   "fim": 405.013
+   "ini": 420.499,
+   "fim": 424.781,
+   "t": [
+    420.499,
+    420.635,
+    420.771,
+    421.246,
+    421.722,
+    421.926,
+    422.47,
+    422.81,
+    422.946,
+    423.558,
+    423.694,
+    424.034,
+    424.17,
+    424.306
+   ]
   },
   {
    "texto": "Mas nada disso explica a frase de Gates.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 89,
-   "ini": 406.913,
-   "fim": 409.839
+   "ini": 426.681,
+   "fim": 429.218,
+   "t": [
+    426.681,
+    426.929,
+    427.238,
+    427.61,
+    428.105,
+    428.228,
+    428.6,
+    428.785
+   ]
   },
   {
    "texto": "Vale voltar à página, e ler o que vem em volta.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 90,
-   "ini": 410.199,
-   "fim": 413.508
+   "ini": 429.638,
+   "fim": 432.463,
+   "t": [
+    429.638,
+    429.933,
+    430.345,
+    430.462,
+    430.933,
+    431.051,
+    431.286,
+    431.404,
+    431.639,
+    431.875,
+    432.051
+   ]
   },
   {
    "texto": "O texto de Gates fala do interior pobre do Sul.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 91,
-   "ini": 414.258,
-   "fim": 417.299
+   "ini": 433.263,
+   "fim": 436.327,
+   "t": [
+    433.263,
+    433.391,
+    433.774,
+    433.965,
+    434.348,
+    434.667,
+    434.859,
+    435.433,
+    435.816,
+    436.008
+   ]
   },
   {
    "texto": "Descreve crianças doentes, tomadas por vermes, e escolas que ensinavam latim a filhos de lavradores que mal tinham o que comer.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 92,
-   "ini": 417.659,
-   "fim": 425.531
+   "ini": 436.747,
+   "fim": 444.817,
+   "t": [
+    436.747,
+    437.314,
+    437.882,
+    438.449,
+    438.953,
+    439.206,
+    439.71,
+    439.836,
+    440.341,
+    440.593,
+    441.223,
+    441.601,
+    441.728,
+    442.169,
+    442.358,
+    443.052,
+    443.304,
+    443.556,
+    443.997,
+    444.123,
+    444.376
+   ]
   },
   {
    "texto": "A proposta dele era outra escola.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 93,
-   "ini": 426.281,
-   "fim": 428.708
+   "ini": 445.617,
+   "fim": 447.654,
+   "t": [
+    445.617,
+    445.737,
+    446.276,
+    446.575,
+    446.815,
+    447.174
+   ]
   },
   {
    "texto": "Uma que ensinasse a plantar melhor, a cuidar da saúde, a cozinhar e a consertar.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 94,
-   "ini": 429.068,
-   "fim": 433.967
+   "ini": 448.074,
+   "fim": 453.447,
+   "t": [
+    448.074,
+    448.339,
+    448.604,
+    449.268,
+    449.4,
+    449.931,
+    450.462,
+    450.594,
+    451.059,
+    451.258,
+    451.722,
+    451.855,
+    452.452,
+    452.584,
+    452.717
+   ]
   },
   {
    "texto": "É nesse ponto que aparece a frase.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 95,
-   "ini": 434.717,
-   "fim": 437.097
+   "ini": 454.247,
+   "fim": 456.048,
+   "t": [
+    454.247,
+    454.349,
+    454.658,
+    454.967,
+    455.173,
+    455.585,
+    455.688
+   ]
   },
   {
    "texto": "Ele mesmo a chama de sonho.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 96,
-   "ini": 437.457,
-   "fim": 439.268
+   "ini": 456.468,
+   "fim": 458.124,
+   "t": [
+    456.468,
+    456.704,
+    457.059,
+    457.178,
+    457.532,
+    457.71
+   ]
   },
   {
    "texto": "E, logo depois da lista do que não pretendia formar, advogados, médicos, pregadores e políticos, ele acrescenta:",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 97,
-   "ini": 440.018,
-   "fim": 448.226
+   "ini": 458.924,
+   "fim": 467.244,
+   "t": [
+    458.924,
+    459.145,
+    459.513,
+    460.028,
+    460.249,
+    460.691,
+    460.912,
+    461.206,
+    461.501,
+    462.237,
+    462.826,
+    463.636,
+    464.299,
+    465.108,
+    465.256,
+    466.066,
+    466.36
+   ]
   },
   {
    "texto": "desses, nós já temos oferta de sobra.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 98,
-   "ini": 448.586,
-   "fim": 451.5
+   "ini": 467.664,
+   "fim": 470.066,
+   "t": [
+    467.664,
+    468.169,
+    468.422,
+    468.612,
+    468.991,
+    469.434,
+    469.623
+   ]
   },
   {
    "texto": "Há ainda uma linha que os vídeos sobre o assunto quase nunca mostram.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 99,
-   "ini": 452.25,
-   "fim": 456.244
+   "ini": 470.866,
+   "fim": 475.178,
+   "t": [
+    470.866,
+    471.051,
+    471.42,
+    471.667,
+    472.036,
+    472.283,
+    472.468,
+    472.899,
+    473.269,
+    473.392,
+    473.885,
+    474.254,
+    474.624
+   ]
   },
   {
    "texto": "Gates escreve que, se por acaso surgir daquele solo uma criança de gênio, a escola deve garantir que esse gênio floresça.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 100,
-   "ini": 456.604,
-   "fim": 463.884
+   "ini": 475.598,
+   "fim": 483.374,
+   "t": [
+    475.598,
+    475.981,
+    476.491,
+    476.809,
+    477.001,
+    477.256,
+    477.638,
+    478.084,
+    478.594,
+    478.913,
+    479.168,
+    479.677,
+    479.869,
+    480.315,
+    480.442,
+    480.888,
+    481.207,
+    481.781,
+    482.036,
+    482.354,
+    482.737
+   ]
   },
   {
    "texto": "Dá para ler esse texto de duas maneiras.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 101,
-   "ini": 464.634,
-   "fim": 467.548
+   "ini": 484.174,
+   "fim": 486.589,
+   "t": [
+    484.174,
+    484.351,
+    484.645,
+    484.881,
+    485.175,
+    485.529,
+    485.705,
+    486.0
+   ]
   },
   {
    "texto": "Na primeira, é um homem do seu tempo, tentando levar comida e saúde a gente abandonada, com uma escola prática.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 102,
-   "ini": 468.298,
-   "fim": 475.067
+   "ini": 487.389,
+   "fim": 495.672,
+   "t": [
+    487.389,
+    487.611,
+    488.35,
+    488.498,
+    488.72,
+    489.164,
+    489.386,
+    489.681,
+    490.199,
+    490.865,
+    491.308,
+    491.826,
+    491.974,
+    492.418,
+    492.565,
+    493.009,
+    493.897,
+    494.192,
+    494.488,
+    495.006
+   ]
   },
   {
    "texto": "Na segunda, é um homem muito rico decidindo, de cima, que os filhos dos pobres devem continuar exatamente onde estão.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 103,
-   "ini": 475.817,
-   "fim": 482.69
+   "ini": 496.472,
+   "fim": 504.828,
+   "t": [
+    496.472,
+    496.684,
+    497.321,
+    497.463,
+    497.675,
+    498.1,
+    498.525,
+    498.879,
+    499.658,
+    499.871,
+    500.296,
+    500.579,
+    500.791,
+    501.287,
+    501.57,
+    502.066,
+    502.491,
+    503.199,
+    503.978,
+    504.332
+   ]
   },
   {
    "texto": "As duas leituras cabem na mesma página.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 104,
-   "ini": 483.44,
-   "fim": 486.272
+   "ini": 505.628,
+   "fim": 508.144,
+   "t": [
+    505.628,
+    505.817,
+    506.131,
+    506.697,
+    507.075,
+    507.263,
+    507.641
+   ]
   },
   {
    "texto": "E talvez as duas sejam verdadeiras.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 105,
-   "ini": 486.632,
-   "fim": 489.396
+   "ini": 508.564,
+   "fim": 510.892,
+   "t": [
+    508.564,
+    508.693,
+    509.146,
+    509.34,
+    509.663,
+    510.051
+   ]
   },
   {
    "texto": "O que o texto não contém é uma ordem.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 106,
-   "ini": 490.146,
-   "fim": 492.723
+   "ini": 511.692,
+   "fim": 513.973,
+   "t": [
+    511.692,
+    511.812,
+    512.052,
+    512.172,
+    512.532,
+    512.772,
+    513.192,
+    513.312,
+    513.553
+   ]
   },
   {
    "texto": "Não há ali um plano para obrigar ninguém a ficar na escola.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 107,
-   "ini": 493.083,
-   "fim": 496.566
+   "ini": 514.393,
+   "fim": 518.597,
+   "t": [
+    514.393,
+    514.673,
+    514.883,
+    515.164,
+    515.374,
+    515.794,
+    516.145,
+    516.705,
+    517.266,
+    517.406,
+    517.827,
+    518.037
+   ]
   },
   {
    "texto": "Há uma visão de mundo.",
    "cap": "O QUE O SONHO DIZIA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 108,
-   "ini": 496.926,
-   "fim": 498.47
+   "ini": 519.017,
+   "fim": 520.323,
+   "t": [
+    519.017,
+    519.188,
+    519.415,
+    519.755,
+    519.925
+   ]
   },
   {
    "texto": "E uma visão de mundo com dinheiro costuma ir longe.",
    "cap": "O QUE O SONHO DIZIA",
    "pausa": 1.9,
    "i": 109,
-   "ini": 498.83,
-   "fim": 501.767
+   "ini": 520.743,
+   "fim": 524.144,
+   "t": [
+    520.743,
+    520.874,
+    521.135,
+    521.528,
+    521.724,
+    522.116,
+    522.378,
+    522.967,
+    523.49,
+    523.687
+   ]
   },
   {
    "texto": "Existe um caso em que essa influência pode ser medida.",
    "cap": "A MEDICINA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 110,
-   "ini": 503.667,
-   "fim": 506.918
+   "ini": 526.044,
+   "fim": 529.496,
+   "t": [
+    526.044,
+    526.484,
+    526.672,
+    526.986,
+    527.174,
+    527.425,
+    527.739,
+    528.429,
+    528.743,
+    528.994
+   ]
   },
   {
    "texto": "Em 1910, a Fundação Carnegie publicou um relatório sobre as faculdades de medicina dos Estados Unidos e do Canadá.",
    "cap": "A MEDICINA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 111,
-   "ini": 507.668,
-   "fim": 515.122
+   "ini": 530.296,
+   "fim": 539.73,
+   "t": [
+    530.296,
+    530.542,
+    531.034,
+    531.198,
+    531.937,
+    532.675,
+    533.413,
+    533.659,
+    534.48,
+    534.972,
+    535.218,
+    536.12,
+    536.366,
+    537.105,
+    537.433,
+    538.089,
+    538.663,
+    538.827,
+    539.074
+   ]
   },
   {
    "texto": "O autor era um educador chamado Abraham Flexner.",
    "cap": "A MEDICINA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 112,
-   "ini": 515.482,
-   "fim": 518.57
+   "ini": 540.15,
+   "fim": 543.582,
+   "t": [
+    540.15,
+    540.29,
+    540.71,
+    540.99,
+    541.2,
+    541.831,
+    542.391,
+    542.951
+   ]
   },
   {
    "texto": "O relatório foi devastador.",
    "cap": "A MEDICINA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 113,
-   "ini": 519.32,
-   "fim": 521.34
+   "ini": 544.382,
+   "fim": 545.997,
+   "t": [
+    544.382,
+    544.497,
+    545.074,
+    545.305
+   ]
   },
   {
    "texto": "Dizia que a maioria das escolas não tinha laboratório, nem hospital, nem critério para aceitar alunos.",
    "cap": "A MEDICINA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 114,
-   "ini": 521.7,
-   "fim": 528.028
+   "ini": 546.417,
+   "fim": 553.644,
+   "t": [
+    546.417,
+    546.838,
+    547.119,
+    547.259,
+    547.82,
+    548.101,
+    548.662,
+    548.943,
+    549.364,
+    550.276,
+    550.557,
+    551.259,
+    551.539,
+    552.171,
+    552.522,
+    553.083
+   ]
   },
   {
    "texto": "Nos anos seguintes, o conselho de Rockefeller despejou milhões nas faculdades que seguiam o modelo recomendado.",
    "cap": "A MEDICINA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 115,
-   "ini": 528.778,
-   "fim": 534.908
+   "ini": 554.444,
+   "fim": 561.586,
+   "t": [
+    554.444,
+    554.699,
+    555.018,
+    555.72,
+    555.847,
+    556.421,
+    556.612,
+    557.378,
+    557.951,
+    558.461,
+    558.717,
+    559.418,
+    559.673,
+    560.183,
+    560.311,
+    560.757
+   ]
   },
   {
    "texto": "E o próprio Flexner foi trabalhar lá.",
    "cap": "A MEDICINA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 116,
-   "ini": 535.268,
-   "fim": 537.834
+   "ini": 562.006,
+   "fim": 564.341,
+   "t": [
+    562.006,
+    562.129,
+    562.252,
+    562.743,
+    563.235,
+    563.48,
+    564.095
+   ]
   },
   {
    "texto": "As outras ficaram sem recursos.",
    "cap": "A MEDICINA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 117,
-   "ini": 538.584,
-   "fim": 541.324
+   "ini": 565.141,
+   "fim": 567.08,
+   "t": [
+    565.141,
+    565.322,
+    565.747,
+    566.232,
+    566.474
+   ]
   },
   {
    "texto": "Muitas fecharam.",
    "cap": "A MEDICINA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 118,
-   "ini": 541.684,
-   "fim": 543.204
+   "ini": 567.5,
+   "fim": 568.621,
+   "t": [
+    567.5,
+    567.962
+   ]
   },
   {
    "texto": "O resultado foi uma medicina mais científica.",
    "cap": "A MEDICINA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 119,
-   "ini": 543.954,
-   "fim": 546.95
+   "ini": 569.421,
+   "fim": 572.583,
+   "t": [
+    569.421,
+    569.558,
+    570.246,
+    570.521,
+    570.796,
+    571.414,
+    571.758
+   ]
   },
   {
    "texto": "E também mais cara, mais concentrada, e mais difícil para quem vinha de baixo.",
    "cap": "A MEDICINA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 120,
-   "ini": 547.31,
-   "fim": 551.861
+   "ini": 573.003,
+   "fim": 578.146,
+   "t": [
+    573.003,
+    573.133,
+    573.589,
+    573.915,
+    574.305,
+    574.631,
+    575.477,
+    575.607,
+    575.933,
+    576.453,
+    576.779,
+    577.105,
+    577.495,
+    577.69
+   ]
   },
   {
    "texto": "Não houve segredo nisso.",
    "cap": "A MEDICINA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 121,
-   "ini": 552.611,
-   "fim": 554.469
+   "ini": 578.946,
+   "fim": 580.372,
+   "t": [
+    578.946,
+    579.174,
+    579.517,
+    579.973
+   ]
   },
   {
    "texto": "Mas o caso mostra como a coisa funcionava.",
    "cap": "A MEDICINA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 122,
-   "ini": 554.829,
-   "fim": 557.673
+   "ini": 580.792,
+   "fim": 583.387,
+   "t": [
+    580.792,
+    581.034,
+    581.154,
+    581.456,
+    581.878,
+    582.18,
+    582.301,
+    582.663
+   ]
   },
   {
    "texto": "Ninguém proibia nada.",
    "cap": "A MEDICINA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 123,
-   "ini": 558.033,
-   "fim": 559.798
+   "ini": 583.807,
+   "fim": 585.129,
+   "t": [
+    583.807,
+    584.288,
+    584.768
+   ]
   },
   {
    "texto": "Bastava escolher quem recebia o cheque.",
    "cap": "A MEDICINA",
    "pausa": 1.9,
    "i": 124,
-   "ini": 560.158,
-   "fim": 562.747
+   "ini": 585.549,
+   "fim": 587.69,
+   "t": [
+    585.549,
+    585.977,
+    586.459,
+    586.727,
+    587.155,
+    587.262
+   ]
   },
   {
    "texto": "Essa história não ficou do lado de lá.",
    "cap": "E NO BRASIL",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 125,
-   "ini": 564.647,
-   "fim": 567.073
+   "ini": 589.59,
+   "fim": 591.954,
+   "t": [
+    589.59,
+    589.893,
+    590.439,
+    590.681,
+    591.045,
+    591.227,
+    591.53,
+    591.712
+   ]
   },
   {
    "texto": "A partir de 1916, a Fundação Rockefeller passou a atuar no Brasil.",
    "cap": "E NO BRASIL",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 126,
-   "ini": 567.823,
-   "fim": 573.326
+   "ini": 592.754,
+   "fim": 599.043,
+   "t": [
+    592.754,
+    592.942,
+    593.599,
+    593.881,
+    594.444,
+    594.632,
+    595.476,
+    596.603,
+    597.26,
+    597.448,
+    598.011,
+    598.292
+   ]
   },
   {
    "texto": "Financiou campanhas contra a febre amarela e contra vermes no interior, do mesmo tipo das que Gates descrevia.",
    "cap": "E NO BRASIL",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 127,
-   "ini": 573.686,
-   "fim": 579.805
+   "ini": 599.463,
+   "fim": 606.712,
+   "t": [
+    599.463,
+    600.116,
+    600.769,
+    601.227,
+    601.357,
+    601.749,
+    602.271,
+    602.402,
+    602.859,
+    603.316,
+    603.512,
+    604.165,
+    604.361,
+    604.753,
+    605.079,
+    605.341,
+    605.602,
+    605.994
+   ]
   },
   {
    "texto": "E fez aqui o que tinha feito lá com a medicina.",
    "cap": "E NO BRASIL",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 128,
-   "ini": 580.555,
-   "fim": 583.794
+   "ini": 607.512,
+   "fim": 610.334,
+   "t": [
+    607.512,
+    607.63,
+    607.865,
+    608.159,
+    608.276,
+    608.511,
+    608.864,
+    609.217,
+    609.393,
+    609.628,
+    609.746
+   ]
   },
   {
    "texto": "Um acordo com a Faculdade de Medicina de São Paulo trouxe dinheiro, professores estrangeiros, laboratórios e um novo prédio.",
    "cap": "E NO BRASIL",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 129,
-   "ini": 584.154,
-   "fim": 591.898
+   "ini": 610.754,
+   "fim": 619.976,
+   "t": [
+    610.754,
+    610.975,
+    611.491,
+    611.786,
+    611.934,
+    612.672,
+    612.893,
+    613.557,
+    613.779,
+    614.074,
+    614.516,
+    615.033,
+    615.771,
+    616.656,
+    617.689,
+    618.648,
+    618.796,
+    619.017,
+    619.386
+   ]
   },
   {
    "texto": "Em troca, a faculdade adotou o modelo recomendado:",
    "cap": "E NO BRASIL",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 130,
-   "ini": 592.258,
-   "fim": 595.799
+   "ini": 620.396,
+   "fim": 623.898,
+   "t": [
+    620.396,
+    620.602,
+    621.083,
+    621.22,
+    621.907,
+    622.387,
+    622.525,
+    623.005
+   ]
   },
   {
    "texto": "poucos alunos, tempo integral e pesquisa.",
    "cap": "E NO BRASIL",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 131,
-   "ini": 596.159,
-   "fim": 599.201
+   "ini": 624.318,
+   "fim": 626.603,
+   "t": [
+    624.318,
+    624.699,
+    625.134,
+    625.461,
+    625.95,
+    626.059
+   ]
   },
   {
    "texto": "Já a escola obrigatória brasileira veio por outro caminho.",
    "cap": "E NO BRASIL",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 132,
-   "ini": 599.951,
-   "fim": 603.492
+   "ini": 627.403,
+   "fim": 631.404,
+   "t": [
+    627.403,
+    627.607,
+    627.742,
+    628.217,
+    629.03,
+    629.776,
+    630.115,
+    630.387,
+    630.793
+   ]
   },
   {
    "texto": "A frequência obrigatória no ensino primário só entrou na Constituição em 1934.",
    "cap": "E NO BRASIL",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 133,
-   "ini": 603.852,
-   "fim": 609.494
+   "ini": 631.824,
+   "fim": 639.276,
+   "t": [
+    631.824,
+    632.012,
+    633.05,
+    634.182,
+    634.465,
+    635.126,
+    635.975,
+    636.258,
+    636.918,
+    637.201,
+    638.427,
+    638.71
+   ]
   },
   {
    "texto": "Ou seja, também aqui as duas coisas são verdadeiras.",
    "cap": "E NO BRASIL",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 134,
-   "ini": 610.244,
-   "fim": 614.052
+   "ini": 640.076,
+   "fim": 643.756,
+   "t": [
+    640.076,
+    640.285,
+    640.701,
+    641.187,
+    641.534,
+    641.743,
+    642.09,
+    642.576,
+    642.854
+   ]
   },
   {
    "texto": "O dinheiro estrangeiro moldou instituições.",
    "cap": "E NO BRASIL",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 135,
-   "ini": 614.412,
-   "fim": 617.292
+   "ini": 644.176,
+   "fim": 646.952,
+   "t": [
+    644.176,
+    644.302,
+    644.87,
+    645.627,
+    646.069
+   ]
   },
   {
    "texto": "E a obrigação de ir à escola foi uma decisão do Estado.",
    "cap": "E NO BRASIL",
    "pausa": 1.9,
    "i": 136,
-   "ini": 617.652,
-   "fim": 620.775
+   "ini": 647.372,
+   "fim": 651.33,
+   "t": [
+    647.372,
+    647.514,
+    647.655,
+    648.362,
+    648.574,
+    648.786,
+    648.927,
+    649.422,
+    649.705,
+    649.987,
+    650.553,
+    650.765
+   ]
   },
   {
    "texto": "A versão atual da teoria tem um autor conhecido.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 137,
-   "ini": 622.675,
-   "fim": 625.74
+   "ini": 653.23,
+   "fim": 656.421,
+   "t": [
+    653.23,
+    653.36,
+    653.816,
+    654.207,
+    654.402,
+    654.858,
+    655.119,
+    655.314,
+    655.705
+   ]
   },
   {
    "texto": "John Taylor Gatto deu aula em escolas públicas de Nova York por quase trinta anos.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 138,
-   "ini": 626.49,
-   "fim": 631.575
+   "ini": 657.221,
+   "fim": 662.517,
+   "t": [
+    657.221,
+    657.54,
+    657.987,
+    658.37,
+    658.625,
+    658.944,
+    659.136,
+    659.646,
+    660.22,
+    660.412,
+    660.731,
+    661.05,
+    661.305,
+    661.688,
+    662.134
+   ]
   },
   {
    "texto": "Foi eleito professor do ano da cidade, e depois do estado.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 139,
-   "ini": 631.935,
-   "fim": 635.685
+   "ini": 662.937,
+   "fim": 666.711,
+   "t": [
+    662.937,
+    663.193,
+    663.641,
+    664.28,
+    664.472,
+    664.728,
+    664.92,
+    665.432,
+    665.56,
+    666.007,
+    666.199
+   ]
   },
   {
    "texto": "Em 1991, no auge do reconhecimento, ele pediu demissão.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 140,
-   "ini": 636.435,
-   "fim": 641.624
+   "ini": 667.511,
+   "fim": 673.215,
+   "t": [
+    667.511,
+    667.816,
+    668.428,
+    668.733,
+    669.242,
+    669.548,
+    671.178,
+    671.585,
+    672.196
+   ]
   },
   {
    "texto": "E fez isso em público, num artigo de jornal.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 141,
-   "ini": 641.984,
-   "fim": 645.061
+   "ini": 673.635,
+   "fim": 676.542,
+   "t": [
+    673.635,
+    673.764,
+    674.023,
+    674.346,
+    674.539,
+    675.121,
+    675.379,
+    675.831,
+    676.025
+   ]
   },
   {
    "texto": "Disse que não queria mais ganhar a vida prejudicando crianças.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 142,
-   "ini": 645.421,
-   "fim": 649.171
+   "ini": 676.962,
+   "fim": 680.668,
+   "t": [
+    676.962,
+    677.315,
+    677.55,
+    677.785,
+    678.197,
+    678.491,
+    678.903,
+    679.021,
+    679.315,
+    680.08
+   ]
   },
   {
    "texto": "Nos livros que escreveu depois, Gatto defendeu que a escola moderna ensina, antes de qualquer matéria, a obedecer ao sinal, a esperar a ordem e a depender da aprovação de uma autoridade.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 143,
-   "ini": 649.921,
-   "fim": 661.044
+   "ini": 681.468,
+   "fim": 694.168,
+   "t": [
+    681.468,
+    681.74,
+    682.215,
+    682.487,
+    683.098,
+    683.642,
+    684.049,
+    684.66,
+    684.932,
+    685.068,
+    685.543,
+    686.086,
+    686.63,
+    687.037,
+    687.241,
+    687.852,
+    688.463,
+    688.599,
+    689.21,
+    689.414,
+    689.889,
+    690.025,
+    690.568,
+    690.704,
+    691.112,
+    691.247,
+    691.383,
+    691.994,
+    692.198,
+    692.877,
+    693.081,
+    693.353
+   ]
   },
   {
    "texto": "Foi ele quem juntou as duas pontas dessa história para o grande público.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 144,
-   "ini": 661.794,
-   "fim": 665.683
+   "ini": 694.968,
+   "fim": 699.737,
+   "t": [
+    694.968,
+    695.229,
+    695.49,
+    695.817,
+    696.274,
+    696.47,
+    696.797,
+    697.254,
+    697.646,
+    698.234,
+    698.561,
+    698.691,
+    699.149
+   ]
   },
   {
    "texto": "A Prússia, de um lado.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 145,
-   "ini": 666.043,
-   "fim": 668.133
+   "ini": 700.157,
+   "fim": 701.497,
+   "t": [
+    700.157,
+    700.273,
+    700.798,
+    700.973,
+    701.148
+   ]
   },
   {
    "texto": "Gates e Rockefeller, do outro.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 146,
-   "ini": 668.493,
-   "fim": 670.745
+   "ini": 701.917,
+   "fim": 703.625,
+   "t": [
+    701.917,
+    702.248,
+    702.358,
+    703.074,
+    703.239
+   ]
   },
   {
    "texto": "Gatto conhecia uma sala de aula por dentro, e muita gente se reconheceu no que ele descreveu.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 147,
-   "ini": 671.495,
-   "fim": 676.615
+   "ini": 704.425,
+   "fim": 710.346,
+   "t": [
+    704.425,
+    704.803,
+    705.37,
+    705.622,
+    705.937,
+    706.126,
+    706.441,
+    706.693,
+    707.197,
+    707.323,
+    707.701,
+    708.079,
+    708.268,
+    708.961,
+    709.149,
+    709.401,
+    709.653
+   ]
   },
   {
    "texto": "Mas a experiência de um professor é uma coisa.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 148,
-   "ini": 677.365,
-   "fim": 680.256
+   "ini": 711.146,
+   "fim": 714.361,
+   "t": [
+    711.146,
+    711.42,
+    711.557,
+    712.377,
+    712.583,
+    712.788,
+    713.472,
+    713.608,
+    713.882
+   ]
   },
   {
    "texto": "A prova de um plano é outra.",
    "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
    "pausa": 1.9,
    "i": 149,
-   "ini": 680.616,
-   "fim": 682.671
+   "ini": 714.781,
+   "fim": 716.479,
+   "t": [
+    714.781,
+    714.898,
+    715.249,
+    715.425,
+    715.601,
+    715.952,
+    716.069
+   ]
   },
   {
    "texto": "E aqui entra o detalhe mais revelador.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 150,
-   "ini": 684.571,
-   "fim": 687.021
+   "ini": 718.379,
+   "fim": 720.602,
+   "t": [
+    718.379,
+    718.493,
+    718.778,
+    719.12,
+    719.234,
+    719.69,
+    719.975
+   ]
   },
   {
    "texto": "Na internet, a teoria quase sempre vem acompanhada de uma citação atribuída ao próprio Rockefeller.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 151,
-   "ini": 687.771,
-   "fim": 693.75
+   "ini": 721.402,
+   "fim": 728.38,
+   "t": [
+    721.402,
+    721.612,
+    722.309,
+    722.449,
+    722.937,
+    723.356,
+    723.844,
+    724.124,
+    724.961,
+    725.17,
+    725.449,
+    726.008,
+    726.705,
+    726.915,
+    727.473
+   ]
   },
   {
    "texto": "Eu não quero uma nação de pensadores.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 152,
-   "ini": 694.11,
-   "fim": 696.652
+   "ini": 728.8,
+   "fim": 730.936,
+   "t": [
+    728.8,
+    728.969,
+    729.193,
+    729.531,
+    729.755,
+    730.093,
+    730.261
+   ]
   },
   {
    "texto": "Quero uma nação de trabalhadores.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 153,
-   "ini": 697.012,
-   "fim": 699.265
+   "ini": 731.356,
+   "fim": 733.209,
+   "t": [
+    731.356,
+    731.683,
+    731.901,
+    732.228,
+    732.391
+   ]
   },
   {
    "texto": "Ela é perfeita.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 154,
-   "ini": 700.015,
-   "fim": 701.536
+   "ini": 734.009,
+   "fim": 734.933,
+   "t": [
+    734.009,
+    734.24,
+    734.355
+   ]
   },
   {
    "texto": "Curta, cruel e fácil de compartilhar.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 155,
-   "ini": 701.896,
-   "fim": 704.473
+   "ini": 735.353,
+   "fim": 737.464,
+   "t": [
+    735.353,
+    735.742,
+    736.076,
+    736.187,
+    736.52,
+    736.687
+   ]
   },
   {
    "texto": "O problema é que ninguém consegue mostrar onde ele disse isso.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 156,
-   "ini": 705.223,
-   "fim": 708.88
+   "ini": 738.264,
+   "fim": 742.275,
+   "t": [
+    738.264,
+    738.392,
+    738.965,
+    739.092,
+    739.347,
+    739.856,
+    740.429,
+    740.938,
+    741.256,
+    741.511,
+    741.893
+   ]
   },
   {
    "texto": "Não aparece em carta, em discurso, nem em livro com fonte conferível.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 157,
-   "ini": 709.24,
-   "fim": 713.803
+   "ini": 742.695,
+   "fim": 747.652,
+   "t": [
+    742.695,
+    742.978,
+    743.545,
+    743.757,
+    744.253,
+    744.465,
+    745.174,
+    745.457,
+    745.669,
+    746.094,
+    746.377,
+    746.802
+   ]
   },
   {
    "texto": "E isso diz muito sobre como uma teoria cresce.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 158,
-   "ini": 714.553,
-   "fim": 717.746
+   "ini": 748.452,
+   "fim": 751.657,
+   "t": [
+    748.452,
+    748.588,
+    748.929,
+    749.202,
+    749.611,
+    750.02,
+    750.361,
+    750.634,
+    751.112
+   ]
   },
   {
    "texto": "A frase verdadeira, a de Gates, é longa, tem contexto, e fala de um sonho sobre o campo.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 159,
-   "ini": 718.496,
-   "fim": 724.649
+   "ini": 752.457,
+   "fim": 758.822,
+   "t": [
+    752.457,
+    752.6,
+    753.029,
+    753.887,
+    754.03,
+    754.245,
+    754.746,
+    754.889,
+    755.389,
+    755.675,
+    756.39,
+    756.533,
+    756.891,
+    757.105,
+    757.32,
+    757.749,
+    758.178,
+    758.321
+   ]
   },
   {
    "texto": "A frase sem fonte é a que viraliza.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 160,
-   "ini": 725.009,
-   "fim": 727.366
+   "ini": 759.242,
+   "fim": 761.325,
+   "t": [
+    759.242,
+    759.358,
+    759.705,
+    759.936,
+    760.283,
+    760.399,
+    760.515,
+    760.746
+   ]
   },
   {
    "texto": "Quando o documento real não é simples o bastante, alguém fabrica um mais simples.",
    "cap": "A FRASE QUE NINGUÉM ENCONTRA",
    "pausa": 1.9,
    "i": 161,
-   "ini": 728.116,
-   "fim": 732.353
+   "ini": 762.125,
+   "fim": 767.564,
+   "t": [
+    762.125,
+    762.589,
+    762.722,
+    763.385,
+    763.717,
+    763.982,
+    764.115,
+    764.646,
+    764.778,
+    765.442,
+    765.906,
+    766.436,
+    766.635,
+    766.967
+   ]
   },
   {
    "texto": "Então, o que dá para afirmar?",
    "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 162,
-   "ini": 734.253,
-   "fim": 736.482
+   "ini": 769.464,
+   "fim": 771.13,
+   "t": [
+    769.464,
+    769.853,
+    769.964,
+    770.186,
+    770.352,
+    770.63
+   ]
   },
   {
    "texto": "É verdade que o modelo de escola que conhecemos nasceu em um reino que queria súditos disciplinados.",
    "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 163,
-   "ini": 737.232,
-   "fim": 743.026
+   "ini": 771.93,
+   "fim": 778.193,
+   "t": [
+    771.93,
+    772.054,
+    772.55,
+    772.798,
+    772.922,
+    773.356,
+    773.542,
+    773.976,
+    774.224,
+    774.906,
+    775.34,
+    775.526,
+    775.712,
+    776.084,
+    776.333,
+    776.767,
+    777.263
+   ]
   },
   {
    "texto": "É verdade que ele foi copiado de propósito, por reformadores que admiravam essa disciplina.",
    "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 164,
-   "ini": 743.776,
-   "fim": 749.221
+   "ini": 778.993,
+   "fim": 785.144,
+   "t": [
+    778.993,
+    779.127,
+    779.661,
+    779.929,
+    780.196,
+    780.464,
+    780.999,
+    781.199,
+    781.935,
+    782.202,
+    783.071,
+    783.339,
+    784.007,
+    784.342
+   ]
   },
   {
    "texto": "É verdade que homens muito ricos gastaram fortunas para moldar o ensino, e que escreveram, com todas as letras, o que esperavam das pessoas comuns.",
    "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 165,
-   "ini": 749.971,
-   "fim": 758.992
+   "ini": 785.944,
+   "fim": 795.588,
+   "t": [
+    785.944,
+    786.074,
+    786.596,
+    786.856,
+    787.312,
+    787.703,
+    788.094,
+    788.681,
+    789.267,
+    789.593,
+    790.049,
+    790.18,
+    790.701,
+    790.831,
+    791.092,
+    791.874,
+    792.134,
+    792.525,
+    792.721,
+    793.242,
+    793.372,
+    793.633,
+    794.285,
+    794.545,
+    795.067
+   ]
   },
   {
    "texto": "Mas não é verdade que Rockefeller inventou a escola obrigatória.",
    "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 166,
-   "ini": 759.742,
-   "fim": 763.434
+   "ini": 796.388,
+   "fim": 800.75,
+   "t": [
+    796.388,
+    796.656,
+    796.925,
+    797.059,
+    797.596,
+    797.864,
+    798.67,
+    799.274,
+    799.408,
+    799.878
+   ]
   },
   {
    "texto": "Ela é mais antiga do que ele.",
    "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 167,
-   "ini": 763.794,
-   "fim": 765.895
+   "ini": 801.17,
+   "fim": 802.814,
+   "t": [
+    801.17,
+    801.389,
+    801.499,
+    801.773,
+    802.157,
+    802.321,
+    802.54
+   ]
   },
   {
    "texto": "E não há documento que mostre um plano único, combinado em segredo, para manter as pessoas ignorantes.",
    "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 168,
-   "ini": 766.645,
-   "fim": 772.961
+   "ini": 803.614,
+   "fim": 810.73,
+   "t": [
+    803.614,
+    803.752,
+    804.029,
+    804.236,
+    804.927,
+    805.203,
+    805.687,
+    805.894,
+    806.308,
+    806.792,
+    807.483,
+    807.69,
+    808.312,
+    808.658,
+    809.141,
+    809.348,
+    809.901
+   ]
   },
   {
    "texto": "O que existe é menos cinematográfico, e talvez mais incômodo.",
    "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 169,
-   "ini": 773.711,
-   "fim": 777.937
+   "ini": 811.53,
+   "fim": 815.492,
+   "t": [
+    811.53,
+    811.658,
+    811.914,
+    812.361,
+    812.489,
+    812.872,
+    813.958,
+    814.086,
+    814.533,
+    814.853
+   ]
   },
   {
    "texto": "Decisões tomadas à luz do dia, por gente que tinha certeza de saber o que era melhor para os outros.",
    "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
    "pausa": 1.9,
    "i": 170,
-   "ini": 778.297,
-   "fim": 783.696
+   "ini": 815.912,
+   "fim": 822.352,
+   "t": [
+    815.912,
+    816.486,
+    816.996,
+    817.123,
+    817.379,
+    817.57,
+    817.889,
+    818.144,
+    818.526,
+    818.781,
+    819.164,
+    819.674,
+    819.865,
+    820.248,
+    820.376,
+    820.631,
+    820.886,
+    821.332,
+    821.651,
+    821.842
+   ]
   },
   {
    "texto": "No começo deste vídeo, havia uma frase e uma pergunta.",
    "cap": "FECHO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 171,
-   "ini": 785.596,
-   "fim": 789.415
+   "ini": 824.252,
+   "fim": 827.923,
+   "t": [
+    824.252,
+    824.453,
+    824.92,
+    825.32,
+    825.787,
+    826.188,
+    826.455,
+    826.855,
+    826.989,
+    827.256
+   ]
   },
   {
    "texto": "O que ela prova?",
    "cap": "FECHO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 172,
-   "ini": 789.775,
-   "fim": 791.134
+   "ini": 828.343,
+   "fim": 829.283,
+   "t": [
+    828.343,
+    828.454,
+    828.675,
+    828.896
+   ]
   },
   {
    "texto": "Ela não prova uma conspiração.",
    "cap": "FECHO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 173,
-   "ini": 791.884,
-   "fim": 794.032
+   "ini": 830.083,
+   "fim": 832.227,
+   "t": [
+    830.083,
+    830.36,
+    830.636,
+    831.051,
+    831.328
+   ]
   },
   {
    "texto": "Prova que a ideia existiu, que foi escrita sem vergonha, e que quem a escreveu tinha os meios para tentar colocá-la em prática.",
    "cap": "FECHO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 174,
-   "ini": 794.392,
-   "fim": 801.636
+   "ini": 832.647,
+   "fim": 840.921,
+   "t": [
+    832.647,
+    833.035,
+    833.294,
+    833.423,
+    833.811,
+    834.392,
+    834.651,
+    834.909,
+    835.427,
+    835.685,
+    836.331,
+    836.461,
+    836.719,
+    837.043,
+    837.172,
+    837.754,
+    838.141,
+    838.335,
+    838.723,
+    839.046,
+    839.499,
+    840.145,
+    840.339
+   ]
   },
   {
    "texto": "A escola que você frequentou carrega marcas dessa história.",
    "cap": "FECHO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 175,
-   "ini": 802.386,
-   "fim": 805.985
+   "ini": 841.721,
+   "fim": 845.528,
+   "t": [
+    841.721,
+    841.848,
+    842.292,
+    842.546,
+    842.863,
+    843.561,
+    844.069,
+    844.513,
+    844.894
+   ]
   },
   {
    "texto": "O sinal.",
    "cap": "FECHO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 176,
-   "ini": 806.345,
-   "fim": 807.483
+   "ini": 845.948,
+   "fim": 846.661,
+   "t": [
+    845.948,
+    846.107
+   ]
   },
   {
    "texto": "A fila.",
    "cap": "FECHO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 177,
-   "ini": 807.843,
-   "fim": 808.911
+   "ini": 847.081,
+   "fim": 847.675,
+   "t": [
+    847.081,
+    847.23
+   ]
   },
   {
    "texto": "A turma dividida por idade.",
    "cap": "FECHO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 178,
-   "ini": 809.271,
-   "fim": 811.442
+   "ini": 848.095,
+   "fim": 849.775,
+   "t": [
+    848.095,
+    848.215,
+    848.575,
+    849.115,
+    849.355
+   ]
   },
   {
    "texto": "A nota.",
    "cap": "FECHO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 179,
-   "ini": 811.802,
-   "fim": 812.917
+   "ini": 850.195,
+   "fim": 850.838,
+   "t": [
+    850.195,
+    850.356
+   ]
   },
   {
    "texto": "Cada uma dessas coisas teve um motivo, e nem todos eram ruins.",
    "cap": "FECHO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 180,
-   "ini": 813.667,
-   "fim": 817.835
+   "ini": 851.638,
+   "fim": 856.066,
+   "t": [
+    851.638,
+    851.99,
+    852.271,
+    852.763,
+    853.255,
+    853.606,
+    853.817,
+    854.379,
+    854.52,
+    854.801,
+    855.222,
+    855.574
+   ]
   },
   {
    "texto": "Mas nenhuma delas caiu do céu.",
    "cap": "FECHO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 181,
-   "ini": 818.195,
-   "fim": 820.528
+   "ini": 856.486,
+   "fim": 858.243,
+   "t": [
+    856.486,
+    856.713,
+    857.166,
+    857.506,
+    857.79,
+    857.96
+   ]
   },
   {
    "texto": "Alguém escolheu.",
    "cap": "FECHO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 182,
-   "ini": 820.888,
-   "fim": 822.293
+   "ini": 858.663,
+   "fim": 859.642,
+   "t": [
+    858.663,
+    859.066
+   ]
   },
   {
    "texto": "E a pergunta que fica não é sobre o passado.",
    "cap": "FECHO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 183,
-   "ini": 823.043,
-   "fim": 825.818
+   "ini": 860.442,
+   "fim": 863.094,
+   "t": [
+    860.442,
+    860.56,
+    860.678,
+    861.208,
+    861.444,
+    861.739,
+    861.975,
+    862.093,
+    862.446,
+    862.564
+   ]
   },
   {
    "texto": "Hoje, quem está escolhendo o que os seus filhos vão aprender?",
    "cap": "FECHO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 184,
-   "ini": 826.178,
-   "fim": 830.033
+   "ini": 863.514,
+   "fim": 866.97,
+   "t": [
+    863.514,
+    863.849,
+    864.128,
+    864.406,
+    865.019,
+    865.131,
+    865.354,
+    865.521,
+    865.799,
+    866.19,
+    866.412
+   ]
   },
   {
    "texto": "Me conta nos comentários o que você acha.",
    "cap": "FECHO",
-   "pausa": 0.36,
+   "pausa": 0.42,
    "i": 185,
-   "ini": 830.783,
-   "fim": 833.325
+   "ini": 867.77,
+   "fim": 869.917,
+   "t": [
+    867.77,
+    867.923,
+    868.23,
+    868.434,
+    869.048,
+    869.15,
+    869.354,
+    869.61
+   ]
   },
   {
    "texto": "E, para acompanhar outras histórias investigadas a partir de documentos, inscreva-se no canal.",
    "cap": "FECHO",
-   "pausa": 0.75,
+   "pausa": 0.8,
    "i": 186,
-   "ini": 833.685,
-   "fim": 839.769
+   "ini": 870.337,
+   "fim": 877.194,
+   "t": [
+    870.337,
+    870.553,
+    870.914,
+    871.708,
+    872.213,
+    872.935,
+    873.874,
+    874.018,
+    874.523,
+    874.74,
+    875.606,
+    876.472,
+    876.689
+   ]
   }
  ]
 }

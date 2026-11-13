@@ -15,7 +15,7 @@
 
 - [x] 1. Ideia e critério de pronto
 - [x] 2. Roteiro (escrito pela IA a pedido do dono; falta a revisão dele)
-- [ ] 3. Narração (só existe a provisória, em voz sintética)
+- [x] 3. Narração: voz M5 do Supertonic-3 (motor do VoiceStudio, licença OpenRAIL-M), escolhida pela IA a pedido do dono (`audio/narrar_m5.py`)
 - [ ] 4. Aprovação do áudio
 - [x] 5. Referências e assets
 - [x] 6. Identidade visual
@@ -23,6 +23,13 @@
 - [x] 8. Montagem (sobre a voz provisória)
 - [ ] 9. Revisão e entrega
 - [ ] 10. Aprendizados registrados
+
+## Voz
+
+- Motor: Supertonic-3 (Supertone), instalado em `/home/user/supertonic` (fora do git). Pesos do modelo em licença OpenRAIL-M, que permite uso comercial com restrições de uso indevido.
+- Voz: M5, a mais grave das 5 masculinas (tom médio ~92 Hz) e uma das que leram os anos corretamente nos testes.
+- Números são escritos por extenso antes da síntese (`audio/preparar_supertonic.py`).
+- Conferência: 97,5% das palavras transcritas iguais ao roteiro. Pronúncias a ouvir: "Horace Mann", "inspetor", "dóceis".
 
 ## Fontes
 

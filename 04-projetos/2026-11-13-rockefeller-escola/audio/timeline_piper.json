@@ -1,0 +1,1495 @@
+{
+ "intro": 1.5,
+ "total": 842.519,
+ "frases": [
+  {
+   "texto": "Em 1913, um homem de confiança de John Rockefeller publicou um texto sobre educação.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 1,
+   "ini": 1.5,
+   "fim": 7.549
+  },
+  {
+   "texto": "Em uma das páginas, ele escreveu o seguinte.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 2,
+   "ini": 8.299,
+   "fim": 11.445
+  },
+  {
+   "texto": "No nosso sonho, temos recursos ilimitados, e o povo se entrega, com perfeita docilidade, à nossa mão moldadora.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 3,
+   "ini": 12.195,
+   "fim": 19.73
+  },
+  {
+   "texto": "E continuou.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 4,
+   "ini": 20.48,
+   "fim": 21.78
+  },
+  {
+   "texto": "Não tentaremos fazer dessas pessoas, nem de nenhum de seus filhos, filósofos, homens de saber ou de ciência.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 5,
+   "ini": 22.14,
+   "fim": 28.584
+  },
+  {
+   "texto": "Essa página não é uma invenção da internet.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 6,
+   "ini": 29.334,
+   "fim": 32.236
+  },
+  {
+   "texto": "Ela foi impressa, está arquivada, e você está olhando para ela agora.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 7,
+   "ini": 32.596,
+   "fim": 36.938
+  },
+  {
+   "texto": "É a partir dela que nasce uma das teorias mais repetidas do nosso tempo.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 8,
+   "ini": 37.688,
+   "fim": 41.833
+  },
+  {
+   "texto": "A de que a escola obrigatória foi desenhada por milionários para fabricar trabalhadores obedientes.",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 9,
+   "ini": 42.193,
+   "fim": 47.441
+  },
+  {
+   "texto": "A frase é real.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 10,
+   "ini": 48.191,
+   "fim": 49.654
+  },
+  {
+   "texto": "A pergunta é outra.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 11,
+   "ini": 50.014,
+   "fim": 51.674
+  },
+  {
+   "texto": "O que ela prova?",
+   "cap": "ABERTURA",
+   "pausa": 0.75,
+   "i": 12,
+   "ini": 52.034,
+   "fim": 53.439
+  },
+  {
+   "texto": "Para responder, precisamos abrir os documentos.",
+   "cap": "ABERTURA",
+   "pausa": 0.36,
+   "i": 13,
+   "ini": 54.189,
+   "fim": 57.312
+  },
+  {
+   "texto": "Os de Rockefeller, e os que vieram muito antes dele.",
+   "cap": "ABERTURA",
+   "pausa": 6.0,
+   "i": 14,
+   "ini": 57.672,
+   "fim": 61.085,
+   "titulo_ini": 62.085
+  },
+  {
+   "texto": "O autor do texto se chamava Frederick Gates.",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 0.75,
+   "i": 15,
+   "ini": 67.085,
+   "fim": 70.278
+  },
+  {
+   "texto": "Gates era um pastor batista que se tornou o principal conselheiro de Rockefeller para doações.",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 0.36,
+   "i": 16,
+   "ini": 71.028,
+   "fim": 76.264
+  },
+  {
+   "texto": "Era ele quem decidia para onde ia boa parte da maior fortuna do planeta.",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 0.75,
+   "i": 17,
+   "ini": 76.624,
+   "fim": 80.862
+  },
+  {
+   "texto": "O texto se chama A Escola Rural do Amanhã.",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 0.36,
+   "i": 18,
+   "ini": 81.612,
+   "fim": 84.352
+  },
+  {
+   "texto": "Foi o primeiro de uma série de publicações de uma organização criada com o dinheiro de Rockefeller:",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 0.36,
+   "i": 19,
+   "ini": 84.712,
+   "fim": 89.797
+  },
+  {
+   "texto": "o Conselho Geral de Educação.",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 0.75,
+   "i": 20,
+   "ini": 90.157,
+   "fim": 92.281
+  },
+  {
+   "texto": "Não era um memorando secreto.",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 0.36,
+   "i": 21,
+   "ini": 93.031,
+   "fim": 95.052
+  },
+  {
+   "texto": "Era um folheto, distribuído ao público.",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 0.75,
+   "i": 22,
+   "ini": 95.412,
+   "fim": 97.896
+  },
+  {
+   "texto": "E isso já muda a forma de olhar para ele.",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 0.36,
+   "i": 23,
+   "ini": 98.646,
+   "fim": 101.305
+  },
+  {
+   "texto": "Quem planeja dominar um país em segredo raramente imprime o plano e manda pelo correio.",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 0.75,
+   "i": 24,
+   "ini": 101.665,
+   "fim": 106.866
+  },
+  {
+   "texto": "Mas o que era esse conselho?",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 0.36,
+   "i": 25,
+   "ini": 107.616,
+   "fim": 109.636
+  },
+  {
+   "texto": "E quanto poder ele realmente tinha?",
+   "cap": "O HOMEM POR TRÁS DA FRASE",
+   "pausa": 1.9,
+   "i": 26,
+   "ini": 109.996,
+   "fim": 112.341
+  },
+  {
+   "texto": "A resposta está no relatório que o próprio conselho publicou em 1915.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.75,
+   "i": 27,
+   "ini": 114.241,
+   "fim": 119.199
+  },
+  {
+   "texto": "Em 1902, Rockefeller deu um milhão de dólares para começar.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.36,
+   "i": 28,
+   "ini": 119.949,
+   "fim": 124.372
+  },
+  {
+   "texto": "O alvo declarado era a educação nos estados do Sul.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.75,
+   "i": 29,
+   "ini": 124.732,
+   "fim": 128.157
+  },
+  {
+   "texto": "Em 1905, vieram mais dez milhões.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.36,
+   "i": 30,
+   "ini": 128.907,
+   "fim": 132.657
+  },
+  {
+   "texto": "Dessa vez, para promover, nas palavras do documento, um sistema abrangente de ensino superior nos Estados Unidos.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.75,
+   "i": 31,
+   "ini": 133.017,
+   "fim": 140.401
+  },
+  {
+   "texto": "Em 1907, outros trinta e dois milhões.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.75,
+   "i": 32,
+   "ini": 141.151,
+   "fim": 145.354
+  },
+  {
+   "texto": "São valores que, na época, nenhum governo estadual conseguia igualar.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.75,
+   "i": 33,
+   "ini": 146.104,
+   "fim": 150.644
+  },
+  {
+   "texto": "Com esse dinheiro, o conselho pagou a construção de escolas secundárias, financiou universidades, bancou professores e espalhou fazendas-modelo pelo interior.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.75,
+   "i": 34,
+   "ini": 151.394,
+   "fim": 160.554
+  },
+  {
+   "texto": "Os mapas do relatório mostram a escala.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.36,
+   "i": 35,
+   "ini": 161.304,
+   "fim": 164.09
+  },
+  {
+   "texto": "Cada ponto é um lugar onde o dinheiro de Rockefeller chegou.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.75,
+   "i": 36,
+   "ini": 164.45,
+   "fim": 167.608
+  },
+  {
+   "texto": "Então a influência existiu, e foi enorme.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.36,
+   "i": 37,
+   "ini": 168.358,
+   "fim": 171.388
+  },
+  {
+   "texto": "Um grupo pequeno, que ninguém elegeu, ajudou a decidir o que seria uma boa escola para milhões de pessoas.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.75,
+   "i": 38,
+   "ini": 171.748,
+   "fim": 177.994
+  },
+  {
+   "texto": "Só que há um problema com a teoria.",
+   "cap": "O DINHEIRO",
+   "pausa": 0.36,
+   "i": 39,
+   "ini": 178.744,
+   "fim": 180.95
+  },
+  {
+   "texto": "Quando esse conselho nasceu, a escola obrigatória já existia.",
+   "cap": "O DINHEIRO",
+   "pausa": 1.9,
+   "i": 40,
+   "ini": 181.31,
+   "fim": 185.095
+  },
+  {
+   "texto": "Para encontrar a origem, é preciso recuar cento e quarenta anos, e atravessar o oceano.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.75,
+   "i": 41,
+   "ini": 186.995,
+   "fim": 192.858
+  },
+  {
+   "texto": "Em 1763, o rei Frederico da Prússia assinou um regulamento.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.36,
+   "i": 42,
+   "ini": 193.608,
+   "fim": 198.902
+  },
+  {
+   "texto": "Toda criança do reino, mais ou menos dos cinco aos treze anos, deveria frequentar a escola.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.75,
+   "i": 43,
+   "ini": 199.262,
+   "fim": 205.334
+  },
+  {
+   "texto": "O objetivo não era esconder nada.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.36,
+   "i": 44,
+   "ini": 206.084,
+   "fim": 208.325
+  },
+  {
+   "texto": "A Prússia queria súditos que soubessem ler, contar, rezar e obedecer.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.36,
+   "i": 45,
+   "ini": 208.685,
+   "fim": 213.341
+  },
+  {
+   "texto": "Soldados melhores e contribuintes melhores.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.75,
+   "i": 46,
+   "ini": 213.701,
+   "fim": 216.835
+  },
+  {
+   "texto": "Com o tempo, o sistema ganhou tudo o que hoje parece natural.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.36,
+   "i": 47,
+   "ini": 217.585,
+   "fim": 221.277
+  },
+  {
+   "texto": "Turmas separadas por idade.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.36,
+   "i": 48,
+   "ini": 221.637,
+   "fim": 223.669
+  },
+  {
+   "texto": "Um currículo igual para todos.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.36,
+   "i": 49,
+   "ini": 224.029,
+   "fim": 226.328
+  },
+  {
+   "texto": "Professores formados pelo Estado.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.36,
+   "i": 50,
+   "ini": 226.688,
+   "fim": 229.068
+  },
+  {
+   "texto": "E presença controlada.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.75,
+   "i": 51,
+   "ini": 229.428,
+   "fim": 231.413
+  },
+  {
+   "texto": "Um visitante americano descreveu como isso funcionava na prática.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.75,
+   "i": 52,
+   "ini": 232.163,
+   "fim": 236.18
+  },
+  {
+   "texto": "Se a criança faltava sem justificativa, o diretor avisava o inspetor.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.36,
+   "i": 53,
+   "ini": 236.93,
+   "fim": 241.574
+  },
+  {
+   "texto": "O inspetor convocava os pais diante de um magistrado.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.36,
+   "i": 54,
+   "ini": 241.934,
+   "fim": 245.069
+  },
+  {
+   "texto": "E a intimação era entregue em casa por um policial.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.75,
+   "i": 55,
+   "ini": 245.429,
+   "fim": 248.622
+  },
+  {
+   "texto": "Esse visitante não escreveu aquilo como denúncia.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 0.36,
+   "i": 56,
+   "ini": 249.372,
+   "fim": 252.646
+  },
+  {
+   "texto": "Ele estava encantado.",
+   "cap": "ANTES DE ROCKEFELLER",
+   "pausa": 1.9,
+   "i": 57,
+   "ini": 253.006,
+   "fim": 254.805
+  },
+  {
+   "texto": "O nome dele era Horace Mann.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.75,
+   "i": 58,
+   "ini": 256.705,
+   "fim": 258.609
+  },
+  {
+   "texto": "Mann era secretário de educação do estado de Massachusetts.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.36,
+   "i": 59,
+   "ini": 259.359,
+   "fim": 262.947
+  },
+  {
+   "texto": "Em 1843, viajou pela Europa visitando escolas.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.36,
+   "i": 60,
+   "ini": 263.307,
+   "fim": 267.986
+  },
+  {
+   "texto": "E voltou convencido de que a Prússia tinha o melhor sistema do mundo.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.75,
+   "i": 61,
+   "ini": 268.346,
+   "fim": 272.154
+  },
+  {
+   "texto": "Ele sabia das críticas.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.36,
+   "i": 62,
+   "ini": 272.904,
+   "fim": 274.924
+  },
+  {
+   "texto": "No próprio relatório, reconheceu que acusavam aquele modelo de formar súditos dóceis para um rei.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.75,
+   "i": 63,
+   "ini": 275.284,
+   "fim": 280.973
+  },
+  {
+   "texto": "A resposta dele foi simples.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.36,
+   "i": 64,
+   "ini": 281.723,
+   "fim": 284.033
+  },
+  {
+   "texto": "Os defeitos, escreveu, podiam ser separados das qualidades.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.36,
+   "i": 65,
+   "ini": 284.393,
+   "fim": 289.002
+  },
+  {
+   "texto": "Se o método prussiano ensinava melhor, uma república poderia usá-lo para formar cidadãos livres.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.75,
+   "i": 66,
+   "ini": 289.362,
+   "fim": 295.179
+  },
+  {
+   "texto": "O relatório circulou pelo país inteiro.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.75,
+   "i": 67,
+   "ini": 295.929,
+   "fim": 298.739
+  },
+  {
+   "texto": "Em 1852, Massachusetts aprovou a primeira lei de frequência obrigatória dos Estados Unidos.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.75,
+   "i": 68,
+   "ini": 299.489,
+   "fim": 306.315
+  },
+  {
+   "texto": "Os outros estados vieram depois, um a um.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.36,
+   "i": 69,
+   "ini": 307.065,
+   "fim": 310.386
+  },
+  {
+   "texto": "O último foi o Mississippi, em 1918.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.75,
+   "i": 70,
+   "ini": 310.746,
+   "fim": 314.623
+  },
+  {
+   "texto": "Guarde a primeira data.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.36,
+   "i": 71,
+   "ini": 315.373,
+   "fim": 317.057
+  },
+  {
+   "texto": "1852.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.36,
+   "i": 72,
+   "ini": 317.417,
+   "fim": 319.936
+  },
+  {
+   "texto": "Rockefeller tinha treze anos.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.36,
+   "i": 73,
+   "ini": 320.296,
+   "fim": 322.641
+  },
+  {
+   "texto": "O conselho dele só seria criado meio século depois.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.75,
+   "i": 74,
+   "ini": 323.001,
+   "fim": 326.473
+  },
+  {
+   "texto": "Quem obrigou as crianças a ir para a escola não foi um milionário.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.36,
+   "i": 75,
+   "ini": 327.223,
+   "fim": 330.903
+  },
+  {
+   "texto": "Foram parlamentos estaduais, empurrados por reformadores, igrejas, sindicatos que queriam tirar crianças das fábricas, e políticos preocupados com a chegada de milhões de imigrantes.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 0.75,
+   "i": 76,
+   "ini": 331.263,
+   "fim": 342.954
+  },
+  {
+   "texto": "Isso derruba a versão mais simples da teoria.",
+   "cap": "O HOMEM QUE TROUXE A IDEIA",
+   "pausa": 1.9,
+   "i": 77,
+   "ini": 343.704,
+   "fim": 346.688
+  },
+  {
+   "texto": "Existe ainda um motivo que a teoria costuma deixar de fora.",
+   "cap": "AS CRIANÇAS DAS FÁBRICAS",
+   "pausa": 0.75,
+   "i": 78,
+   "ini": 348.588,
+   "fim": 352.013
+  },
+  {
+   "texto": "Em 1900, cerca de uma em cada seis crianças americanas entre dez e quinze anos trabalhava.",
+   "cap": "AS CRIANÇAS DAS FÁBRICAS",
+   "pausa": 0.36,
+   "i": 79,
+   "ini": 352.763,
+   "fim": 359.613
+  },
+  {
+   "texto": "Em minas de carvão, em fábricas de tecido, em plantações.",
+   "cap": "AS CRIANÇAS DAS FÁBRICAS",
+   "pausa": 0.75,
+   "i": 80,
+   "ini": 359.973,
+   "fim": 364.338
+  },
+  {
+   "texto": "Para os reformadores da época, a escola obrigatória era, antes de tudo, uma forma de tirar essas crianças dali.",
+   "cap": "AS CRIANÇAS DAS FÁBRICAS",
+   "pausa": 0.75,
+   "i": 81,
+   "ini": 365.088,
+   "fim": 372.252
+  },
+  {
+   "texto": "E quem mais resistia à lei não eram as famílias com medo de doutrinação.",
+   "cap": "AS CRIANÇAS DAS FÁBRICAS",
+   "pausa": 0.36,
+   "i": 82,
+   "ini": 373.002,
+   "fim": 377.239
+  },
+  {
+   "texto": "Eram donos de fábricas, que perdiam mão de obra barata, e pais muito pobres, que perdiam um salário.",
+   "cap": "AS CRIANÇAS DAS FÁBRICAS",
+   "pausa": 0.75,
+   "i": 83,
+   "ini": 377.599,
+   "fim": 384.147
+  },
+  {
+   "texto": "Isso complica a história.",
+   "cap": "AS CRIANÇAS DAS FÁBRICAS",
+   "pausa": 0.36,
+   "i": 84,
+   "ini": 384.897,
+   "fim": 386.697
+  },
+  {
+   "texto": "A mesma lei que hoje alguns descrevem como prisão foi, para muita gente, a única saída de um turno de doze horas.",
+   "cap": "AS CRIANÇAS DAS FÁBRICAS",
+   "pausa": 0.75,
+   "i": 85,
+   "ini": 387.057,
+   "fim": 394.267
+  },
+  {
+   "texto": "Nenhuma das duas imagens está errada.",
+   "cap": "AS CRIANÇAS DAS FÁBRICAS",
+   "pausa": 0.36,
+   "i": 86,
+   "ini": 395.017,
+   "fim": 397.687
+  },
+  {
+   "texto": "A escola protegeu crianças.",
+   "cap": "AS CRIANÇAS DAS FÁBRICAS",
+   "pausa": 0.36,
+   "i": 87,
+   "ini": 398.047,
+   "fim": 400.253
+  },
+  {
+   "texto": "E a escola também as treinou para o relógio, a fila e o chefe.",
+   "cap": "AS CRIANÇAS DAS FÁBRICAS",
+   "pausa": 1.9,
+   "i": 88,
+   "ini": 400.613,
+   "fim": 405.013
+  },
+  {
+   "texto": "Mas nada disso explica a frase de Gates.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.36,
+   "i": 89,
+   "ini": 406.913,
+   "fim": 409.839
+  },
+  {
+   "texto": "Vale voltar à página, e ler o que vem em volta.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.75,
+   "i": 90,
+   "ini": 410.199,
+   "fim": 413.508
+  },
+  {
+   "texto": "O texto de Gates fala do interior pobre do Sul.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.36,
+   "i": 91,
+   "ini": 414.258,
+   "fim": 417.299
+  },
+  {
+   "texto": "Descreve crianças doentes, tomadas por vermes, e escolas que ensinavam latim a filhos de lavradores que mal tinham o que comer.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.75,
+   "i": 92,
+   "ini": 417.659,
+   "fim": 425.531
+  },
+  {
+   "texto": "A proposta dele era outra escola.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.36,
+   "i": 93,
+   "ini": 426.281,
+   "fim": 428.708
+  },
+  {
+   "texto": "Uma que ensinasse a plantar melhor, a cuidar da saúde, a cozinhar e a consertar.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.75,
+   "i": 94,
+   "ini": 429.068,
+   "fim": 433.967
+  },
+  {
+   "texto": "É nesse ponto que aparece a frase.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.36,
+   "i": 95,
+   "ini": 434.717,
+   "fim": 437.097
+  },
+  {
+   "texto": "Ele mesmo a chama de sonho.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.75,
+   "i": 96,
+   "ini": 437.457,
+   "fim": 439.268
+  },
+  {
+   "texto": "E, logo depois da lista do que não pretendia formar, advogados, médicos, pregadores e políticos, ele acrescenta:",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.36,
+   "i": 97,
+   "ini": 440.018,
+   "fim": 448.226
+  },
+  {
+   "texto": "desses, nós já temos oferta de sobra.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.75,
+   "i": 98,
+   "ini": 448.586,
+   "fim": 451.5
+  },
+  {
+   "texto": "Há ainda uma linha que os vídeos sobre o assunto quase nunca mostram.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.36,
+   "i": 99,
+   "ini": 452.25,
+   "fim": 456.244
+  },
+  {
+   "texto": "Gates escreve que, se por acaso surgir daquele solo uma criança de gênio, a escola deve garantir que esse gênio floresça.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.75,
+   "i": 100,
+   "ini": 456.604,
+   "fim": 463.884
+  },
+  {
+   "texto": "Dá para ler esse texto de duas maneiras.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.75,
+   "i": 101,
+   "ini": 464.634,
+   "fim": 467.548
+  },
+  {
+   "texto": "Na primeira, é um homem do seu tempo, tentando levar comida e saúde a gente abandonada, com uma escola prática.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.75,
+   "i": 102,
+   "ini": 468.298,
+   "fim": 475.067
+  },
+  {
+   "texto": "Na segunda, é um homem muito rico decidindo, de cima, que os filhos dos pobres devem continuar exatamente onde estão.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.75,
+   "i": 103,
+   "ini": 475.817,
+   "fim": 482.69
+  },
+  {
+   "texto": "As duas leituras cabem na mesma página.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.36,
+   "i": 104,
+   "ini": 483.44,
+   "fim": 486.272
+  },
+  {
+   "texto": "E talvez as duas sejam verdadeiras.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.75,
+   "i": 105,
+   "ini": 486.632,
+   "fim": 489.396
+  },
+  {
+   "texto": "O que o texto não contém é uma ordem.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.36,
+   "i": 106,
+   "ini": 490.146,
+   "fim": 492.723
+  },
+  {
+   "texto": "Não há ali um plano para obrigar ninguém a ficar na escola.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.36,
+   "i": 107,
+   "ini": 493.083,
+   "fim": 496.566
+  },
+  {
+   "texto": "Há uma visão de mundo.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 0.36,
+   "i": 108,
+   "ini": 496.926,
+   "fim": 498.47
+  },
+  {
+   "texto": "E uma visão de mundo com dinheiro costuma ir longe.",
+   "cap": "O QUE O SONHO DIZIA",
+   "pausa": 1.9,
+   "i": 109,
+   "ini": 498.83,
+   "fim": 501.767
+  },
+  {
+   "texto": "Existe um caso em que essa influência pode ser medida.",
+   "cap": "A MEDICINA",
+   "pausa": 0.75,
+   "i": 110,
+   "ini": 503.667,
+   "fim": 506.918
+  },
+  {
+   "texto": "Em 1910, a Fundação Carnegie publicou um relatório sobre as faculdades de medicina dos Estados Unidos e do Canadá.",
+   "cap": "A MEDICINA",
+   "pausa": 0.36,
+   "i": 111,
+   "ini": 507.668,
+   "fim": 515.122
+  },
+  {
+   "texto": "O autor era um educador chamado Abraham Flexner.",
+   "cap": "A MEDICINA",
+   "pausa": 0.75,
+   "i": 112,
+   "ini": 515.482,
+   "fim": 518.57
+  },
+  {
+   "texto": "O relatório foi devastador.",
+   "cap": "A MEDICINA",
+   "pausa": 0.36,
+   "i": 113,
+   "ini": 519.32,
+   "fim": 521.34
+  },
+  {
+   "texto": "Dizia que a maioria das escolas não tinha laboratório, nem hospital, nem critério para aceitar alunos.",
+   "cap": "A MEDICINA",
+   "pausa": 0.75,
+   "i": 114,
+   "ini": 521.7,
+   "fim": 528.028
+  },
+  {
+   "texto": "Nos anos seguintes, o conselho de Rockefeller despejou milhões nas faculdades que seguiam o modelo recomendado.",
+   "cap": "A MEDICINA",
+   "pausa": 0.36,
+   "i": 115,
+   "ini": 528.778,
+   "fim": 534.908
+  },
+  {
+   "texto": "E o próprio Flexner foi trabalhar lá.",
+   "cap": "A MEDICINA",
+   "pausa": 0.75,
+   "i": 116,
+   "ini": 535.268,
+   "fim": 537.834
+  },
+  {
+   "texto": "As outras ficaram sem recursos.",
+   "cap": "A MEDICINA",
+   "pausa": 0.36,
+   "i": 117,
+   "ini": 538.584,
+   "fim": 541.324
+  },
+  {
+   "texto": "Muitas fecharam.",
+   "cap": "A MEDICINA",
+   "pausa": 0.75,
+   "i": 118,
+   "ini": 541.684,
+   "fim": 543.204
+  },
+  {
+   "texto": "O resultado foi uma medicina mais científica.",
+   "cap": "A MEDICINA",
+   "pausa": 0.36,
+   "i": 119,
+   "ini": 543.954,
+   "fim": 546.95
+  },
+  {
+   "texto": "E também mais cara, mais concentrada, e mais difícil para quem vinha de baixo.",
+   "cap": "A MEDICINA",
+   "pausa": 0.75,
+   "i": 120,
+   "ini": 547.31,
+   "fim": 551.861
+  },
+  {
+   "texto": "Não houve segredo nisso.",
+   "cap": "A MEDICINA",
+   "pausa": 0.36,
+   "i": 121,
+   "ini": 552.611,
+   "fim": 554.469
+  },
+  {
+   "texto": "Mas o caso mostra como a coisa funcionava.",
+   "cap": "A MEDICINA",
+   "pausa": 0.36,
+   "i": 122,
+   "ini": 554.829,
+   "fim": 557.673
+  },
+  {
+   "texto": "Ninguém proibia nada.",
+   "cap": "A MEDICINA",
+   "pausa": 0.36,
+   "i": 123,
+   "ini": 558.033,
+   "fim": 559.798
+  },
+  {
+   "texto": "Bastava escolher quem recebia o cheque.",
+   "cap": "A MEDICINA",
+   "pausa": 1.9,
+   "i": 124,
+   "ini": 560.158,
+   "fim": 562.747
+  },
+  {
+   "texto": "Essa história não ficou do lado de lá.",
+   "cap": "E NO BRASIL",
+   "pausa": 0.75,
+   "i": 125,
+   "ini": 564.647,
+   "fim": 567.073
+  },
+  {
+   "texto": "A partir de 1916, a Fundação Rockefeller passou a atuar no Brasil.",
+   "cap": "E NO BRASIL",
+   "pausa": 0.36,
+   "i": 126,
+   "ini": 567.823,
+   "fim": 573.326
+  },
+  {
+   "texto": "Financiou campanhas contra a febre amarela e contra vermes no interior, do mesmo tipo das que Gates descrevia.",
+   "cap": "E NO BRASIL",
+   "pausa": 0.75,
+   "i": 127,
+   "ini": 573.686,
+   "fim": 579.805
+  },
+  {
+   "texto": "E fez aqui o que tinha feito lá com a medicina.",
+   "cap": "E NO BRASIL",
+   "pausa": 0.36,
+   "i": 128,
+   "ini": 580.555,
+   "fim": 583.794
+  },
+  {
+   "texto": "Um acordo com a Faculdade de Medicina de São Paulo trouxe dinheiro, professores estrangeiros, laboratórios e um novo prédio.",
+   "cap": "E NO BRASIL",
+   "pausa": 0.36,
+   "i": 129,
+   "ini": 584.154,
+   "fim": 591.898
+  },
+  {
+   "texto": "Em troca, a faculdade adotou o modelo recomendado:",
+   "cap": "E NO BRASIL",
+   "pausa": 0.36,
+   "i": 130,
+   "ini": 592.258,
+   "fim": 595.799
+  },
+  {
+   "texto": "poucos alunos, tempo integral e pesquisa.",
+   "cap": "E NO BRASIL",
+   "pausa": 0.75,
+   "i": 131,
+   "ini": 596.159,
+   "fim": 599.201
+  },
+  {
+   "texto": "Já a escola obrigatória brasileira veio por outro caminho.",
+   "cap": "E NO BRASIL",
+   "pausa": 0.36,
+   "i": 132,
+   "ini": 599.951,
+   "fim": 603.492
+  },
+  {
+   "texto": "A frequência obrigatória no ensino primário só entrou na Constituição em 1934.",
+   "cap": "E NO BRASIL",
+   "pausa": 0.75,
+   "i": 133,
+   "ini": 603.852,
+   "fim": 609.494
+  },
+  {
+   "texto": "Ou seja, também aqui as duas coisas são verdadeiras.",
+   "cap": "E NO BRASIL",
+   "pausa": 0.36,
+   "i": 134,
+   "ini": 610.244,
+   "fim": 614.052
+  },
+  {
+   "texto": "O dinheiro estrangeiro moldou instituições.",
+   "cap": "E NO BRASIL",
+   "pausa": 0.36,
+   "i": 135,
+   "ini": 614.412,
+   "fim": 617.292
+  },
+  {
+   "texto": "E a obrigação de ir à escola foi uma decisão do Estado.",
+   "cap": "E NO BRASIL",
+   "pausa": 1.9,
+   "i": 136,
+   "ini": 617.652,
+   "fim": 620.775
+  },
+  {
+   "texto": "A versão atual da teoria tem um autor conhecido.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.75,
+   "i": 137,
+   "ini": 622.675,
+   "fim": 625.74
+  },
+  {
+   "texto": "John Taylor Gatto deu aula em escolas públicas de Nova York por quase trinta anos.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.36,
+   "i": 138,
+   "ini": 626.49,
+   "fim": 631.575
+  },
+  {
+   "texto": "Foi eleito professor do ano da cidade, e depois do estado.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.75,
+   "i": 139,
+   "ini": 631.935,
+   "fim": 635.685
+  },
+  {
+   "texto": "Em 1991, no auge do reconhecimento, ele pediu demissão.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.36,
+   "i": 140,
+   "ini": 636.435,
+   "fim": 641.624
+  },
+  {
+   "texto": "E fez isso em público, num artigo de jornal.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.36,
+   "i": 141,
+   "ini": 641.984,
+   "fim": 645.061
+  },
+  {
+   "texto": "Disse que não queria mais ganhar a vida prejudicando crianças.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.75,
+   "i": 142,
+   "ini": 645.421,
+   "fim": 649.171
+  },
+  {
+   "texto": "Nos livros que escreveu depois, Gatto defendeu que a escola moderna ensina, antes de qualquer matéria, a obedecer ao sinal, a esperar a ordem e a depender da aprovação de uma autoridade.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.75,
+   "i": 143,
+   "ini": 649.921,
+   "fim": 661.044
+  },
+  {
+   "texto": "Foi ele quem juntou as duas pontas dessa história para o grande público.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.36,
+   "i": 144,
+   "ini": 661.794,
+   "fim": 665.683
+  },
+  {
+   "texto": "A Prússia, de um lado.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.36,
+   "i": 145,
+   "ini": 666.043,
+   "fim": 668.133
+  },
+  {
+   "texto": "Gates e Rockefeller, do outro.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.75,
+   "i": 146,
+   "ini": 668.493,
+   "fim": 670.745
+  },
+  {
+   "texto": "Gatto conhecia uma sala de aula por dentro, e muita gente se reconheceu no que ele descreveu.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.75,
+   "i": 147,
+   "ini": 671.495,
+   "fim": 676.615
+  },
+  {
+   "texto": "Mas a experiência de um professor é uma coisa.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 0.36,
+   "i": 148,
+   "ini": 677.365,
+   "fim": 680.256
+  },
+  {
+   "texto": "A prova de um plano é outra.",
+   "cap": "O PROFESSOR QUE PEDIU DEMISSÃO",
+   "pausa": 1.9,
+   "i": 149,
+   "ini": 680.616,
+   "fim": 682.671
+  },
+  {
+   "texto": "E aqui entra o detalhe mais revelador.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 0.75,
+   "i": 150,
+   "ini": 684.571,
+   "fim": 687.021
+  },
+  {
+   "texto": "Na internet, a teoria quase sempre vem acompanhada de uma citação atribuída ao próprio Rockefeller.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 0.36,
+   "i": 151,
+   "ini": 687.771,
+   "fim": 693.75
+  },
+  {
+   "texto": "Eu não quero uma nação de pensadores.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 0.36,
+   "i": 152,
+   "ini": 694.11,
+   "fim": 696.652
+  },
+  {
+   "texto": "Quero uma nação de trabalhadores.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 0.75,
+   "i": 153,
+   "ini": 697.012,
+   "fim": 699.265
+  },
+  {
+   "texto": "Ela é perfeita.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 0.36,
+   "i": 154,
+   "ini": 700.015,
+   "fim": 701.536
+  },
+  {
+   "texto": "Curta, cruel e fácil de compartilhar.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 0.75,
+   "i": 155,
+   "ini": 701.896,
+   "fim": 704.473
+  },
+  {
+   "texto": "O problema é que ninguém consegue mostrar onde ele disse isso.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 0.36,
+   "i": 156,
+   "ini": 705.223,
+   "fim": 708.88
+  },
+  {
+   "texto": "Não aparece em carta, em discurso, nem em livro com fonte conferível.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 0.75,
+   "i": 157,
+   "ini": 709.24,
+   "fim": 713.803
+  },
+  {
+   "texto": "E isso diz muito sobre como uma teoria cresce.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 0.75,
+   "i": 158,
+   "ini": 714.553,
+   "fim": 717.746
+  },
+  {
+   "texto": "A frase verdadeira, a de Gates, é longa, tem contexto, e fala de um sonho sobre o campo.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 0.36,
+   "i": 159,
+   "ini": 718.496,
+   "fim": 724.649
+  },
+  {
+   "texto": "A frase sem fonte é a que viraliza.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 0.75,
+   "i": 160,
+   "ini": 725.009,
+   "fim": 727.366
+  },
+  {
+   "texto": "Quando o documento real não é simples o bastante, alguém fabrica um mais simples.",
+   "cap": "A FRASE QUE NINGUÉM ENCONTRA",
+   "pausa": 1.9,
+   "i": 161,
+   "ini": 728.116,
+   "fim": 732.353
+  },
+  {
+   "texto": "Então, o que dá para afirmar?",
+   "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
+   "pausa": 0.75,
+   "i": 162,
+   "ini": 734.253,
+   "fim": 736.482
+  },
+  {
+   "texto": "É verdade que o modelo de escola que conhecemos nasceu em um reino que queria súditos disciplinados.",
+   "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
+   "pausa": 0.75,
+   "i": 163,
+   "ini": 737.232,
+   "fim": 743.026
+  },
+  {
+   "texto": "É verdade que ele foi copiado de propósito, por reformadores que admiravam essa disciplina.",
+   "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
+   "pausa": 0.75,
+   "i": 164,
+   "ini": 743.776,
+   "fim": 749.221
+  },
+  {
+   "texto": "É verdade que homens muito ricos gastaram fortunas para moldar o ensino, e que escreveram, com todas as letras, o que esperavam das pessoas comuns.",
+   "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
+   "pausa": 0.75,
+   "i": 165,
+   "ini": 749.971,
+   "fim": 758.992
+  },
+  {
+   "texto": "Mas não é verdade que Rockefeller inventou a escola obrigatória.",
+   "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
+   "pausa": 0.36,
+   "i": 166,
+   "ini": 759.742,
+   "fim": 763.434
+  },
+  {
+   "texto": "Ela é mais antiga do que ele.",
+   "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
+   "pausa": 0.75,
+   "i": 167,
+   "ini": 763.794,
+   "fim": 765.895
+  },
+  {
+   "texto": "E não há documento que mostre um plano único, combinado em segredo, para manter as pessoas ignorantes.",
+   "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
+   "pausa": 0.75,
+   "i": 168,
+   "ini": 766.645,
+   "fim": 772.961
+  },
+  {
+   "texto": "O que existe é menos cinematográfico, e talvez mais incômodo.",
+   "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
+   "pausa": 0.36,
+   "i": 169,
+   "ini": 773.711,
+   "fim": 777.937
+  },
+  {
+   "texto": "Decisões tomadas à luz do dia, por gente que tinha certeza de saber o que era melhor para os outros.",
+   "cap": "O QUE OS DOCUMENTOS SUSTENTAM",
+   "pausa": 1.9,
+   "i": 170,
+   "ini": 778.297,
+   "fim": 783.696
+  },
+  {
+   "texto": "No começo deste vídeo, havia uma frase e uma pergunta.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 171,
+   "ini": 785.596,
+   "fim": 789.415
+  },
+  {
+   "texto": "O que ela prova?",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 172,
+   "ini": 789.775,
+   "fim": 791.134
+  },
+  {
+   "texto": "Ela não prova uma conspiração.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 173,
+   "ini": 791.884,
+   "fim": 794.032
+  },
+  {
+   "texto": "Prova que a ideia existiu, que foi escrita sem vergonha, e que quem a escreveu tinha os meios para tentar colocá-la em prática.",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 174,
+   "ini": 794.392,
+   "fim": 801.636
+  },
+  {
+   "texto": "A escola que você frequentou carrega marcas dessa história.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 175,
+   "ini": 802.386,
+   "fim": 805.985
+  },
+  {
+   "texto": "O sinal.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 176,
+   "ini": 806.345,
+   "fim": 807.483
+  },
+  {
+   "texto": "A fila.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 177,
+   "ini": 807.843,
+   "fim": 808.911
+  },
+  {
+   "texto": "A turma dividida por idade.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 178,
+   "ini": 809.271,
+   "fim": 811.442
+  },
+  {
+   "texto": "A nota.",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 179,
+   "ini": 811.802,
+   "fim": 812.917
+  },
+  {
+   "texto": "Cada uma dessas coisas teve um motivo, e nem todos eram ruins.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 180,
+   "ini": 813.667,
+   "fim": 817.835
+  },
+  {
+   "texto": "Mas nenhuma delas caiu do céu.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 181,
+   "ini": 818.195,
+   "fim": 820.528
+  },
+  {
+   "texto": "Alguém escolheu.",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 182,
+   "ini": 820.888,
+   "fim": 822.293
+  },
+  {
+   "texto": "E a pergunta que fica não é sobre o passado.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 183,
+   "ini": 823.043,
+   "fim": 825.818
+  },
+  {
+   "texto": "Hoje, quem está escolhendo o que os seus filhos vão aprender?",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 184,
+   "ini": 826.178,
+   "fim": 830.033
+  },
+  {
+   "texto": "Me conta nos comentários o que você acha.",
+   "cap": "FECHO",
+   "pausa": 0.36,
+   "i": 185,
+   "ini": 830.783,
+   "fim": 833.325
+  },
+  {
+   "texto": "E, para acompanhar outras histórias investigadas a partir de documentos, inscreva-se no canal.",
+   "cap": "FECHO",
+   "pausa": 0.75,
+   "i": 186,
+   "ini": 833.685,
+   "fim": 839.769
+  }
+ ]
+}
