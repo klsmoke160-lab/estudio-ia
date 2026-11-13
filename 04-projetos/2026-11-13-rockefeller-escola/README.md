@@ -44,3 +44,4 @@ Estes pontos do roteiro vieram da memória da IA, sem documento conferido nesta 
 
 | Versão | Arquivo | Data | Observação |
 |---|---|---|---|
+| v1 | `render/perfeita-docilidade-v1.mp4` | 2026-11-13 | 14 min 2 s, 210 planos (70 de documento com marca-texto, 140 de filme de arquivo), voz provisória `pt_BR-cadu` |
