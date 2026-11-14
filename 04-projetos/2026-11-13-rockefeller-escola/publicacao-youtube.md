@@ -29,7 +29,14 @@ A primeira capa (`render/capa-perfeita-docilidade.jpg`) ficou como reserva.
 
 ## Descrição (copiar e colar)
 
-A frase "com perfeita docilidade, à nossa mão moldadora" existe, foi impressa em 1913 e está arquivada. Mas o que ela prova? Abrimos os documentos originais para separar o que é verdade do que é teoria da conspiração.
+A frase existe, foi impressa em 1913 e está arquivada: "com perfeita docilidade, à nossa mão moldadora". Mas o que ela prova? Abrimos os documentos originais de Rockefeller, da Prússia e de Horace Mann para separar o que é fato do que é teoria da conspiração.
+
+Neste vídeo:
+• Quem escreveu a frase e por quê
+• Quanto dinheiro Rockefeller deu à educação (1902, 1905 e 1907)
+• Onde nasceu a escola obrigatória, muito antes dele
+• A frase "nação de trabalhadores", que ninguém consegue mostrar de onde veio
+• O que os documentos sustentam, e o que não sustentam
 
 CAPÍTULOS
 0:00 A frase de 1913
@@ -61,11 +68,12 @@ IMAGENS
 Filmes de arquivo ilustrativos, de domínio público (Internet Archive, incluindo os Prelinger Archives). Fotografias de Lewis Hine para o Comitê Nacional do Trabalho Infantil (Biblioteca do Congresso dos EUA), domínio público. Os documentos mostrados são os originais.
 
 SOBRE ESTE VÍDEO
-Roteiro, pesquisa e edição do canal. A narração foi gerada por voz sintética.
+Roteiro, pesquisa e edição do canal Rasura. A narração foi gerada por voz sintética.
+Achou algum erro? Conte nos comentários, com a fonte. A gente confere e corrige.
 
-Se você achar algum erro, conte nos comentários com a fonte. Eu confiro e corrijo.
+Inscreva-se no Rasura para mais histórias investigadas a partir de documentos.
 
-#escola #história #documentário
+#escola #história #documentário #rasura
 
 ## Comentário para fixar
 
