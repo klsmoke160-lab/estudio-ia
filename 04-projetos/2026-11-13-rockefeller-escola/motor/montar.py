@@ -254,7 +254,7 @@ def grade(s,n):
     return ["hue=s=0","eq=contrast=1.32:brightness=-0.05:gamma=0.9","colorchannelmixer=rr=1.0:gr=0.80:br=0.45:rg=0.0:gg=0.12:bg=0.05:rb=0:gb=0:bb=0.12","eq=saturation=1.5"]
 def render_one(args):
     n,s,ov,last=args; out=SEG/f"s{n:04d}.mp4"; d=(s["fb"]-s["fa"])/FPS; nf=s["fb"]-s["fa"]; extra=overlays(s,ov)
-    if n==0: extra.append("fade=t=in:st=0:d=1.2")
+    pass  # sem fade de entrada: a abertura começa direto na imagem (pedido pela verificação do editonny)
     if last: extra.append(f"fade=t=out:st={max(0,d-1.2):.3f}:d=1.2")
     if s["tipo"]=="doc":
         arq,hl,foco,fonte=D[s["k"]]; boxes=None; fc=None
