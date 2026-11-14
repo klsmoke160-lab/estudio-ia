@@ -81,7 +81,7 @@ Qual parte você já tinha ouvido na internet: a frase de Gates, a frase atribu�
 
 ## Tags
 
-perfeita docilidade, Rockefeller escola, escola obrigatória, Frederick Gates, Conselho Geral de Educação, escola prussiana, Horace Mann, teoria da conspiração educação, John Taylor Gatto, história da educação, documentário educação, Fundação Rockefeller
+Rasura, perfeita docilidade, Rockefeller escola, escola obrigatória, Frederick Gates, Frederic Gates, Conselho Geral de Educação, escola prussiana, Horace Mann, teoria da conspiração educação, John Taylor Gatto, história da educação, documentário educação, Fundação Rockefeller
 
 ## Passos no YouTube Studio
 
