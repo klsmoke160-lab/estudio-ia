@@ -271,6 +271,8 @@ def render_one(args):
         doc.render_doc(str(FULL/arq),str(out),d,boxes=boxes,t_marca=min(d*0.34,2.6) if boxes else None,foco=fc,extra_vf=extra,marca_dur=0.5)
         return n,0,""
     ss,L,slow=shot_src(s["film"],s["t"],d)
+    _of=OUT/"offsets.json"
+    if _of.exists(): ss=max(0.0,ss+json.load(open(_of)).get(str(n),0.0))
     z=f"(1+0.07*t/{d:.3f})" if s["zin"] else f"(1.07-0.07*t/{d:.3f})"
     vf=[f"setpts=(PTS-STARTPTS)*{slow:.4f}",f"fps={FPS}","hqdn3d=3:3:6:6",
         f"scale=w='2*trunc(960*{z})':h='2*trunc(720*{z})':eval=frame:flags=lanczos","crop=1920:1080:(iw-1920)/2:(ih-1080)*0.42",

@@ -17,11 +17,12 @@ for par in (p.parent/"roteiro-completo.txt").read_text().split("\n"):
         if frases: frases[-1]["pausa"]=1.9
         continue
     ss=re.split(r'(?<=[.?!:])\s+',par)
-    for k,s in enumerate(ss): frases.append({"texto":s,"cap":cap,"pausa":0.42 if k<len(ss)-1 else 0.8})
+    for k,s in enumerate(ss): frases.append({"texto":s,"cap":cap,"pausa":0.30 if k<len(ss)-1 else 0.50})
 partes=[np.zeros(int(INTRO*SR))]; t=INTRO
 for i,f in enumerate(frases,1):
     w,_=tts.synthesize(preparar(f["texto"]),st,lang="pt",total_steps=12,speed=1.0,silence_duration=0.2)
     w=np.asarray(w,dtype=np.float32).reshape(-1)
+    sf.write(out/f"f{i:03d}.wav",w,SR)
     # tira silêncio das pontas
     a=np.abs(w); nz=np.where(a>0.01*a.max())[0]; w=w[max(0,nz[0]-int(0.03*SR)):nz[-1]+int(0.08*SR)] if len(nz) else w
     d=len(w)/SR; f.update(i=i,ini=round(t,3),fim=round(t+d,3))
