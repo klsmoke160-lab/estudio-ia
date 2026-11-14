@@ -221,6 +221,7 @@ def overlays(s,ov):
         a=o["a"]-a0; b=o["b"]-a0
         al=f"if(lt(t\\,{a:.3f})\\,0\\,if(lt(t\\,{a+0.12:.3f})\\,(t-{a:.3f})/0.12\\,if(lt(t\\,{b-0.35:.3f})\\,1\\,max(0\\,({b:.3f}-t)/0.35))))"
         en=f"enable='between(t,{a:.3f},{b:.3f})'"
+        if o["tipo"]=="cap" and os.environ.get("SEM_CAPITULOS"): continue   # v7: o cartão vira cena animada (motor/cenas_doc.py capitulo)
         if o["tipo"]=="cap":
             fl+= [f"drawbox=x=0:y=0:w=iw:h=ih:color=black@0.66:t=fill:{en}",
                   f"drawtext=fontfile={esc(ANTON)}:textfile={tf(o['txt'])}:fontsize={150 if len(o['txt'])<22 else 104}:fontcolor=0xECE6D6:x=(w-text_w)/2:y=(h-text_h)/2-10:alpha='{al}':shadowcolor=black@0.8:shadowx=4:shadowy=5",

@@ -3,10 +3,10 @@ Uso: python3 motor/cenas_v6.py [nome ...]   — renderiza as janelas (ou só as 
 import sys, json, subprocess, pathlib, concurrent.futures as cf
 sys.path.insert(0,str(pathlib.Path(__file__).parent))
 from cena_editonny import render_cena
-from cenas_doc import contador, comparacao
+from cenas_doc import contador, comparacao, capitulo
 P=pathlib.Path(__file__).resolve().parent.parent
 BASE="/home/user/editonny-cenas/base_v6.mp4"; CEN=P/"render/cenas"; CEN.mkdir(exist_ok=True)
-V5=P/"render/perfeita-docilidade-v5-editonny.mp4"; SAIDA=P/"render/perfeita-docilidade-v6-cenas.mp4"
+V5=P/"render/perfeita-docilidade-v5-editonny.mp4"; SAIDA=P/("render/perfeita-docilidade-v7-sem-capitulos.mp4" if __import__("os").environ.get("SEM_CAPITULOS") else "render/perfeita-docilidade-v6-cenas.mp4")
 J=[]  # (nome, a, b, usos)  — tempos relativos ao início da janela
 J.append(("ano-1913",0.0,8.0,[("use","year-hook",1.4,6.6,{'x: 540':'x: 960','y: 230':'y: 170','number: "2027"':'number: "1913"','label: "save this video"':'label: "um texto sobre educação"','badge: "LIKE THIS"':'badge: "ROCKEFELLER"','color: "#ff593d"':'color: "#E2333B"'})]))
 for nome,a,b,ano,val,tot,ci,cf_ in [("doacao-1902",122.5,128.4,"1902",1000000,"US$ 1 milhão",123.3,125.4),
@@ -22,7 +22,15 @@ J.append(("comente",833.9,838.6,[("use","comment-call-to-action",0.0,4.6,{})]))
 for k,(a,b) in enumerate([(74.46,77.76),(93.98,114.3),(290.93,298.91),(301.85,307.72),(333.19,346.72),(706.3,719.89)]):
     J.append((f"tv-{k}",a,b,[("effect","tv-lines",0.0,b-a,{})]))
 caps=[63.34,66.19,114.95,190.4,257.28,349.96,409.19,505.08,565.4,627.16,689.66,738.42,791.51]
-for k,t in enumerate(caps): J.append((f"queima-{k:02d}",t-0.7,t+0.7,[("transition","film-burn",0.7,None,{})]))
+if __import__("os").environ.get("SEM_CAPITULOS"):   # v7: queima de filme + cartão de capítulo animado na mesma janela
+  J.append(("queima-00",caps[0]-0.7,caps[0]+0.7,[("transition","film-burn",0.7,None,{})]))
+  _ed=json.load(open(P/"render/doc/edl.json")); _cp=[o for o in _ed["overlays"] if o["tipo"]=="cap"]
+  for k,o in enumerate(_cp,1):
+    num="FINAL" if o["txt"]=="FECHO" else f"CAPÍTULO {k}"; tit="O QUE FICA" if o["txt"]=="FECHO" else o["txt"]
+    a=o["a"]-0.7; fim=o["b"]-0.37; d=fim-o["a"]   # termina no corte para o capítulo (início da frase - 0,12 s)
+    J.append((f"cap-{k:02d}",a,fim,[("transition","film-burn",0.7,None,{}),("custom",(lambda num,tit: lambda cid,dur: capitulo(cid,dur,num,tit))(num,tit),0.7,0.7+d,None)]))
+else:
+  for k,t in enumerate(caps): J.append((f"queima-{k:02d}",t-0.7,t+0.7,[("transition","film-burn",0.7,None,{})]))
 PARAM={"crossed-out-quote":{'x: 540':'x: 960','y: 418':'y: 300','label: "Hire an editor"':'label: "Atribuída a Rockefeller"',
         'oldValue: "R$ 1,500/month"':'oldValue: "nação de trabalhadores"','newValue: "R$ 0.48"':'newValue: "SEM FONTE"','newColor: "#30d158"':'newColor: "#E2333B"'},
        "comment-call-to-action":{'x: 540':'x: 960','y: 230':'y: 170','label: "Comment"':'label: "Me conta nos comentários"','word: "I WANT IT"':'word: "QUEM ESCOLHE HOJE?"','accent: "#ff593d"':'accent: "#E2333B"','Add a comment...':'Escreva um comentário...'},
@@ -33,7 +41,7 @@ def fazer(j):
     try: render_cena(BASE,a,b,usos,str(out),"v6-"+nome); return nome,"ok"
     except Exception as e: return nome,"ERRO "+str(e)[-600:]
 def montar():
-    ok=[(n,a,b) for n,a,b,_ in J if (CEN/f"{n}.mp4").exists()]
+    ok=[(n,a,b) for n,a,b,_ in J if (CEN/f"{n}.mp4").exists()]   # só as janelas da lista J
     ins=["-i",BASE]; fc=[]; last="[0:v]"
     for i,(n,a,b) in enumerate(ok,1):
         ins+=["-i",str(CEN/f"{n}.mp4")]

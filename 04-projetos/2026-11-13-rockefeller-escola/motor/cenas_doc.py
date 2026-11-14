@@ -68,3 +68,22 @@ def comparacao(cid,dur,esq,dir_):
   document.querySelectorAll("#b .it").forEach((e,i)=>tl.fromTo(e,{{opacity:0,x:40}},{{opacity:1,x:0,duration:.45,ease:"back.out(1.6)"}},{tB}[i]));
   tl.to(["#a","#b","#vs","#v"],{{opacity:0,duration:.45,ease:"power2.in"}},D-.55);'''
     return _wrap(cid,dur,css,html,js)
+def capitulo(cid,dur,num,titulo):
+    """Cartão de capítulo animado: número em máquina de escrever, título letra a letra, traço vermelho; o filme segue rodando atrás."""
+    fs=min(176,int(1600/(len(titulo)*0.52)))
+    css=f'''#v{{position:absolute;inset:0;background:radial-gradient(75% 70% at 50% 50%,rgba(0,0,0,.55),rgba(0,0,0,.86));opacity:0}}
+#k{{position:absolute;left:0;width:1920px;top:{410-fs//2}px;text-align:center;font-family:"Elite";font-size:42px;letter-spacing:.42em;color:#D8D2C2;opacity:0}}
+#w{{position:absolute;left:0;width:1920px;top:{470-fs//2}px;text-align:center;white-space:nowrap}}
+#w span{{display:inline-block;font-family:"Anton";font-size:{fs}px;line-height:1.15;color:#ECE6D6;opacity:0;text-shadow:0 8px 30px rgba(0,0,0,.8)}}
+#u{{position:absolute;left:960px;top:{470+int(fs*0.6)+40}px;width:0;height:6px;background:#E2333B;box-shadow:0 0 18px rgba(226,51,59,.6)}}'''
+    letras="".join(f"<span>{'&nbsp;' if c==' ' else c}</span>" for c in titulo)
+    html=f'<div id="v"></div><div id="k">{num}</div><div id="w">{letras}</div><i id="u"></i>'
+    js=f'''  const L=document.querySelectorAll("#w span"), st=Math.min(.045,.7/L.length);
+  tl.to("#v",{{opacity:1,duration:.3,ease:"power1.out"}},0);
+  tl.fromTo("#k",{{opacity:0,y:-14,scale:1.08}},{{opacity:1,y:0,scale:1,duration:.6,ease:"expo.out"}},.12);
+  tl.fromTo(L,{{opacity:0,y:46,filter:"blur(8px)"}},{{opacity:1,y:0,filter:"blur(0px)",duration:.42,ease:"expo.out",stagger:st}},.22);
+  tl.fromTo("#w",{{scale:1.0}},{{scale:1.035,duration:D,ease:"none"}},0);
+  tl.to("#u",{{width:560,x:-280,duration:.55,ease:"power3.out"}},.5);
+  tl.to(["#k","#w","#u"],{{opacity:0,y:-18,duration:.3,ease:"power2.in"}},D-.38);
+  tl.to("#v",{{opacity:0,duration:.35,ease:"power1.in"}},D-.3);'''
+    return _wrap(cid,dur,css,html,js)
