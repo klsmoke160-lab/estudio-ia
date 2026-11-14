@@ -61,13 +61,18 @@ for k in range(len(F)):
 y,_=sf.read(str(limpo),dtype="float32"); y=y.reshape(-1)
 partes=[np.zeros(int(INTRO*SR),dtype=np.float32)]; t=INTRO; out=[]
 for k,f in enumerate(F):
+    # ritmo natural da voz: as frases do mesmo capítulo ficam coladas, com a pausa original entre elas.
+    # Só as pontas de capítulo e do título são aparadas e recebem a pausa do projeto (1,9 s e 6 s).
     ant=(fim[k-1]+ini[k])/2 if k>0 else 0.0; prox=(fim[k]+ini[k+1])/2 if k+1<len(F) else dur
-    a=max(ini[k]-0.08,ant); b=min(fim[k]+0.16,prox)
+    ponta=f["pausa"]>1 or k==len(F)-1; apos=k>0 and F[k-1]["pausa"]>1
+    a=max(ini[k]-0.08,ant) if (k==0 or apos) else ant
+    b=min(fim[k]+0.16,prox) if ponta else prox
     seg=y[int(a*SR):int(b*SR)].copy(); fd=int(0.012*SR)
-    seg[:fd]*=np.linspace(0,1,fd); seg[-fd:]*=np.linspace(1,0,fd)
+    if k==0 or apos: seg[:fd]*=np.linspace(0,1,fd)
+    if ponta: seg[-fd:]*=np.linspace(1,0,fd)
     g=dict(i=f["i"],texto=f["texto"],cap=f["cap"])
     g["ini"]=round(t+(ini[k]-a),3); g["fim"]=round(t+(fim[k]-a),3); g["t"]=[round(t+(x-a),3) for x in tw[k]]
-    pausa=f["pausa"]
+    pausa=f["pausa"] if f["pausa"]>1 else 0.0
     if f["pausa"]>5: g["titulo_ini"]=round(g["fim"]+1.0,3)
     g["pausa"]=pausa; partes+=[seg,np.zeros(int(pausa*SR),dtype=np.float32)]; t+=len(seg)/SR+pausa; out.append(g)
 total=t+2.0; partes.append(np.zeros(int(2.0*SR),dtype=np.float32))
