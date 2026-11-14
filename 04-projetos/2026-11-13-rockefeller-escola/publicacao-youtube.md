@@ -20,8 +20,8 @@ Duas versões, as duas em 1280×720:
 O que as duas mostram:
 
 - o retrato de Rockefeller do relatório de 1915;
-- ao fundo, alunos uniformizados em fileira, de um filme de escola dos anos 1930;
-- a linha original de Gates com marca-texto amarelo ("people yield themselves with perfect docility to our molding hand") e o selo de 1913.
+- ao fundo, crianças de uma escola rural nas carteiras, do filme *And So They Live* (1940);
+- as palavras originais "perfect docility", recortadas da página de Gates com marca-texto e o carimbo "GATES, 1913".
 
 Tudo é de domínio público. Se o YouTube Studio oferecer a opção "Testar e comparar", envie as duas, e ele mostra qual dá mais cliques.
 
