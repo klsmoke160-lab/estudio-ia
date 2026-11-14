@@ -58,14 +58,14 @@ Fotos: Lewis Hine, National Child Labor Committee (1908 e 1912), domínio públi
 
 ## A conferir antes de publicar
 
-Conferido em 2026-11-14, com fontes, em `03-referencias/analises/2026-11-14-conferencia-de-fatos-perfeita-docilidade.md`. O roteiro tem 4 afirmações a corrigir antes de publicar:
+Conferido em 2026-11-14, com fontes, em `03-referencias/analises/2026-11-14-conferencia-de-fatos-perfeita-docilidade.md`. As 4 correções foram aplicadas na v10, cortando o áudio da narração sem regravar. Os itens eram:
 
 1. "escolas que ensinavam latim a filhos de lavradores" (não está no folheto de Gates);
 2. "nenhum governo estadual conseguia igualar" (sem fonte);
 3. "quem mais resistia à lei não eram as famílias com medo de doutrinação" (forte demais, por causa da Lei Bennett, de 1889);
 4. o acordo com a Faculdade de Medicina de São Paulo ("novo prédio", "professores estrangeiros", "poucos alunos" sem fonte).
 
-Os demais pontos foram confirmados. Falta ainda: o dono ler o roteiro, gravar de novo as frases corrigidas e conferir a Constituição de 1934 no texto do Planalto e o artigo de Gatto no arquivo do jornal.
+Os demais pontos foram confirmados. Falta ainda: o dono ler o roteiro e conferir a Constituição de 1934 no texto do Planalto e o artigo de Gatto no arquivo do jornal.
 
 ## Entregas
 

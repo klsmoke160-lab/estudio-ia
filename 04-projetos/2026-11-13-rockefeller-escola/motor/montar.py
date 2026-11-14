@@ -132,7 +132,7 @@ R=[
 ]
 if NOVAS:
     R[:0]=[("Em 1900, cerca de uma em cada seis",Dc("hine5")),("Em minas de carvão",Dc("hine6")+C("STL",264)),
-           ("Eram donos de fábricas",C("CITY",529,563)+C("STL",594)),("a única saída de um turno",C("STL",565,301)+C("CITY",647)),
+           ("donos de fábricas, que perdiam",C("CITY",529,563)+C("STL",594)),("a única saída de um turno",C("STL",565,301)+C("CITY",647)),
            ("Em 1763, o rei",C("GER",1775,7116)),("Para entender por que ela importa",C("NY11",406,415)),
            ("A partir de 1916",C("BRW",163,175)),("Getúlio",C("BRW",26,217)),("só entrou na Constituição",C("BRW",209,197))]
 POOL={

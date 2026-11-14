@@ -4,7 +4,21 @@
 
 **Resumo:** cada afirmação factual do roteiro foi conferida em fonte (busca na web e texto original dos livros baixados). O roteiro tem 4 afirmações que precisam de correção antes de publicar, 2 ajustes pequenos e 15 pontos confirmados. As citações de Gates e os valores das doações foram conferidos direto nos originais de 1913 e 1915.
 
-## Precisa corrigir
+## Correção aplicada (v10)
+
+As correções foram feitas cortando o próprio áudio da narração, sem regravar (`CORTES` em `audio/alinhar_dp.py`):
+
+1. Saiu "e escolas que ensinavam latim a filhos de lavradores que mal tinham o que comer". Fica "Descreve crianças doentes, tomadas por vermes."
+2. Saiu a frase "São valores que, na época, nenhum governo estadual conseguia igualar."
+3. Saiu "não eram as famílias com medo de doutrinação". Fica "E quem mais resistia à lei eram donos de fábricas… e pais muito pobres…"
+4. Saiu "poucos alunos". Fica "o modelo recomendado: tempo integral e pesquisa." O resto da frase sobre o acordo foi confirmado depois: professores estrangeiros (Samuel Darling, americano, 1918) e o prédio novo (inaugurado em 1931, pago pela Fundação Rockefeller).
+5. Saiu "e a consertar".
+
+A nuance da Lei Bennett (famílias e igrejas de imigrantes também resistiram) não entrou no vídeo, porque precisaria de frase nova gravada.
+
+Fontes do item 4: <https://revistapesquisa.fapesp.br/um-projeto-inteligente/>, <https://revistapesquisa.fapesp.br/por-uma-cidade-saneada/>, <https://fm.usp.br/en/institucional/historic>.
+
+## Precisa corrigir (situação antes da v10)
 
 | # | Frase do roteiro | O que a fonte mostra | Texto sugerido |
 |---|---|---|---|

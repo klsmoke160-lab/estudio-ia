@@ -58,21 +58,62 @@ for k in range(len(F)):
             l=next((a[x] for x in range(j-1,-1,-1) if a[x] is not None),ini[k]); r=next((a[x] for x in range(j+1,len(a)) if a[x] is not None),fim[k])
             a[j]=(l+r)/2
     tw.append(a)
+te=[[tb[i] for i in pos[k]] for k in range(len(F))]
+# Correções do roteiro feitas por corte (conferência de fatos de 2026-11-14), sem regravar:
+# prefixo da frase -> (palavras a tirar | "TUDO" | None, texto que fica, pausa extra depois de um corte no fim)
+CORTES={
+ "Descreve crianças doentes":("e escolas que ensinavam latim a filhos de lavradores que mal tinham o que comer","Descreve crianças doentes, tomadas por vermes.",0.35),
+ "São valores que, na época":("TUDO",None,0),
+ "E quem mais resistia à lei":("não eram as famílias com medo de doutrinação","E quem mais resistia à lei",0.0),
+ "Eram donos de fábricas":(None,"eram donos de fábricas, que perdiam mão de obra barata, e pais muito pobres, que perdiam um salário.",0),
+ "poucos alunos, tempo integral":("poucos alunos","tempo integral e pesquisa.",0),
+ "Uma que ensinasse a plantar":("e a consertar","Uma que ensinasse a plantar melhor, a cuidar da saúde, a cozinhar.",0.35),
+}
+def corte_de(f):
+    return next((v for kk,v in CORTES.items() if f["texto"].startswith(kk)),None)
 y,_=sf.read(str(limpo),dtype="float32"); y=y.reshape(-1)
 partes=[np.zeros(int(INTRO*SR),dtype=np.float32)]; t=INTRO; out=[]
 for k,f in enumerate(F):
     # ritmo natural da voz: as frases do mesmo capítulo ficam coladas, com a pausa original entre elas.
     # Só as pontas de capítulo e do título são aparadas e recebem a pausa do projeto (1,9 s e 6 s).
+    cr=corte_de(f)
+    if cr and cr[0]=="TUDO": continue
     ant=(fim[k-1]+ini[k])/2 if k>0 else 0.0; prox=(fim[k]+ini[k+1])/2 if k+1<len(F) else dur
     ponta=f["pausa"]>1 or k==len(F)-1; apos=k>0 and F[k-1]["pausa"]>1
     a=max(ini[k]-0.08,ant) if (k==0 or apos) else ant
     b=min(fim[k]+0.16,prox) if ponta else prox
-    seg=y[int(a*SR):int(b*SR)].copy(); fd=int(0.012*SR)
-    if k==0 or apos: seg[:fd]*=np.linspace(0,1,fd)
-    if ponta: seg[-fd:]*=np.linspace(1,0,fd)
-    g=dict(i=f["i"],texto=f["texto"],cap=f["cap"])
-    g["ini"]=round(t+(ini[k]-a),3); g["fim"]=round(t+(fim[k]-a),3); g["t"]=[round(t+(x-a),3) for x in tw[k]]
-    pausa=f["pausa"] if f["pausa"]>1 else 0.0
+    texto=f["texto"]; tws=list(tw[k]); ik=ini[k]; fk=fim[k]; extra=0.0; trechos=[(a,b)]
+    if cr and cr[0]:
+        toks=norm(f["texto"]).split(); sub=norm(cr[0]).split()
+        i0=next(x for x in range(len(toks)) if toks[x:x+len(sub)]==sub); i1=i0+len(sub)-1
+        if i1==len(toks)-1:          # corte até o fim da frase: fica [a, c0] + pausa extra
+            c0=(te[k][i0-1]+tw[k][i0])/2 if te[k][i0-1] is not None else tw[k][i0]-0.05
+            trechos=[(a,c0)]; fk=c0; tws=tws[:i0]; extra=cr[2]
+        elif i0==0:                  # corte no começo da frase: começa na primeira palavra que fica
+            c1=(te[k][i1]+tw[k][i1+1])/2 if te[k][i1] is not None else tw[k][i1+1]-0.04
+            trechos=[(c1,b)]; ik=tw[k][i1+1]; tws=tws[i1+1:]
+        else:                        # corte no meio da frase
+            c0=(te[k][i0-1]+tw[k][i0])/2 if te[k][i0-1] is not None else tw[k][i0]-0.05
+            c1=(te[k][i1]+tw[k][i1+1])/2 if te[k][i1] is not None else tw[k][i1+1]-0.04
+            trechos=[(a,c0),(c1,b)]; tws=tws[:i0]+tws[i1+1:]
+        texto=cr[1]; assert len(norm(texto).split())==len(tws),(texto,len(tws))
+    elif cr: texto=cr[1]
+    def mapear(x):
+        acc=0.0
+        for x0,x1 in trechos:
+            if x<=x1+1e-6: return t+acc+max(0.0,x-x0)
+            acc+=x1-x0
+        return t+acc
+    fd=int(0.012*SR); pedacos=[]
+    for n,(x0,x1) in enumerate(trechos):
+        s=y[int(x0*SR):int(x1*SR)].copy()
+        if n>0 or k==0 or apos or (cr and cr[0] and x0>a): s[:fd]*=np.linspace(0,1,fd)
+        if n<len(trechos)-1 or ponta or extra>0: s[-fd:]*=np.linspace(1,0,fd)
+        pedacos.append(s)
+    seg=np.concatenate(pedacos)
+    g=dict(i=f["i"],texto=texto,cap=f["cap"])
+    g["ini"]=round(mapear(ik),3); g["fim"]=round(mapear(fk),3); g["t"]=[round(mapear(x),3) for x in tws]
+    pausa=(f["pausa"] if f["pausa"]>1 else 0.0)+extra
     if f["pausa"]>5: g["titulo_ini"]=round(g["fim"]+1.0,3)
     g["pausa"]=pausa; partes+=[seg,np.zeros(int(pausa*SR),dtype=np.float32)]; t+=len(seg)/SR+pausa; out.append(g)
 total=t+2.0; partes.append(np.zeros(int(2.0*SR),dtype=np.float32))
@@ -82,4 +123,4 @@ subprocess.run(["ffmpeg","-loglevel","error","-y","-i",str(bruta),"-af","loudnor
 json.dump({"intro":INTRO,"total":round(total,3),"voz":"DarkPlanner","frases":out},open(p/"timeline_novo.json","w"),ensure_ascii=False,indent=1)
 fala=sum(g["fim"]-g["ini"] for g in out)
 print(f"frases {len(out)} | áudio original {dur/60:.2f} min | vídeo {total/60:.2f} min | fala líquida {fala/60:.2f} min")
-for k in (0,13,14,len(F)-1): print(k,out[k]["ini"],out[k]["fim"],out[k]["texto"][:70])
+for k in (0,13,14,len(out)-1): print(k,out[k]["ini"],out[k]["fim"],out[k]["texto"][:70])
