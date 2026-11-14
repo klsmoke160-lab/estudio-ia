@@ -1,1 +1,2 @@
 - 12/11 — [Setup das ferramentas num contêiner Linux](2026-11-12-setup-ferramentas.md)
+- 14/11 — [Cenas do editonny no documentário "Perfeita docilidade"](2026-11-14-cenas-editonny-rockefeller.md)

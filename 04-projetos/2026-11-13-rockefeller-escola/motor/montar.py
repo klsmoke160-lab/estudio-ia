@@ -207,6 +207,9 @@ def build():
             for c in caps_:
                 if o["a"]<c["b"] and o["b"]>c["a"]: o["a"]=c["b"]+0.05; o["b"]=max(o["b"],o["a"]+2.5)
     ov.append(dict(tipo="aviso",txt="FILMES DE ARQUIVO ILUSTRATIVOS · DOCUMENTOS ORIGINAIS",a=1.0,b=8.0))
+    if os.environ.get("CENAS_EDITONNY"):   # v6: estes títulos viram cenas do editonny (motor/cenas_v6.py)
+        tira={"1913","1902 — 1 MILHÃO DE DÓLARES","1905 — 10 MILHÕES","1907 — 32 MILHÕES","CITAÇÃO SEM FONTE CONHECIDA","A ESCOLA OBRIGATÓRIA É MAIS ANTIGA","\u201cnação de trabalhadores\u201d"}
+        ov=[o for o in ov if o["txt"] not in tira]
     return shots,ov
 def esc(p): return str(p).replace(":","\\:")
 def tf(txt):
