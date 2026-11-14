@@ -58,7 +58,14 @@ Fotos: Lewis Hine, National Child Labor Committee (1908 e 1912), domínio públi
 
 ## A conferir antes de publicar
 
-Estes pontos do roteiro vieram da memória da IA, sem documento conferido nesta sessão: regulamento prussiano de 1763; viagem de Mann em 1843; lei de Massachusetts de 1852 e Mississippi em 1918; uma em cada seis crianças trabalhando em 1900; Flexner no conselho; Fundação Rockefeller no Brasil a partir de 1916 e o acordo com a Faculdade de Medicina de São Paulo; frequência obrigatória na Constituição de 1934; biografia de John Taylor Gatto; ausência de fonte para a frase "nação de trabalhadores".
+Conferido em 2026-11-14, com fontes, em `03-referencias/analises/2026-11-14-conferencia-de-fatos-perfeita-docilidade.md`. O roteiro tem 4 afirmações a corrigir antes de publicar:
+
+1. "escolas que ensinavam latim a filhos de lavradores" (não está no folheto de Gates);
+2. "nenhum governo estadual conseguia igualar" (sem fonte);
+3. "quem mais resistia à lei não eram as famílias com medo de doutrinação" (forte demais, por causa da Lei Bennett, de 1889);
+4. o acordo com a Faculdade de Medicina de São Paulo ("novo prédio", "professores estrangeiros", "poucos alunos" sem fonte).
+
+Os demais pontos foram confirmados. Falta ainda: o dono ler o roteiro, gravar de novo as frases corrigidas e conferir a Constituição de 1934 no texto do Planalto e o artigo de Gatto no arquivo do jornal.
 
 ## Entregas
 
