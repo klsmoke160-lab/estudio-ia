@@ -43,6 +43,19 @@ Documentos (Internet Archive, todos anteriores a 1929):
 
 Filmes (Internet Archive, licença marcada como domínio público): `HERE_IS_GERMANY`, `AndSoTheyLive`, `Children1940`, `SchoolRules`, `HowQuiet1953`, `HowTexti1948`, `What_Happened_1901`, `loc-film-00694373-bargain-day-14th-street-new-york`, `new-york-subway-1905-directed-by-g.-w.-bitzer`, `nyc_ghetto_fish_market_1903`, `Tubercul1955`, `atom_and_biological_science`, `bacteria_friend_and_foe`. São ilustrativos.
 
+Filmes acrescentados na v8 (troca de imagens), todos de domínio público. Os do Prelinger estão marcados assim, e os de 1911 e 1918 são anteriores a 1929:
+
+- `1911ATripThroughNewYorkCity…` (Nova York, 1911);
+- `SteelASy1936`;
+- `OilforAl1949`;
+- `my-four-years-in-germany-1918` (filme de 1918, usado só em planos sem cartela);
+- `People Who Live Through Industry` (1928, Alemanha);
+- `CityTheP1939`;
+- `6381_HM_High_School_1930s`;
+- `Brazilat1943`, `BeloHori1949` e `BrazilGe1942` (filmes do governo americano sobre o Brasil).
+
+Fotos: Lewis Hine, National Child Labor Committee (1908 e 1912), domínio público, via Wikimedia Commons. O filme `1903ScenesInNewYorkCity` foi descartado porque tem marca d'água (FRAMEPOOL). Detalhes em `03-referencias/analises/2026-11-14-filmes-de-arquivo-v8.md`.
+
 ## A conferir antes de publicar
 
 Estes pontos do roteiro vieram da memória da IA, sem documento conferido nesta sessão: regulamento prussiano de 1763; viagem de Mann em 1843; lei de Massachusetts de 1852 e Mississippi em 1918; uma em cada seis crianças trabalhando em 1900; Flexner no conselho; Fundação Rockefeller no Brasil a partir de 1916 e o acordo com a Faculdade de Medicina de São Paulo; frequência obrigatória na Constituição de 1934; biografia de John Taylor Gatto; ausência de fonte para a frase "nação de trabalhadores".

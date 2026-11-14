@@ -5,8 +5,8 @@ sys.path.insert(0,str(pathlib.Path(__file__).parent))
 from cena_editonny import render_cena
 from cenas_doc import contador, comparacao, capitulo
 P=pathlib.Path(__file__).resolve().parent.parent
-BASE="/home/user/editonny-cenas/base_v6.mp4"; CEN=P/"render/cenas"; CEN.mkdir(exist_ok=True)
-V5=P/"render/perfeita-docilidade-v5-editonny.mp4"; SAIDA=P/("render/perfeita-docilidade-v7-sem-capitulos.mp4" if __import__("os").environ.get("SEM_CAPITULOS") else "render/perfeita-docilidade-v6-cenas.mp4")
+BASE="/home/user/editonny-cenas/base_v6.mp4"; CEN=P/("render/cenas-v8" if __import__("os").environ.get("NOVAS_IMAGENS") else "render/cenas"); CEN.mkdir(exist_ok=True)
+V5=P/"render/perfeita-docilidade-v5-editonny.mp4"; SAIDA=P/("render/perfeita-docilidade-v8-imagens-novas.mp4" if __import__("os").environ.get("NOVAS_IMAGENS") else "render/perfeita-docilidade-v7-sem-capitulos.mp4" if __import__("os").environ.get("SEM_CAPITULOS") else "render/perfeita-docilidade-v6-cenas.mp4")
 J=[]  # (nome, a, b, usos)  — tempos relativos ao início da janela
 J.append(("ano-1913",0.0,8.0,[("use","year-hook",1.4,6.6,{'x: 540':'x: 960','y: 230':'y: 170','number: "2027"':'number: "1913"','label: "save this video"':'label: "um texto sobre educação"','badge: "LIKE THIS"':'badge: "ROCKEFELLER"','color: "#ff593d"':'color: "#E2333B"'})]))
 for nome,a,b,ano,val,tot,ci,cf_ in [("doacao-1902",122.5,128.4,"1902",1000000,"US$ 1 milhão",123.3,125.4),

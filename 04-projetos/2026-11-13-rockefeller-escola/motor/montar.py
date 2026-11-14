@@ -14,6 +14,12 @@ T=json.load(open(P/"audio"/("timeline_novo.json" if NOVO else "timeline_completa
 N={"SUB":"HERE_IS_GERMANY","ASL":"AndSoTheyLive","CML":"Children1940","SR":"SchoolRules","HQ":"HowQuiet1953","TX":"HowTexti1948",
    "NY1":"What_Happened_1901","NY5":"loc-film-00694373-bargain-day-14th-street-new-york","SUBW":"new-york-subway-1905-directed-by-g.-w.-bitzer","FISH":"nyc_ghetto_fish_market_1903",
    "TB":"Tubercul1955","AB":"atom_and_biological_science","BF":"bacteria_friend_and_foe"}
+NOVAS=os.environ.get("NOVAS_IMAGENS")=="1"   # v8: imagens trocadas (filmes novos em /home/user/escola/raw2)
+if NOVAS:
+    _C2=json.load(open(E/"cenas2.json")); CENAS.update(_C2)
+    for _k in _C2: RAW[_k]=E/"raw2"/f"{_k}.mp4"
+    N.update({"NY11":"NY1911","OIL":"Oil1949","STL":"Steel1936","GER":"Germany1918","IND":"Industria1928","CITY":"City1939",
+              "ESC":"Escola1930","BRW":"BrasilWar1943","BH":"BeloHori1949","BRN":"BrasilNews1942"})
 def C(k,*ts): return [("clip",N[k],t) for t in ts]
 # ---- documentos: (arquivo, id do livro, trecho inicial, trecho final, rótulo da fonte) ou foco relativo (fx,fy,fw) ----
 G="countryschooloft00gates"; B="generaleducation00geneiala"; M="reportofeducatio00mannuoft"
@@ -49,6 +55,8 @@ D={
 "tour_obrig":("tour_200.jpg",(M,"respecting this compulsory attend-","of the children"),None,FM),
 "flex":("flex_006.jpg",None,(0.5,0.30,0.95),"A. Flexner, Medical Education in the United States and Canada (1910)"),
 }
+D["hine5"]=("hine5.jpg",None,(0.5,0.5,1.0),"Lewis Hine, menina fiandeira, Newberry (EUA), 1908 · domínio público")
+D["hine6"]=("hine6.jpg",None,(0.5,0.5,1.0),"Lewis Hine, meninos numa mina de carvão, Pensilvânia (EUA), 1912 · domínio público")
 def Dc(*ks): return [("doc",k) for k in ks]
 # ---- regras por frase (trecho do texto -> planos, na ordem) ----
 R=[
@@ -122,6 +130,11 @@ R=[
 ("No começo deste vídeo, havia uma frase",Dc("gates_sonho")),
 ("Ela não prova uma conspiração",Dc("gates_capa","rock_ass")),
 ]
+if NOVAS:
+    R[:0]=[("Em 1900, cerca de uma em cada seis",Dc("hine5")),("Em minas de carvão",Dc("hine6")+C("STL",264)),
+           ("Eram donos de fábricas",C("CITY",529,563)+C("STL",594)),("a única saída de um turno",C("STL",565,301)+C("CITY",647)),
+           ("Em 1763, o rei",C("GER",1775,7116)),("Para entender por que ela importa",C("NY11",406,415)),
+           ("A partir de 1916",C("BRW",163,175)),("Getúlio",C("BRW",26,217)),("só entrou na Constituição",C("BRW",209,197))]
 POOL={
 "ABERTURA":C("HQ",31,204)+C("NY1",14),
 "O HOMEM POR TRÁS DA FRASE":C("NY1",10,22)+C("NY5",30,44)+C("FISH",34),
@@ -148,6 +161,21 @@ QUOTE=[("No nosso sonho, temos recursos","\u201cperfeita docilidade\u201d"),("N�
 ("Ele mesmo a chama de sonho","\u201csonho\u201d"),("desses, nós já temos oferta de sobra","\u201coferta de sobra\u201d"),("uma criança de gênio","\u201cgênio\u201d"),
 ("Bastava escolher quem recebia","\u201co cheque\u201d"),("a obedecer ao sinal","\u201cobedecer ao sinal\u201d"),("Quero uma nação de trabalhadores","\u201cnação de trabalhadores\u201d"),
 ("alguém fabrica um mais simples","\u201cfabricada\u201d"),("Alguém escolheu","\u201calguém escolheu\u201d")]
+if NOVAS: POOL={
+"ABERTURA":C("NY11",73,147,185,306,415)+C("STL",41)+C("HQ",31,204),
+"O HOMEM POR TRÁS DA FRASE":C("NY11",95,103,117,130,165,208,224,261,336,357,428,450)+C("OIL",138,154,218,253)+C("STL",41),
+"O DINHEIRO":Dc("esc5","mapa4","esc1b","mapa6","esc2b","esc5b")+C("OIL",211,1168)+C("NY11",185),
+"ANTES DE ROCKEFELLER":C("GER",7116,7183,2805,4133,4414,6602,1775,1526)+C("IND",134,203,242,813,833,844)+C("SUB",525,1201),
+"O HOMEM QUE TROUXE A IDEIA":C("CITY",226,233,334,340,426,385)+C("IND",74,126,159,875)+C("ESC",412,420)+C("HQ",31,63),
+"AS CRIANÇAS DAS FÁBRICAS":C("CITY",437,464,481,538,551,591,602,615,638,657,670,718,728)+C("STL",264,301,372,594),
+"O QUE O SONHO DIZIA":C("CITY",274,377,385,396)+C("IND",172,183,203,266,273,300,314,333,347)+C("ASL",36,290),
+"A MEDICINA":C("OIL",1065,1087,1097,508,520,525)+C("TB",353,454)+C("AB",488)+C("CITY",848),
+"E NO BRASIL":C("BRW",105,111,115,149,163,168,175,182,193,197,209)+C("BH",119,136,174,194,502,509,765,1016)+C("BRN",533,541,549)+Dc("mapa6","faz1"),
+"O PROFESSOR QUE PEDIU DEMISSÃO":C("SR",92,245,306,475)+C("HQ",251,456)+C("CITY",794,804,810)+C("ESC",371,375,388,693,735)+C("BH",765),
+"A FRASE QUE NINGUÉM ENCONTRA":C("NY11",357,372,388)+C("CITY",749,776)+C("SUBW",75,100)+C("BRN",335,354,372,418,435),
+"O QUE OS DOCUMENTOS SUSTENTAM":C("NY11",406,415,428)+C("STL",425,511)+C("ESC",805,837)+C("HQ",204),
+"FECHO":C("ESC",96,106,261,693,735,805)+C("CITY",881,948)+C("NY11",450)+C("SR",582)+C("HQ",393),
+}
 VERM={"ANTES DE ROCKEFELLER","A FRASE QUE NINGUÉM ENCONTRA"}
 TITULO=("PERFEITA DOCILIDADE","Rockefeller, a Prússia e a escola obrigatória")
 RUINS={("HERE_IS_GERMANY",826),("HERE_IS_GERMANY",1277),("HowTexti1948",113),("HowTexti1948",302),("HowTexti1948",415),("HowTexti1948",1396),
@@ -158,6 +186,7 @@ import math
 VELHOS=("Tubercul1955","atom_and_biological_science","bacteria_friend_and_foe")
 def snap(film,t):
     """os tempos vieram truncados das folhas de contato: volta ao instante exato da miniatura"""
+    if NOVAS and film in _C2: return t
     step=CENAS[film][-1]/(48 if film in VELHOS else 40); return min(CENAS[film][-1]-0.5,math.ceil(t/step-1e-6)*step+0.05)
 def shot_src(film,t,need):
     t=snap(film,t); c=CENAS[film]; a=max(x for x in c if x<=t); b=min(x for x in c if x>t); a+=0.25; b-=0.25; L=b-a
@@ -276,7 +305,7 @@ def render_one(args):
         return n,0,""
     ss,L,slow=shot_src(s["film"],s["t"],d)
     _of=OUT/"offsets.json"
-    if _of.exists(): ss=max(0.0,ss+json.load(open(_of)).get(str(n),0.0))
+    if _of.exists() and not NOVAS: ss=max(0.0,ss+json.load(open(_of)).get(str(n),0.0))
     z=f"(1+0.07*t/{d:.3f})" if s["zin"] else f"(1.07-0.07*t/{d:.3f})"
     vf=[f"setpts=(PTS-STARTPTS)*{slow:.4f}",f"fps={FPS}","hqdn3d=3:3:6:6",
         f"scale=w='2*trunc(960*{z})':h='2*trunc(720*{z})':eval=frame:flags=lanczos","crop=1920:1080:(iw-1920)/2:(ih-1080)*0.42",
