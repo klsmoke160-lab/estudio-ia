@@ -7,6 +7,11 @@ from cenas_doc import contador, comparacao, capitulo
 P=pathlib.Path(__file__).resolve().parent.parent
 BASE="/home/user/editonny-cenas/base_v6.mp4"; CEN=P/("render/cenas-v8" if __import__("os").environ.get("NOVAS_IMAGENS") else "render/cenas"); CEN.mkdir(exist_ok=True)
 V5=P/"render/perfeita-docilidade-v5-editonny.mp4"; SAIDA=P/("render/perfeita-docilidade-v8-imagens-novas.mp4" if __import__("os").environ.get("NOVAS_IMAGENS") else "render/perfeita-docilidade-v7-sem-capitulos.mp4" if __import__("os").environ.get("SEM_CAPITULOS") else "render/perfeita-docilidade-v6-cenas.mp4")
+import os
+NOVO=os.environ.get("NOVO")=="1"
+if NOVO:   # v9: narração nova da DarkPlanner; tudo calculado a partir de audio/timeline_novo.json
+    BASE="/home/user/editonny-cenas/base_v9.mp4"; CEN=P/"render/cenas-v9"; CEN.mkdir(exist_ok=True)
+    SAIDA=P/"render/perfeita-docilidade-v9-voz-nova.mp4"; V5=P/"audio/final_novo.wav"   # V5 aqui é só a fonte do áudio
 J=[]  # (nome, a, b, usos)  — tempos relativos ao início da janela
 J.append(("ano-1913",0.0,8.0,[("use","year-hook",1.4,6.6,{'x: 540':'x: 960','y: 230':'y: 170','number: "2027"':'number: "1913"','label: "save this video"':'label: "um texto sobre educação"','badge: "LIKE THIS"':'badge: "ROCKEFELLER"','color: "#ff593d"':'color: "#E2333B"'})]))
 for nome,a,b,ano,val,tot,ci,cf_ in [("doacao-1902",122.5,128.4,"1902",1000000,"US$ 1 milhão",123.3,125.4),
@@ -31,6 +36,36 @@ if __import__("os").environ.get("SEM_CAPITULOS"):   # v7: queima de filme + cart
     J.append((f"cap-{k:02d}",a,fim,[("transition","film-burn",0.7,None,{}),("custom",(lambda num,tit: lambda cid,dur: capitulo(cid,dur,num,tit))(num,tit),0.7,0.7+d,None)]))
 else:
   for k,t in enumerate(caps): J.append((f"queima-{k:02d}",t-0.7,t+0.7,[("transition","film-burn",0.7,None,{})]))
+if NOVO:
+    J.clear(); FR=json.load(open(P/"audio/timeline_novo.json"))["frases"]; ED=json.load(open(P/"render/doc/edl.json")); TOT=ED["total"]
+    fr=lambda s: next(f for f in FR if f["texto"].startswith(s))
+    f0=fr("Em 1913, um homem de confiança"); b0=f0["fim"]+1.2
+    J.append(("ano-1913",0.0,b0,[("use","year-hook",1.4,b0-0.3,{'x: 540':'x: 960','y: 230':'y: 170','number: "2027"':'number: "1913"','label: "save this video"':'label: "um texto sobre educação"','badge: "LIKE THIS"':'badge: "ROCKEFELLER"','color: "#ff593d"':'color: "#E2333B"'})]))
+    for nome,ini_,ano,val,tot_,im in [("doacao-1902","Em 1902, Rockefeller deu","1902",1000000,"US$ 1 milhão",5),("doacao-1905","Em 1905, vieram","1905",10000000,"US$ 11 milhões",5),("doacao-1907","Em 1907, outros","1907",32000000,"US$ 43 milhões",6)]:
+        f=fr(ini_); a=f["ini"]-0.3; b=f["fim"]+0.6; ci=f["t"][1]+0.25; cf_=max(ci+0.9,f["t"][im]+0.25)
+        J.append((nome,a,b,[("custom",(lambda ano,val,tot_,ci,cf_,a: lambda cid,dur: contador(cid,dur,ano,val,tot_,ci-a,cf_-a))(ano,val,tot_,ci,cf_,a),0.0,b-a,None)]))
+    q=fr("Eu não quero uma nação de pensadores"); a=q["ini"]-0.5; b=fr("Ela é perfeita")["ini"]-0.1
+    J.append(("frase-sem-fonte",a,b,[("use","crossed-out-quote",0.3,b-a-0.2,{})]))
+    s162,s163,s164,s165,s167,s168=[fr(x) for x in ("É verdade que o modelo","É verdade que ele foi copiado","É verdade que homens muito ricos","Mas não é verdade que Rockefeller inventou","E não há documento que mostre","O que existe é menos")]
+    a=s162["ini"]-0.55; b=s168["ini"]-0.1
+    _e=[(s162["ini"],"O modelo de escola nasceu na Prússia, para formar súditos"),(s163["ini"],"Foi copiado de propósito por reformadores americanos"),(s164["t"][6],"Bilionários gastaram fortunas para moldar o ensino"),(s164["t"][14],"E escreveram o que esperavam das pessoas comuns")]
+    _d=[(s165["ini"],"Rockefeller inventou a escola obrigatória"),(s167["t"][1],"Um plano secreto para manter as pessoas ignorantes")]
+    J.append(("fato-ou-nao",a,b,[("custom",(lambda a,_e,_d: lambda cid,dur: comparacao(cid,dur,[(t-a,x) for t,x in _e],[(t-a,x) for t,x in _d]))(a,_e,_d),0.0,b-a,None)]))
+    c=fr("Me conta nos comentários"); a=c["ini"]-0.3; b=min(TOT-0.05,a+4.7)
+    J.append(("comente",a,b,[("use","comment-call-to-action",0.0,b-a,{})]))
+    NYF={"What_Happened_1901","loc-film-00694373-bargain-day-14th-street-new-york","new-york-subway-1905-directed-by-g.-w.-bitzer","nyc_ghetto_fish_market_1903"}; runs=[]
+    for s in ED["shots"]:
+        if s["tipo"]=="clip" and s["film"] in NYF:
+            if runs and abs(runs[-1][1]-s["a"])<0.05: runs[-1][1]=s["b"]
+            else: runs.append([s["a"],s["b"]])
+    runs=[r for r in runs if r[1]-r[0]>=2.5]; runs=sorted(sorted(runs,key=lambda r:r[0]-r[1])[:6])
+    for k,(a,b) in enumerate(runs): b=min(b,a+20); J.append((f"tv-{k}",a,b,[("effect","tv-lines",0.0,b-a,{})]))
+    caps=[[o for o in ED["overlays"] if o["tipo"]=="titulo"][0]["a"]]
+    J.append(("queima-00",caps[0]-0.7,caps[0]+0.7,[("transition","film-burn",0.7,None,{})]))
+    for k,o in enumerate([o for o in ED["overlays"] if o["tipo"]=="cap"],1):
+        num="FINAL" if o["txt"]=="FECHO" else f"CAPÍTULO {k}"; tit="O QUE FICA" if o["txt"]=="FECHO" else o["txt"]
+        a=o["a"]-0.7; fim=o["b"]-0.37; d=fim-o["a"]
+        J.append((f"cap-{k:02d}",a,fim,[("transition","film-burn",0.7,None,{}),("custom",(lambda num,tit: lambda cid,dur: capitulo(cid,dur,num,tit))(num,tit),0.7,0.7+d,None)]))
 PARAM={"crossed-out-quote":{'x: 540':'x: 960','y: 418':'y: 300','label: "Hire an editor"':'label: "Atribuída a Rockefeller"',
         'oldValue: "R$ 1,500/month"':'oldValue: "nação de trabalhadores"','newValue: "R$ 0.48"':'newValue: "SEM FONTE"','newColor: "#30d158"':'newColor: "#E2333B"'},
        "comment-call-to-action":{'x: 540':'x: 960','y: 230':'y: 170','label: "Comment"':'label: "Me conta nos comentários"','word: "I WANT IT"':'word: "QUEM ESCOLHE HOJE?"','accent: "#ff593d"':'accent: "#E2333B"','Add a comment...':'Escreva um comentário...'},
@@ -48,7 +83,7 @@ def montar():
         fc.append(f"[{i}:v]trim=0:{b-a:.3f},setpts=PTS-STARTPTS+{a:.3f}/TB[s{i}]")
         fc.append(f"{last}[s{i}]overlay=enable='between(t,{a:.3f},{b-0.02:.3f})':eof_action=pass[o{i}]"); last=f"[o{i}]"
     ins+=["-i",str(V5)]; na=len(ok)+1
-    cmd=["ffmpeg","-loglevel","error","-y",*ins,"-filter_complex",";".join(fc),"-map",last,"-map",f"{na}:a","-c:v","libx264","-preset","medium","-crf","19","-pix_fmt","yuv420p","-r","24","-c:a","copy","-movflags","+faststart",str(SAIDA)]
+    cmd=["ffmpeg","-loglevel","error","-y",*ins,"-filter_complex",";".join(fc),"-map",last,"-map",f"{na}:a","-c:v","libx264","-preset","medium","-crf","19","-pix_fmt","yuv420p","-r","24","-c:a","aac","-b:a","192k","-movflags","+faststart",str(SAIDA)]
     subprocess.run(cmd,check=True); print("montado:",SAIDA,len(ok),"cenas")
 if __name__=="__main__":
     sel=sys.argv[1:]
