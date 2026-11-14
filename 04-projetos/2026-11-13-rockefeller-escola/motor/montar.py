@@ -238,6 +238,7 @@ def build():
     ov.append(dict(tipo="aviso",txt="FILMES DE ARQUIVO ILUSTRATIVOS · DOCUMENTOS ORIGINAIS",a=1.0,b=8.0))
     if os.environ.get("CENAS_EDITONNY"):   # v6: estes títulos viram cenas do editonny (motor/cenas_v6.py)
         tira={"1913","1902 — 1 MILHÃO DE DÓLARES","1905 — 10 MILHÕES","1907 — 32 MILHÕES","CITAÇÃO SEM FONTE CONHECIDA","A ESCOLA OBRIGATÓRIA É MAIS ANTIGA","\u201cnação de trabalhadores\u201d"}
+        if os.environ.get("SEM_GRAFICO"): tira=tira-{"1913"}   # v9: sem o painel de gráfico na abertura; o "1913" volta como título simples
         ov=[o for o in ov if o["txt"] not in tira]
     return shots,ov
 def esc(p): return str(p).replace(":","\\:")

@@ -40,7 +40,7 @@ if NOVO:
     J.clear(); FR=json.load(open(P/"audio/timeline_novo.json"))["frases"]; ED=json.load(open(P/"render/doc/edl.json")); TOT=ED["total"]
     fr=lambda s: next(f for f in FR if f["texto"].startswith(s))
     f0=fr("Em 1913, um homem de confiança"); b0=f0["fim"]+1.2
-    J.append(("ano-1913",0.0,b0,[("use","year-hook",1.4,b0-0.3,{'x: 540':'x: 960','y: 230':'y: 170','number: "2027"':'number: "1913"','label: "save this video"':'label: "um texto sobre educação"','badge: "LIKE THIS"':'badge: "ROCKEFELLER"','color: "#ff593d"':'color: "#E2333B"'})]))
+    if not os.environ.get("SEM_GRAFICO"): J.append(("ano-1913",0.0,b0,[("use","year-hook",1.4,b0-0.3,{'x: 540':'x: 960','y: 230':'y: 170','number: "2027"':'number: "1913"','label: "save this video"':'label: "um texto sobre educação"','badge: "LIKE THIS"':'badge: "ROCKEFELLER"','color: "#ff593d"':'color: "#E2333B"'})]))
     for nome,ini_,ano,val,tot_,im in [("doacao-1902","Em 1902, Rockefeller deu","1902",1000000,"US$ 1 milhão",5),("doacao-1905","Em 1905, vieram","1905",10000000,"US$ 11 milhões",5),("doacao-1907","Em 1907, outros","1907",32000000,"US$ 43 milhões",6)]:
         f=fr(ini_); a=f["ini"]-0.3; b=f["fim"]+0.6; ci=f["t"][1]+0.25; cf_=max(ci+0.9,f["t"][im]+0.25)
         J.append((nome,a,b,[("custom",(lambda ano,val,tot_,ci,cf_,a: lambda cid,dur: contador(cid,dur,ano,val,tot_,ci-a,cf_-a))(ano,val,tot_,ci,cf_,a),0.0,b-a,None)]))
