@@ -12,7 +12,20 @@
 
 ## Miniatura
 
-`render/capa-perfeita-docilidade.jpg`, 1280×720. Mostra o retrato de Rockefeller do relatório de 1915 (domínio público), a página original de Gates ao fundo e o texto "PERFEITA DOCILIDADE · A frase é real. E o plano?". Não afirma nada que o vídeo não sustente.
+Duas versões, as duas em 1280×720:
+
+- **A (recomendada): `render/capa-A-feita-para-obedecer.jpg`**, com o texto "FEITA PARA OBEDECER?". Faz a pergunta que o vídeo responde e complementa o título, sem repeti-lo.
+- **B: `render/capa-B-perfeita-docilidade.jpg`**, com o texto "PERFEITA DOCILIDADE".
+
+O que as duas mostram:
+
+- o retrato de Rockefeller do relatório de 1915;
+- ao fundo, alunos uniformizados em fileira, de um filme de escola dos anos 1930;
+- a linha original de Gates com marca-texto amarelo ("people yield themselves with perfect docility to our molding hand") e o selo de 1913.
+
+Tudo é de domínio público. Se o YouTube Studio oferecer a opção "Testar e comparar", envie as duas, e ele mostra qual dá mais cliques.
+
+A primeira capa (`render/capa-perfeita-docilidade.jpg`) ficou como reserva.
 
 ## Descrição (copiar e colar)
 
