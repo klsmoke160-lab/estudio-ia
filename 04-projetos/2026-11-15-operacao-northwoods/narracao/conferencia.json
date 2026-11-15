@@ -1,0 +1,48 @@
+{
+ "reconhecido_pct": 97.2,
+ "fracas": [
+  {
+   "i": 17,
+   "ok": "2/3",
+   "texto": "Durou três dias.",
+   "ouvido": "Durou 3 dias, a"
+  },
+  {
+   "i": 41,
+   "ok": "0/1",
+   "texto": "Pretextos.",
+   "ouvido": ""
+  },
+  {
+   "i": 52,
+   "ok": "0/1",
+   "texto": "Northwoods.",
+   "ouvido": ""
+  },
+  {
+   "i": 95,
+   "ok": "4/7",
+   "texto": "Morreram mais de duzentos e cinquenta marinheiros.",
+   "ouvido": "Morreram mais de 250 marinheiros. A"
+  },
+  {
+   "i": 99,
+   "ok": "2/3",
+   "texto": "Lembrem-se do Maine.",
+   "ouvido": "-se do Maine."
+  },
+  {
+   "i": 187,
+   "ok": "6/9",
+   "texto": "O papel ficou guardado por trinta e cinco anos.",
+   "ouvido": "O papel ficou guardado por 35 anos,"
+  },
+  {
+   "i": 257,
+   "ok": "4/7",
+   "texto": "Mesmo que demore trinta e cinco anos.",
+   "ouvido": "mesmo que demore 35 anos. A"
+  }
+ ],
+ "pausa_mediana": 0.26
+}

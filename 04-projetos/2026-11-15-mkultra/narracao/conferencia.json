@@ -1,0 +1,78 @@
+{
+ "reconhecido_pct": 96.1,
+ "fracas": [
+  {
+   "i": 10,
+   "ok": "0/1",
+   "texto": "MKUltra.",
+   "ouvido": ""
+  },
+  {
+   "i": 46,
+   "ok": "2/4",
+   "texto": "MKUltra era um guarda-chuva.",
+   "ouvido": "era um guarda"
+  },
+  {
+   "i": 47,
+   "ok": "4/9",
+   "texto": "Debaixo dele havia cento e quarenta e nove subprojetos.",
+   "ouvido": "debaixo dele havia 149 subprojetos,"
+  },
+  {
+   "i": 50,
+   "ok": "9/14",
+   "texto": "Os papéis recuperados citam cento e oitenta e cinco pesquisadores de fora do governo.",
+   "ouvido": "Os papéis recuperados citam 185 pesquisadores de fora do governo, e"
+  },
+  {
+   "i": 51,
+   "ok": "2/3",
+   "texto": "E oitenta instituições.",
+   "ouvido": "e 80 instituições,"
+  },
+  {
+   "i": 52,
+   "ok": "4/7",
+   "texto": "Quarenta e quatro eram faculdades e universidades.",
+   "ouvido": "eram faculdades e universidades, 15"
+  },
+  {
+   "i": 55,
+   "ok": "2/3",
+   "texto": "E três, prisões.",
+   "ouvido": "e 3 prisões."
+  },
+  {
+   "i": 99,
+   "ok": "6/9",
+   "texto": "Tinha quarenta e três anos, esposa e três filhos.",
+   "ouvido": "Tinha 43 anos, esposa e três filhos."
+  },
+  {
+   "i": 102,
+   "ok": "1/5",
+   "texto": "Passaram-se vinte e dois anos.",
+   "ouvido": "anos. Em"
+  },
+  {
+   "i": 108,
+   "ok": "6/11",
+   "texto": "O Congresso aprovou uma indenização de setecentos e cinquenta mil dólares.",
+   "ouvido": "O Congresso aprovou uma indenização de US"
+  },
+  {
+   "i": 127,
+   "ok": "3/6",
+   "texto": "Era o subprojeto sessenta e oito.",
+   "ouvido": "Era o subprojeto 68."
+  },
+  {
+   "i": 161,
+   "ok": "7/12",
+   "texto": "Faturas, contratos, prestações de contas dos cento e quarenta e nove subprojetos.",
+   "ouvido": "faturas, contratos, prestações de contas dos 149 subprojetos."
+  }
+ ],
+ "pausa_mediana": 0.34
+}
