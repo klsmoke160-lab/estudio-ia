@@ -1,0 +1,8 @@
+# mídia e medições brutas ficam só na máquina (pesadas); vão para o git o guia e os resumos
+contact-sheets/
+crops/
+review-cuts_*.jpg
+measurements/
+measured-intervals.csv
+aprofundado/*.wav
+aprofundado/*.npz
