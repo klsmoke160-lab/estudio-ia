@@ -96,3 +96,12 @@ Rasura, perfeita docilidade, Rockefeller escola, escola obrigatória, Frederick 
 
 - O dono precisa ler o roteiro (`roteiro-completo.txt`). O texto foi escrito pela IA.
 - Os fatos foram conferidos e corrigidos (`03-referencias/analises/2026-11-14-conferencia-de-fatos-perfeita-docilidade.md`). Faltam duas conferências em fonte primária: o texto da Constituição de 1934 no site do Planalto e o artigo de Gatto no arquivo do Wall Street Journal.
+
+## Short 1: "A frase de 1913"
+
+Arquivo: `render/short-1-a-frase-de-1913.mp4`. Formato 1080×1920, 44 s: a abertura do vídeo (0:00–0:42) e o cartão "vídeo completo no canal Rasura". Gerado por `python3 motor/short.py <vídeo 16:9> <início> <fim> <saída>`.
+
+- **Título:** Rockefeller queria um povo "dócil"? Esta frase de 1913 é real
+- **Descrição:** A frase existe e está num folheto de 1913, financiado pelo dinheiro de Rockefeller. Mas ela prova uma conspiração? Vídeo completo no canal. #história #documentário #rasura
+- **Ligar ao vídeo completo:** ao publicar o Short no YouTube, use o campo "Vídeo relacionado" e escolha o vídeo longo. Aparece um botão no Short que leva direto para ele.
+- **TikTok:** o mesmo arquivo serve. Use o mesmo título como legenda e as mesmas hashtags.
