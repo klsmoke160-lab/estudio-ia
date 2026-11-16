@@ -129,7 +129,7 @@ def render_one(args):
         tem=any(o["tipo"] in("key","cap","titulo","card","lista") and o["a"]<s["b"] and o["b"]>s["a"] for o in ov)
         if fonte and not tem and not s.get("titulo") and s["a"]>7.5:
             extra=[f"drawtext=fontfile={esc(ELITE)}:textfile={tf(fonte)}:fontsize=28:fontcolor=0xD8D2C2@0.92:x=80:y={56+BAR}:shadowcolor=black@0.9:shadowx=2:shadowy=2:alpha='min(1\\,t/0.5)'"]+extra
-        if TINT: extra=grade(s,n)+extra
+        if TINT: extra=["eq=brightness=-0.05:contrast=1.12:saturation=0.85"]+extra   # documento como prova: cor de papel, marca-texto visível
         doc.render_doc(str(arq),str(out),d,boxes=boxes,t_marca=min(d*0.3,2.2) if boxes else None,foco=fc,extra_vf=extra,marca_dur=0.5)
         return n,0,""
     zr=E.get("zoom",0.06); z=f"(1+{zr}*t/{d:.3f})" if s["par"] else f"({1+zr}-{zr}*t/{d:.3f})"

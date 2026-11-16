@@ -32,7 +32,7 @@ TITULO=("MKULTRA","As sete caixas que a CIA esqueceu de queimar",("doc","caixas"
 T_={"ABERTURA":"vermelho","O MEDO":"petroleo","O QUÍMICO":"petroleo","A REDE":"verde","OS QUE NÃO SABIAM":"azul","FRANK OLSON":"ambar","MONTREAL":"azul","A ORDEM":"vermelho","SETE CAIXAS":"verde","O QUE SABEMOS":"petroleo","FECHO":"vermelho"}
 ESTILO=dict(cinema=True,tint=T_,dur_plano=4.6,zoom=0.045,nasce=4.0,brilho=-0.10,cama=-24,golpe=-3)
 R=[
-("Em janeiro de 1973, o diretor",C("GW",748,754)),("Vinte anos de registros",C("GW",154,700)),("Nomes, pagamentos",C("GW",698)),("A ordem foi cumprida",C("WP",304)),
+("Em janeiro de 1973, o diretor",C("GW",748,754)),("Vinte anos de registros",C("GW",154,700)),("Nomes, pagamentos",C("GW",698)),("A ordem foi cumprida",C("GW",748)),
 ("Sete caixas tinham sido",C("GW",754)),("E ficaram lá, esquecidas",C("GW",748)),("O que você vai ver",Dc("caixas")),("E a pergunta que essas caixas",C("GW",733,726)),
 ("No início dos anos 1950",C("KO",30,39)+C("WP",163)),("Alguns elogiavam",C("WP",187)),("A imprensa americana",C("NS",67,871)),("A ideia tomou conta",C("HN",470)+C("WP",350)),
 ("Dentro da CIA, a conclusão",C("GW",611,621)),("Um documento interno",Dc("restr")),("Conhecer o potencial",Dc("restr")),
@@ -53,23 +53,23 @@ R=[
 ("Alguns pacientes saíram",C("MH",37)),("Outros desaprenderam",C("MH",206)),("O Canadá só soube",C("MH",886)+C("NS",844)),("Cameron morreu em 1967",C("WP",292)),
 ("Uma inspeção interna",Dc("antietico")),("Pesquisa sobre manipulação",Dc("antietico")),("O resultado, depois de tantos",C("AL",761,148)),("Sobrava o rastro",C("GW",700,698)),
 ("Em 1973, o país vivia",C("NS",871,902)+C("HN",470)),("Richard Helms estava de saída",C("GW",431)),("Em janeiro, a ordem foi dada",Dc("destruidos")),("Os registros de MKUltra deviam",Dc("destruidos")),
-("Quando o Senado finalmente",C("HN",447)),("Nas palavras de um senador",Dc("ninguem")),("Parecia o fim",C("WP",304)),
+("Quando o Senado finalmente",C("HN",447)),("Nas palavras de um senador",Dc("ninguem")),("Parecia o fim",C("GW",754)),
 ("Em 1977, um jornalista",C("NS",328,470)),("Um funcionário da CIA",C("GW",716,707)),("Os arquivos operacionais",C("GW",748)),("Tinham ido para um depósito",Dc("deposito")),("Lá estavam sete caixas",Dc("caixas")),
 ("Dentro delas, perto de",C("GW",154,754)),("Não eram os relatórios",C("GW",700)),("Mas recibos têm nomes",Dc("pesq185")),("Em 3 de agosto de 1977",C("HN",470,447)),("É por causa de um erro",C("GW",754)),
 ("Está nos documentos que o programa",Dc("aprovado")),("Está nos documentos que pessoas",Dc("casas")),("Está nos documentos que pelo menos",C("TA",282)),("E está nos documentos que os arquivos",Dc("destruidos")),
-("O que não está em documento",C("AL",442)),("Como a maior parte",C("WP",304)),("A fogueira de 1973",C("WP",272,304)),
+("O que não está em documento",C("AL",442)),("Como a maior parte",C("GW",748)),("A fogueira de 1973",C("WP",272)),
 ("No começo deste vídeo",C("GW",748)),("A ordem falhou por sete",Dc("caixas")),("Sidney Gottlieb morreu",C("AL",124)),("Richard Helms morreu",C("GW",440)),("As vítimas, na maior parte",C("MH",282,47)),
 ("Se aquelas sete caixas",C("GW",754,748)),("Me conta nos comentários",C("GW",726)),("E, para acompanhar",Dc("caixas")),
 ]
 POOL={
-"ABERTURA":C("GW",748,754,700)+C("WP",304),
+"ABERTURA":C("GW",748,754,700),
 "O MEDO":C("KO",14,30,34,43)+C("WP",142,147,175,178,238,249,282),
 "O QUÍMICO":C("AL",124,133,141,148,155)+C("AB",165,186,409,417,455,461)+C("RW",606,642,668),
 "A REDE":C("AB",424,437,450,473,483)+C("DH",16,20,39,53,67)+C("GW",116,154,262),
 "OS QUE NÃO SABIAM":C("TA",102,123,150,263,282,301,356,363,576,611)+C("AL",426,514,632),
 "FRANK OLSON":C("RW",58,73,90,185,207,288,314,332,342)+C("TA",202,282,518,530)+C("SU",24,29),
 "MONTREAL":C("MH",37,47,132,145,199,206,282,290,299,335,455,495,734)+C("DH",43,46,71),
-"A ORDEM":C("GW",424,431,611,698,700,748)+C("WP",272,304)+C("NS",871,902),
+"A ORDEM":C("GW",424,431,611,698,700,748)+C("WP",272)+C("NS",871,902),
 "SETE CAIXAS":C("GW",748,754,733,726,716,707,154)+C("NS",328,470),
 "O QUE SABEMOS":C("MH",47,282)+C("GW",748,154)+C("AL",442,502)+C("TA",282,576),
 "FECHO":C("GW",748,754,726)+C("MH",47),
