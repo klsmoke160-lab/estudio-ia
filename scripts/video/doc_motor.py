@@ -153,7 +153,7 @@ def render_one(args):
     else:
         ss,L,slow=shot_src(s["film"],s["t"],d)
         ar=getattr(PL,"AR",{}).get(s["film"],4/3); pre=[getattr(PL,"PRE",{})[s["film"]]] if s["film"] in getattr(PL,"PRE",{}) else []
-        sw,shh=(540*ar,540) if ar>=16/9 else (960,960/ar)   # formato de cada fonte: 4:3 (padrão), 16:9 ou cinemascope
+        sw,shh=(544*ar,544) if ar>=16/9 else (964,964/ar)   # margem: o recorte 1920×1080 nunca passa do quadro   # formato de cada fonte: 4:3 (padrão), 16:9 ou cinemascope
         vf=pre+[f"setpts=(PTS-STARTPTS)*{slow:.4f}",f"fps={FPS}","hqdn3d=3:3:6:6",
             f"scale=w='2*trunc({sw:.2f}*{z})':h='2*trunc({shh:.2f}*{z})':eval=frame:flags=lanczos","crop=1920:1080:(iw-1920)/2:(ih-1080)*0.42",
             *grade(s,n),"unsharp=5:5:0.7",vig,"noise=alls=10:allf=t+u"]+extra+["format=yuv420p"]
