@@ -1,3 +1,4 @@
 - 12/11 — [Setup das ferramentas num contêiner Linux](2026-11-12-setup-ferramentas.md)
 - 14/11 — [Cenas do editonny no documentário "Perfeita docilidade"](2026-11-14-cenas-editonny-rockefeller.md)
 - 15/11 — [Análise de edição da referência 05](2026-11-15-referencia-05-edicao.md)
+- 16/11 — [Pesquisa de imagens em acervos para o MKUltra](2026-11-16-pesquisa-imagens-mkultra.md)

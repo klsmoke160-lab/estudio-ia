@@ -10,3 +10,4 @@
 | [regras.md](regras.md) | Os números que valem (mola, câmera, volume, render). Dono único |
 | [aprendizados.md](aprendizados.md) | O que deu certo e errado em cada vídeo, com data |
 | [escolhas.md](escolhas.md) | As direções em quadros que você escolheu ou recusou, e por quê: o teste A contra B de cada vídeo |
+| [pesquisa-de-imagens.md](pesquisa-de-imagens.md) | Onde e como achar imagens de documentário: três opções por trecho, acervos especializados e conferência de direitos para monetizar |

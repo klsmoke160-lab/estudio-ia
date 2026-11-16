@@ -77,6 +77,10 @@ Conferido no depoimento de 1977: a aprovação em 13/04/1953, por proposta de He
 
 Cuidado de tom: há morte e sofrimento de pessoas reais. Não mostrar corpo, queda nem paciente, e não afirmar que Olson foi assassinado: o roteiro diz só que a família não aceita a versão oficial.
 
+## Pesquisa de imagens (16/11)
+
+[pesquisa/plano-visual.md](pesquisa/plano-visual.md): três opções por trecho, com link e licença, e a escolha de cada um. Ele troca os filmes antigos sem relação com o caso por registros reais (filmes de LSD da coleção da CIA, prisioneiros da Coreia, posse de Helms). Aguarda aprovação para virar a v2.
+
 ## Entregas
 
 | Versão | Arquivo | Data | Observação |
