@@ -61,11 +61,10 @@ gaps=[ini[k+1]-fim[k] for k in range(len(F)-1)]
 print(f"pausas originais entre frases: mediana {st.median(gaps):.2f} s | p10 {np.percentile(gaps,10):.2f} | p90 {np.percentile(gaps,90):.2f} | duração {dur/60:.2f} min")
 json.dump(dict(reconhecido_pct=round(100*cas/len(S),1),fracas=fracas,pausa_mediana=round(st.median(gaps),2)),open(N/"conferencia.json","w"),ensure_ascii=False,indent=1)
 if SO: sys.exit()
-# timbre: tira o grave inútil, dá corpo, amacia a região metálica, de-esser e um ambiente de sala bem discreto
+# timbre: tira o grave inútil, dá corpo, amacia a região metálica, de-esser. Sem eco: o aecho curto (17/29 ms) dobrava a voz
 limpo=N/"_limpo.wav"
 subprocess.run(["ffmpeg","-loglevel","error","-y","-i",str(bruto),"-af",
- "highpass=f=70,equalizer=f=160:t=q:w=0.9:g=2.0,equalizer=f=3200:t=q:w=1.4:g=-2.5,equalizer=f=7500:t=q:w=1.2:g=-2.0,deesser=i=0.4:m=0.5:f=0.5,lowpass=f=13500,"
- "aecho=0.92:0.9:17|29:0.10|0.06","-c:a","pcm_s16le",str(limpo)],check=True)
+ "highpass=f=70,equalizer=f=160:t=q:w=0.9:g=2.0,equalizer=f=3200:t=q:w=1.4:g=-2.5,equalizer=f=7500:t=q:w=1.2:g=-2.0,deesser=i=0.4:m=0.5:f=0.5,lowpass=f=13500","-c:a","pcm_s16le",str(limpo)],check=True)
 y,_=sf.read(str(limpo),dtype="float32"); y=y.reshape(-1)
 # silêncio "vivo": ruído de sala muito baixo, para a pausa não soar como corte digital
 rng=np.random.default_rng(3)

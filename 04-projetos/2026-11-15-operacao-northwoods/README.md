@@ -84,3 +84,5 @@ Conferido no original: todas as citações do memorando, a data, o assunto, a re
 | Versão | Arquivo | Data | Observação |
 |---|---|---|---|
 | v1 | `render/operacao-northwoods-v1.mp4` (envio: `-envio.mp4`, 720p) | 2026-11-16 | 15:42, -14,1 LUFS. 330 planos, 30 trechos do memorando com marca-texto, lista que cresce, 4 cartões de impacto, 3 esquemas próprios, cinejornais Universal (domínio público) e filmes de 1898 do Maine (Biblioteca do Congresso). Refazer: `python3 scripts/video/doc_motor.py <projeto> render`, depois `juntar`, `som` e `final <nome>` |
+
+| v1.1 | `render/operacao-northwoods-v1-1.mp4` (envio: `-envio.mp4`, 720p) | 2026-11-16 | Mesmas imagens da v1. Voz sem o eco curto (17/29 ms) do tratamento, que a deixava dobrada. -14,1 LUFS |

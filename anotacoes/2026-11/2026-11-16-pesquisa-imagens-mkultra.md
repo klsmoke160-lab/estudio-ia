@@ -36,3 +36,14 @@
   - Clipe de banco em fundo preto (gota no copo) vira tela preta depois do tingimento escuro. Confira o brilho médio antes de usar e prefira fundo claro (gota com ondas, tinta na água).
   - O Mixkit baixa em 720p com o Referer do site. O Pexels baixa pela página `/download/video/<id>/` e às vezes manda 4K, que deve ser reduzido para 1080p.
   - O Wikimedia (upload) devolveu 429 por mais de 30 minutos. Não contornar: deixe um clipe reserva no plano (`P_`).
+
+## Correção: voz duplicada
+
+- **Pedido:** "a voz está duplicada, arruma".
+- **Causa:** o `aecho=0.92:0.9:17|29:0.10|0.06` do `scripts/som/tratar_narracao.py`. Como pico no cepstro a 17 ms, ele aparecia 4 a 5 vezes acima do nível da voz original da DarkPlanner (1,2x).
+- **Feito:**
+  - eco removido do script;
+  - MKUltra e Northwoods tratados de novo com os mesmos parâmetros (as linhas do tempo saíram idênticas, então as imagens continuam no lugar);
+  - som remixado (-14,1 LUFS);
+  - entregas: `mkultra-v2.mp4` refeito e `operacao-northwoods-v1-1.mp4`.
+- **Aprendizado:** eco curto (abaixo de 50 ms) não soa como sala: soa como voz dobrada. Para tirar o ar de "robô", não use eco; use as pausas e a dinâmica.
