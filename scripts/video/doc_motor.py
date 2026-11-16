@@ -60,7 +60,7 @@ def build():
             ov.append(dict(tipo="titulo",txt=PL.TITULO[0],sub=PL.TITULO[1],a=f["titulo_ini"]+0.4,b=nxt-1.95))
     for s in shots: s["fa"]=round(s["a"]*FPS); s["fb"]=round(s["b"]*FPS)
     shots=[s for s in shots if s["fb"]>s["fa"]]
-    ov.append(dict(tipo="aviso",txt="FILMES DE ARQUIVO ILUSTRATIVOS · DOCUMENTOS ORIGINAIS",a=1.0,b=7.0))
+    ov.append(dict(tipo="aviso",txt=getattr(PL,"AVISO","FILMES DE ARQUIVO ILUSTRATIVOS · DOCUMENTOS ORIGINAIS"),a=1.0,b=7.0))
     return shots,ov
 def overlays(s,ov):
     a0=s["fa"]/FPS; b0=s["fb"]/FPS; fl=[]; yl=f"h-{96 if CINE else 150}"
@@ -152,8 +152,10 @@ def render_one(args):
         ff.stdin.close(); ff.wait(); return n,ff.returncode,""
     else:
         ss,L,slow=shot_src(s["film"],s["t"],d)
-        vf=[f"setpts=(PTS-STARTPTS)*{slow:.4f}",f"fps={FPS}","hqdn3d=3:3:6:6",
-            f"scale=w='2*trunc(960*{z})':h='2*trunc(720*{z})':eval=frame:flags=lanczos","crop=1920:1080:(iw-1920)/2:(ih-1080)*0.42",
+        ar=getattr(PL,"AR",{}).get(s["film"],4/3); pre=[getattr(PL,"PRE",{})[s["film"]]] if s["film"] in getattr(PL,"PRE",{}) else []
+        sw,shh=(540*ar,540) if ar>=16/9 else (960,960/ar)   # formato de cada fonte: 4:3 (padrão), 16:9 ou cinemascope
+        vf=pre+[f"setpts=(PTS-STARTPTS)*{slow:.4f}",f"fps={FPS}","hqdn3d=3:3:6:6",
+            f"scale=w='2*trunc({sw:.2f}*{z})':h='2*trunc({shh:.2f}*{z})':eval=frame:flags=lanczos","crop=1920:1080:(iw-1920)/2:(ih-1080)*0.42",
             *grade(s,n),"unsharp=5:5:0.7",vig,"noise=alls=10:allf=t+u"]+extra+["format=yuv420p"]
         cmd=["ffmpeg","-loglevel","error","-y","-ss",f"{ss:.3f}","-t",f"{L+0.2:.3f}","-i",str(PL.RAW[s["film"]]),"-an","-vf",",".join(vf),"-frames:v",str(nf),"-r",str(FPS),
              "-c:v","libx264","-preset","veryfast","-crf","23","-video_track_timescale","12288",str(out)]

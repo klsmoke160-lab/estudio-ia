@@ -3,9 +3,10 @@ import json, re, subprocess, pathlib
 from PIL import Image
 MK=pathlib.Path("/home/user/mk"); FULL=MK/"full"
 CENAS=json.load(open(MK/"cenas.json")); RAW={k:MK/"raw"/f"{k}.mp4" for k in CENAS}
+C2=json.load(open(MK/"cenas2.json")); CENAS.update(C2); RAW.update({k:MK/"raw2"/f"{k}.mp4" for k in C2})
 N={"KO":"1952-08-07_Korea","WP":"1950-12-21_War_or_Peace","RW":"RelaxedW1957","MH":"mental_hospital","TA":"ThirdAve1950","HN":"HearandN1958","AL":"Alcohola1949","DH":"DreamHos1950",
    "AB":"atom_and_biological_science","DI":"Doctorin1946","SU":"Survival1951","NS":"NewspaperSto","GW":"GovernmentWo"}
-def C(k,*ts): return [("clip",N[k],t) for t in ts]
+def C(k,*ts): return [("clip",N.get(k,k),t) for t in ts]
 def Dc(*ks): return [("doc",k) for k in ks]
 FONTE="Senado dos EUA, audiência sobre o Projeto MKULTRA, 3 de agosto de 1977 (transcrição)"
 PAL=json.load(open(MK/"docs/palavras.json")); norm=lambda s:re.sub(r"[^a-z0-9]","",s.lower()); ESC=220/72
@@ -27,52 +28,70 @@ doc("ninguem",7,"no single individual","remembered the details"); doc("caixas",9
 doc("sub149",11,"there are 149 MKULTRA","subprojects"); doc("pesq185",14,"names of 185","researchers and assistants"); doc("inst80",14,"The names of 80 institutions","80 institutions")
 doc("univ44",14,"44 colleges or universities","3 penal institutions."); doc("casas",15,"safehouses in San Francisco","New York City"); doc("psico",15,"criminal sexual psychopaths","State hospital")
 doc("aprovado",99,"MKULTRA was approved","April 13, 1953"); doc("restr",99,"a foe who might not","as we are."); doc("antietico",99,"Research in the manipulation","professionally unethical")
+# ---------- v2: registros reais e acervos com direito conferido (pesquisa/plano-visual.md) ----------
+F2=MK/"fotos2"
+_F={"dulles_id":(0.45,"Crachá de Allen W. Dulles · CIA (domínio público)"),"gottlieb":(0.30,"Sidney Gottlieb · governo dos EUA (domínio público)"),
+    "helms_tumulo":(0.5,"Túmulo de Richard Helms, Arlington (domínio público)"),"lenexa":(0.5,"Depósito federal de registros · NARA (domínio público)"),
+    "cavernas":(0.5,"Depósito federal de registros · NARA (domínio público)"),"ravenscrag":(0.45,"Ravenscrag, Montreal, década de 1870 · J. G. Parks (CC0)"),
+    "allan_hoje":(0.5,"Allan Memorial Institute · Thomas1313 (CC BY-SA 3.0)"),"ford_relatorio":(0.4,"Ford recebe o relatório da Comissão Rockefeller, 1975 · Ford Library"),
+    "turner_carter":(0.35,"Carter e Stansfield Turner, 1977 · CIA (domínio público)"),"dulles":(0.3,"Allen W. Dulles · governo dos EUA (domínio público)")}
 FOTOS={}
-TITULO=("MKULTRA","As sete caixas que a CIA esqueceu de queimar",("doc","caixas"))
-T_={"ABERTURA":"vermelho","O MEDO":"petroleo","O QUÍMICO":"petroleo","A REDE":"verde","OS QUE NÃO SABIAM":"azul","FRANK OLSON":"ambar","MONTREAL":"azul","A ORDEM":"vermelho","SETE CAIXAS":"verde","O QUE SABEMOS":"petroleo","FECHO":"vermelho"}
-ESTILO=dict(cinema=True,tint=T_,dur_plano=4.6,zoom=0.045,nasce=4.0,brilho=-0.10,cama=-24,golpe=-3)
+for k,(fy,fonte) in _F.items():
+    for ext in (".jpg",".png"):
+        f=F2/(k+ext)
+        if f.exists() and f.stat().st_size>50000: FOTOS[k]=(str(f),fy,fonte)
+def P_(k,*alt):
+    "foto se ela baixou; senão a alternativa"
+    return [("foto",k)] if k in FOTOS else list(alt)
+LS=lambda *t:C("LS",*t)   # LSD-25 e MER-17, 1955, cor (coleção de filmes da CIA no NARA)
+BS=lambda *t:C("BS",*t); LW=lambda *t:C("LW",*t); HE=lambda *t:C("HE",*t); VS=lambda *t:C("VS",*t)
+BW=lambda *t:C("BW",*t); HY=lambda *t:C("HY",*t); SF=lambda *t:C("SF",*t); GV=lambda *t:C("GV",*t); NX=lambda *t:C("NX",*t)
+X=lambda k,*t:C(k,*t)
+FOGO=X("px9667286",150); FOGO2=X("mx36234",8); FICHAS=X("px6549976",8); GOTA=X("px6381726",4); ARQ=X("mx48574",6)
+AR={k:16/9 for k in C2 if k.startswith(("px","mx"))}; AR["LW"]=16/9; AR["SF"]=2.2
+PRE={"SF":"crop=634:288:6:96"}
 R=[
-("Em janeiro de 1973, o diretor",C("GW",748,754)),("Vinte anos de registros",C("GW",154,700)),("Nomes, pagamentos",C("GW",698)),("A ordem foi cumprida",C("GW",748)),
-("Sete caixas tinham sido",C("GW",754)),("E ficaram lá, esquecidas",C("GW",748)),("O que você vai ver",Dc("caixas")),("E a pergunta que essas caixas",C("GW",733,726)),
-("No início dos anos 1950",C("KO",30,39)+C("WP",163)),("Alguns elogiavam",C("WP",187)),("A imprensa americana",C("NS",67,871)),("A ideia tomou conta",C("HN",470)+C("WP",350)),
-("Dentro da CIA, a conclusão",C("GW",611,621)),("Um documento interno",Dc("restr")),("Conhecer o potencial",Dc("restr")),
-("Em 13 de abril de 1953",Dc("aprovado")),("A proposta tinha vindo",C("GW",424,440)),("Para comandar o trabalho",C("AL",124,141)),("Gottlieb não parecia",C("AB",165)),
-("E acreditava que existia",C("AL",442,467)),("A droga era nova",C("AL",90,98)),("Uma quantidade invisível",C("AL",155)+C("MH",47)),("Para um serviço secreto",C("RW",637,649)),
-("Só faltava descobrir",C("MH",37,132)),
-("MKUltra era um guarda-chuva",Dc("sub149")),("Debaixo dele havia",Dc("sub149")),("O dinheiro saía",C("GW",154,262)),("Os papéis recuperados citam",Dc("pesq185")),("E oitenta instituições",Dc("inst80")),
-("Quarenta e quatro eram",Dc("univ44")),("Quinze, fundações",Dc("univ44")),("Pense no que essa lista",C("AB",409,437)+C("DH",16)),("Acontecia em salas",C("DH",49,62)+C("AB",473)),
-("Havia pesquisa sobre drogas",C("MH",290,299,335)),("Mas voluntário avisado",C("RW",288)),("Queria saber o que acontece",C("MH",47)),
-("O Senado americano registrou",C("HN",470)),("LSD dado a pessoas",C("TA",356,576)),("Num bar",C("TA",611)),("Para isso, a CIA montou",Dc("casas")),("Eram chamados de casas",C("TA",282,301)),
-("A pessoa era atraída",C("TA",263,136)),("Quem observava não era",C("RW",219)),("As cobaias iam embora",C("TA",123,363)),("Houve quem fosse parar",C("AL",712)),
-("Dependentes de heroína",Dc("heroina")),("A recompensa era heroína",Dc("heroina")),("Em um hospital estadual",Dc("psico")),("A avaliação final consta",Dc("sentido")),("Ninguém sabe quantas",C("MH",282)),
-("Frank Olson era bacteriologista",C("AB",133,345)),("Em novembro de 1953",C("SU",408)+C("HN",587)),("Depois do jantar",C("AL",426,665)),("Olson voltou para casa",C("RW",58,314)),
-("Ele pediu para sair",C("RW",207)),("Em vez disso, foi levado",C("TA",202,530)),("Na madrugada de 28",C("TA",282)),("Tinha quarenta e três",C("SU",24)),("A família ouviu",C("DI",482)),
-("Em 1975, uma comissão",C("GW",726,733)),("O nome não aparecia",C("NS",892,806)),("O presidente Gerald Ford",C("HN",470)),("A versão oficial continua",C("TA",301)),("E não há como conferir",C("GW",748)),
-("Em Montreal, no Canadá",C("DH",76,81)),("O diretor era Ewen Cameron",C("MH",601,680)),("As pessoas procuravam",C("RW",543,58)),("Ele tinha uma teoria",C("AL",502,525)),
-("Os pacientes eram mantidos",C("MH",299,199)),("Recebiam eletrochoques",C("MH",290,335)),("E, enquanto dormiam",C("HN",975,461)),("Entre 1957 e 1964",C("GW",154)),
-("Alguns pacientes saíram",C("MH",37)),("Outros desaprenderam",C("MH",206)),("O Canadá só soube",C("MH",886)+C("NS",844)),("Cameron morreu em 1967",C("WP",292)),
-("Uma inspeção interna",Dc("antietico")),("Pesquisa sobre manipulação",Dc("antietico")),("O resultado, depois de tantos",C("AL",761,148)),("Sobrava o rastro",C("GW",700,698)),
-("Em 1973, o país vivia",C("NS",871,902)+C("HN",470)),("Richard Helms estava de saída",C("GW",431)),("Em janeiro, a ordem foi dada",Dc("destruidos")),("Os registros de MKUltra deviam",Dc("destruidos")),
-("Quando o Senado finalmente",C("HN",447)),("Nas palavras de um senador",Dc("ninguem")),("Parecia o fim",C("GW",754)),
-("Em 1977, um jornalista",C("NS",328,470)),("Um funcionário da CIA",C("GW",716,707)),("Os arquivos operacionais",C("GW",748)),("Tinham ido para um depósito",Dc("deposito")),("Lá estavam sete caixas",Dc("caixas")),
-("Dentro delas, perto de",C("GW",154,754)),("Não eram os relatórios",C("GW",700)),("Mas recibos têm nomes",Dc("pesq185")),("Em 3 de agosto de 1977",C("HN",470,447)),("É por causa de um erro",C("GW",754)),
-("Está nos documentos que o programa",Dc("aprovado")),("Está nos documentos que pessoas",Dc("casas")),("Está nos documentos que pelo menos",C("TA",282)),("E está nos documentos que os arquivos",Dc("destruidos")),
-("O que não está em documento",C("AL",442)),("Como a maior parte",C("GW",748)),("A fogueira de 1973",C("WP",272)),
-("No começo deste vídeo",C("GW",748)),("A ordem falhou por sete",Dc("caixas")),("Sidney Gottlieb morreu",C("AL",124)),("Richard Helms morreu",C("GW",440)),("As vítimas, na maior parte",C("MH",282,47)),
-("Se aquelas sete caixas",C("GW",754,748)),("Me conta nos comentários",C("GW",726)),("E, para acompanhar",Dc("caixas")),
+("Em janeiro de 1973, o diretor",FOGO),("Vinte anos de registros",FICHAS),("Nomes, pagamentos",FICHAS+ARQ),("A ordem foi cumprida",FOGO2),
+("Sete caixas tinham sido",P_("lenexa",*ARQ)),("E ficaram lá, esquecidas",X("px6550137",4)),("O que você vai ver",Dc("caixas")),("E a pergunta que essas caixas",ARQ),
+("No início dos anos 1950",LW(92)+BS(108)),("Alguns elogiavam",BS(396)),("A imprensa americana",X("px29906414",15)),("A ideia tomou conta",LW(216)+P_("dulles",*LW(401))),
+("Dentro da CIA, a conclusão",P_("dulles_id",*LW(463))),("Um documento interno",Dc("restr")),("Conhecer o potencial",Dc("restr")),
+("Em 13 de abril de 1953",Dc("aprovado")),("A proposta tinha vindo",HE(587)),("Para comandar o trabalho",P_("gottlieb",*LS(888))),("Gottlieb não parecia",P_("gottlieb",*LS(888))),
+("E acreditava que existia",LS(135)),("A droga era nova",GOTA),("Uma quantidade invisível",GOTA+LS(404)),("Para um serviço secreto",LS(565,619)),
+("Só faltava descobrir",LS(1319)),
+("MKUltra era um guarda-chuva",Dc("sub149")),("Debaixo dele havia",Dc("sub149")),("O dinheiro saía",FICHAS),("Os papéis recuperados citam",Dc("pesq185")),("E oitenta instituições",Dc("inst80")),
+("Quarenta e quatro eram",Dc("univ44")),("Quinze, fundações",Dc("univ44")),("Pense no que essa lista",LS(780,834)),("Acontecia em salas",LS(296)+X("px29241126",4)),
+("Havia pesquisa sobre drogas",HY(16,140)+X("px29241126",6)),("Parte dos voluntários",LS(996,1049)),("Mas voluntário avisado",LS(1103)),("Queria saber o que acontece",LS(1534)),
+("Os documentos usam",ARQ),("O Senado americano registrou",VS(137)),("LSD dado a pessoas",GOTA),("Num bar",X("mx41439",5)),("Para isso, a CIA montou",Dc("casas")),("Eram chamados de casas",SF(1047,1101)),
+("A pessoa era atraída",SF(993)+X("px9431644",5)),("Quem observava não era",LS(780)),("As cobaias iam embora",X("px31042229",5)+LS(1641)),("Houve quem fosse parar",X("px29241126",3)),
+("Dependentes de heroína",Dc("heroina")),("A recompensa era heroína",Dc("heroina")+X("mx33734",3)),("Em um hospital estadual",Dc("psico")),("A avaliação final consta",Dc("sentido")),("Ninguém sabe quantas",ARQ),
+("Frank Olson era bacteriologista",BW(109,85)),("Em novembro de 1953",X("mx20464",10)),("Depois do jantar",LS(942)),("Olson voltou para casa",GV(794)),
+("Ele pediu para sair",X("px31042229",8)),("Em vez disso, foi levado",GV(757,683)),("Na madrugada de 28",X("mx22336",5)),("Tinha quarenta e três",X("px31042229",3)),("A família ouviu",X("px9431644",8)),
+("Em 1975, uma comissão",P_("ford_relatorio",*VS(27))),("O nome não aparecia",VS(192,302)),("O presidente Gerald Ford",P_("ford_relatorio",*VS(27))),("A versão oficial continua",X("px9431644",3)),("E não há como conferir",FOGO2),
+("Em Montreal, no Canadá",P_("ravenscrag",*X("mx20464",3))),("O diretor era Ewen Cameron",P_("allan_hoje",*X("px29241126",3))),("As pessoas procuravam",X("px29241126",2)),("Ele tinha uma teoria",X("mx46738",6)),
+("Os pacientes eram mantidos",HY(109,421)),("Recebiam eletrochoques",X("px29241126",7)),("E, enquanto dormiam",X("mx14451",10)+X("mx46738",12)),("Entre 1957 e 1964",FICHAS),
+("Alguns pacientes saíram",X("mx20464",16)),("Outros desaprenderam",HY(140)),("O Canadá só soube",X("mx48357",5)+X("mx4135",6)),("Cameron morreu em 1967",X("mx20464",5)),
+("Uma inspeção interna",Dc("antietico")),("Pesquisa sobre manipulação",Dc("antietico")),("O resultado, depois de tantos",LS(1372,1426)),("Sobrava o rastro",FICHAS),
+("Em 1973, o país vivia",NX(50,110)),("Richard Helms estava de saída",HE(509)),("Em janeiro, a ordem foi dada",Dc("destruidos")),("Os registros de MKUltra deviam",Dc("destruidos")+FOGO),
+("Quando o Senado finalmente",VS(247)),("Nas palavras de um senador",Dc("ninguem")),("Parecia o fim",X("px6550137",8)),
+("Em 1977, um jornalista",X("mx10395",5)),("Um funcionário da CIA",FICHAS),("Os arquivos operacionais",FOGO2),("Tinham ido para um depósito",Dc("deposito")),("Lá estavam sete caixas",P_("cavernas",*Dc("caixas"))),
+("Dentro delas, perto de",ARQ),("Não eram os relatórios",FICHAS),("Mas recibos têm nomes",Dc("pesq185")),("Em 3 de agosto de 1977",P_("turner_carter",*VS(27))),("É por causa de um erro",X("px6550137",3)),
+("Está nos documentos que o programa",Dc("aprovado")),("Está nos documentos que pessoas",Dc("casas")),("Está nos documentos que pelo menos",X("mx22336",8)),("E está nos documentos que os arquivos",Dc("destruidos")),
+("O que não está em documento",X("mx4111",4)),("Como a maior parte",FOGO2),("A fogueira de 1973",X("px4684207",8)),
+("No começo deste vídeo",FOGO),("A ordem falhou por sete",Dc("caixas")),("Sidney Gottlieb morreu",P_("gottlieb",*LS(888))),("Richard Helms morreu",P_("helms_tumulo",*HE(509))),("As vítimas, na maior parte",X("mx20464",12)),
+("Se aquelas sete caixas",P_("lenexa",*ARQ)),("Me conta nos comentários",FOGO),("E, para acompanhar",Dc("caixas")),
 ]
 POOL={
-"ABERTURA":C("GW",748,754,700),
-"O MEDO":C("KO",14,30,34,43)+C("WP",142,147,175,178,238,249,282),
-"O QUÍMICO":C("AL",124,133,141,148,155)+C("AB",165,186,409,417,455,461)+C("RW",606,642,668),
-"A REDE":C("AB",424,437,450,473,483)+C("DH",16,20,39,53,67)+C("GW",116,154,262),
-"OS QUE NÃO SABIAM":C("TA",102,123,150,263,282,301,356,363,576,611)+C("AL",426,514,632),
-"FRANK OLSON":C("RW",58,73,90,185,207,288,314,332,342)+C("TA",202,282,518,530)+C("SU",24,29),
-"MONTREAL":C("MH",37,47,132,145,199,206,282,290,299,335,455,495,734)+C("DH",43,46,71),
-"A ORDEM":C("GW",424,431,611,698,700,748)+C("WP",272)+C("NS",871,902),
-"SETE CAIXAS":C("GW",748,754,733,726,716,707,154)+C("NS",328,470),
-"O QUE SABEMOS":C("MH",47,282)+C("GW",748,154)+C("AL",442,502)+C("TA",282,576),
-"FECHO":C("GW",748,754,726)+C("MH",47),
+"ABERTURA":FOGO+FICHAS+ARQ,
+"O MEDO":BS(36,180,324,468)+LW(92,216,401),
+"O QUÍMICO":LS(135,350,404,457,511,565)+GOTA,
+"A REDE":LS(296,780,834,888)+FICHAS+X("px29241126",5),
+"OS QUE NÃO SABIAM":SF(993,1047,1101,1154)+X("px9431644",4)+X("mx41439",6)+GOTA,
+"FRANK OLSON":X("mx20464",4,12)+GV(683,757,794)+X("px31042229",6),
+"MONTREAL":HY(47,234,421)+X("px29241126",4)+X("mx46738",4)+X("mx14451",6),
+"A ORDEM":NX(70,150)+FOGO+FOGO2+X("px10802584",10)+VS(357),
+"SETE CAIXAS":ARQ+FICHAS+X("px6550137",5)+X("mx10395",3),
+"O QUE SABEMOS":X("mx4111",3)+X("mx4135",8)+FICHAS+LS(1534),
+"FECHO":FOGO+FOGO2+ARQ,
 }
 KEY=[("Em 13 de abril de 1953","13 DE ABRIL DE 1953"),("Para comandar o trabalho","SIDNEY GOTTLIEB"),("Debaixo dele havia","149 SUBPROJETOS"),("Os papéis recuperados citam","185 PESQUISADORES"),
 ("E oitenta instituições","80 INSTITUIÇÕES"),("Quarenta e quatro eram","44 UNIVERSIDADES"),("Frank Olson era bacteriologista","FRANK OLSON"),("Na madrugada de 28","28 DE NOVEMBRO DE 1953"),
@@ -80,3 +99,7 @@ KEY=[("Em 13 de abril de 1953","13 DE ABRIL DE 1953"),("Para comandar o trabalho
 ("Em 1977, um jornalista","1977"),("Em 3 de agosto de 1977","3 DE AGOSTO DE 1977")]
 CARDS=[("Destruir tudo.","DESTRUIR TUDO.","vermelho"),("Quase.","QUASE.","branco"),("LSD.","LSD","amarelo"),("Eles tinham ido buscar ajuda.","ELES TINHAM IDO\nBUSCAR AJUDA.","branco")]
 LISTA=[]
+TITULO=("MKULTRA","As sete caixas que a CIA esqueceu de queimar",("doc","caixas"))
+T_={"ABERTURA":"vermelho","O MEDO":"petroleo","O QUÍMICO":"petroleo","A REDE":"verde","OS QUE NÃO SABIAM":"azul","FRANK OLSON":"ambar","MONTREAL":"azul","A ORDEM":"vermelho","SETE CAIXAS":"verde","O QUE SABEMOS":"petroleo","FECHO":"vermelho"}
+ESTILO=dict(cinema=True,tint=T_,dur_plano=4.0,zoom=0.045,nasce=4.0,brilho=-0.10,cama=-24,golpe=-3)
+AVISO="REGISTROS DE ARQUIVO E IMAGENS ILUSTRATIVAS · DOCUMENTOS ORIGINAIS"

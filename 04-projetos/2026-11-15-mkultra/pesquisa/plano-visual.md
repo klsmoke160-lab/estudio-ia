@@ -131,6 +131,19 @@ Tempos da narração tratada (`audio/timeline_novo.json`). ★ marca a escolha.
 | 12:30 | "Gottlieb morreu… Helms morreu em 2002" | ★ A. [Commons: Richard Helms grave (Arlington, ANCExplorer)](https://commons.wikimedia.org/wiki/File:ANCExplorer_Richard_Helms_grave.jpg) (domínio público)<br>B. [Commons: Sidney Gottlieb photo.jpg](https://commons.wikimedia.org/wiki/File:Sidney_Gottlieb_photo.jpg)<br>C. [Posse de Helms](https://archive.org/details/gov.archives.arc.643815), 509 s | **B, depois A.** O rosto de Gottlieb some no escuro e o túmulo de Helms fecha a ideia de "nunca respondeu" |
 | 12:50 | "Se aquelas sete caixas tivessem ido para o prédio certo…" | ★ A. As sete caixas animadas, em vermelho, como na abertura<br>B. [Commons: Lenexa](https://commons.wikimedia.org/wiki/File:Lenexa_National_Archives_Federal_Records_Center.jpg)<br>C. [Pexels 9667286](https://www.pexels.com/video/close-up-video-of-a-burning-paper-9667286/) | **A.** O fecho repete a abertura, o que a referência 06 também faz |
 
+## Decisões na montagem da v2 (16/11)
+
+- **Filme "Schizophrenic Model Psychosis Induced by LSD" (1955): fora.** Ele foi produzido pela **Sandoz**, o laboratório que fabricava o LSD (segundo a [Open Culture](https://www.openculture.com/2014/04/watch-1955-footage-of-a-scientist-interviewing-a-painter-on-lsd.html)), e não achei prova de domínio público. Nos trechos dele entram as opções reserva, quase todas do outro filme de 1955.
+- **Filme "Experimental Compound MER 17 (Frenquel) and LSD-25" (1955): mantido.**
+  - É do médico Howard D. Fabing, de Cincinnati. O LSD veio da Sandoz e o MER-17, do laboratório Merrell, mas nenhum dos dois produziu o filme.
+  - O [Footage Farm](https://footagefarm.com/reel-details/counterculture/lsd/experimental-compound-mer-17-frenquel---new-blocking-agent-aganst-the-development-of-lsd-25-psychosis--pt-1-of-3), acervo de filmagem de domínio público, vende o filme. É indício de domínio público, não prova.
+  - O filme abre com um cartão de sigilo ("the fact that you have seen it here is secret"), sinal de que era exibido dentro do governo.
+  - Plano novo achado nele: alguém entrega um **copo** à cobaia aos 942 s. Ele entra em "Depois do jantar… a bebida… continha LSD".
+- **Bar com uísque do Pexels (4691257): fora.** O clipe mostra rostos, e a cena do "drogado sem saber" exporia pessoas reais. Entram a gota e o olhar pela persiana.
+- **Clipes verticais do Mixkit (5145, 18288): trocados** pelo [Mixkit 10395](https://mixkit.co/free-stock-video/close-up-view-of-a-typewriter-while-a-man-works-on-10395/) (máquina de escrever, horizontal), porque o recorte para 16:9 perdia qualidade.
+- **Fotos do Wikimedia:** o site limitou os downloads. Cada foto tem um clipe reserva no plano (`P_` no `motor/plano.py`) e entra assim que baixar.
+- **Ford com a família Olson:** o site da Ford Library não responde a download automático. No lugar entra a foto da entrega do relatório em 1975, se baixar, ou a coletiva de 1975.
+
 ## Conferências antes de produzir
 
 1. **Produtor dos dois filmes de LSD de 1955** (catálogo do NARA, campo "creator/producer"): se for o laboratório Merrell e houver renovação de direitos, troco pelas opções B de cada trecho.
