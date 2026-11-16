@@ -90,3 +90,21 @@ Rasura, Operação Northwoods, Northwoods, Cuba 1962, Lemnitzer, Kennedy, Fidel 
 
   Recomendo suavizar esses dois no áudio antes de publicar.
 - Use a **v1.1**: a v1 tinha a voz dobrada pelo eco do tratamento.
+
+## Shorts
+
+Gerados por `python3 scripts/video/short_doc.py <projeto> <vídeo> <início> <fim> <saída> "GANCHO 1" "GANCHO 2"`, em 1080×1920, com legenda grande e o cartão "vídeo completo no canal" no fim.
+
+**Short 1: "Este papel é verdadeiro"** (`render/short-1-este-papel.mp4`, 43 s: a abertura, 0:01–0:42)
+- **Título:** "Explodir um navio e culpar Cuba": o memorando secreto de 1962
+- **Descrição:** A frase está num memorando ultrassecreto do Estado-Maior dos EUA, de 13 de março de 1962. Vídeo completo no canal. #northwoods #cuba #história #rasura
+
+**Short 2: "Um avião falso para uma guerra"** (`render/short-2-aviao-falso.mp4`, 80 s: 6:25–7:43)
+- **Título:** O plano de 1962 para fingir que Cuba derrubou um avião de estudantes
+- **Descrição:** Um avião pintado como cópia, um drone e um falso pedido de socorro. Está na Operação Northwoods. Vídeo completo no canal. #northwoods #guerrafria #documentário #rasura
+- Tem 80 s. O YouTube aceita Shorts de até 3 minutos, e o TikTok também.
+
+**Como publicar:**
+- No YouTube, use o campo "Vídeo relacionado" para ligar ao vídeo longo.
+- No TikTok, o mesmo arquivo serve.
+- Publique um Short por dia, a partir do dia seguinte ao vídeo longo.

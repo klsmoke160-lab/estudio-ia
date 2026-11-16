@@ -95,3 +95,20 @@ Rasura, MKUltra, MK Ultra, CIA, LSD, Sidney Gottlieb, Frank Olson, Richard Helms
   Recomendo cortar ou suavizar esses trechos no áudio antes de publicar.
 - **Data de Montreal:** a narração diz "entre 1957 e 1964". Um documento da sala de leitura da CIA diz que o subprojeto 68 começou em janeiro de 1959.
 - **Direitos do filme "MER 17 / LSD-25" (1955):** é provavelmente de domínio público (vem do NARA e é vendido por um acervo de domínio público), mas não achei a prova definitiva. Se aparecer uma reivindicação de direitos, troque esses planos pelas opções reserva do `pesquisa/plano-visual.md`.
+
+## Shorts
+
+Gerados por `python3 scripts/video/short_doc.py <projeto> <vídeo> <início> <fim> <saída> "GANCHO 1" "GANCHO 2" --cinema`, em 1080×1920, com legenda grande e o cartão "vídeo completo no canal" no fim.
+
+**Short 1: "A CIA queimou tudo. Quase."** (`render/short-1-sete-caixas.mp4`, 38 s: a abertura, 0:01–0:36)
+- **Título:** A CIA mandou queimar tudo. Sete caixas escaparam
+- **Descrição:** Em 1973, a CIA destruiu os arquivos do MKUltra. Sete caixas estavam no prédio errado. Vídeo completo no canal. #mkultra #cia #história #rasura
+
+**Short 2: "A CIA drogou quem não sabia"** (`render/short-2-lsd-num-bar.mp4`, 52 s: 4:11–5:01, só com fatos registrados pelo Senado em 1977)
+- **Título:** A CIA dava LSD a pessoas num bar, sem avisar. Está no Senado
+- **Descrição:** Num bar, numa festa, num encontro. Os testes do MKUltra estão nos registros do Senado dos EUA de 1977. Vídeo completo no canal. #mkultra #cia #documentário #rasura
+
+**Como publicar:**
+- No YouTube, use o campo "Vídeo relacionado" de cada Short para ligar ao vídeo longo.
+- No TikTok, o mesmo arquivo serve: use o título como legenda e as mesmas hashtags.
+- Publique um Short por dia, a partir do dia seguinte ao vídeo longo.
