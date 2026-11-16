@@ -97,6 +97,7 @@ def overlays(s,ov):
                  f"drawbox=x=112:y={110+BAR}+{fs}*1.25:w=140:h=6:color=0xE2333B@0.95:t=fill:enable='between(t,{a+0.15:.3f},{b-0.3:.3f})'"]
         elif tp=="lista":
             if cob: continue
+            fl.append(f"drawbox=x=70:y={122+BAR+o['i']*54}:w=760:h=50:color=black@0.72:t=fill:enable='between(t,{a:.3f},{b:.3f})'")
             fl.append(f"drawtext=fontfile={esc(ELITE)}:textfile={tf('· '+o['txt'])}:fontsize=38:fontcolor=0xF2EEE4:x=90:y={130+BAR+o['i']*54}:alpha='min(1\\,max(0\\,(t-{a:.3f})/0.25))':shadowcolor=black@0.95:shadowx=2:shadowy=3:borderw=2:bordercolor=black@0.6:{en}")
         else:
             fl.append(f"drawtext=fontfile={esc(ELITE)}:textfile={tf(o['txt'])}:fontsize=26:fontcolor=0xD8D2C2:x=w-text_w-70:y={64+BAR}:alpha='{al}':shadowcolor=black@0.9:shadowx=2:shadowy=2")
