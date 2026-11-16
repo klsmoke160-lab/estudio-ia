@@ -87,3 +87,7 @@ Cuidado de tom: há morte e sofrimento de pessoas reais. Não mostrar corpo, que
 |---|---|---|---|
 | v1 | `render/mkultra-v1.mp4` (envio: `-envio.mp4`, 720p) | 2026-11-16 | 13:09, -14,1 LUFS. Formato cinemascope, uma cor por capítulo, imagens nascendo do escuro, 15 trechos do depoimento de 1977 com marca-texto, 4 cartões de impacto. Documentos sem tingimento, para o marca-texto aparecer. Mesmo motor do Northwoods |
 | v2 | `render/mkultra-v2.mp4` (envio: `-envio.mp4`, 720p) | 2026-11-16 | 13:09, -14,1 LUFS. Imagens refeitas pela pesquisa de acervo (`pesquisa/plano-visual.md`): filme de teste de LSD de 1955 da coleção da CIA, prisioneiros da Coreia de 1953 (Marinha e Exército), posse de Helms (1966), coletiva do Exército sobre LSD (1975), Nixon e Watergate (USIA), hipnose (Prelinger), São Francisco em 1955 e Nova York em 1944, crachá de Dulles e foto de Gottlieb; cenas de atmosfera do Pexels e do Mixkit, sem rosto de vítima. Sem os filmes antigos sem relação com o caso da v1. Fotos do Wikimedia que não baixaram (limite do site) usam o clipe reserva. **Refeita no mesmo dia:** a voz soava dobrada por um eco curto (17/29 ms) do tratamento, que foi removido |
+
+## Capa
+
+Escolhida: **A, "A CIA QUEIMOU / QUASE TUDO"** (`render/capa-final.jpg`), com o retrato de Gottlieb e o trecho "were destroyed in January 1973" do Senado. A B (Helms, "ELE MANDOU APAGAR TUDO") fica de reserva para teste A/B. A receita está em `capa/mk-A.json` (`scripts/video/capa_doc.py`).

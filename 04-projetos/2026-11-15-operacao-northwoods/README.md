@@ -86,3 +86,6 @@ Conferido no original: todas as citações do memorando, a data, o assunto, a re
 | v1 | `render/operacao-northwoods-v1.mp4` (envio: `-envio.mp4`, 720p) | 2026-11-16 | 15:42, -14,1 LUFS. 330 planos, 30 trechos do memorando com marca-texto, lista que cresce, 4 cartões de impacto, 3 esquemas próprios, cinejornais Universal (domínio público) e filmes de 1898 do Maine (Biblioteca do Congresso). Refazer: `python3 scripts/video/doc_motor.py <projeto> render`, depois `juntar`, `som` e `final <nome>` |
 
 | v1.1 | `render/operacao-northwoods-v1-1.mp4` (envio: `-envio.mp4`, 720p) | 2026-11-16 | Mesmas imagens da v1. Voz sem o eco curto (17/29 ms) do tratamento, que a deixava dobrada. -14,1 LUFS |
+## Capa
+
+Escolhida: **B, "FABRICAR / UMA GUERRA"** (`render/capa-final.jpg`), com o memorando de 13/03/1962 de fundo e o trecho da campanha de terror. A A (foto dos mísseis, "O PENTÁGONO PLANEJOU ISSO") fica de reserva para teste A/B. A receita está em `capa/nw-B.json`.
