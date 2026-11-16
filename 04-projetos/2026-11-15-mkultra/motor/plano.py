@@ -47,16 +47,16 @@ LS=lambda *t:C("LS",*t)   # LSD-25 e MER-17, 1955, cor (coleção de filmes da C
 BS=lambda *t:C("BS",*t); LW=lambda *t:C("LW",*t); HE=lambda *t:C("HE",*t); VS=lambda *t:C("VS",*t)
 BW=lambda *t:C("BW",*t); HY=lambda *t:C("HY",*t); SF=lambda *t:C("SF",*t); GV=lambda *t:C("GV",*t); NX=lambda *t:C("NX",*t)
 X=lambda k,*t:C(k,*t)
-FOGO=X("px9667286",150); FOGO2=X("mx36234",8); FICHAS=X("px6549976",8); GOTA=X("px6381726",4); ARQ=X("mx48574",6)
+FOGO=X("px9667286",150); FOGO2=X("mx36234",8); FICHAS=X("px6549976",8); GOTA=X("mx110",8); TINTA=X("mx203",12); ARQ=X("mx48574",6)
 AR={k:16/9 for k in C2 if k.startswith(("px","mx"))}; AR["LW"]=16/9; AR["SF"]=2.2
-PRE={"SF":"crop=634:288:6:96"}
+PRE={"SF":"crop=634:288:6:96","mx41439":"eq=gamma=1.6:brightness=0.04"}
 R=[
 ("Em janeiro de 1973, o diretor",FOGO),("Vinte anos de registros",FICHAS),("Nomes, pagamentos",FICHAS+ARQ),("A ordem foi cumprida",FOGO2),
 ("Sete caixas tinham sido",P_("lenexa",*ARQ)),("E ficaram lá, esquecidas",X("px6550137",4)),("O que você vai ver",Dc("caixas")),("E a pergunta que essas caixas",ARQ),
 ("No início dos anos 1950",LW(92)+BS(108)),("Alguns elogiavam",BS(396)),("A imprensa americana",X("px29906414",15)),("A ideia tomou conta",LW(216)+P_("dulles",*LW(401))),
 ("Dentro da CIA, a conclusão",P_("dulles_id",*LW(463))),("Um documento interno",Dc("restr")),("Conhecer o potencial",Dc("restr")),
 ("Em 13 de abril de 1953",Dc("aprovado")),("A proposta tinha vindo",HE(587)),("Para comandar o trabalho",P_("gottlieb",*LS(888))),("Gottlieb não parecia",P_("gottlieb",*LS(888))),
-("E acreditava que existia",LS(135)),("A droga era nova",GOTA),("Uma quantidade invisível",GOTA+LS(404)),("Para um serviço secreto",LS(565,619)),
+("E acreditava que existia",LS(135)),("A droga era nova",GOTA),("Uma quantidade invisível",TINTA+LS(404)),("Para um serviço secreto",LS(565,619)),
 ("Só faltava descobrir",LS(1319)),
 ("MKUltra era um guarda-chuva",Dc("sub149")),("Debaixo dele havia",Dc("sub149")),("O dinheiro saía",FICHAS),("Os papéis recuperados citam",Dc("pesq185")),("E oitenta instituições",Dc("inst80")),
 ("Quarenta e quatro eram",Dc("univ44")),("Quinze, fundações",Dc("univ44")),("Pense no que essa lista",LS(780,834)),("Acontecia em salas",LS(296)+X("px29241126",4)),

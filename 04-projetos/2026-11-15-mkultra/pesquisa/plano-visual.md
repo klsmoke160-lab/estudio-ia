@@ -142,6 +142,8 @@ Tempos da narração tratada (`audio/timeline_novo.json`). ★ marca a escolha.
 - **Bar com uísque do Pexels (4691257): fora.** O clipe mostra rostos, e a cena do "drogado sem saber" exporia pessoas reais. Entram a gota e o olhar pela persiana.
 - **Clipes verticais do Mixkit (5145, 18288): trocados** pelo [Mixkit 10395](https://mixkit.co/free-stock-video/close-up-view-of-a-typewriter-while-a-man-works-on-10395/) (máquina de escrever, horizontal), porque o recorte para 16:9 perdia qualidade.
 - **Fotos do Wikimedia:** o site limitou os downloads. Cada foto tem um clipe reserva no plano (`P_` no `motor/plano.py`) e entra assim que baixar.
+- **Gota do Pexels (6381726): trocada.** O copo ocupa um canto do quadro, e o resto é preto. Depois do tingimento, ficava tela preta por 8 s. Entram a [gota com ondas, Mixkit 110](https://mixkit.co/free-stock-video/single-drops-of-water-create-ripples-110/) e a [tinta se espalhando na água, Mixkit 203](https://mixkit.co/free-stock-video/black-ink-swirl-in-water-203/).
+- **Persiana (Mixkit 41439):** ficou clara antes do tingimento (`PRE` no plano). Sem isso, sumia no azul.
 - **Ford com a família Olson:** o site da Ford Library não responde a download automático. No lugar entra a foto da entrega do relatório em 1975, se baixar, ou a coletiva de 1975.
 
 ## Conferências antes de produzir
