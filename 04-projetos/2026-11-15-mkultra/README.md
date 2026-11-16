@@ -76,3 +76,9 @@ Conferido no depoimento de 1977: a aprovação em 13/04/1953, por proposta de He
 - as mortes de Gottlieb (1999) e de Helms (2002).
 
 Cuidado de tom: há morte e sofrimento de pessoas reais. Não mostrar corpo, queda nem paciente, e não afirmar que Olson foi assassinado: o roteiro diz só que a família não aceita a versão oficial.
+
+## Entregas
+
+| Versão | Arquivo | Data | Observação |
+|---|---|---|---|
+| v1 | `render/mkultra-v1.mp4` (envio: `-envio.mp4`, 720p) | 2026-11-16 | 13:09, -14,1 LUFS. Formato cinemascope, uma cor por capítulo, imagens nascendo do escuro, 15 trechos do depoimento de 1977 com marca-texto, 4 cartões de impacto. Documentos sem tingimento, para o marca-texto aparecer. Mesmo motor do Northwoods |
