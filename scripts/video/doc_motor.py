@@ -213,18 +213,18 @@ if __name__=="__main__":
         for k,(t,f,g) in enumerate(EV,1):
             inp+=["-i",str(SFX/(f+".wav"))]; fl.append(f"[{k}:a]aresample=48000,aformat=channel_layouts=mono,volume={g}dB,adelay={max(0,int(t*1000))}[e{k}]"); mix.append(f"[e{k}]")
         if TR: inp+=sum([["-stream_loop","-1","-i",str(x[0])] for x in TR],[])
-        fl.append("".join(mix)+f"amix=inputs={len(mix)}:normalize=0,alimiter=limit=0.5:level=0,atrim=0:{tot}[out]")
+        fl.append("".join(mix)+f"amix=inputs={len(mix)}:normalize=0,atrim=0:{tot}[out]")
         (P/"audio/mix.filter").write_text(";".join(fl))
-        subprocess.run(["ffmpeg","-loglevel","error","-y",*inp,"-filter_complex_script",str(P/"audio/mix.filter"),"-map","[out]","-ar","48000",str(P/"audio/mix.wav")],check=True)
+        subprocess.run(["ffmpeg","-loglevel","error","-y",*inp,"-filter_complex_script",str(P/"audio/mix.filter"),"-map","[out]","-ar","48000","-c:a","pcm_f32le",str(P/"audio/mix.wav")],check=True)
         def med(f):
             r=subprocess.run(["ffmpeg","-nostats","-i",str(f),"-af","ebur128=peak=true","-f","null","-"],capture_output=True,text=True).stderr
             return float(re.findall(r"I:\s+(-?[\d.]+) LUFS",r)[-1]),float(re.findall(r"Peak:\s+(-?[\d.]+) dBFS",r)[-1])
-        I,_=med(P/"audio/mix.wav"); g=-14.0-I
+        ALVO=E.get("lufs",-14.0); I,_=med(P/"audio/mix.wav"); g=ALVO-I
         for _ in range(3):
-            subprocess.run(["ffmpeg","-loglevel","error","-y","-i",str(P/"audio/mix.wav"),"-af",f"volume={g:.2f}dB,alimiter=limit=0.80:level=0","-ar","48000","-c:a","pcm_s16le",str(P/"audio/final.wav")],check=True)
+            subprocess.run(["ffmpeg","-loglevel","error","-y","-i",str(P/"audio/mix.wav"),"-af",f"volume={g:.2f}dB,alimiter=limit=0.891:level=0:attack=5:release=150","-ar","48000","-c:a","pcm_s16le",str(P/"audio/final.wav")],check=True)
             I2,pk=med(P/"audio/final.wav")
-            if abs(I2+14)<0.15: break
-            g+=-14.0-I2
+            if abs(I2-ALVO)<0.15: break
+            g+=ALVO-I2
         print("som:",len(EV),"eventos |",I2,"LUFS | pico",pk)
     elif modo=="final":
         nome=sys.argv[3]

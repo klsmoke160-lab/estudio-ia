@@ -168,3 +168,4 @@ LISTA=[]
 _M=pathlib.Path("/home/user/estudio-ia/05-biblioteca/musica/mixkit")
 ESTILO["trilha"]=[(_M/"echoes-andrew-ev.mp3","ABERTURA",-15),(_M/"tapis-eugenio-mininni.mp3","OS QUE NÃO SABIAM",-19),
                   (_M/"piano-horror-francisco-alvear.mp3","FRANK OLSON",-17),(_M/"echoes-andrew-ev.mp3","OS INSPETORES",-15)]
+ESTILO["lufs"]=-16.0   # voz da DarkPlanner já vem em -16: sem limitar picos (limitador forte deixava a voz "dobrada")
