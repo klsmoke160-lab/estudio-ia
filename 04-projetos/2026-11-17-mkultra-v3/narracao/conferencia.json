@@ -1,0 +1,18 @@
+{
+ "reconhecido_pct": 96.8,
+ "fracas": [
+  {
+   "i": 50,
+   "ok": "8/13",
+   "texto": "Sob o nome do programa, foram identificados cento e quarenta e nove subprojetos.",
+   "ouvido": "Sob o nome do programa foram identificados 149 subprojetos. Parte"
+  },
+  {
+   "i": 53,
+   "ok": "11/16",
+   "texto": "Entre elas, quarenta e quatro faculdades e universidades, doze hospitais ou clínicas e três instituições penais.",
+   "ouvido": "entre elas, 44 faculdades e universidades, 12 hospitais ou clínicas e 3 instituições penais. Havia"
+  }
+ ],
+ "pausa_mediana": 0.27
+}
