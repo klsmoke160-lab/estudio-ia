@@ -2,7 +2,7 @@
 
 > Data: 2026-11-17 · Tipo: entrega · Status: pronto para publicar
 
-**Resumo:** título, descrição com capítulos, fontes e créditos, comentário fixado e tags do vídeo `render/mkultra-v3.mp4` (14:20), que substitui a v2. A miniatura continua a da v2 ("A CIA QUEIMOU / QUASE TUDO"), copiada em `render/capa-final.jpg`.
+**Resumo:** título, descrição com capítulos, fontes e créditos, comentário fixado e tags do vídeo `render/mkultra-v3.mp4` (14:20), que substitui a v2. A miniatura é nova: "TESTADOS / SEM SABER", com Sidney Gottlieb e o trecho do relatório de 1963 (`render/capa-final.jpg`). A reserva para o teste A/B é "O QUE A CIA / NÃO DESTRUIU", com Helms (`render/capa-reserva-o-que-a-cia-nao-destruiu.jpg`). As receitas estão em `capa/`.
 
 ## Título
 
