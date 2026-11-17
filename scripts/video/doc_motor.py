@@ -193,11 +193,26 @@ if __name__=="__main__":
             if s["tipo"]=="doc" and not s.get("titulo"): EV.append((s["a"],"papel/papel-%d"%(1+len(EV)%3),-19))
         EV=[x for x in EV if (SFX/(x[1]+".wav")).exists()]
         inp=["-i",str(P/"narracao/narracao_tratada.wav")]; bed=E.get("cama",-27)
-        fl=[f"[0:a]aresample=48000,apad=whole_dur={tot}[n]",
-            f"sine=f=55:r=48000:d={tot},volume={bed+1}dB[b1];sine=f=82.5:r=48000:d={tot},tremolo=f=0.13:d=0.7,volume={bed-3}dB[b2];anoisesrc=r=48000:c=brown:d={tot},lowpass=f=260,tremolo=f=0.11:d=0.6,volume={bed-1}dB[b3]",
-            f"[b1][b2][b3]amix=inputs=3:normalize=0,afade=t=in:d=2,afade=t=out:st={tot-1.5}:d=1.5[bed]"]; mix=["[n]","[bed]"]
+        TR=E.get("trilha")   # [(arquivo, capitulo_ou_segundo), ...]: música de verdade no lugar do zumbido sintético
+        if TR:
+            caps={}
+            for o in e["overlays"]:
+                if o["tipo"]=="cap": caps.setdefault(_norm(o["txt"]),o["a"])
+            ts=[0.0 if (x[1] in (0,"ABERTURA")) else (float(x[1]) if isinstance(x[1],(int,float)) else caps[_norm(x[1])]) for x in TR]
+            fl=[f"[0:a]aresample=48000,apad=whole_dur={tot},asplit=2[n][sc]"]; mus=[]; base=1+len(EV)
+            for k,(x,a) in enumerate(zip(TR,ts)):
+                b=ts[k+1]+3 if k+1<len(ts) else tot; d=b-a
+                fl.append(f"[{base+k}:a]aresample=48000,aformat=channel_layouts=mono,atrim=0:{d:.2f},asetpts=PTS-STARTPTS,afade=t=in:d={2 if k==0 else 3},afade=t=out:st={max(0,d-3):.2f}:d=3,adelay={int(a*1000)},volume={x[2] if len(x)>2 else bed}dB[m{k}]"); mus.append(f"[m{k}]")
+            fl.append("".join(mus)+f"amix=inputs={len(mus)}:normalize=0,atrim=0:{tot}[mus]")
+            fl.append("[mus][sc]sidechaincompress=threshold=0.02:ratio=5:attack=60:release=700:makeup=1[bed]")
+        else:
+            fl=[f"[0:a]aresample=48000,apad=whole_dur={tot}[n]",
+                f"sine=f=55:r=48000:d={tot},volume={bed+1}dB[b1];sine=f=82.5:r=48000:d={tot},tremolo=f=0.13:d=0.7,volume={bed-3}dB[b2];anoisesrc=r=48000:c=brown:d={tot},lowpass=f=260,tremolo=f=0.11:d=0.6,volume={bed-1}dB[b3]",
+                f"[b1][b2][b3]amix=inputs=3:normalize=0,afade=t=in:d=2,afade=t=out:st={tot-1.5}:d=1.5[bed]"]
+        mix=["[n]","[bed]"]
         for k,(t,f,g) in enumerate(EV,1):
             inp+=["-i",str(SFX/(f+".wav"))]; fl.append(f"[{k}:a]aresample=48000,aformat=channel_layouts=mono,volume={g}dB,adelay={max(0,int(t*1000))}[e{k}]"); mix.append(f"[e{k}]")
+        if TR: inp+=sum([["-stream_loop","-1","-i",str(x[0])] for x in TR],[])
         fl.append("".join(mix)+f"amix=inputs={len(mix)}:normalize=0,alimiter=limit=0.5:level=0,atrim=0:{tot}[out]")
         (P/"audio/mix.filter").write_text(";".join(fl))
         subprocess.run(["ffmpeg","-loglevel","error","-y",*inp,"-filter_complex_script",str(P/"audio/mix.filter"),"-map","[out]","-ar","48000",str(P/"audio/mix.wav")],check=True)

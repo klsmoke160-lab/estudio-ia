@@ -164,3 +164,7 @@ KEY=[("Em abril de 1953","ABRIL DE 1953"),("A figura central na execução","SID
      ("Um parecer oficial canadense","1957–1962"),("Em 1963, um inspetor","1963"),("O total poderia estar mais perto","~8.000 PÁGINAS")]
 CARDS=[("Encontrou as caixas.","SETE CAIXAS.","branco"),("Não havia consentimento.","SEM CONSENTIMENTO.","vermelho"),("Essa distinção muda toda a história.","QUEM NÃO SABIA.","amarelo")]
 LISTA=[]
+# trilha de verdade (Mixkit, licença gratuita para vídeo monetizado) no lugar do zumbido sintético: (arquivo, capítulo onde começa, ganho dB)
+_M=pathlib.Path("/home/user/estudio-ia/05-biblioteca/musica/mixkit")
+ESTILO["trilha"]=[(_M/"echoes-andrew-ev.mp3","ABERTURA",-15),(_M/"tapis-eugenio-mininni.mp3","OS QUE NÃO SABIAM",-19),
+                  (_M/"piano-horror-francisco-alvear.mp3","FRANK OLSON",-17),(_M/"echoes-andrew-ev.mp3","OS INSPETORES",-15)]
