@@ -47,3 +47,19 @@
   - som remixado (-14,1 LUFS);
   - entregas: `mkultra-v2.mp4` refeito e `operacao-northwoods-v1-1.mp4`.
 - **Aprendizado:** eco curto (abaixo de 50 ms) não soa como sala: soa como voz dobrada. Para tirar o ar de "robô", não use eco; use as pausas e a dinâmica.
+
+## 17/11: MKUltra v3 e referência 07
+
+- **v3:**
+  - roteiro do dono (vindo do ChatGPT), conferido em fonte primária;
+  - corrigiu as "vinte mil páginas" da v2, que no depoimento de 1977 são cerca de 8 mil;
+  - voz da DarkPlanner sem eco;
+  - documentos novos com marca-texto: relatório de inspeção de 1963, nota da Casa Branca de 1975 e parecer Cooper de 1986;
+  - resultado em `04-projetos/2026-11-17-mkultra-v3/render/mkultra-v3.mp4` (14:20, -14,1 LUFS).
+- **Pendente:** fotos que só baixam pelo celular do dono (o Wikimedia e o Flickr devolvem 429 daqui).
+- **Referência 07:** Prédio 7 do WTC, três partes. Análise em `03-referencias/analises/2026-11-17-referencia-07-predio-7.md`.
+  - 21 cortes por minuto;
+  - corte na pausa da fala (o dobro do acaso);
+  - zoom rápido;
+  - lista com selos e analogia brasileira.
+- **Aprendizado:** o folheto "The World's Greatest Hotel" (1919) é do Hotel Commonwealth, não do Pennsylvania/Statler. Conferir o prédio antes de usar foto de fachada.
