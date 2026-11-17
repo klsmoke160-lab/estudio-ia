@@ -2,7 +2,7 @@
 
 > Data: 2026-11-18 · Tipo: projeto · Status: roteiro pronto, aguardando a narração da DarkPlanner em qualidade alta
 
-**Resumo:** documentário do Rasura sobre a Operação Paperclip, a vinda de mais de 1.500 especialistas alemães e austríacos para os EUA entre 1945 e o fim dos anos 1950, e o filtro contra nazistas que deixou passar casos graves (Rudolph, Rickhey, Schreiber). Cerca de 1.400 palavras, perto de 10 min e meio.
+**Resumo:** documentário do Rasura sobre a Operação Paperclip, a vinda de mais de 1.500 especialistas alemães e austríacos para os EUA entre 1945 e o fim dos anos 1950, e o filtro contra nazistas que deixou passar casos graves (Rudolph, Rickhey, Schreiber). Roteiro ampliado em 18/11 a pedido do dono: 1858 palavras, perto de 14 min (a versão de 10 min e meio ficou em `roteiro-curto-10min.txt`).
 
 ## Critério de pronto
 

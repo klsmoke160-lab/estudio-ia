@@ -8,22 +8,33 @@ Esta é a história desse filtro. E de quem passou por ele.
 Maio de 1945. A Alemanha se rende. E, antes mesmo do fim da guerra, começa outra disputa.
 Os aliados não queriam só fábricas, máquinas e projetos. Queriam as pessoas que sabiam fazer as máquinas.
 A Alemanha estava à frente em foguetes, aviões a jato, química e medicina de altitude. Quem levasse esses especialistas ganharia anos de vantagem.
-Os soviéticos também sabiam disso. Em uma única noite de outubro de 1946, tropas soviéticas bateram na porta de mais de dois mil especialistas alemães e os levaram, com as famílias, para trabalhar na União Soviética.
+Os americanos chegaram primeiro a muitos deles. Os soviéticos chegaram a outros. E o medo era o mesmo nos dois lados: que o rival ficasse com aquele conhecimento.
 Do lado americano, a operação começou com outro nome. Overcast.
 Depois, ganhou o nome que ficou na história. Paperclip. Clipe de papel.
 A explicação mais contada é simples: os arquivos dos cientistas escolhidos eram marcados com um clipe.
+Os soviéticos agiram de outro jeito. Em uma única noite de outubro de 1946, oficiais soviéticos bateram na porta de mais de dois mil especialistas alemães e os levaram, com as famílias, para trabalhar na União Soviética. Não houve convite. Houve ordem.
+A disputa por cérebros, no começo da Guerra Fria, tinha começado.
 Para entender quem estava nesses arquivos, é preciso entrar numa montanha.
 No fim do verão de 1943, depois de um bombardeio aliado, a produção do foguete alemão V-2 foi transferida para túneis dentro do monte Kohnstein, perto da cidade de Nordhausen. A fábrica se chamava Mittelwerk.
 Para escavar os túneis e montar os foguetes, as SS mandaram prisioneiros. Primeiro de Buchenwald. Depois, um campo próprio foi criado ao lado. Dora.
-Os prisioneiros dormiram nos túneis por meses, sem luz do dia, entre poeira e explosões.
-O Museu Nacional do Ar e do Espaço dos Estados Unidos estima que vinte a vinte e cinco mil pessoas morreram no sistema de campos de Mittelbau. Pelo menos dez mil dessas mortes podem ser atribuídas ao programa do V-2.
+Os prisioneiros que faziam o trabalho mais qualificado eram, em sua maioria, resistentes franceses e belgas. Os que eram acusados de sabotagem, com razão ou sem ela, eram enforcados na praça de chamada do campo.
+Nos primeiros meses, os prisioneiros dormiam nos próprios túneis, sem luz do dia, entre poeira e explosões. Só na primavera de 1944 os sobreviventes foram transferidos para barracões do lado de fora.
+O Museu Nacional do Ar e do Espaço dos Estados Unidos estima que sessenta mil pessoas foram enviadas ao sistema de campos de Mittelbau, e que vinte a vinte e cinco mil morreram. Pelo menos dez mil dessas mortes podem ser atribuídas ao programa do V-2.
 E o museu registra um dado que resume tudo. Morreram mais que o dobro de prisioneiros produzindo o foguete do que pessoas atingidas por ele.
 Em abril de 1945, soldados americanos chegaram a Nordhausen. Encontraram a fábrica quase intacta. E encontraram os corpos.
-Os americanos tinham pressa. Os engenheiros que sabiam fazer o V-2 estavam espalhados pela Alemanha.
+Os americanos tinham pressa. Os engenheiros que sabiam fazer o V-2 estavam espalhados pela Alemanha, e cada mês de espera era um mês de risco.
 O mais famoso deles se entregou ao exército americano em maio de 1945. Wernher von Braun. Trinta e três anos. O diretor técnico do programa do V-2.
-Em agosto de 1946, o Departamento de Estado enviou ao presidente Harry Truman um memorando. O documento propunha ampliar a Paperclip para algo entre oitocentos e mil especialistas, com direito a trazer as famílias.
-E trazia uma condição. O Departamento de Guerra seria responsável por excluir do programa pessoas com registros nazistas ou militaristas.
-Truman aprovou em 3 de setembro de 1946.
+Nos primeiros meses, a operação funcionava como um projeto do Departamento de Guerra, com cientistas trazidos sob custódia militar, para períodos curtos.
+Mas, no verão de 1946, o Exército avisou: muitos desses especialistas poderiam ser perdidos se nada fosse feito rapidamente.
+Em 30 de agosto de 1946, o Departamento de Estado enviou ao presidente Harry Truman um memorando classificado como ultrassecreto. O documento propunha ampliar a Paperclip para algo entre oitocentos e mil especialistas.
+Os alemães poderiam trazer as famílias. A custódia ficaria mais frouxa. E, mais adiante, os escolhidos receberiam residência regular nas leis de imigração.
+Era um programa pensado para ser temporário. Isso nunca aconteceu.
+O mesmo memorando trazia uma condição.
+O Departamento de Guerra seria responsável por excluir do programa pessoas com registros nazistas ou militaristas.
+Quem verificaria isso era uma agência pouco conhecida, a Agência de Objetivos de Inteligência Conjunta. Em inglês, JIOA. Ela reunia representantes do Exército, da Marinha, da Aeronáutica e do Departamento de Estado.
+Entre as tarefas dela, segundo o Arquivo Nacional americano, estavam administrar as regras do programa e montar os dossiês de cada cientista.
+A JIOA também recolhia e distribuía relatórios técnicos sobre a ciência e a indústria alemãs e trabalhava em contato com oficiais britânicos, que tocavam um projeto parecido. Ou seja: era ela quem montava o dossiê de cada cientista.
+Truman aprovou o memorando em 3 de setembro de 1946. Está escrito à mão na margem do documento.
 No papel, o filtro existia. A pergunta é o que aconteceu com ele na prática.
 Von Braun entrou para o Partido Nazista em 1937. Em 1940, entrou para as SS. Chegou ao posto de major.
 Ele sempre disse que entrou por pressão e que quase nunca usou o uniforme. Também disse que não tinha responsabilidade pelas condições dos prisioneiros da fábrica.
@@ -31,17 +42,21 @@ Historiadores que estudaram os arquivos alemães mostram que ele visitou a Mitte
 Nos Estados Unidos, o grupo de von Braun foi levado para Fort Bliss, no Texas. Lá, e no campo de testes de White Sands, no Novo México, eles montaram e lançaram os V-2 capturados na Alemanha.
 Os foguetes que tinham caído sobre Londres e a Antuérpia agora subiam no deserto americano, carregando instrumentos científicos.
 Em 1950, o grupo foi transferido para Huntsville, no Alabama. A cidade viraria o centro do programa de foguetes do exército. E, depois, da NASA.
+Von Braun não estava sozinho. Com ele vieram engenheiros, técnicos e as famílias. Em poucos anos, uma cidade pequena do sul dos Estados Unidos tinha vizinhos que falavam alemão.
 Os arquivos da própria agência que tocava o programa mostram que o filtro deixou passar casos graves.
 O Arquivo Nacional americano guarda os dossiês de mais de mil e quinhentos especialistas. Três deles ajudam a entender o problema.
 Georg Rickhey era um dos dirigentes da fábrica de Nordhausen. Chegou aos Estados Unidos em 1946. No ano seguinte, foi mandado de volta à Alemanha para ser julgado por um tribunal militar americano por crimes de guerra. Foi absolvido.
 Walter Schreiber era médico do exército alemão. Segundo o Arquivo Nacional, teve papel nos experimentos médicos com prisioneiros de campos de concentração. Trabalhou para a Força Aérea americana no Texas. Em 1952, depois que uma coluna de jornal revelou o passado dele, deixou os Estados Unidos e foi para a Argentina.
 E Arthur Rudolph. O gerente de produção da Mittelwerk.
 Há ainda um detalhe que chama atenção no arquivo. O dossiê de Wernher von Braun não está lá. Segundo o próprio Arquivo Nacional, ele nunca foi transferido.
+Isso não prova que alguém escondeu o papel. Prova que o documento mais importante sobre o cientista mais conhecido do programa não está na pasta onde um pesquisador esperaria encontrá-lo.
 Nos anos 1960, a corrida passou a ser outra. Chegar à Lua antes dos soviéticos.
 Von Braun virou o rosto público da exploração espacial americana. Apareceu em programas de televisão, escreveu livros, dirigiu o Centro de Voo Espacial Marshall, da NASA, onde nasceu o foguete Saturno Cinco.
 Arthur Rudolph foi o gerente do programa do Saturno Cinco.
 Em 16 de julho de 1969, o Saturno Cinco levou a Apollo 11. Quatro dias depois, Neil Armstrong pisou na Lua.
+Na época, ninguém fora do governo sabia que o programa tinha trazido mais de mil e quinhentos especialistas. Os nomes dos mais famosos apareciam em jornais e na televisão. Os dossiês, não.
 Para o público, a Paperclip simplesmente não existia. A história contada era a de cientistas que tinham fugido da guerra para servir à ciência.
+Era uma história confortável. Ela só deixava de fora os túneis.
 Em 1979, o Departamento de Justiça criou um escritório para investigar criminosos nazistas que viviam nos Estados Unidos. O Escritório de Investigações Especiais.
 Os investigadores reabriram os papéis da Mittelwerk. E chegaram a Arthur Rudolph.
 Segundo a acusação, ele tinha participado da exploração dos prisioneiros da fábrica. Rudolph negou.
@@ -49,6 +64,7 @@ Em vez de enfrentar um processo, ele assinou um acordo. Deixaria os Estados Unid
 Um ano depois da saída de Rudolph, em 1985, a jornalista Linda Hunt publicou uma reportagem afirmando que oficiais da agência responsável pelo programa tinham alterado dossiês de cientistas para apagar registros que os barrariam.
 A agência já não existia desde 1962. As acusações nunca foram confirmadas oficialmente. E muitos dos papéis que poderiam esclarecer o caso continuavam secretos.
 Eles só começaram a sair em massa depois de 1998, quando o Congresso aprovou uma lei obrigando o governo a liberar documentos sobre crimes de guerra nazistas.
+Foi por essa lei que os dossiês da JIOA foram abertos ao público, e é por isso que hoje dá para consultar os casos de Rickhey, Schreiber e Rudolph.
 A Paperclip virou combustível para todo tipo de teoria. Bases secretas, tecnologias escondidas, um Quarto Reich dentro do governo americano.
 Vale separar o que está nos documentos do que foi colocado depois.
 Está nos documentos que o programa existiu e trouxe mais de mil e quinhentos especialistas.
@@ -57,8 +73,10 @@ Está nos documentos que von Braun foi membro do Partido Nazista e das SS.
 Está nos documentos que pelo menos um homem ligado a crimes de guerra trabalhou para o governo americano e foi embora antes de ser processado. E que outro deixou o país quando o passado dele virou notícia.
 O que os documentos não mostram é um plano para trazer nazistas por ideologia. Os papéis mostram outra coisa, talvez mais incômoda. A pressa e o interesse militar foram considerados mais importantes que o passado das pessoas.
 E a acusação de dossiês alterados continua sendo uma acusação jornalística. Forte, com documentos citados. Mas sem uma conclusão oficial do governo americano.
+Também não é possível dizer que sem a Paperclip os Estados Unidos não teriam chegado à Lua. Isso é uma suposição, e não um fato de arquivo.
 Quando a Apollo 11 pousou, o mundo aplaudiu a ciência.
 Poucos sabiam que parte daquele caminho tinha começado dentro de uma montanha, na Alemanha. Em túneis onde milhares de pessoas morreram construindo foguetes.
+Para os prisioneiros de Dora, não houve medalha, acordo nem dossiê no Arquivo Nacional.
 O filtro existia no papel. Na prática, ele foi tão forte quanto a vontade de quem o aplicava.
 Fica uma pergunta. Até onde um país deve ir para chegar primeiro?
 Me conta nos comentários o que você acha. E, para acompanhar outras histórias investigadas a partir de documentos, inscreva-se no Rasura.
