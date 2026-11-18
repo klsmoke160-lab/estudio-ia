@@ -41,3 +41,9 @@
 - **NASA:** von Braun, Saturno V, Apollo 11 e o Centro Marshall.
 - **Documentos:** o memorando de 1946 (FRUS), as páginas da IWG e a lei de 1998.
 - **Cuidado de tom:** corpos de prisioneiros só de longe e sem rosto, ou cortar para o preto. Sem foto de vítima identificável.
+
+## Entregas
+
+| Versão | Arquivo | Data | Observação |
+|---|---|---|---|
+| v1 | `render/operacao-paperclip-v1.mp4` (envio: `-envio.mp4`, 720p) | 2026-11-18 | 13:24, -16 LUFS, voz da DarkPlanner a 128 kbps sem tratamento de timbre. Abertura com a decolagem da Apollo 11 → Rudolph (foto de grupo de 1959, NASA) → corte seco para o esquema do Kohnstein. Documentos em transcrição oficial com marca-texto: memorando de 1946, JIOA e dossiês do Arquivo Nacional, Smithsonian. Filmes do Exército, da Marinha, do Departamento de Defesa e da NASA. Trilha do Mixkit. Sem imagens dos campos que não estejam identificadas |

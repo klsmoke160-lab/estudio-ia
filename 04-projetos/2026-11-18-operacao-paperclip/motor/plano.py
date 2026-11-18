@@ -79,7 +79,7 @@ R = [
 # A FÁBRICA
 ("Para entender quem estava nesses arquivos", Fo("d_kohnstein")), ("No fim do verão de 1943", Fo("v2abrigo", "d_kohnstein")), ("A fábrica se chamava Mittelwerk", GT(831)),
 ("Para escavar os túneis", GT(1755)), ("Primeiro de Buchenwald", Fo("certificado")), ("Depois, um campo próprio", Fo("d_kohnstein")), ("Dora.", Fo("d_kohnstein")),
-("Os prisioneiros que faziam o trabalho", GT(1262)), ("Os que eram acusados de sabotagem", PE(20)), ("Nos primeiros meses, os prisioneiros dormiam", Fo("d_kohnstein")),
+("Os prisioneiros que faziam o trabalho", GT(1262)), ("Os que eram acusados de sabotagem", GT(1447)), ("Nos primeiros meses, os prisioneiros dormiam", Fo("d_kohnstein")),
 ("Só na primavera de 1944", GT(1016)), ("O Museu Nacional do Ar e do Espaço", Dc("smith_mortos")), ("Pelo menos dez mil dessas mortes", Dc("smith_10mil")),
 ("E o museu registra um dado", Dc("smith_dobro")), ("Morreram mais que o dobro", Dc("smith_dobro")), ("Em abril de 1945, soldados americanos chegaram", AO(61, 184)),
 ("Encontraram a fábrica quase intacta", GT(831)), ("E encontraram os corpos", Fo("certificado")),
@@ -124,8 +124,8 @@ R = [
 ("A Paperclip virou combustível", TE(217)), ("Bases secretas, tecnologias escondidas", TE(72)), ("Vale separar o que está nos documentos", Dc("nara_1500")),
 ("Está nos documentos que o programa existiu", Dc("nara_1500")), ("Está nos documentos que a regra exigia", Dc("memo_exclui")), ("Está nos documentos que von Braun foi membro", Fo("rendicao")),
 ("Está nos documentos que pelo menos um homem", Dc("nara_rudolph")), ("E que outro deixou o país", Dc("nara_schreiber")), ("O que os documentos não mostram", Fo("fortbliss")),
-("Os papéis mostram outra coisa", Dc("memo_perda")), ("A pressa e o interesse militar", Dc("memo_perda")), ("E a acusação de dossiês alterados", Dc("jioa_dossie")),
-("Forte, com documentos citados", Dc("jioa_dossie")), ("Mas sem uma conclusão oficial", Dc("jioa_1962")), ("Também não é possível dizer", Fo("apollo")), ("Isso é uma suposição", TE(101)),
+("Os papéis mostram outra coisa", GS(305)), ("A pressa e o interesse militar", AO(160)), ("E a acusação de dossiês alterados", Dc("jioa_dossie")),
+("Forte, com documentos citados", AB(615)), ("Mas sem uma conclusão oficial", Dc("jioa_1962")), ("Também não é possível dizer", Fo("apollo")), ("Isso é uma suposição", TE(101)),
 # FECHO
 ("Quando a Apollo 11 pousou", Fo("luabandeira")), ("Poucos sabiam que parte daquele caminho", A11(125)), ("Em túneis onde milhares", Fo("d_kohnstein")),
 ("Para os prisioneiros de Dora", Fo("certificado")), ("O filtro existia no papel", Dc("memo_exclui")), ("Na prática, ele foi tão forte", Fo("grupo1959")),
