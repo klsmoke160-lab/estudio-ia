@@ -1,0 +1,42 @@
+{
+ "reconhecido_pct": 95.7,
+ "fracas": [
+  {
+   "i": 57,
+   "ok": "2/3",
+   "texto": "Wernher von Braun.",
+   "ouvido": "von Braun,"
+  },
+  {
+   "i": 58,
+   "ok": "0/4",
+   "texto": "Trinta e três anos.",
+   "ouvido": ""
+  },
+  {
+   "i": 59,
+   "ok": "0/7",
+   "texto": "O diretor técnico do programa do V-2.",
+   "ouvido": ""
+  },
+  {
+   "i": 73,
+   "ok": "2/3",
+   "texto": "Em inglês, JIOA.",
+   "ouvido": "em inglês,"
+  },
+  {
+   "i": 126,
+   "ok": "2/3",
+   "texto": "Os dossiês, não.",
+   "ouvido": "Os dociês não."
+  },
+  {
+   "i": 140,
+   "ok": "3/6",
+   "texto": "Em 1984, mudou-se para a Alemanha.",
+   "ouvido": "Em 1964, mudou -se para as para Alemanha. Morreu"
+  }
+ ],
+ "pausa_mediana": 0.3
+}
