@@ -43,3 +43,10 @@
 | "Parabéns, você criou o MKUltra." | Capa da audiência de 1977 com o carimbo | verde: MKULTRA |
 
 **Títulos:** "Você é a CIA em 1953. Parabéns, você criou o MKUltra" ou "Como criar um programa secreto da CIA (e por que ele vazou)".
+
+## Entrega v1 (2026-11-21)
+
+- Vídeo: `render/mkultra-voce-criou-v1.mp4` (99 s, 1080×1920, -14 LUFS), montado por `scripts/video/short_voce.py` a partir de `short/plano.py`. Não vai para o git (mídia).
+- Narração: ElevenLabs, voz Lucas (`GIuLCSVfgJaUuh7hYOY8`), versão B, com a frase "E acha que acabou." encaixada no lugar de "queima de arquivo" (a expressão, em português, significa silenciar uma testemunha, e o método de destruição dos arquivos não está documentado).
+- Imagens: só documentos originais da audiência do Senado (1977), da nota de Ford (1975) e filmes de arquivo já usados na v3. Sem imagem de IA.
+- Pendente: ouvir "MKUltra" e "recibos" (a transcrição automática ouviu "NKUltra" e "recebos"); foto de Frank Olson, que só chega pelo celular.
