@@ -39,22 +39,37 @@ def plano_shots(total):
 
 # ---------- renderização de cada plano ----------
 def grade(tint):
-    return ["hue=s=0", "eq=contrast=1.45:brightness=-0.08:gamma=0.85", f"colorchannelmixer={MIX[tint]}"]
+    return ["hue=s=0", "eq=contrast=1.40:brightness=-0.13:gamma=0.88", f"colorchannelmixer={MIX[tint]}"]
 def shot_src(film, t, need):
     c = PL.CENAS[film]; a = max(x for x in c if x <= t); b = min(x for x in c if x > t); a += 0.25; b -= 0.25; L = b - a
     if L >= need: s = min(max(t - need / 2, a), b - need); return s, need, 1.0
     if L >= need / 1.8: return a, L, need / L
     return max(0, t - need / 2), need, 1.0
 def render_clip(n, s):
+    """Decodifica o filme em tamanho original, aplica o zoom e o recorte 9:16 em Python (o filtro scale com eval=frame do ffmpeg travava) e codifica com a cor."""
     out = SEG / f"s{n:04d}.mp4"; nf = s["fb"] - s["fa"]; d = nf / FPS; film, t = s["f"][1], s["f"][2]
-    ss, L, slow = shot_src(film, t, d); ar = getattr(PL, "AR", {}).get(film, 4 / 3); pre = [PL.PRE[film]] if film in getattr(PL, "PRE", {}) else []
-    z = f"(1+0.07*t/{d:.3f})" if s["par"] else f"(1.07-0.07*t/{d:.3f})"
-    vf = pre + [f"setpts=(PTS-STARTPTS)*{slow:.4f}", f"fps={FPS}", "hqdn3d=3:3:6:6",
-                f"scale=w='2*trunc({H}*{ar:.4f}*{z}/2)':h='2*trunc({H}*{z}/2)':eval=frame:flags=lanczos", f"crop={W}:{H}:(iw-{W})/2:(ih-{H})/2",
-                *grade(s["tint"]), "unsharp=5:5:0.7", "vignette=angle=PI/2.6", "noise=alls=9:allf=t+u", "format=yuv420p"]
-    cmd = ["ffmpeg", "-loglevel", "error", "-y", "-ss", f"{ss:.3f}", "-t", f"{L + 0.2:.3f}", "-i", str(PL.RAW[film]), "-an", "-vf", ",".join(vf), "-frames:v", str(nf), "-r", str(FPS),
-           "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-video_track_timescale", "12288", str(out)]
-    r = subprocess.run(cmd, capture_output=True, text=True); return n, r.returncode, r.stderr[-300:]
+    ss, L, slow = shot_src(film, t, d); pre = [PL.PRE[film]] if film in getattr(PL, "PRE", {}) else []
+    pr = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries", "stream=width,height", "-of", "csv=p=0", str(PL.RAW[film])], capture_output=True, text=True).stdout.strip().split(",")
+    sw, sh = int(pr[0]), int(pr[1])
+    for f in pre:
+        m = re.match(r"crop=(\d+):(\d+)", f)
+        if m: sw, sh = int(m.group(1)), int(m.group(2))
+    dec = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-ss", f"{ss:.3f}", "-t", f"{L + 0.2:.3f}", "-i", str(PL.RAW[film]), "-an", "-vf", ",".join(pre + [f"setpts=(PTS-STARTPTS)*{slow:.4f}", f"fps={FPS}", "hqdn3d=3:3:6:6"]),
+                            "-frames:v", str(nf), "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
+    vf = [*grade(s["tint"]), "unsharp=5:5:0.7", "vignette=angle=PI/2.6", "noise=alls=9:allf=t+u", "format=yuv420p"]
+    enc = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-vf", ",".join(vf),
+                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-video_track_timescale", "12288", str(out)], stdin=subprocess.PIPE)
+    fsz = sw * sh * 3; k = 0; ult = None
+    while k < nf:
+        buf = dec.stdout.read(fsz)
+        if len(buf) < fsz:
+            if ult is None: break
+            buf = ult   # o filme acabou antes: segura o último quadro
+        ult = buf; im = Image.frombytes("RGB", (sw, sh), buf); u = k / max(1, nf - 1); z = (1 + 0.07 * u) if s["par"] else (1.07 - 0.07 * u)
+        h = sh / z; w = min(sw, h * W / H); h = w * H / W; cx, cy = sw / 2, sh / 2
+        enc.stdin.write(im.transform((W, H), Image.EXTENT, (cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2), Image.BICUBIC).tobytes()); k += 1
+    enc.stdin.close(); dec.stdout.close(); dec.wait(); enc.wait()
+    return n, enc.returncode if k == nf else 1, ("faltaram quadros" if k != nf else "")
 _PG = {}
 def pagina(arq, boxes):
     pg = Image.open(arq).convert("RGB"); M = 1500; can = Image.new("RGB", (pg.width + 2 * M, pg.height + 2 * M), (16, 16, 16)); can.paste(pg, (M, M))
@@ -65,14 +80,14 @@ def render_doc(n, s):
     out = SEG / f"s{n:04d}.mp4"; nf = s["fb"] - s["fa"]; arq, boxes, foco, fonte = PL.D[s["f"][1]]; can, hl, M, (pw, ph) = pagina(arq, boxes)
     if boxes: ux0 = min(b[0] for b in boxes); uy0 = min(b[1] for b in boxes); ux1 = max(b[2] for b in boxes); uy1 = max(b[3] for b in boxes)
     else: ux0, uy0, ux1, uy1 = pw * .1, ph * .3, pw * .9, ph * .5
-    cx1 = (ux0 + ux1) / 2 + M; cy1 = (uy0 + uy1) / 2 + M; w1 = min(max((ux1 - ux0) * 1.3, 820), pw * 1.05); w0 = w1 * 1.55
-    cx0 = pw / 2 + M; cy0 = cy1 - (cy1 - M - ph * .35) * 0.0 - 380
+    cx1 = (ux0 + ux1) / 2 + M; cy1 = (uy0 + uy1) / 2 + M; w1 = min(max((ux1 - ux0) * 0.85, 760), 980); w0 = min(w1 * 1.7, pw * 1.1)
+    cx0 = pw / 2 + M; cy0 = cy1 - 300
     vf = ["eq=brightness=-0.06:contrast=1.10:saturation=0.85", "vignette=angle=PI/2.8", "noise=alls=6:allf=t+u", "format=yuv420p"]
     ff = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-vf", ",".join(vf), "-frames:v", str(nf),
                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-video_track_timescale", "12288", str(out)], stdin=subprocess.PIPE)
     for k in range(nf):
         u = k / max(1, nf - 1); e = 1 - (1 - u) ** 2; w = w0 + (w1 - w0) * e; h = w * H / W; cx = cx0 + (cx1 - cx0) * e; cy = cy0 + (cy1 - cy0) * e
-        box = (cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2); a = Image.BICUBIC
+        cy = cy + 0.14 * h; box = (cx - w / 2, cy - h / 2, cx + w / 2, cy + h / 2); a = Image.BICUBIC
         A = can.transform((W, H), Image.EXTENT, box, a); al = min(1, max(0, (u - 0.18) / 0.22))
         if al > 0: A = Image.blend(A, hl.transform((W, H), Image.EXTENT, box, a), al)
         ff.stdin.write(A.tobytes())
@@ -97,14 +112,21 @@ def ass(shots, total):
           "Style: Pal,Anton,128,&HFFFFFF&,&HFFFFFF&,&H000000&,&H80000000&,0,0,0,0,100,100,1,0,1,8,2,5,40,40,0,1",
           "Style: Et1,Anton,76,&H4DE0F4&,&HFFFFFF&,&H000000&,&H80000000&,0,0,0,0,100,100,1,0,1,6,2,8,50,50,230,1",
           "Style: Et2,Special Elite,40,&HD6E6EC&,&HFFFFFF&,&H000000&,&H80000000&,0,0,0,0,100,100,0,0,1,4,1,8,50,50,330,1",
-          "Style: Fonte,Special Elite,32,&HD6E6EC&,&HFFFFFF&,&H000000&,&H80000000&,0,0,0,0,100,100,0,0,1,3,1,2,50,50,150,1", "",
+          "Style: Fonte,Special Elite,28,&HD6E6EC&,&HFFFFFF&,&H000000&,&H80000000&,0,0,0,0,100,100,0,0,1,3,1,2,50,50,150,1", "",
           "[Events]", "Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text"]
     ev = []; PW = palavras()
+    G = []; i = 0
+    while i < len(PW):
+        w = dict(PW[i]); lim = lambda x: re.sub(r"[^\w-]", "", x)
+        while len(lim(w["t"])) <= 2 and not lim(w["t"]).isdigit() and i + 1 < len(PW) and PW[i + 1]["a"] - w["b"] < 0.4 and not w["t"].endswith((".", ",", ";", ":")):
+            nx = PW[i + 1]; w = dict(t=w["t"] + " " + nx["t"], a=w["a"], b=nx["b"], main=nx["t"]); i += 1
+        G.append(w); i += 1
+    PW = G
     for i, w in enumerate(PW):
         nxt = PW[i + 1]["a"] if i + 1 < len(PW) else total; fim = min(nxt, w["b"] + 0.18, w["a"] + 1.2)
         if fim <= w["a"] + 0.05: fim = w["a"] + 0.12
         txt = w["t"].upper().strip(".,;:!?")
-        ev.append(f"Dialogue: 1,{ass_t(w['a'])},{ass_t(fim)},Pal,,0,0,0,,{{\\pos({W // 2},1230)\\c{COR[cor_palavra(w['t'])]}\\fscx125\\fscy125\\t(0,90,\\fscx100\\fscy100)}}{txt}")
+        ev.append(f"Dialogue: 1,{ass_t(w['a'])},{ass_t(fim)},Pal,,0,0,0,,{{\\pos({W // 2},1230)\\c{COR[cor_palavra(w.get('main', w['t']))]}\\fscx125\\fscy125\\t(0,90,\\fscx100\\fscy100)}}{txt}")
     for a, b, l1, l2 in S.ETIQUETAS:
         ev.append(f"Dialogue: 2,{ass_t(a)},{ass_t(b)},Et1,,0,0,0,,{{\\fad(180,180)}}{l1}")
         if l2: ev.append(f"Dialogue: 2,{ass_t(a + 0.3)},{ass_t(b)},Et2,,0,0,0,,{{\\fad(180,180)}}{l2}")
@@ -112,8 +134,15 @@ def ass(shots, total):
     for s in shots:
         if s["f"][0] == "doc":
             fonte = PL.D[s["f"][1]][3]
-            if fonte and s["a"] > 5.6: ev.append(f"Dialogue: 2,{ass_t(s['a'] + 0.3)},{ass_t(s['b'] - 0.1)},Fonte,,0,0,0,,{{\\fad(200,200)}}Fonte: {fonte}")
+            if fonte and s["a"] > 5.6: ev.append(f"Dialogue: 2,{ass_t(s['a'] + 0.3)},{ass_t(s['b'] - 0.1)},Fonte,,0,0,0,,{{\\fad(200,200)}}Fonte: {quebra(fonte)}")
     (OUT / "legenda.ass").write_text("\n".join(hd + ev), encoding="utf-8")
+
+def quebra(t, n=44):
+    pal = t.split(); lin = [""]
+    for x in pal:
+        if len(lin[-1]) + len(x) + 1 > n: lin.append("")
+        lin[-1] = (lin[-1] + " " + x).strip()
+    return "\\N".join(lin)
 
 def cartao(total):
     E = Image.new("RGB", (W, H), (10, 10, 10)); d = ImageDraw.Draw(E); an = lambda s: ImageFont.truetype(str(FON / "font1.ttf"), s)
