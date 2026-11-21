@@ -1,159 +1,159 @@
 1
-00:00:00,000 --> 00:00:04,680
+00:00:00,000 --> 00:00:04,360
 Se você é a CIA em 1953 e tem medo de que
 
 2
-00:00:04,680 --> 00:00:06,760
+00:00:04,360 --> 00:00:06,460
 os soviéticos saibam controlar a mente,
 
 3
-00:00:07,220 --> 00:00:08,960
+00:00:06,940 --> 00:00:08,680
 você cria um programa secreto.
 
 4
-00:00:09,460 --> 00:00:12,360
+00:00:09,200 --> 00:00:11,860
 Mas nenhum cientista quer o nome da CIA no
 
 5
-00:00:12,360 --> 00:00:13,280
+00:00:11,860 --> 00:00:12,740
 próprio trabalho.
 
 6
-00:00:13,860 --> 00:00:15,620
+00:00:13,320 --> 00:00:15,100
 Então você manda o dinheiro por uma
 
 7
-00:00:15,620 --> 00:00:18,560
+00:00:15,100 --> 00:00:18,060
 fundação com um nome inofensivo, sociedade
 
 8
-00:00:18,560 --> 00:00:21,100
+00:00:18,060 --> 00:00:20,580
 para a investigação da ecologia humana.
 
 9
-00:00:21,620 --> 00:00:24,000
+00:00:21,100 --> 00:00:23,480
 Isso é um cut -out, o intermediário que
 
 10
-00:00:24,000 --> 00:00:25,080
+00:00:23,480 --> 00:00:24,540
 esconde quem paga.
 
 11
-00:00:25,660 --> 00:00:27,660
+00:00:25,140 --> 00:00:27,140
 Mas teste com voluntário não serve.
 
 12
-00:00:27,960 --> 00:00:30,080
+00:00:27,140 --> 00:00:29,560
 Quem sabe que tomou a droga se comporta
 
 13
-00:00:30,080 --> 00:00:30,440
+00:00:29,560 --> 00:00:29,920
 diferente.
 
 14
-00:00:31,140 --> 00:00:33,480
+00:00:30,620 --> 00:00:32,960
 Então você aluga apartamentos em Nova York
 
 15
-00:00:33,480 --> 00:00:36,540
+00:00:32,960 --> 00:00:36,020
 e São Francisco e dá LSD a pessoas que não
 
 16
-00:00:36,540 --> 00:00:37,360
+00:00:36,020 --> 00:00:36,840
 sabem de nada.
 
 17
-00:00:37,900 --> 00:00:39,500
+00:00:37,400 --> 00:00:38,980
 Isso são as casas seguras.
 
 18
-00:00:40,160 --> 00:00:43,040
+00:00:39,640 --> 00:00:42,540
 Logo são 80 instituições, 44
 
 19
-00:00:43,040 --> 00:00:46,640
+00:00:42,540 --> 00:00:46,100
 universidades, 12 hospitais e 3 prisões.
 
 20
-00:00:47,380 --> 00:00:48,940
+00:00:46,860 --> 00:00:48,400
 Mas em 1953,
 
 21
-00:00:49,680 --> 00:00:52,480
+00:00:49,160 --> 00:00:51,960
 um cientista do exército toma LSD sem
 
 22
-00:00:52,480 --> 00:00:52,900
+00:00:51,960 --> 00:00:52,380
 saber.
 
 23
-00:00:53,460 --> 00:00:56,080
-9 dias depois cai da janela de um hotel.
+00:00:52,940 --> 00:00:55,560
+9 dias depois, cai da janela de um hotel.
 
 24
-00:00:56,080 --> 00:00:59,020
+00:00:55,560 --> 00:00:58,500
 A família de Frank Olson só descobre a
 
 25
-00:00:59,020 --> 00:01:00,940
+00:00:58,500 --> 00:01:00,420
 verdade 22 anos depois.
 
 26
-00:01:01,760 --> 00:01:05,620
+00:01:01,200 --> 00:01:05,100
 Curiosidade, foram 149 subprojetos.
 
 27
-00:01:06,100 --> 00:01:07,720
+00:01:05,580 --> 00:01:07,200
 Mas em 1973,
 
 28
-00:01:08,520 --> 00:01:11,360
-o diretor está deixando a CIA e Washington
+00:01:08,020 --> 00:01:10,460
+o diretor está deixando a CIA e o
 
 29
-00:01:11,360 --> 00:01:13,300
-vive o escândalo de Watergate.
+00:01:10,460 --> 00:01:12,840
+Washington vive o escândalo de Watergate.
 
 30
-00:01:13,840 --> 00:01:16,160
-Então você manda destruir os arquivos.
+00:01:13,340 --> 00:01:16,540
+Então você manda destruir os arquivos e
 
 31
-00:01:16,800 --> 00:01:17,700
-E acha que acabou.
+00:01:16,540 --> 00:01:17,300
+acha que acabou.
 
 32
-00:01:18,360 --> 00:01:20,720
+00:01:17,940 --> 00:01:20,300
 Mas não é um espião que vai te derrubar, é
 
 33
-00:01:20,720 --> 00:01:21,760
+00:01:20,300 --> 00:01:21,340
 a contabilidade.
 
 34
-00:01:21,760 --> 00:01:25,060
+00:01:21,340 --> 00:01:24,640
 Até 8 mil páginas de papéis financeiros
 
 35
-00:01:25,060 --> 00:01:27,240
+00:01:24,640 --> 00:01:26,820
 estavam guardadas em outro depósito.
 
 36
-00:01:27,780 --> 00:01:29,080
+00:01:27,360 --> 00:01:28,660
 Em 1977,
 
 37
-00:01:29,840 --> 00:01:32,020
+00:01:29,420 --> 00:01:31,600
 um pedido de acesso à informação encontra
 
 38
-00:01:32,020 --> 00:01:32,660
+00:01:31,600 --> 00:01:32,240
 tudo.
 
 39
-00:01:33,300 --> 00:01:37,040
-Parabéns, você criou o NKUltra e guardou
+00:01:32,880 --> 00:01:36,740
+Parabéns, você criou o NKUtra e guardou os
 
 40
-00:01:37,040 --> 00:01:37,680
-os recebos.
+00:01:36,740 --> 00:01:37,260
+recebos.
