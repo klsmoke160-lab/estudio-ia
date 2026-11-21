@@ -1,0 +1,114 @@
+[
+  {
+    "text": " Mas",
+    "startMs": 0,
+    "endMs": 200,
+    "timestampMs": 100,
+    "confidence": null
+  },
+  {
+    "text": " em",
+    "startMs": 200,
+    "endMs": 440,
+    "timestampMs": 320,
+    "confidence": null
+  },
+  {
+    "text": " 1973,",
+    "startMs": 440,
+    "endMs": 1920,
+    "timestampMs": 1180,
+    "confidence": null
+  },
+  {
+    "text": " o",
+    "startMs": 2400,
+    "endMs": 2600,
+    "timestampMs": 2500,
+    "confidence": null
+  },
+  {
+    "text": " diretor",
+    "startMs": 2600,
+    "endMs": 2980,
+    "timestampMs": 2790,
+    "confidence": null
+  },
+  {
+    "text": " está",
+    "startMs": 2980,
+    "endMs": 3180,
+    "timestampMs": 3080,
+    "confidence": null
+  },
+  {
+    "text": " deixando",
+    "startMs": 3180,
+    "endMs": 3720,
+    "timestampMs": 3450,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 3720,
+    "endMs": 3840,
+    "timestampMs": 3780,
+    "confidence": null
+  },
+  {
+    "text": " CIA",
+    "startMs": 3840,
+    "endMs": 4080,
+    "timestampMs": 3960,
+    "confidence": null
+  },
+  {
+    "text": " e",
+    "startMs": 4080,
+    "endMs": 4760,
+    "timestampMs": 4420,
+    "confidence": null
+  },
+  {
+    "text": " Washington",
+    "startMs": 4760,
+    "endMs": 5180,
+    "timestampMs": 4970,
+    "confidence": null
+  },
+  {
+    "text": " vive",
+    "startMs": 5180,
+    "endMs": 5680,
+    "timestampMs": 5430,
+    "confidence": null
+  },
+  {
+    "text": " o",
+    "startMs": 5680,
+    "endMs": 5860,
+    "timestampMs": 5770,
+    "confidence": null
+  },
+  {
+    "text": " escândalo",
+    "startMs": 5860,
+    "endMs": 6480,
+    "timestampMs": 6170,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 6480,
+    "endMs": 6600,
+    "timestampMs": 6540,
+    "confidence": null
+  },
+  {
+    "text": " Watergate.",
+    "startMs": 6600,
+    "endMs": 7200,
+    "timestampMs": 6900,
+    "confidence": null
+  }
+]

@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:04,680
+Se você é a CIA em 1953 e tem medo de que
+
+2
+00:00:04,680 --> 00:00:06,780
+os soviéticos saibam controlar a mente,
+
+3
+00:00:07,280 --> 00:00:08,940
+você cria um programa secreto.

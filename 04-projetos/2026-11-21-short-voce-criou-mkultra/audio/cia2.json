@@ -1,0 +1,79 @@
+[
+  {
+    "text": " Mas",
+    "startMs": 0,
+    "endMs": 200,
+    "timestampMs": 100,
+    "confidence": null
+  },
+  {
+    "text": " nenhum",
+    "startMs": 200,
+    "endMs": 560,
+    "timestampMs": 380,
+    "confidence": null
+  },
+  {
+    "text": " cientista",
+    "startMs": 560,
+    "endMs": 1340,
+    "timestampMs": 950,
+    "confidence": null
+  },
+  {
+    "text": " quer",
+    "startMs": 1340,
+    "endMs": 1520,
+    "timestampMs": 1430,
+    "confidence": null
+  },
+  {
+    "text": " o",
+    "startMs": 1520,
+    "endMs": 1640,
+    "timestampMs": 1580,
+    "confidence": null
+  },
+  {
+    "text": " nome",
+    "startMs": 1640,
+    "endMs": 1860,
+    "timestampMs": 1750,
+    "confidence": null
+  },
+  {
+    "text": " da",
+    "startMs": 1860,
+    "endMs": 2020,
+    "timestampMs": 1940,
+    "confidence": null
+  },
+  {
+    "text": " CIA",
+    "startMs": 2020,
+    "endMs": 2480,
+    "timestampMs": 2250,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 2480,
+    "endMs": 2860,
+    "timestampMs": 2670,
+    "confidence": null
+  },
+  {
+    "text": " próprio",
+    "startMs": 2860,
+    "endMs": 3220,
+    "timestampMs": 3040,
+    "confidence": null
+  },
+  {
+    "text": " trabalho.",
+    "startMs": 3220,
+    "endMs": 3640,
+    "timestampMs": 3430,
+    "confidence": null
+  }
+]
