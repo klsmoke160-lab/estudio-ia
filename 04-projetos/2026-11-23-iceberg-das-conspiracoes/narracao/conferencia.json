@@ -1,0 +1,24 @@
+{
+ "reconhecido_pct": 96.6,
+ "fracas": [
+  {
+   "i": 5,
+   "ok": "6/9",
+   "texto": "E ficou em segredo por trinta e cinco anos.",
+   "ouvido": "e ficou em segredo por 35 anos."
+  },
+  {
+   "i": 29,
+   "ok": "1/18",
+   "texto": "O documento foi liberado em 1997, no meio de mais de mil e quinhentas páginas de registros militares.",
+   "ouvido": "O A segunda"
+  },
+  {
+   "i": 35,
+   "ok": "0/2",
+   "texto": "Chamava-se MKUltra.",
+   "ouvido": ""
+  }
+ ],
+ "pausa_mediana": 0.5
+}
