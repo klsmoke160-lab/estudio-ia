@@ -1,0 +1,42 @@
+{
+ "foto": "/home/user/mk/fotos2/gottlieb.jpg",
+ "foco": [
+  0.5,
+  0.2
+ ],
+ "linhas": [
+  [
+   "PARABÉNS,",
+   "creme"
+  ],
+  [
+   "VOCÊ CRIOU",
+   "creme"
+  ],
+  [
+   "O MKULTRA",
+   "vermelho"
+  ]
+ ],
+ "recorte": {
+  "arq": "/home/user/mk/full/p099.png",
+  "caixa": [
+   190,
+   1110,
+   1260,
+   1400
+  ],
+  "marcas": [
+   [
+    244.4,
+    1204.1,
+    1218.7,
+    1242.6
+   ]
+  ],
+  "largura": 960,
+  "giro": -2.2
+ },
+ "legenda": "Documento do Senado dos EUA, 1977",
+ "dy": 760
+}

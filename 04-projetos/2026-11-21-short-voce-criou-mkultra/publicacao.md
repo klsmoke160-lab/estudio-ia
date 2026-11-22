@@ -47,5 +47,6 @@ Rasura, MKUltra, MK Ultra, CIA, Frank Olson, LSD, Guerra Fria, documentos secret
 
 ## Antes de publicar
 
+- **Capa:** `render/capa-short.jpg` (1080×1920; foto de Sidney Gottlieb, domínio público, e página da audiência de 1977 com a aprovação do MKUltra marcada). Para trocar, edite `short/capa.json` e rode `python3 scripts/video/capa_short.py short/capa.json render/capa-short.jpg`.
 - Ouvir a pronúncia de "Sía", "MKUltra" e "recibos" (ver README).
 - A frase "A família de Frank Olson só descobre a verdade 22 anos depois" refere-se ao pedido de desculpas de Ford à família em 1975. Antes disso a família sabia da morte, não do LSD.
