@@ -2,3 +2,4 @@
 - 14/11 — [Cenas do editonny no documentário "Perfeita docilidade"](2026-11-14-cenas-editonny-rockefeller.md)
 - 15/11 — [Análise de edição da referência 05](2026-11-15-referencia-05-edicao.md)
 - 16/11 — [Pesquisa de imagens em acervos para o MKUltra](2026-11-16-pesquisa-imagens-mkultra.md)
+- 22/11 — [Shorts "você criou", vozes do ElevenLabs e documentário do Golfo de Tonkin](2026-11-22-tonkin-e-shorts.md)
