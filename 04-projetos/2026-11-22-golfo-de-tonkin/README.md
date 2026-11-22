@@ -23,6 +23,24 @@ python3 scripts/video/doc_motor.py 04-projetos/2026-11-22-golfo-de-tonkin final 
 
 O plano já foi testado com uma linha do tempo simulada: 135 planos, todas as regras casam com uma frase, um plano de cada fonte foi renderizado e conferido.
 
+## Gancho (regra em `06-metodo/ganchos.md`)
+
+Três opções comparadas:
+1. **Cena:** "Na noite de 4 de agosto de 1964, dois navios de guerra americanos passaram horas disparando contra um inimigo no escuro."
+2. **Documento e contradição (escolhido):** "Naquela noite, não houve ataque nenhum." É a frase do estudo da NSA, a mesma que está marcada na capa.
+3. **Consequência:** "O comandante no local pediu uma avaliação completa antes de qualquer reação. No mesmo dia, o presidente já tinha ordenado o bombardeio."
+
+Escolhido o 2 porque a primeira frase e o primeiro quadro são a prova que a capa promete, e o vídeo inteiro investiga como ela foi escondida.
+
+Direção da abertura:
+- **0 s:** a página 3 do estudo da NSA, com o carimbo de ultrassecreto riscado no alto, já focada na linha "no attack happened that night". O quadro nasce rápido (0,4 s), com silêncio de 1,5 s antes da voz.
+- **Na voz, "ataque nenhum":** o marca-texto amarelo entra sobre a linha.
+- **"A frase está num estudo ultrassecreto":** corte para a página de título do estudo ("Skunks, Bogies…"); a trilha entra.
+- **"E fala da noite de 4 de agosto":** o mapa do Golfo de Tonkin do filme de 1964 (coletiva de 5 de agosto), com o único texto na tela: "4 DE AGOSTO DE 1964".
+- **"dois navios… no escuro":** tempestade no mar à noite e o destróier do cinejornal de 6/8/1964.
+- **"o Congresso deu ao presidente o poder":** Johnson discursando (cinejornal) e a página da resolução.
+- **As duas perguntas:** a capa das interceptações da NSA ("This document contains code word material").
+
 ## Arquivos
 
 - `roteiro-completo.txt`: roteiro com os capítulos (`# NOME`), lido pelo motor.

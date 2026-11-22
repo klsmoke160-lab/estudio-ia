@@ -116,7 +116,9 @@ def fim_vf(s,n,d,extra,novo_cap):
     vf=[]
     if CINE: vf+=[f"drawbox=x=0:y=0:w=iw:h={BAR}:color=black:t=fill",f"drawbox=x=0:y=ih-{BAR}:w=iw:h={BAR}:color=black:t=fill"]
     vf+=extra
-    if E.get("nasce") and novo_cap: vf.append(f"fade=t=in:st=0:d={min(d*0.8,E['nasce']):.2f}")
+    if E.get("nasce") and novo_cap:
+        nd=E.get("nasce_abertura",E["nasce"]) if n==0 else E["nasce"]   # o primeiro quadro do vídeo pode nascer rápido (gancho)
+        vf.append(f"fade=t=in:st=0:d={min(d*0.8,nd):.2f}")
     return vf
 def render_one(args):
     n,s,ov,last,novo_cap=args; out=SEG/f"s{n:04d}.mp4"; d=(s["fb"]-s["fa"])/FPS; nf=s["fb"]-s["fa"]; extra=fim_vf(s,n,d,overlays(s,ov),novo_cap)

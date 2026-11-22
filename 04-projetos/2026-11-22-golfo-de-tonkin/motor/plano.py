@@ -44,17 +44,17 @@ T_ = {"ABERTURA": "azul", "O PRIMEIRO ATAQUE": "petroleo", "A SEGUNDA NOITE": "a
       "A DECISÃO": "vermelho", "A RESOLUÇÃO": "ambar", "A GUERRA": "vermelho", "A CARTA NA MANGA": "petroleo", "O ESTUDO": "verde",
       "O QUE OS DOCUMENTOS PROVAM": "petroleo", "FECHO": "azul"}
 _M = pathlib.Path("/home/user/estudio-ia/05-biblioteca/musica/mixkit")
-ESTILO = dict(cinema=True, tint=T_, dur_plano=4.0, zoom=0.045, nasce=4.0, brilho=-0.10, cama=-24, golpe=-3, lufs=-16.0,
+ESTILO = dict(cinema=True, tint=T_, dur_plano=4.0, zoom=0.045, nasce=4.0, nasce_abertura=0.4, brilho=-0.10, cama=-24, golpe=-3, lufs=-16.0,
               trilha=[(_M / "echoes-andrew-ev.mp3", "ABERTURA", -15), (_M / "piano-horror-francisco-alvear.mp3", "A SEGUNDA NOITE", -17),
                       (_M / "tapis-eugenio-mininni.mp3", "A DECISÃO", -19), (_M / "piano-horror-francisco-alvear.mp3", "A CARTA NA MANGA", -17),
                       (_M / "echoes-andrew-ev.mp3", "O QUE OS DOCUMENTOS PROVAM", -15)])
 AVISO = "FILMES DE ARQUIVO DO GOVERNO DOS EUA · DOCUMENTOS ORIGINAIS E TRANSCRIÇÕES"
 
 R = [
-# ABERTURA
-("Na noite de 4 de agosto de 1964", TEMP + UN(32)), ("Três dias depois, o Congresso", UN(78) + UN(95)),
-("Quarenta anos mais tarde", Dc("release")), ("Naquela noite, não houve ataque nenhum.", Dc("nsa_noattack")),
-("Esta é a história de como uma batalha", WV(941, 1021)), ("E de como os documentos", Dc("int_capa")),
+# ABERTURA (gancho: a frase do estudo da NSA, igual à capa; primeiro quadro = a página, marca-texto entra com a voz)
+("Naquela noite, não houve ataque nenhum.", Dc("nsa_noattack")), ("A frase está num estudo ultrassecreto", Dc("nsa_titulo")), ("E fala da noite de 4 de agosto", TC(600)),
+("Naquela noite, dois navios de guerra", TEMP + UN(32)), ("Três dias depois, por causa desse ataque", UN(100) + Dc("res_scan")),
+("Como um combate que não aconteceu", Dc("int_capa")), ("E por que a prova ficou guardada", Dc("int_capa")),
 # O PRIMEIRO ATAQUE
 ("Começo de agosto de 1964", WV(385)), ("O Vietnã está dividido em dois", WV(385)), ("No norte, um governo comunista", WV(405)),
 ("No sul, um governo apoiado", WV(780)), ("No Golfo de Tonkin, na costa", TC(600) + UN(36)), ("Oficialmente, ele faz uma patrulha", UN(44)),
@@ -109,12 +109,12 @@ R = [
 ("Tudo começou numa noite", TEMP2),
 ]
 POOL = {c: UN(32, 52) + TEMP + PAPEL for c in T_}
-KEY = [("Na noite de 4 de agosto de 1964", "4 DE AGOSTO DE 1964"), ("No Golfo de Tonkin, na costa", "USS MADDOX"), ("No dia 2 de agosto, à luz do dia", "2 DE AGOSTO DE 1964"),
+KEY = [("E fala da noite de 4 de agosto", "4 DE AGOSTO DE 1964"), ("No Golfo de Tonkin, na costa", "USS MADDOX"), ("No dia 2 de agosto, à luz do dia", "2 DE AGOSTO DE 1964"),
        ("No céu, sobre os navios, voava o piloto", "JAMES STOCKDALE"), ("Ainda naquele dia, o comandante", "CAPITÃO JOHN HERRICK"),
        ("No dia 6 de agosto, o secretário de Defesa", "ROBERT McNAMARA"), ("No dia 7 de agosto, o Congresso votou", "7 DE AGOSTO DE 1964"),
        ("No Senado, foram 88 votos", "SENADO: 88 A 2"), ("Em março de 1969", "548 MIL SOLDADOS"), ("Ao fim da guerra", "CERCA DE 59 MIL AMERICANOS"),
        ("Em 1968, o Senado reabriu", "1968"), ("Em 2001, um historiador da Agência", "ROBERT HANYOK · NSA"), ("Segundo ele, quase noventa", "QUASE 90 POR CENTO"),
        ("O estudo ficou secreto até dezembro de 2005", "DEZEMBRO DE 2005")]
-CARDS = [("Naquela noite, não houve ataque nenhum.", "NÃO HOUVE ATAQUE.", "vermelho"), ("Mas Washington já tinha decidido.", "JÁ ESTAVA DECIDIDO.", "branco"),
+CARDS = [("Mas Washington já tinha decidido.", "JÁ ESTAVA DECIDIDO.", "branco"),
          ("Era um cheque em branco.", "CHEQUE EM BRANCO.", "amarelo")]
 LISTA = []

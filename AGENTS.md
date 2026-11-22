@@ -38,6 +38,7 @@ Se `01-sobre-mim/perfil.md` ainda estiver com o modelo em branco, o setup não t
 
 ## Regras de trabalho
 
+- **Todo roteiro e todo vídeo abre com gancho forte**, mesmo sem pedido: regras em [06-metodo/ganchos.md](06-metodo/ganchos.md) (3 opções quando o dono pede roteiro; promessa que o vídeo cumpre; nada inventado).
 - **Vídeo começa em [06-metodo/video-do-zero.md](06-metodo/video-do-zero.md).** Os números (mola, câmera, volume, render) moram só em [06-metodo/regras.md](06-metodo/regras.md); se outro doc trouxer um número diferente, vale o desse arquivo.
 - **Referência antes de produzir.** Antes de animar ou gerar imagem, procure em `03-referencias/` e na biblioteca. Sem referência, o resultado sai genérico.
 - **Todo insumo analisado vira doc.** Link, vídeo, post, site ou print que você analisou ganha um doc em `03-referencias/analises/`, detalhado o bastante para ninguém precisar reabrir a fonte.

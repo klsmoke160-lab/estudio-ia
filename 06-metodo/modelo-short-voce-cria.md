@@ -19,6 +19,8 @@
 
 ## Regras
 
+- **Gancho:** segue [ganchos.md](ganchos.md). A primeira frase já é a situação ("Se você é a CIA em 1953…"), sem introdução.
+
 - **Todo "Então você…" é uma decisão que está num documento.** Se não houver fonte, o passo sai do roteiro.
 - **Números** vão na etiqueta fixa no alto, enquanto a voz fala deles. Sempre que der, com comparação.
 - **Legenda de uma palavra por vez**, no centro. Cores:
