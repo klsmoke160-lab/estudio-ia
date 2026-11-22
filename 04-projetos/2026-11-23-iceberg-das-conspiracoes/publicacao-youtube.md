@@ -2,7 +2,7 @@
 
 > Data: 2026-11-23 · Tipo: entrega · Status: pronto para o dono revisar
 
-**Resumo:** título, descrição, fontes, comentário fixado e tags. Capa: `render/capa-final.jpg` ("O TOPO É REAL", iceberg com o topo carimbado "PROVADO").
+**Resumo:** título, descrição, fontes, comentário fixado e tags. Capa: `render/capa-final.jpg` ("O TOPO É REAL" sobre foto real de iceberg, com o carimbo "PROVADO").
 
 ## Título
 
@@ -49,7 +49,7 @@ FONTES (todas de acesso livre)
 IMAGENS
 • Documentos originais liberados pelos governos citados, e transcrições com a fonte indicada.
 • Filmes de arquivo do governo dos EUA e cinejornais Universal, domínio público, via Internet Archive. Fotos da NASA, domínio público.
-• Esquema do iceberg feito pelo canal. Cenas de gelo e música: Mixkit, licenças gratuitas.
+• Filmagens reais de icebergs e música: Mixkit, licenças gratuitas.
 
 SOBRE ESTE VÍDEO
 Roteiro, pesquisa e edição do canal Rasura. A narração foi gerada por voz sintética.

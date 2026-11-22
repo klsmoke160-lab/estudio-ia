@@ -93,32 +93,38 @@ RES["clinton_sorry"]=[r[0],r[1]["What the United States Government did was shame
 # 3) Esquema do iceberg (feito pelo canal): 0 = visão geral, 1..5 = nível em destaque
 NIV=[("NÍVEL 1","CONFESSADO","Northwoods · Tuskegee · MKUltra"),("NÍVEL 2","PROVADO NOS PAPÉIS","COINTELPRO · Golfo de Tonkin · Paperclip"),
      ("NÍVEL 3","O SEGREDO QUE VIROU LENDA","Área 51 · Roswell · Stargate"),("NÍVEL 4","SEM PROVA","O pouso falso na Lua"),("NÍVEL 5","O FUNDO","Terra plana")]
-W2,H2=1920,1080; TOP,AGUA,FUNDO=175,305,905; BANDAS=[(TOP,AGUA)]+[(AGUA+k*150,AGUA+(k+1)*150) for k in range(4)]   # tudo dentro da área sem as faixas de cinema (133 px)
-ANT=ImageFont.truetype(str(FON/"font1.ttf"),50); ANTs=ImageFont.truetype(str(FON/"font1.ttf"),34); MQ=ImageFont.truetype(str(FON/"font2.ttf"),27)
+W2,H2=1920,1080
+ANT=ImageFont.truetype(str(FON/"font1.ttf"),118); ANTm=ImageFont.truetype(str(FON/"font1.ttf"),46); ANTs=ImageFont.truetype(str(FON/"font1.ttf"),40); MQ=ImageFont.truetype(str(FON/"font2.ttf"),36)
+Q=pathlib.Path("/home/user/mk/ice/quadros")
+# cartões dos níveis sobre FILMAGEM REAL de icebergs (Mixkit), cada vez mais escura quanto mais fundo
+FUNDO={0:"mx25245_5.png",1:"mx25244_25.png",2:"mx25244_45.png",3:"mx25244_5.png",4:"mx25245_15.png",5:"mx8128_9.png"}
+LUZ={0:0.55,1:0.62,2:0.48,3:0.36,4:0.24,5:0.14}
+from PIL import ImageEnhance as _E, ImageFilter as _F
 def iceberg(dest):
-    im=Image.new("RGB",(W2,H2)); d=ImageDraw.Draw(im)
-    for y in range(H2):
-        if y<AGUA: c=(10,12,18)
-        else: k=min(1,(y-AGUA)/(FUNDO-AGUA)); c=(int(14*(1-k)+2),int(42*(1-k)+4),int(70*(1-k)+8))
-        d.line([(0,y),(W2,y)],fill=c)
-    cx=1240; sy=(FUNDO-AGUA)/790
-    pts=[(-120,0),(-330,160),(-420,420),(-360,620),(-250,760),(-60,790),(120,720),(300,560),(410,330),(260,120),(150,0)]
-    sub=[(cx+x,AGUA+y*sy) for x,y in pts]
-    ov=Image.new("RGBA",(W2,H2),(0,0,0,0)); od=ImageDraw.Draw(ov)
-    for k,(y0,y1) in enumerate(BANDAS):
-        if dest==k+1: od.rectangle([0,y0,W2,y1],fill=(226,51,59,40)); od.rectangle([0,y0,14,y1],fill=(226,51,59,255))
-    im=Image.alpha_composite(im.convert("RGBA"),ov)
-    ov=Image.new("RGBA",(W2,H2),(0,0,0,0)); od=ImageDraw.Draw(ov)
-    od.polygon(sub,fill=(150,200,225,70)); od.polygon([(cx-150,AGUA),(cx-60,TOP+40),(cx+10,TOP+8),(cx+90,TOP+55),(cx+170,AGUA)],fill=(235,244,250,255))
-    im=Image.alpha_composite(im,ov).convert("RGB"); d=ImageDraw.Draw(im)
-    d.line([(0,AGUA),(W2,AGUA)],fill=(120,170,200),width=3)
-    for k,(y0,y1) in enumerate(BANDAS):
-        on=(dest==k+1); vis=(dest==0 or on); cor=(242,235,221) if vis else (80,96,110)
-        y=y0+((y1-y0)-(132 if on else 84))//2
-        d.text((70,y),NIV[k][0],font=ANTs,fill=(226,51,59) if on else ((200,190,170) if vis else (70,84,96)))
-        d.text((70,y+38),NIV[k][1],font=ANT if on else ANTs,fill=cor)
-        if on: d.text((70,y+106),NIV[k][2],font=MQ,fill=(230,222,205))
-        if k>0: d.line([(0,y0),(W2,y0)],fill=(40,70,95),width=1)
+    im=Image.open(Q/FUNDO[dest]).convert("RGB").resize((W2,H2),Image.LANCZOS)
+    im=_E.Brightness(im).enhance(LUZ[dest]); im=_E.Color(im).enhance(0.75 if dest<3 else 0.55)
+    g=Image.new("L",(W2,1))
+    for x in range(W2): g.putpixel((x,0),int(255*max(0,min(1,(1100-x)/900))))
+    im=Image.composite(Image.new("RGB",(W2,H2),(6,8,12)),im,g.resize((W2,H2)).point(lambda v:int(v*0.8)))
+    d=ImageDraw.Draw(im)
+    def t(x,y,s,f,c): d.text((x+4,y+5),s,font=f,fill=(0,0,0)); d.text((x,y),s,font=f,fill=c)
+    if dest==0:
+        t(110,190,"ATÉ ONDE VAI A VERDADE?",ANTm,(242,235,221)); y=280
+        for k,(n,nome,_c) in enumerate(NIV):
+            t(110,y,n,ANTs,(226,51,59)); t(290,y,nome,ANTs,(242,235,221)); y+=110
+    else:
+        n,nome,casos=NIV[dest-1]
+        t(110,300,n,ANTm,(226,51,59)); d.rectangle([110,365,260,371],fill=(226,51,59))
+        y=400
+        for linha in nome.split(" QUE ") if len(nome)>14 and " QUE " in nome else [nome]:
+            pass
+        palavras=nome.split(); linhas=[]; cur=""
+        for p in palavras:
+            if d.textlength((cur+" "+p).strip(),font=ANT)>1150: linhas.append(cur); cur=p
+            else: cur=(cur+" "+p).strip()
+        linhas.append(cur)
+        for l in linhas: t(110,y,l,ANT,(242,235,221)); y+=128
+        t(110,y+40,casos,MQ,(220,212,195))
     im.save(OUT/f"iceberg_{dest}.png")
 for k in range(6): iceberg(k)
 json.dump(RES, open(OUT / "docs.json", "w"), ensure_ascii=False, indent=1)

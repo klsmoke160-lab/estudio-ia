@@ -54,7 +54,7 @@ Plano testado com linha do tempo simulada: 161 planos, todas as regras casam com
 - "Desde 2009" (a LRO foi lançada em 2009; a página da NASA não foi aberta daqui): conferir ou dizer "há mais de quinze anos".
 - O U-2 derrubado em "maio de 1960" e o nome de Powers vêm dos títulos dos cinejornais da Universal (12 e 16/05/1960); a data exata (1º de maio) não está no roteiro.
 
-## Imagens (todas reais, sem IA; o esquema do iceberg é desenhado pelo canal)
+## Imagens (todas reais, sem IA)
 
 | Código | Material | Origem e direitos |
 |---|---|---|
@@ -69,3 +69,4 @@ Plano testado com linha do tempo simulada: 161 planos, todas as regras casam com
 | Versão | Arquivo | Data | Observação |
 |---|---|---|---|
 | v1 | `render/iceberg-v1.mp4` (envio: `-envio.mp4`, 720p) | 2026-11-23 | 10:44, -16 LUFS, pico -1,4 dB, voz Davi em duas partes. 161 planos. Conferido: a frase "O documento foi liberado em 1997…" está no áudio (a transcrição automática não a pegou; o tempo foi corrigido à mão na linha do tempo); o esquema do iceberg foi redesenhado para caber entre as faixas de cinema; a trilha passou a usar os nomes curtos dos capítulos. |
+- 2026-11-23, a pedido do dono: o esquema desenhado do iceberg foi trocado por **cartões sobre filmagem real de icebergs** (Mixkit), mais escura a cada nível; a capa também passou a usar foto real. O título e os cartões de capítulo ficam sobre filmagem real, sem texto por baixo.
