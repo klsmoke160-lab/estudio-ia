@@ -2,7 +2,7 @@
 
 > Data: 2026-11-23 · Tipo: entrega · Status: pronto para o dono revisar
 
-**Resumo:** título, descrição, fontes, comentário fixado e tags. Capa: `render/capa-final.jpg` ("O TOPO É REAL" sobre foto real de iceberg, com o carimbo "PROVADO").
+**Resumo:** título, descrição, fontes, comentário fixado e tags. Capa principal: `render/capa-final.jpg` ("O TOPO É REAL" sobre a foto da NASA de um iceberg na Groenlândia, à noite, com o carimbo "PROVADO" no gelo). Para o teste A/B: `render/capa-B-mixkit.jpg` (iceberg da Islândia, de dia).
 
 ## Título
 
@@ -48,6 +48,7 @@ FONTES (todas de acesso livre)
 
 IMAGENS
 • Documentos originais liberados pelos governos citados, e transcrições com a fonte indicada.
+• Foto da capa: "Iceberg in North Star Bay, Greenland", NASA Goddard / Operation IceBridge (Jeremy Harbeck, 2015).
 • Filmes de arquivo do governo dos EUA e cinejornais Universal, domínio público, via Internet Archive. Fotos da NASA, domínio público.
 • Filmagens reais de icebergs e música: Mixkit, licenças gratuitas.
 
