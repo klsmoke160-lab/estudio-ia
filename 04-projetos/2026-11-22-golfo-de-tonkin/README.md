@@ -1,6 +1,6 @@
 # Golfo de Tonkin: a batalha que não aconteceu
 
-> Data: 2026-11-22 · Tipo: projeto · Status: tudo pronto para montar; aguardando a narração (voz Davi do ElevenLabs bloqueada pelo limite do plano gratuito)
+> Data: 2026-11-22 · Tipo: projeto · Status: narração gerada (voz Davi, conta gratuita do ElevenLabs, **sem licença comercial**); montagem em andamento
 
 **Resumo:** documentário longo do Rasura (cerca de 10 min, 1.362 palavras, 12 capítulos) sobre o incidente do Golfo de Tonkin, em agosto de 1964. O ataque de 2 de agosto aconteceu; o de 4 de agosto, segundo um estudo interno da própria NSA liberado em 2005, não. Mesmo assim, ele serviu de base para a resolução que abriu caminho para a Guerra do Vietnã. Tema escolhido pelo Claude a pedido do dono ("você escolhe o tema, com a voz 3").
 
@@ -72,7 +72,7 @@ Direção da abertura:
 
 ## A conferir
 
-- "Na Câmara, ninguém votou contra" (416 a 0): o dado é amplamente citado, mas a página do Arquivo Nacional só fala dos dois senadores. Conferir no registro da Câmara antes de publicar, ou suavizar.
+- **Resolvido em 22/11:** "Na Câmara, ninguém votou contra" (a Câmara aprovou por unanimidade; o Senado teve só dois votos contrários), segundo o Departamento de Estado dos EUA, Office of the Historian: <https://history.state.gov/milestones/1961-1968/gulf-of-tonkin>. O número "88 votos a favor" é o placar tradicional (88 a 2) e não aparece nessa página; se quiser, confira no registro do Senado antes de publicar.
 - A coletiva do filme TC (05/08/1964) não identifica quem fala; o roteiro não diz o nome.
 
 ## Imagens (todas reais, sem IA)
