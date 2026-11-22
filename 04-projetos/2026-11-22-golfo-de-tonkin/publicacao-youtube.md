@@ -2,7 +2,7 @@
 
 > Data: 2026-11-22 · Tipo: entrega · Status: pronto para o dono revisar
 
-**Resumo:** título, descrição, fontes, comentário fixado e tags do documentário sobre o Golfo de Tonkin. A capa está em `render/capa-final.jpg` ("A BATALHA QUE NÃO ACONTECEU", com Johnson e a página do estudo da NSA marcada).
+**Resumo:** título, descrição, fontes, comentário fixado e tags do documentário sobre o Golfo de Tonkin. Capa principal: `render/capa-limpa-A.jpg` ("NÃO HOUVE ATAQUE", com Johnson). Para o teste A/B: `render/capa-limpa-B.jpg` (a frase do estudo da NSA com marca-texto) ou `render/capa-final.jpg` (versão com o recorte do documento).
 
 ## Título (escolha um)
 
@@ -66,7 +66,7 @@ Rasura, Golfo de Tonkin, Gulf of Tonkin, Guerra do Vietnã, Lyndon Johnson, McNa
 
 ## Passos no YouTube Studio
 
-1. Envie `render/golfo-de-tonkin-v1.mp4` (1080p) e a miniatura `render/capa-final.jpg`.
+1. Envie `render/golfo-de-tonkin-v1.mp4` (1080p) e a miniatura `render/capa-limpa-A.jpg`. Se aparecer "Testar e comparar", envie também a `capa-limpa-B.jpg`.
 2. **Conteúdo alterado ou sintético:** a voz é sintética; as imagens são filmes e documentos reais.
 3. **Público:** "Não é conteúdo para crianças". **Categoria:** Educação. **Idioma:** português (Brasil).
 4. Cole a descrição. Os capítulos começam em 0:00, então aparecem na barra do vídeo.
