@@ -1,6 +1,6 @@
 # Golfo de Tonkin: a batalha que não aconteceu
 
-> Data: 2026-11-22 · Tipo: projeto · Status: narração gerada (voz Davi, conta gratuita do ElevenLabs, **sem licença comercial**); montagem em andamento
+> Data: 2026-11-22 · Tipo: projeto · Status: v1 montada e conferida; narração da conta gratuita do ElevenLabs (**sem licença comercial**: regerar num plano pago antes de publicar)
 
 **Resumo:** documentário longo do Rasura (cerca de 10 min, 1.362 palavras, 12 capítulos) sobre o incidente do Golfo de Tonkin, em agosto de 1964. O ataque de 2 de agosto aconteceu; o de 4 de agosto, segundo um estudo interno da própria NSA liberado em 2005, não. Mesmo assim, ele serviu de base para a resolução que abriu caminho para a Guerra do Vietnã. Tema escolhido pelo Claude a pedido do dono ("você escolhe o tema, com a voz 3").
 
@@ -87,3 +87,9 @@ Direção da abertura:
 | mx4059, mx4060, mx34154, mx10395 | Tempestade no mar, papel antigo, máquina de escrever | Mixkit, licença gratuita |
 
 Documentos na tela: as páginas originais do estudo da NSA e das interceptações (governo dos EUA), a imagem da resolução (Arquivo Nacional) e transcrições com a fonte no rodapé para os textos que não têm página escaneada aqui.
+
+## Entregas
+
+| Versão | Arquivo | Data | Observação |
+|---|---|---|---|
+| v1 | `render/golfo-de-tonkin-v1.mp4` (envio: `-envio.mp4`, 720p) | 2026-11-22 | 9:40, -16 LUFS, pico -1 dB, voz Davi (ElevenLabs, duas partes por causa do limite de 5.000 caracteres por geração, emendadas na troca de capítulo). 135 planos: 59 de documento, 76 de filme. Conferido: os planos do Conselho de Segurança da ONU que caíam sobre o Congresso foram trocados pela resolução e pelo depoimento de 1968; as cenas de tempestade foram clareadas; os saltos marcados pelo detector são relâmpagos do próprio filme. |

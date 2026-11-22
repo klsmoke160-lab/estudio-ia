@@ -38,7 +38,7 @@ D["res_scan"] = (str(DOC / "resolucao.jpg"), None, (0.5, 0.33, 0.95), "Resoluç�
 UN = lambda *t: C("UN", *t); TC = lambda *t: C("TC", *t); WV = lambda *t: C("WV", *t); A4 = lambda *t: C("A4", *t)
 TEMP = C("mx4059", 3) ; TEMP2 = C("mx4060", 8); PAPEL = C("mx34154", 8); MAQ = C("mx10395", 4)
 AR = {k: 4/3 for k in CENAS}; AR.update({"mx4059": 16/9, "mx4060": 16/9, "mx34154": 16/9, "mx10395": 16/9})
-PRE = {"UN": "crop=960:720:160:0", "TC": "scale=640:480,setsar=1", "mx4059": "eq=gamma=1.7:brightness=0.08", "mx4060": "eq=gamma=1.7:brightness=0.08"}
+PRE = {"UN": "crop=960:720:160:0", "TC": "scale=640:480,setsar=1", "mx4059": "eq=gamma=2.4:brightness=0.14:contrast=1.2", "mx4060": "eq=gamma=2.4:brightness=0.14:contrast=1.2"}
 TITULO = ("GOLFO DE TONKIN", "A batalha que não aconteceu", ("doc", "nsa_titulo"))
 T_ = {"ABERTURA": "azul", "O PRIMEIRO ATAQUE": "petroleo", "A SEGUNDA NOITE": "azul", "O QUE O SONAR OUVIA": "verde", "O TELEGRAMA": "ambar",
       "A DECISÃO": "vermelho", "A RESOLUÇÃO": "ambar", "A GUERRA": "vermelho", "A CARTA NA MANGA": "petroleo", "O ESTUDO": "verde",
@@ -87,13 +87,13 @@ R = [
 ("No dia 6 de agosto, o secretário de Defesa", WV(1110)), ("Disse que a Marinha americana", Dc("mcnamara64")), ("Não era verdade", WV(1120)),
 ("Os ataques às ilhas eram", WV(497)), ("E o próprio McNamara sabia disso", WV(1115)), ("No dia 3 de agosto, num telefonema", Dc("tel3ago")),
 ("No dia 7 de agosto, o Congresso votou", Dc("res_scan")), ("O texto dizia que o Vietnã do Norte", Dc("res_ataque")), ("E aprovava que o presidente", Dc("res_medidas")),
-("Na Câmara, ninguém votou contra", UN(190)), ("No Senado, foram 88 votos", Dc("res_scan")), ("Era um cheque em branco", Dc("res_medidas")),
+("Na Câmara, ninguém votou contra", Dc("res_scan")), ("No Senado, foram 88 votos", Dc("res_scan")), ("Era um cheque em branco", Dc("res_medidas")),
 # A GUERRA
 ("Com aquela resolução, a guerra cresceu", UN(220, 240)), ("Em março de 1969", WV(941, 950)), ("Ao fim da guerra", WV(1026, 1021)),
 ("A resolução só foi revogada", Dc("res_scan")),
 # A CARTA NA MANGA
 ("As dúvidas sobre a noite de 4 de agosto", TEMP2), ("Poucas semanas depois, um jornalista", MAQ), ("Elas nunca desapareceram", PAPEL),
-("Em 1968, o Senado reabriu", UN(190)), ("McNamara voltou a depor", WV(1110)), ("Mensagens interceptadas do rádio", Dc("mcnamara68")),
+("Em 1968, o Senado reabriu", Dc("mcnamara68")), ("McNamara voltou a depor", WV(1110)), ("Mensagens interceptadas do rádio", Dc("mcnamara68")),
 ("Os senadores pediram cópias", Dc("int_capa")), ("McNamara se recusou", WV(1125)), ("Anos depois, dois funcionários", Dc("int_msg2")),
 ("A de 4 de agosto, escreveu um deles", Dc("jones")), ("E a agência de espionagem não conseguiu", Dc("jones")),
 # O ESTUDO
