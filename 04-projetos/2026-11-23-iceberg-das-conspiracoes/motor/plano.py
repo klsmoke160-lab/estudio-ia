@@ -49,9 +49,9 @@ NOMES_CAP = {"NÍVEL 1: CONFESSADO": "CONFESSADO", "NÍVEL 2: PROVADO NOS PAPÉI
              "NÍVEL 4: SEM PROVA": "SEM PROVA", "NÍVEL 5: O FUNDO": "O FUNDO"}
 _M = pathlib.Path("/home/user/estudio-ia/05-biblioteca/musica/mixkit")
 ESTILO = dict(cinema=True, tint=T_, dur_plano=4.0, zoom=0.045, nasce=4.0, nasce_abertura=0.4, brilho=-0.10, cama=-24, golpe=-3, lufs=-16.0,
-              trilha=[(_M / "echoes-andrew-ev.mp3", "ABERTURA", -15), (_M / "tapis-eugenio-mininni.mp3", "NÍVEL 1: CONFESSADO", -19),
-                      (_M / "piano-horror-francisco-alvear.mp3", "NÍVEL 2: PROVADO NOS PAPÉIS", -17), (_M / "echoes-andrew-ev.mp3", "NÍVEL 3: O SEGREDO QUE VIROU LENDA", -15),
-                      (_M / "piano-horror-francisco-alvear.mp3", "NÍVEL 4: SEM PROVA", -18), (_M / "echoes-andrew-ev.mp3", "O QUE O ICEBERG ENSINA", -15)])
+              trilha=[(_M / "echoes-andrew-ev.mp3", "ABERTURA", -15), (_M / "tapis-eugenio-mininni.mp3", "CONFESSADO", -19),
+                      (_M / "piano-horror-francisco-alvear.mp3", "PROVADO NOS PAPÉIS", -17), (_M / "echoes-andrew-ev.mp3", "O SEGREDO QUE VIROU LENDA", -15),
+                      (_M / "piano-horror-francisco-alvear.mp3", "SEM PROVA", -18), (_M / "echoes-andrew-ev.mp3", "O QUE O ICEBERG ENSINA", -15)])
 AVISO = "DOCUMENTOS ORIGINAIS · FILMES DE ARQUIVO · ESQUEMA DO ICEBERG FEITO PELO CANAL"
 
 R = [

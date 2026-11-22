@@ -93,29 +93,31 @@ RES["clinton_sorry"]=[r[0],r[1]["What the United States Government did was shame
 # 3) Esquema do iceberg (feito pelo canal): 0 = visão geral, 1..5 = nível em destaque
 NIV=[("NÍVEL 1","CONFESSADO","Northwoods · Tuskegee · MKUltra"),("NÍVEL 2","PROVADO NOS PAPÉIS","COINTELPRO · Golfo de Tonkin · Paperclip"),
      ("NÍVEL 3","O SEGREDO QUE VIROU LENDA","Área 51 · Roswell · Stargate"),("NÍVEL 4","SEM PROVA","O pouso falso na Lua"),("NÍVEL 5","O FUNDO","Terra plana")]
-ANT=ImageFont.truetype(str(FON/"font1.ttf"),56); ANTs=ImageFont.truetype(str(FON/"font1.ttf"),40); MQ=ImageFont.truetype(str(FON/"font2.ttf"),30)
-W2,H2=1920,1080; AGUA=260; BANDAS=[(110,AGUA)]+[(AGUA+k*195,AGUA+(k+1)*195) for k in range(4)]
+W2,H2=1920,1080; TOP,AGUA,FUNDO=175,305,905; BANDAS=[(TOP,AGUA)]+[(AGUA+k*150,AGUA+(k+1)*150) for k in range(4)]   # tudo dentro da área sem as faixas de cinema (133 px)
+ANT=ImageFont.truetype(str(FON/"font1.ttf"),50); ANTs=ImageFont.truetype(str(FON/"font1.ttf"),34); MQ=ImageFont.truetype(str(FON/"font2.ttf"),27)
 def iceberg(dest):
     im=Image.new("RGB",(W2,H2)); d=ImageDraw.Draw(im)
     for y in range(H2):
-        if y<AGUA: c=(10+int(8*y/AGUA),12+int(10*y/AGUA),18+int(14*y/AGUA))
-        else: k=(y-AGUA)/(H2-AGUA); c=(int(14*(1-k)+2),int(42*(1-k)+4),int(70*(1-k)+8))
+        if y<AGUA: c=(10,12,18)
+        else: k=min(1,(y-AGUA)/(FUNDO-AGUA)); c=(int(14*(1-k)+2),int(42*(1-k)+4),int(70*(1-k)+8))
         d.line([(0,y),(W2,y)],fill=c)
-    cx=1240
-    sub=[(cx-120,AGUA),(cx-330,AGUA+160),(cx-420,AGUA+420),(cx-360,AGUA+620),(cx-250,AGUA+760),(cx-60,H2-30),(cx+120,AGUA+720),(cx+300,AGUA+560),(cx+410,AGUA+330),(cx+260,AGUA+120),(cx+150,AGUA)]
+    cx=1240; sy=(FUNDO-AGUA)/790
+    pts=[(-120,0),(-330,160),(-420,420),(-360,620),(-250,760),(-60,790),(120,720),(300,560),(410,330),(260,120),(150,0)]
+    sub=[(cx+x,AGUA+y*sy) for x,y in pts]
     ov=Image.new("RGBA",(W2,H2),(0,0,0,0)); od=ImageDraw.Draw(ov)
-    od.polygon(sub,fill=(150,200,225,70)); od.polygon([(cx-150,AGUA),(cx-60,150),(cx+10,110),(cx+90,170),(cx+170,AGUA)],fill=(235,244,250,255))
     for k,(y0,y1) in enumerate(BANDAS):
-        on=(dest==k+1)
-        if on: od.rectangle([0,y0,W2,y1],fill=(226,51,59,40)); od.rectangle([0,y0,14,y1],fill=(226,51,59,255))
-    im=Image.alpha_composite(im.convert("RGBA"),ov).convert("RGB"); d=ImageDraw.Draw(im)
+        if dest==k+1: od.rectangle([0,y0,W2,y1],fill=(226,51,59,40)); od.rectangle([0,y0,14,y1],fill=(226,51,59,255))
+    im=Image.alpha_composite(im.convert("RGBA"),ov)
+    ov=Image.new("RGBA",(W2,H2),(0,0,0,0)); od=ImageDraw.Draw(ov)
+    od.polygon(sub,fill=(150,200,225,70)); od.polygon([(cx-150,AGUA),(cx-60,TOP+40),(cx+10,TOP+8),(cx+90,TOP+55),(cx+170,AGUA)],fill=(235,244,250,255))
+    im=Image.alpha_composite(im,ov).convert("RGB"); d=ImageDraw.Draw(im)
     d.line([(0,AGUA),(W2,AGUA)],fill=(120,170,200),width=3)
     for k,(y0,y1) in enumerate(BANDAS):
-        on=(dest==k+1); vis=(dest==0 or on)
-        cor=(242,235,221) if vis else (80,96,110); y=y0+(y1-y0)//2-(78 if on else 58)
+        on=(dest==k+1); vis=(dest==0 or on); cor=(242,235,221) if vis else (80,96,110)
+        y=y0+((y1-y0)-(132 if on else 84))//2
         d.text((70,y),NIV[k][0],font=ANTs,fill=(226,51,59) if on else ((200,190,170) if vis else (70,84,96)))
-        d.text((70,y+44),NIV[k][1],font=ANT if on else ANTs,fill=cor)
-        if on: d.text((70,y+128),NIV[k][2],font=MQ,fill=(230,222,205))
+        d.text((70,y+38),NIV[k][1],font=ANT if on else ANTs,fill=cor)
+        if on: d.text((70,y+106),NIV[k][2],font=MQ,fill=(230,222,205))
         if k>0: d.line([(0,y0),(W2,y0)],fill=(40,70,95),width=1)
     im.save(OUT/f"iceberg_{dest}.png")
 for k in range(6): iceberg(k)

@@ -1,6 +1,6 @@
 # Pacote de publicação: O Iceberg das Conspirações
 
-> Data: 2026-11-23 · Tipo: entrega · Status: rascunho; capítulos com tempo entram depois da narração
+> Data: 2026-11-23 · Tipo: entrega · Status: pronto para o dono revisar
 
 **Resumo:** título, descrição, fontes, comentário fixado e tags. Capa: `render/capa-final.jpg` ("O TOPO É REAL", iceberg com o topo carimbado "PROVADO").
 
@@ -23,7 +23,15 @@ Neste vídeo:
 • Três perguntas para testar qualquer teoria
 
 CAPÍTULOS
-(preencher depois da montagem)
+0:00 O plano assinado de 1962
+0:37 O iceberg
+1:14 Nível 1: confessado
+3:27 Nível 2: provado nos papéis
+5:37 Nível 3: o segredo que virou lenda
+7:59 Nível 4: sem prova
+8:49 Nível 5: o fundo
+9:19 O que o iceberg ensina
+10:26 Fecho
 
 FONTES (todas de acesso livre)
 • Memorando "Justification for US Military Intervention in Cuba" (Northwoods), 1962: https://archive.org/details/Northwoods

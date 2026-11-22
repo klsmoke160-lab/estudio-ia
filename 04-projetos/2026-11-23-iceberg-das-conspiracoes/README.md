@@ -1,6 +1,6 @@
 # O Iceberg das Conspirações: até onde vai a verdade?
 
-> Data: 2026-11-23 · Tipo: projeto · Status: tudo pronto para montar; aguardando a narração
+> Data: 2026-11-23 · Tipo: projeto · Status: v1 montada e conferida; narração de conta gratuita do ElevenLabs (sem licença comercial)
 
 **Resumo:** documentário longo do Rasura (cerca de 11 a 12 min, 1.495 palavras, 9 capítulos) que organiza teorias da conspiração num iceberg medido por uma régua só, o que está nos documentos. No topo, o que governos confessaram (Northwoods, Tuskegee, MKUltra); depois, o que foi provado por papéis arrancados (COINTELPRO, Tonkin, Paperclip); no meio, segredos reais que viraram lenda (Área 51 e U-2, Roswell e Mogul, Stargate); embaixo, o que não tem prova (pouso falso na Lua) e, no fundo, a Terra plana. Conclusão: a parte assustadora está no topo.
 
@@ -63,3 +63,9 @@ Plano testado com linha do tempo simulada: 161 planos, todas as regras casam com
 | mx25244, mx25245, mx8128, mx15233 | Icebergs e geleiras | Mixkit, licença gratuita |
 | NASA | LRO, ISS, U-2 da NASA | NASA, domínio público |
 | Reaproveitado | Filmes e documentos da MKUltra, Northwoods, Paperclip e Tonkin | ver os READMEs desses projetos |
+
+## Entregas
+
+| Versão | Arquivo | Data | Observação |
+|---|---|---|---|
+| v1 | `render/iceberg-v1.mp4` (envio: `-envio.mp4`, 720p) | 2026-11-23 | 10:44, -16 LUFS, pico -1,4 dB, voz Davi em duas partes. 161 planos. Conferido: a frase "O documento foi liberado em 1997…" está no áudio (a transcrição automática não a pegou; o tempo foi corrigido à mão na linha do tempo); o esquema do iceberg foi redesenhado para caber entre as faixas de cinema; a trilha passou a usar os nomes curtos dos capítulos. |
