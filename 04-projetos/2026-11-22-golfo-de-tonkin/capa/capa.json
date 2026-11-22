@@ -1,0 +1,4 @@
+{"imagem": "lbj_un.png", "foco": [0.5, 0.35], "zoom": 1.0, "cor": "pb",
+ "linhas": [["A BATALHA QUE", "creme"], ["NÃO ACONTECEU", "vermelho"]],
+ "recorte": {"arq": "/home/user/mk/tk/docs/nsa_p04.png", "caixa": [60, 430, 780, 690], "marcas": [[112, 542, 544, 574]], "largura": 560, "giro": -2.5},
+ "carimbo": "NSA, 2005"}
