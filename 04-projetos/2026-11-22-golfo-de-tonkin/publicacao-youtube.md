@@ -1,6 +1,6 @@
 # Pacote de publicação: Golfo de Tonkin
 
-> Data: 2026-11-22 · Tipo: entrega · Status: rascunho; os capítulos com tempo entram depois da narração
+> Data: 2026-11-22 · Tipo: entrega · Status: pronto para o dono revisar
 
 **Resumo:** título, descrição, fontes, comentário fixado e tags do documentário sobre o Golfo de Tonkin. A capa está em `render/capa-final.jpg`.
 
@@ -24,7 +24,18 @@ Neste vídeo:
 • O estudo da NSA e o que os documentos provam (e o que não provam)
 
 CAPÍTULOS
-(preencher com os tempos depois da montagem)
+0:00 A frase do estudo da NSA
+0:42 O primeiro ataque
+1:55 A segunda noite
+2:54 O que o sonar ouvia
+3:40 O telegrama de Herrick
+4:23 A decisão
+5:14 A Resolução do Golfo de Tonkin
+6:22 A guerra
+6:47 A carta na manga de McNamara
+7:40 O estudo da NSA
+8:31 O que os documentos provam
+9:20 Fecho
 
 FONTES (todas de acesso livre)
 • National Security Archive, "The Gulf of Tonkin Incident, 40 Years Later": https://nsarchive2.gwu.edu/NSAEBB/NSAEBB132/

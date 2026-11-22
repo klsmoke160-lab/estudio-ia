@@ -1,0 +1,18 @@
+{
+ "reconhecido_pct": 97.4,
+ "fracas": [
+  {
+   "i": 26,
+   "ok": "2/3",
+   "texto": "Não há lua.",
+   "ouvido": "não à lua,"
+  },
+  {
+   "i": 50,
+   "ok": "6/9",
+   "texto": "Os lemes refletiam a turbulência das hélices dos destróieres.",
+   "ouvido": "Os lames refletiam a turbulência das élices dos destroyers."
+  }
+ ],
+ "pausa_mediana": 0.54
+}
