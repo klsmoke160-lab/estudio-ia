@@ -17,7 +17,11 @@ _DJ = json.load(open(DOC / "docs.json"))
 F_SEN = ('Senado dos EUA, Subcomissão de Saúde e Pesquisa Científica, "Biological Testing Involving '
          'Human Subjects by the Department of Defense", 8 e 23 de março de 1977')
 F_SUB = 'Fort Detrick, "Subway Vulnerability Trials", janeiro de 1968 (liberado ao público)'
-D = {k: (arq, bx, None, F_SUB if "subway" in arq else F_SEN) for k, (arq, bx) in _DJ.items()}
+# foco (x, y, zoom em fração da largura) para as páginas do estudo do metrô, que são
+# altas e deixariam muita borda preta se entrassem inteiras
+FOCO = {"d_abstract": (0.55, 0.16, 0.95), "d_milhao": (0.47, 0.46, 0.92),
+        "d_concl": (0.48, 0.20, 0.95), "d_relato": (0.56, 0.64, 0.92)}
+D = {k: (arq, bx, FOCO.get(k), F_SUB if "subway" in arq else F_SEN) for k, (arq, bx) in _DJ.items()}
 
 FOTOS = {}
 
@@ -62,7 +66,7 @@ NOMES_CAP = {k: k for k in T_}
 
 _M = pathlib.Path("/home/user/estudio-ia/05-biblioteca/musica/mixkit")
 ESTILO = dict(cinema=True, tint=T_, dur_plano=4.0, zoom=0.045, nasce=4.0, nasce_abertura=0.4,
-              brilho=-0.10, cama=-24, golpe=-3, lufs=-16.0,
+              brilho=0.05, cama=-24, golpe=-3, lufs=-16.0,
               trilha=[(_M / "echoes-andrew-ev.mp3", "ABERTURA", -15),
                       (_M / "piano-horror-francisco-alvear.mp3", "O PACIENTE", -17),
                       (_M / "tapis-eugenio-mininni.mp3", "O MAPA", -19),
@@ -125,7 +129,7 @@ R = [
 ("Foi escrito pela equipe de Fort", INST), ("A justificativa está na introdução", Dc("d_milhao")),
 ("Cerca de um milhão de pessoas", PLAT), ("Três em cada quatro no horário", SUB(173, 53)),
 ("Entre 7 e 10 de junho", TUNEL), ("A bactéria usada foi o Bacillus", PLACA),
-("Ela existe no feno, na poeira", BAC(130, 95)), ("O que interessava ao Exército não", COLONIA),
+("Ela existe no feno, na poeira", BAC(124, 131)), ("O que interessava ao Exército não", COLONIA),
 ("Era o caminho que ela fazia", TRILHO), ("E o caminho é a parte", TUNEL),
 ("O relatório registra que o material", Dc("d_abstract")), ("O tempo médio que a equipe", PLAT),
 ("O relatório diz, com essas palavras", Dc("d_concl")), ("E a conclusão do estudo não", Dc("d_concl")),
