@@ -72,8 +72,8 @@ AVISO = "DOCUMENTOS ORIGINAIS DO SENADO E DO EXÉRCITO DOS EUA · FILMES DE ARQU
 
 R = [
 # ABERTURA — gancho: a lista. Primeiro quadro é a página da tabela.
-("Em 1977, o Exército dos Estados", Dc("d_tabela")), ("Não era uma lista de inimigos", Dc("d_tabela")),
-("Era uma lista de cidades americanas", Dc("d_lista1")),
+("Em 1977, o Exército dos Estados", Dc("d_lista1")), ("Não era uma lista de inimigos", Dc("d_tabela")),
+("Era uma lista de cidades americanas", Dc("d_lista2")),
 ("Washington.", Dc("d_lista1")), ("São Francisco.", MULT), ("Key West.", Dc("d_lista2")),
 ("Panama City.", NY(1131)), ("Nova York.", SKY),
 ("A tabela tem um título seco", Dc("d_tabela")), ('"testes envolvendo domínio público"', Dc("d_tabela")),
