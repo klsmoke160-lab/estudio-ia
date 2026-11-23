@@ -118,10 +118,10 @@ R = [
 # O MAPA
 ("É por isso que a lista", Dc("d_tabela")), ("Ela é a prova de que", Dc("d_lista1")),
 ("A primeira linha é Washington, 1949", Dc("d_lista1")), ("O alvo era o Pentágono", NY(367)),
-("descobrir se alguém conseguiria contaminar o", SPRAY), ("Depois vieram navios na entrada de", NAVIO),
-("Key West, na Flórida, em 1952", Dc("d_lista2")), ("Fort McClellan, no Alabama, no mesmo", BW(34)),
+("descobrir se alguém conseguiria contaminar o", ATB(79, 69)), ("Depois vieram navios na entrada de", NAVIO),
+("Key West, na Flórida, em 1952", Dc("d_lista1")), ("Fort McClellan, no Alabama, no mesmo", BW(34)),
 ("Panama City, em 1953", NY(993)), ("Em 1955, os túneis Kittatinny e", NY(578) + Dc("d_penn")),
-("Em maio de 1965, o Aeroporto", Dc("d_lista2")), ("E havia uma segunda lista, de", Dc("d_tabela")),
+("Em maio de 1965, o Aeroporto", Dc("d_aeroporto")), ("E havia uma segunda lista, de", Dc("d_tabela")),
 ("Minneapolis e Saint Louis em 1953", CIDADE), ("Nenhuma dessas cidades foi avisada", GENTE),
 ("Nenhuma pessoa dessas cidades foi consultada", BW(88)), ("E em junho de 1966, a", PLAT),
 # NOVA YORK
@@ -151,7 +151,7 @@ R = [
 ("o que exatamente se aprendeu soltando", Dc("d_mina")), ("Até hoje não existe uma resposta", PAPEL),
 ("A única coisa que esses testes", SKY), ("E isso, disse ele, era óbvio", NY(1131)),
 # O QUE FICOU
-("Em novembro de 1969, o presidente", INST), ("O país destruiu seus estoques e", ATB(650)),
+("Em novembro de 1969, o presidente", INST), ("O país destruiu seus estoques e", ATB(664)),
 ("Os testes sobre cidades pararam", CIDADE),
 ("Mas repare na ordem das datas", PAPEL), ("Os testes começaram em 1949", Dc("d_lista1")),
 ("O artigo médico sobre as infecções", Dc("d_wheat")), ("O parecer que autorizou continuar", Dc("d_parecer")),
