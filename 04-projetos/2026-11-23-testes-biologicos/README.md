@@ -68,3 +68,31 @@ python3 scripts/video/doc_motor.py 04-projetos/2026-11-23-testes-biologicos junt
 python3 scripts/video/doc_motor.py 04-projetos/2026-11-23-testes-biologicos som
 python3 scripts/video/doc_motor.py 04-projetos/2026-11-23-testes-biologicos final testes-biologicos-v1.mp4
 ```
+
+## Montagem de ensaio (23/11)
+
+O vídeo já foi montado inteiro com uma narração muda de tempos estimados
+(`motor/timeline_ensaio.py`, 150 palavras por minuto): `render/testes-biologicos-ensaio.mp4`,
+12:15, 193 planos, 15,8 cortes por minuto. A imagem é a definitiva; só falta a voz.
+
+Corrigido depois de ver a primeira montagem:
+- brilho de -0.10 para 0.05 (os filmes deste vídeo são mais escuros que os dos anteriores);
+- foco nas quatro páginas do estudo do metrô, que entravam inteiras e ilegíveis;
+- a página 126 marcava dez linhas de uma vez: agora o Aeroporto Nacional e Nova York
+  têm cada um o seu documento, com uma linha destacada por vez;
+- dois planos do capítulo do mapa (todo em vermelho) ficavam sem imagem nenhuma.
+
+### Quando o áudio chegar
+
+```bash
+cd /home/user/estudio-ia
+uv run python scripts/som/tratar_narracao.py 04-projetos/2026-11-23-testes-biologicos <audio.mp3> --linha 0 --curta 0.9
+python3 scripts/video/doc_motor.py 04-projetos/2026-11-23-testes-biologicos edl
+python3 scripts/video/doc_motor.py 04-projetos/2026-11-23-testes-biologicos render
+python3 scripts/video/doc_motor.py 04-projetos/2026-11-23-testes-biologicos juntar
+python3 scripts/video/doc_motor.py 04-projetos/2026-11-23-testes-biologicos som
+python3 scripts/video/doc_motor.py 04-projetos/2026-11-23-testes-biologicos final testes-biologicos-v1.mp4
+```
+
+O `tratar_narracao.py` sobrescreve `audio/timeline_novo.json` e
+`narracao/narracao_tratada.wav`, então o ensaio é descartado sozinho.
