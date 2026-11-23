@@ -3,3 +3,4 @@
 - 15/11 — [Análise de edição da referência 05](2026-11-15-referencia-05-edicao.md)
 - 16/11 — [Pesquisa de imagens em acervos para o MKUltra](2026-11-16-pesquisa-imagens-mkultra.md)
 - 22/11 — [Shorts "você criou", vozes do ElevenLabs e documentário do Golfo de Tonkin](2026-11-22-tonkin-e-shorts.md)
+- 23/11 — [Iceberg das Conspirações e os testes biológicos em cidades americanas](2026-11-23-iceberg-e-testes-biologicos.md)

@@ -1,0 +1,98 @@
+# ABERTURA
+Em 1977, o Exército dos Estados Unidos entregou ao Senado uma lista.
+Não era uma lista de inimigos. Era uma lista de cidades americanas onde o próprio Exército tinha soltado bactérias no ar, sem avisar ninguém que morava lá.
+Washington. São Francisco. Key West. Panama City. Nova York.
+A tabela tem um título seco: "testes envolvendo domínio público". Em português simples: lugares onde havia gente.
+Essa lista não vazou. Foi o governo que entregou, impressa, para um comitê do Senado. E ela existe até hoje.
+
+# POR QUE UMA CIDADE
+Setembro de 1950. Guerra da Coreia, medo da bomba, medo de tudo que viesse da União Soviética.
+E uma pergunta que ninguém em Washington sabia responder: se um inimigo soltasse germes perto de uma cidade americana, até onde eles chegariam?
+Num laboratório, dá para estimar. Mas uma cidade de verdade tem vento, prédios, morros, neblina.
+O secretário de Defesa explicou isso ao Senado com todas as letras: soltar o material perto de cidades reais era considerado essencial, porque ninguém sabia o que uma área construída faz com uma nuvem desse tipo.
+A escolhida foi São Francisco.
+Durante dias, em setembro de 1950, a Marinha espalhou duas bactérias no ar da baía: o Bacillus globigii e a Serratia marcescens.
+A Serratia tinha uma vantagem prática para quem media o resultado: ela forma colônias vermelhas, fáceis de achar na placa do laboratório.
+Na época, o Exército a considerava inofensiva.
+Em audiência no Senado, anos depois, um senador afirmou que fontes do próprio laboratório diziam ter detectado a bactéria a dezenas de quilômetros da costa. O Exército respondeu que não tinha registro daquele teste.
+O que ninguém disputa é o que apareceu em seguida, num hospital da cidade.
+
+# O PACIENTE
+Entre setembro de 1950 e fevereiro de 1951, médicos de um hospital de São Francisco viram uma coisa estranha.
+Onze pacientes infectados por uma bactéria que eles quase nunca encontravam. A mesma Serratia marcescens.
+Um deles se chamava Edward Nevin. Tinha passado por uma cirurgia. A infecção chegou ao coração.
+Edward Nevin morreu.
+Os médicos publicaram o caso numa revista da Associação Médica Americana em 1951. Eles não sabiam de teste nenhum. O teste era secreto.
+E aqui o vídeo precisa ser honesto com você: até hoje ninguém provou que a bactéria do hospital veio da baía.
+O Exército sustenta que foi coincidência. Todos os onze pacientes tinham passado por procedimentos invasivos e tomavam vários antibióticos. É o tipo de paciente em que essa bactéria costuma aparecer.
+Décadas depois, a família de Nevin processou o governo. E perdeu.
+Mas o Exército não esperou esse debate terminar para tomar uma decisão. E é a decisão que importa.
+
+# O PARECER DE 1952
+Em 1952, o oficial de segurança de Fort Detrick, o centro de guerra biológica do Exército, chamou quatro cientistas civis.
+Vieram do que hoje é o CDC, da Secretaria de Saúde de Nova York, da Universidade Estadual de Ohio e dos Institutos Nacionais de Saúde.
+Eles leram o artigo do hospital. Reconheceram que um paciente tinha morrido com a bactéria no sangue.
+E escreveram a conclusão. Está impressa no relatório que o Exército entregou ao Senado:
+o uso daquela bactéria deveria continuar, "mesmo sobre áreas povoadas", quando fosse necessário para o programa.
+Repare na frase. Mesmo sobre áreas povoadas.
+O mesmo grupo recomendou acompanhar hospitais antes e depois dos próximos testes, para descobrir se São Francisco tinha sido coincidência.
+E o diretor de segurança de Fort Detrick criou uma regra interna: aquela bactéria não podia ser usada onde pudesse chegar a um hospital ou a um sanatório.
+Pare um segundo nisso.
+Criar uma regra para proteger hospitais é admitir que existe risco para quem está fraco. Em 1952, o Exército já trabalhava com essa possibilidade.
+E continuou soltando por mais dezesseis anos.
+
+# O MAPA
+É por isso que a lista de 1977 incomoda tanto. Ela é a prova de que não foi um episódio.
+A primeira linha é Washington, 1949. O alvo era o Pentágono: descobrir se alguém conseguiria contaminar o quartel-general sem ser visto.
+Depois vieram navios na entrada de Hampton Roads, na Virgínia. Key West, na Flórida, em 1952. Fort McClellan, no Alabama, no mesmo ano. Panama City, em 1953.
+Em 1955, os túneis Kittatinny e Tuscarora, na rodovia da Pensilvânia, por onde passavam carros comuns, e um trecho de uma estrada estadual.
+Em maio de 1965, o Aeroporto Nacional de Washington e o terminal de ônibus da Greyhound.
+E havia uma segunda lista, de partículas fluorescentes de sulfeto de zinco e cádmio, soltas para medir como o ar se move numa cidade: Minneapolis e Saint Louis em 1953, Saint Louis de novo entre 1963 e 1965, São Francisco entre 1964 e 1968, Fort Wayne, Victoria, Cambridge.
+Nenhuma dessas cidades foi avisada. Nenhuma pessoa dessas cidades foi consultada.
+E em junho de 1966, a lista chegou ao lugar mais cheio dos Estados Unidos.
+
+# NOVA YORK
+O estudo tem um nome burocrático: vulnerabilidade de linhas de metrô a ataque biológico encoberto. Foi escrito pela equipe de Fort Detrick e carimbado em janeiro de 1968.
+A justificativa está na introdução. Cerca de um milhão de pessoas usavam o metrô para trabalhar no centro de Manhattan todo dia. Três em cada quatro no horário de pico.
+Entre 7 e 10 de junho de 1966, a equipe fez cinco ensaios em linhas do centro de Manhattan, da rua 14 até a rua 59.
+A bactéria usada foi o Bacillus globigii. Ela existe no feno, na poeira, no leite, e é considerada inofensiva para pessoas saudáveis. O que interessava ao Exército não era a bactéria. Era o caminho que ela fazia.
+E o caminho é a parte que assusta.
+O relatório registra que o material se espalhou rapidamente pelas linhas testadas, entrou nas estações e nos trens da área, e ficou lá por uma hora ou mais.
+O tempo médio que a equipe passava circulando era de sete a dez minutos. O relatório diz, com essas palavras, que quem ficasse na área por um tempo parecido teria corrido grande risco de infecção, se o agente fosse de verdade.
+E a conclusão do estudo não deixa margem: com um agente causador de doença, um ataque assim no horário de pico exporia um grande número de pessoas e causaria muitas vítimas entre quem trabalhava na região.
+Isso é o Exército avaliando um inimigo hipotético. Mas quem estava dentro daquelas estações eram passageiros reais.
+
+# NINGUÉM VIU
+Tem um anexo nesse relatório que eu não esperava encontrar.
+É a parte em que cada integrante da equipe escreve o que aconteceu com ele durante os quatro dias.
+Um deles conta que levava o equipamento dentro de uma maleta parecida com um estojo de câmera. Outro diz que um homem sentou ao lado dele num banco da estação e perguntou que barulho era aquele. Ele respondeu que era o rádio. O homem achou razoável e pegou o trem.
+Outro conta que uma mulher perguntou o que era aquilo. Um colega respondeu que ele estava medindo a poeira que os operários levantavam. Ela aceitou.
+Outro foi parado por um policial. Não pelo equipamento, mas por estar com um cigarro na boca.
+E um deles escreveu a frase que resume o vídeo inteiro:
+as pessoas da cidade grande andam depressa demais para ver o que acontece em volta delas, e quem repara se satisfaz desde que pareça legal por fora.
+Em quatro dias, em uma das cidades mais vigiadas do mundo, ninguém entendeu o que estava acontecendo.
+Não porque fosse sofisticado. Porque ninguém esperava.
+
+# A CONTRADIÇÃO
+Em 1977, o Senado chamou cientistas e especialistas em saúde pública para avaliar tudo isso.
+E um deles apontou a contradição que o Exército nunca respondeu direito.
+No mesmo período, o Exército mantinha um programa chamado Operação Whitecoat, com voluntários que assinavam consentimento, sabiam dos riscos e podiam recusar. O especialista descreveu o cuidado desse programa como quase admirável.
+A mesma instituição que fazia isso com voluntários soltava material no ar de cidades inteiras sem perguntar nada a ninguém.
+E ele fez a pergunta mais simples de todas: o que exatamente se aprendeu soltando bactéria num metrô cheio que não se poderia aprender num túnel de mina abandonado?
+Até hoje não existe uma resposta publicada para isso.
+A única coisa que esses testes provaram com certeza é que uma cidade é vulnerável. E isso, disse ele, era óbvio desde o começo.
+
+# O QUE FICOU
+Em novembro de 1969, o presidente Richard Nixon anunciou o fim do programa ofensivo de armas biológicas dos Estados Unidos. O país destruiu seus estoques e passou a trabalhar só na defesa.
+Os testes sobre cidades pararam.
+Mas repare na ordem das datas, porque ela é o ponto deste vídeo.
+Os testes começaram em 1949. O artigo médico sobre as infecções é de 1951. O parecer que autorizou continuar "mesmo sobre áreas povoadas" é de 1952. Os testes seguiram até 1968.
+E o país só ficou sabendo em dezembro de 1976, quando um jornal de Nova York publicou a história. A audiência no Senado veio em 1977. Vinte e sete anos depois de São Francisco.
+Nenhuma das pessoas que estavam naquelas estações, naquele aeroporto, naquela baía, soube enquanto acontecia.
+E essa é a diferença entre teoria da conspiração e documento.
+Uma teoria da conspiração pede que você acredite. Um documento pede que você leia.
+Esse aqui tem número de página.
+
+# FECHO
+Se você quiser conferir, os dois documentos deste vídeo são públicos: a audiência do Senado de março de 1977, sobre testes de guerra biológica e química do Departamento de Defesa, e o estudo de vulnerabilidade do metrô, de janeiro de 1968.
+No próximo vídeo, eu vou atrás de outra lista que o governo entregou achando que ninguém ia ler.
