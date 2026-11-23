@@ -1,0 +1,36 @@
+{
+ "reconhecido_pct": 97.2,
+ "fracas": [
+  {
+   "i": 7,
+   "ok": "1/2",
+   "texto": "Nova York.",
+   "ouvido": "Nova Iorque."
+  },
+  {
+   "i": 19,
+   "ok": "3/5",
+   "texto": "Num laboratório, dá para estimar.",
+   "ouvido": "laboratório dá pra estimar,"
+  },
+  {
+   "i": 25,
+   "ok": "4/7",
+   "texto": "o Bacillus globigii e a Serratia marcescens.",
+   "ouvido": "o bacilos globigi e a serrátia marcessens."
+  },
+  {
+   "i": 88,
+   "ok": "5/8",
+   "texto": "Três em cada quatro no horário de pico.",
+   "ouvido": "3 em cada 4 um horário de pico."
+  },
+  {
+   "i": 138,
+   "ok": "5/8",
+   "texto": "Vinte e sete anos depois de São Francisco.",
+   "ouvido": "anos depois de São Francisco."
+  }
+ ],
+ "pausa_mediana": 0.45
+}
