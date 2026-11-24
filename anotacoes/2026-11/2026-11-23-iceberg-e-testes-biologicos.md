@@ -2,12 +2,12 @@
 
 > Data: 2026-11-23 · Tipo: anotação · Status: encerrada — os dois vídeos montados
 
-**Resumo:** nesta sessão saiu o documentário do Iceberg das Conspirações (v1, capa no estilo Mistère, título e descrição) e começou o vídeo seguinte, sobre os testes de guerra biológica que o Exército e a Marinha dos EUA fizeram sobre cidades americanas entre 1949 e 1968. O roteiro, os documentos, o plano de imagens, a capa e o pacote de publicação estão prontos; a narração parou por falta de crédito no ElevenLabs.
+**Resumo:** nesta sessão saiu o documentário do Iceberg das Conspirações (v1, capa no estilo Mistère, título e descrição) e começou o vídeo seguinte, sobre os testes de guerra biológica que o Exército e a Marinha dos EUA fizeram sobre cidades americanas entre 1949 e 1968. O roteiro, os documentos, o plano de imagens, a capa, a narração e o pacote de publicação ficaram prontos: vídeo de 11:08.
 
 ## O que ficou pronto
 
 - **Iceberg das Conspirações** (`04-projetos/2026-11-23-iceberg-das-conspiracoes/`): vídeo v1 de 10:44, capa `render/capa-mistere.jpg`, título e descrição.
-- **Testes biológicos** (`04-projetos/2026-11-23-testes-biologicos/`): roteiro de 1.614 palavras em 8 capítulos, 18 páginas de documento com marca-texto, plano de imagens com as 147 frases cobertas, capa `render/capa.jpg` e `publicacao-youtube.md`.
+- **Testes biológicos** (`04-projetos/2026-11-23-testes-biologicos/`): roteiro de 1.614 palavras em 8 capítulos, 18 páginas de documento com marca-texto, plano de imagens com as 147 frases cobertas, vídeo `render/testes-biologicos-v1.mp4` (11:08), capa `render/capa.jpg` e `publicacao-youtube.md`.
 
 ## O que aprendi
 
