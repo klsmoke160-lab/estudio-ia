@@ -38,18 +38,16 @@ Filmes de arquivo público dos Estados Unidos (Prelinger Archives / Internet Arc
 
 ## Capítulos
 
-(preencher com os tempos reais depois da montagem)
-
 ```
-0:00 A lista
-0:00 Por que uma cidade
-0:00 O paciente
-0:00 O parecer de 1952
-0:00 O mapa
-0:00 Nova York, 1966
-0:00 Ninguém viu
-0:00 A contradição
-0:00 O que ficou
+0:00 A lista que o Exército entregou
+0:47 Por que uma cidade de verdade
+2:05 O paciente de São Francisco
+3:13 O parecer de 1952
+4:31 O mapa: cidade por cidade
+5:59 Nova York, junho de 1966
+7:34 Ninguém viu
+8:37 A contradição
+9:34 O que ficou
 ```
 
 ## Etiquetas

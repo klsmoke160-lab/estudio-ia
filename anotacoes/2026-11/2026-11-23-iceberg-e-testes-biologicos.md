@@ -1,6 +1,6 @@
 # Iceberg das Conspirações e os testes biológicos em cidades americanas
 
-> Data: 2026-11-23 · Tipo: anotação · Status: sessão encerrada com o vídeo novo parado na narração
+> Data: 2026-11-23 · Tipo: anotação · Status: encerrada — os dois vídeos montados
 
 **Resumo:** nesta sessão saiu o documentário do Iceberg das Conspirações (v1, capa no estilo Mistère, título e descrição) e começou o vídeo seguinte, sobre os testes de guerra biológica que o Exército e a Marinha dos EUA fizeram sobre cidades americanas entre 1949 e 1968. O roteiro, os documentos, o plano de imagens, a capa e o pacote de publicação estão prontos; a narração parou por falta de crédito no ElevenLabs.
 
@@ -23,6 +23,13 @@
 - `/home/user/mk/bio/docs/`: audiência do Senado de 1977 (306 páginas, com camada de texto) e o estudo do metrô de 1968.
 - `/home/user/mk/bio/raw/`: filmes de arquivo público — guerra biológica (1951), bactérias no laboratório (1953), instalações e laboratórios (anos 1950), Nova York (1941 e 1947), trem elevado (1950) e cinejornal de São Francisco (1950).
 
-## Parado
+## A narração
 
-A narração do vídeo novo precisa de 9.627 caracteres e só restam 1.288 no plano gratuito do ElevenLabs (reinicia em meados de dezembro). Opções para o dono: assinar um plano pago (resolve também a licença comercial, que o plano gratuito não dá), trocar para outra conta com crédito, ou gravar a própria voz e mandar o MP3.
+O dono trocou para uma conta nova do ElevenLabs e a narração saiu na mesma sessão: voz Davi, 9.627 caracteres em duas partes (o limite por geração é 5.000), juntadas com 1,2 s de silêncio. Vídeo final: 11:08.
+
+Duas coisas aprendidas aqui:
+
+- **Montar com narração muda antes de gastar crédito.** O `motor/timeline_ensaio.py` gera uma timeline com tempos estimados (150 palavras por minuto) e um WAV silencioso. Dá para fechar a imagem inteira, achar os erros de enquadramento e de cor, e só então gerar a voz. Neste vídeo isso evitou duas gerações jogadas fora.
+- **O Whisper erra e parece erro de voz.** O alinhador acusou "27, 27 anos" repetido; ao ouvir o áudio original era "1977, vinte e sete anos depois". Antes de regravar qualquer trecho, conferir o áudio de origem, não só a transcrição.
+
+Continua valendo: conta gratuita não dá licença comercial. Antes de monetizar, regerar as narrações dos três vídeos num plano pago.

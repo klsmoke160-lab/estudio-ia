@@ -1,6 +1,6 @@
 # A lista que o Exército entregou ao Senado
 
-> Data: 2026-11-23 · Tipo: projeto · Status: roteiro e documentos prontos; narração parada por falta de crédito de voz
+> Data: 2026-11-24 · Tipo: projeto · Status: v1 montada e conferida; narração de conta gratuita do ElevenLabs (sem licença comercial)
 
 **Resumo:** documentário longo do Rasura (cerca de 11 min, 1.614 palavras, 8 capítulos) sobre os testes de guerra biológica que o Exército e a Marinha dos Estados Unidos fizeram sobre cidades americanas entre 1949 e 1968, contados por dois documentos públicos: a audiência do Senado de março de 1977 e o estudo de vulnerabilidade do metrô de Nova York, de janeiro de 1968. O vídeo é honesto sobre o que não está provado (a morte de Edward Nevin) e firme no que está (a lista de cidades, o parecer de 1952 que autorizou continuar "mesmo sobre áreas povoadas", e a conclusão do próprio estudo do metrô).
 
@@ -69,11 +69,13 @@ python3 scripts/video/doc_motor.py 04-projetos/2026-11-23-testes-biologicos som
 python3 scripts/video/doc_motor.py 04-projetos/2026-11-23-testes-biologicos final testes-biologicos-v1.mp4
 ```
 
-## Montagem de ensaio (23/11)
+## Montagem (23/11)
 
-O vídeo já foi montado inteiro com uma narração muda de tempos estimados
-(`motor/timeline_ensaio.py`, 150 palavras por minuto): `render/testes-biologicos-ensaio.mp4`,
-12:15, 193 planos, 15,8 cortes por minuto. A imagem é a definitiva; só falta a voz.
+Primeiro montado com uma narração muda de tempos estimados (`motor/timeline_ensaio.py`),
+para fechar a imagem antes de gastar crédito de voz. Depois refeito com a narração real:
+`render/testes-biologicos-v1.mp4`, **11:08, 188 planos, 16,9 cortes por minuto, -16 LUFS**.
+Narração: voz Davi (`ZxeM4498ujGNHYhQXtLS`, modelo `eleven_v4`), 9.627 caracteres em duas
+partes juntadas com 1,2 s de silêncio; alinhamento com 97,2% das palavras reconhecidas.
 
 Corrigido depois de ver a primeira montagem:
 - brilho de -0.10 para 0.05 (os filmes deste vídeo são mais escuros que os dos anteriores);
@@ -82,7 +84,7 @@ Corrigido depois de ver a primeira montagem:
   têm cada um o seu documento, com uma linha destacada por vez;
 - dois planos do capítulo do mapa (todo em vermelho) ficavam sem imagem nenhuma.
 
-### Quando o áudio chegar
+### Para refazer
 
 ```bash
 cd /home/user/estudio-ia
