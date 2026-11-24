@@ -2,7 +2,7 @@
 
 > Data: 2026-11-23 · Tipo: publicação · Status: pronto para subir quando o vídeo for montado
 
-**Resumo:** título, descrição, capítulos e etiquetas do vídeo sobre os testes biológicos feitos pelo Exército e pela Marinha dos EUA sobre cidades americanas entre 1949 e 1968. Capa: `render/capa.jpg`.
+**Resumo:** título, descrição, capítulos e etiquetas do vídeo sobre os testes biológicos feitos pelo Exército e pela Marinha dos EUA sobre cidades americanas entre 1949 e 1968. Capa principal: `render/capa-B.jpg` (alternativa: `render/capa.jpg`).
 
 ## Título
 
